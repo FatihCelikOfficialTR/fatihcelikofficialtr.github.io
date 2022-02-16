@@ -2,13 +2,14 @@
 
 #art-main
 {
-   background: #1B232D url('images/pageglare.png') no-repeat scroll;
-   background: url('images/pageglare.png') no-repeat, -webkit-linear-gradient(top, #080A0D 0, #2E3D4C 250px) no-repeat;
-   background: url('images/pageglare.png') no-repeat, -moz-linear-gradient(top, #080A0D 0, #2E3D4C 250px) no-repeat;
-   background: url('images/pageglare.png') no-repeat, -o-linear-gradient(top, #080A0D 0, #2E3D4C 250px) no-repeat;
-   background: url('images/pageglare.png') no-repeat, -ms-linear-gradient(top, #080A0D 0, #2E3D4C 250px) no-repeat;
-   -svg-background: url('images/pageglare.png') no-repeat, linear-gradient(top, #080A0D 0, #2E3D4C 250px) no-repeat;
-   background: url('images/pageglare.png') no-repeat, linear-gradient(to bottom, #080A0D 0, #2E3D4C 250px) no-repeat;
+   background: #1B232D url('images/pageglare.png') no-repeat fixed;
+   background: url('images/pageglare.png') no-repeat, -webkit-linear-gradient(top, #000000 0, #364759 1050px) no-repeat;
+   background: url('images/pageglare.png') no-repeat, -moz-linear-gradient(top, #000000 0, #364759 1050px) no-repeat;
+   background: url('images/pageglare.png') no-repeat, -o-linear-gradient(top, #000000 0, #364759 1050px) no-repeat;
+   background: url('images/pageglare.png') no-repeat, -ms-linear-gradient(top, #000000 0, #364759 1050px) no-repeat;
+   -svg-background: url('images/pageglare.png') no-repeat, linear-gradient(top, #000000 0, #364759 1050px) no-repeat;
+   background: url('images/pageglare.png') no-repeat, linear-gradient(to bottom, #000000 0, #364759 1050px) no-repeat;
+   background-attachment: fixed, fixed !important;
    margin:0 auto;
    font-size: 13px;
    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
@@ -97,7 +98,7 @@ ul.art-vmenu a
 .art-postheader, .art-postheader a, .art-postheader a:link, .art-postheader a:visited, .art-postheader a:hover
 {
    font-size: 22px;
-   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-family: 'Trebuchet MS', Arial, Helvetica, Sans-Serif;
    font-weight: normal;
    font-style: normal;
    line-height: 120%;
@@ -130,20 +131,20 @@ ul.art-vmenu a
    color: #4A5764;
    margin: 10px 0 0;
    font-size: 26px;
-   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-family: 'Trebuchet MS', Arial, Helvetica, Sans-Serif;
 }
 
 .art-blockcontent h1
 {
    margin: 10px 0 0;
    font-size: 26px;
-   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-family: 'Trebuchet MS', Arial, Helvetica, Sans-Serif;
 }
 
 .art-postcontent h1 a, .art-postcontent h1 a:link, .art-postcontent h1 a:hover, .art-postcontent h1 a:visited, .art-blockcontent h1 a, .art-blockcontent h1 a:link, .art-blockcontent h1 a:hover, .art-blockcontent h1 a:visited 
 {
    font-size: 26px;
-   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-family: 'Trebuchet MS', Arial, Helvetica, Sans-Serif;
 }
 
 .art-postcontent h2
@@ -151,20 +152,20 @@ ul.art-vmenu a
    color: #5D6E7E;
    margin: 10px 0 0;
    font-size: 22px;
-   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-family: 'Trebuchet MS', Arial, Helvetica, Sans-Serif;
 }
 
 .art-blockcontent h2
 {
    margin: 10px 0 0;
    font-size: 22px;
-   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-family: 'Trebuchet MS', Arial, Helvetica, Sans-Serif;
 }
 
 .art-postcontent h2 a, .art-postcontent h2 a:link, .art-postcontent h2 a:hover, .art-postcontent h2 a:visited, .art-blockcontent h2 a, .art-blockcontent h2 a:link, .art-blockcontent h2 a:hover, .art-blockcontent h2 a:visited 
 {
    font-size: 22px;
-   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-family: 'Trebuchet MS', Arial, Helvetica, Sans-Serif;
 }
 
 .art-postcontent h3
@@ -172,20 +173,20 @@ ul.art-vmenu a
    color: #D74B04;
    margin: 10px 0 0;
    font-size: 20px;
-   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-family: 'Trebuchet MS', Arial, Helvetica, Sans-Serif;
 }
 
 .art-blockcontent h3
 {
    margin: 10px 0 0;
    font-size: 20px;
-   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-family: 'Trebuchet MS', Arial, Helvetica, Sans-Serif;
 }
 
 .art-postcontent h3 a, .art-postcontent h3 a:link, .art-postcontent h3 a:hover, .art-postcontent h3 a:visited, .art-blockcontent h3 a, .art-blockcontent h3 a:link, .art-blockcontent h3 a:hover, .art-blockcontent h3 a:visited 
 {
    font-size: 20px;
-   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-family: 'Trebuchet MS', Arial, Helvetica, Sans-Serif;
 }
 
 .art-postcontent h4
@@ -193,20 +194,20 @@ ul.art-vmenu a
    color: #3B4E63;
    margin: 10px 0 0;
    font-size: 18px;
-   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-family: 'Trebuchet MS', Arial, Helvetica, Sans-Serif;
 }
 
 .art-blockcontent h4
 {
    margin: 10px 0 0;
    font-size: 18px;
-   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-family: 'Trebuchet MS', Arial, Helvetica, Sans-Serif;
 }
 
 .art-postcontent h4 a, .art-postcontent h4 a:link, .art-postcontent h4 a:hover, .art-postcontent h4 a:visited, .art-blockcontent h4 a, .art-blockcontent h4 a:link, .art-blockcontent h4 a:hover, .art-blockcontent h4 a:visited 
 {
    font-size: 18px;
-   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-family: 'Trebuchet MS', Arial, Helvetica, Sans-Serif;
 }
 
 .art-postcontent h5
@@ -214,20 +215,20 @@ ul.art-vmenu a
    color: #3B4E63;
    margin: 10px 0 0;
    font-size: 15px;
-   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-family: 'Trebuchet MS', Arial, Helvetica, Sans-Serif;
 }
 
 .art-blockcontent h5
 {
    margin: 10px 0 0;
    font-size: 15px;
-   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-family: 'Trebuchet MS', Arial, Helvetica, Sans-Serif;
 }
 
 .art-postcontent h5 a, .art-postcontent h5 a:link, .art-postcontent h5 a:hover, .art-postcontent h5 a:visited, .art-blockcontent h5 a, .art-blockcontent h5 a:link, .art-blockcontent h5 a:hover, .art-blockcontent h5 a:visited 
 {
    font-size: 15px;
-   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-family: 'Trebuchet MS', Arial, Helvetica, Sans-Serif;
 }
 
 .art-postcontent h6
@@ -235,20 +236,20 @@ ul.art-vmenu a
    color: #000000;
    margin: 10px 0 0;
    font-size: 13px;
-   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-family: 'Trebuchet MS', Arial, Helvetica, Sans-Serif;
 }
 
 .art-blockcontent h6
 {
    margin: 10px 0 0;
    font-size: 13px;
-   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-family: 'Trebuchet MS', Arial, Helvetica, Sans-Serif;
 }
 
 .art-postcontent h6 a, .art-postcontent h6 a:link, .art-postcontent h6 a:hover, .art-postcontent h6 a:visited, .art-blockcontent h6 a, .art-blockcontent h6 a:link, .art-blockcontent h6 a:hover, .art-blockcontent h6 a:visited 
 {
    font-size: 13px;
-   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-family: 'Trebuchet MS', Arial, Helvetica, Sans-Serif;
 }
 
 header, footer, article, nav, #art-hmenu-bg, .art-sheet, .art-hmenu a, .art-vmenu a, .art-slidenavigator > a, .art-checkbox:before, .art-radiobutton:before
@@ -394,9 +395,9 @@ li p, .art-postcontent li p, .art-blockcontent li p
   display: inline-block;
   position: absolute;
   min-width: 50px;
-  top: 29px;
-  left: 1.23%;
-  margin-left: -2px !important;
+  top: 18px;
+  left: 0%;
+  margin-left: -157px !important;
   line-height: 100%;
   -webkit-transform: rotate(0deg);
   -moz-transform: rotate(0deg);
@@ -413,7 +414,7 @@ li p, .art-postcontent li p, .art-blockcontent li p
 .art-headline a:hover
 {
 font-size: 36px;
-font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+font-family: 'Trebuchet MS', Arial, Helvetica, Sans-Serif;
 font-weight: normal;
 font-style: normal;
 text-decoration: none;
@@ -423,45 +424,6 @@ text-shadow: 0px 2px 3px rgba(0, 0, 0, 0.3);
   color: #F55505 !important;
   white-space: nowrap;
 }
-.art-object227400126 h1, 
-.art-object227400126 h2, 
-.art-object227400126 h3, 
-.art-object227400126 h4, 
-.art-object227400126 h5, 
-.art-object227400126 h6, 
-.art-object227400126 p, 
-.art-object227400126 a, 
-.art-object227400126 ul, 
-.art-object227400126 ol, 
-.art-object227400126 li
-{
-  line-height: 26px;
-}
-
-.art-object227400126
-{  
-  position: absolute;
-  top: 39px;
-  left: 97.5%;
-  margin-left: -195px !important;
-  -webkit-transform: rotate(0deg);
-  -moz-transform: rotate(0deg);
-  -o-transform: rotate(0deg);
-  -ms-transform: rotate(0deg);
-  transform: rotate(0deg);
-      background-image: url('images/object227400126.png');
-  background-position: 0px 0px;
-  background-repeat: no-repeat;
-    z-index: 99;
-  width: 200px;
-  height: 26px;
-}
-
-.default-responsive .art-object227400126
-{
-    background-image: none;
-  }
-
 .art-slidecontainerpageslider {
     position: relative;
             width: 100%;
@@ -709,6 +671,35 @@ height: 15px;
 {
    position:absolute;
    z-index:101;
+}
+
+#art-flash-area
+{
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 800px;
+   height: 110px;
+   overflow: hidden;
+}
+
+#art-flash-container
+{
+   height: 200px;
+   top: -45px;
+   position: absolute;
+   width: 800px;
+   left: 50%;
+   margin-left:-400px;
+}
+
+#art-flash-container .art-flash-alt
+{
+   position: relative;
+   width: 110px;
+   height: 30px;
+   margin: 0 auto;
+   top: 45px;
 }
 
 .art-nav
@@ -1269,7 +1260,7 @@ div.art-block img
 {
    color: #FFFFFF;
    font-size: 20px;
-   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-family: 'Trebuchet MS', Arial, Helvetica, Sans-Serif;
    font-weight: normal;
    font-style: normal;
    margin: 0 5px;
@@ -2035,7 +2026,7 @@ pre
    color: #3B4E63;
    margin: 5px 10px;
    font-size: 24px;
-   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-family: 'Trebuchet MS', Arial, Helvetica, Sans-Serif;
    font-weight: normal;
    font-style: normal;
 }
@@ -2048,14 +2039,14 @@ pre
 .art-postheader a.hovered
 {
    font-size: 24px;
-   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-family: 'Trebuchet MS', Arial, Helvetica, Sans-Serif;
    font-weight: normal;
    font-style: normal;
 }
 
 .art-postheader a, .art-postheader a:link
 {
-   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-family: 'Trebuchet MS', Arial, Helvetica, Sans-Serif;
    text-decoration: none;
    text-align: left;
    color: #E14E05;
@@ -2063,7 +2054,7 @@ pre
 
 .art-postheader a:visited, .art-postheader a.visited
 {
-   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-family: 'Trebuchet MS', Arial, Helvetica, Sans-Serif;
    text-decoration: none;
    text-align: left;
    color: #475E76;
@@ -2071,7 +2062,7 @@ pre
 
 .art-postheader a:hover,  .art-postheader a.hovered
 {
-   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-family: 'Trebuchet MS', Arial, Helvetica, Sans-Serif;
    text-decoration: none;
    text-align: left;
    color: #D74B04;
@@ -2096,7 +2087,9 @@ pre
 
 .art-postcontent li, .art-post li, .art-textblock li
 {
-   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-family: Aclonica, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-weight: bold;
+   font-style: normal;
    color: #303F50;
    margin: 3px 0 0 11px;
 }
@@ -2184,15 +2177,18 @@ blockquote p,
 
 .art-footer
 {
-   border-top:1px dotted #9CAFC4;
+   -webkit-border-radius:38px;
+   -moz-border-radius:38px;
+   border-radius:38px;
+   border-top:2px dotted #9CAFC4;
+   padding:25px;
    margin:10px auto 0;
    position: relative;
-   color: #FFFFFF;
+   color: #FDB591;
    font-size: 13px;
    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
    line-height: 175%;
    text-align: center;
-   padding: 0;
 }
 
 .art-footer a,
@@ -2203,7 +2199,7 @@ blockquote p,
 .art-footer th,
 .art-footer caption
 {
-   color: #FFFFFF;
+   color: #FDB591;
    font-size: 13px;
    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
    line-height: 175%;
@@ -2218,21 +2214,21 @@ blockquote p,
 .art-footer a,
 .art-footer a:link
 {
-   color: #8FA5BC;
+   color: #D6DEE6;
    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
    text-decoration: none;
 }
 
 .art-footer a:visited
 {
-   color: #708BA9;
+   color: #BFCCD9;
    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
    text-decoration: none;
 }
 
 .art-footer a:hover
 {
-   color: #FB8950;
+   color: #FED3BE;
    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
    text-decoration: underline;
 }
@@ -2240,52 +2236,43 @@ blockquote p,
 .art-footer h1
 {
    color: #8A99A8;
-   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-family: 'Trebuchet MS', Arial, Helvetica, Sans-Serif;
 }
 
 .art-footer h2
 {
    color: #A1ADBA;
-   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-family: 'Trebuchet MS', Arial, Helvetica, Sans-Serif;
 }
 
 .art-footer h3
 {
    color: #FA681E;
-   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-family: 'Trebuchet MS', Arial, Helvetica, Sans-Serif;
 }
 
 .art-footer h4
 {
    color: #9CAFC4;
-   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-family: 'Trebuchet MS', Arial, Helvetica, Sans-Serif;
 }
 
 .art-footer h5
 {
    color: #9CAFC4;
-   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-family: 'Trebuchet MS', Arial, Helvetica, Sans-Serif;
 }
 
 .art-footer h6
 {
    color: #9CAFC4;
-   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-family: 'Trebuchet MS', Arial, Helvetica, Sans-Serif;
 }
 
 .art-footer img
 {
    border: none;
    margin: 0;
-}
-
-.art-footer-inner
-{
-   margin: 0 auto;
-   width:800px;
-   padding:25px;
-   padding-right: 25px;
-   padding-left: 25px;
 }
 
 .art-rss-tag-icon
@@ -2446,7 +2433,7 @@ blockquote p,
 {
    font-size: 13px;
    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
-   color: #FED0B9;
+   color: #FEE4D7;
 }
 
 .art-footer ul>li, .art-footer ol
@@ -2485,204 +2472,8 @@ blockquote p,
    color: #9FB2C6;
 }
 
-.art-lightbox-wrapper 
-{
-   background: #333;
-   background: rgba(0, 0, 0, .8);
-   bottom: 0;
-   left: 0;
-   padding: 0 100px;
-   position: fixed;
-   right: 0;
-   text-align: center;
-   top: 0;
-   z-index: 1000000;
-}
-
-.art-lightbox,
-.art-lightbox-wrapper .art-lightbox-image
-{
-   cursor: pointer;
-}
-
-.art-lightbox-wrapper .art-lightbox-image
-{
-   border: 6px solid #fff;
-   border-radius: 3px;
-   display: none;
-   max-width: 100%;
-   vertical-align: middle;
-}
-
-.art-lightbox-wrapper .art-lightbox-image.active
-{
-   display: inline-block;
-}
-
-.art-lightbox-wrapper .lightbox-error
-{
-   background: #fff;
-   border: 1px solid #b4b4b4;
-   border-radius: 10px;
-   box-shadow: 0 2px 5px #333;
-   height: 80px;
-   opacity: .95;
-   padding: 20px;
-   position: fixed;
-   width: 300px;
-   z-index: 100;
-}
-
-.art-lightbox-wrapper .loading
-{
-   background: #fff url('images/preloader-01.gif') center center no-repeat;
-   border: 1px solid #b4b4b4;
-   border-radius: 10px;
-   box-shadow: 0 2px 5px #333;
-   height: 32px;
-   opacity: .5;
-   padding: 10px;
-   position: fixed;
-   width: 32px;
-   z-index: 10100;
-}
-
-.art-lightbox-wrapper .arrow
-{
-   cursor: pointer;
-   height: 100px;
-   opacity: .5;
-   filter: alpha(opacity=50);
-   position: fixed;
-   width: 82px;
-   z-index: 10003;
-}
-
-.art-lightbox-wrapper .arrow.left
-{
-   left: 9px;
-}
-
-.art-lightbox-wrapper .arrow.right
-{
-   right: 9px;
-}
-
-.art-lightbox-wrapper .arrow:hover
-{
-   opacity: 1;
-   filter: alpha(opacity=100);
-}
-
-.art-lightbox-wrapper .arrow.disabled 
-{
-   display: none;
-}
-
-.art-lightbox-wrapper .arrow-t, 
-.art-lightbox-wrapper .arrow-b
-{
-   background-color: #fff;
-   border-radius: 3px;
-   height: 6px;
-   left: 26px;
-   position: relative;
-   width: 30px;
-}
-
-.art-lightbox-wrapper .arrow-t
-{
-   top: 38px;
-}
-
-.art-lightbox-wrapper .arrow-b
-{
-   top: 50px;
-}
-
-.art-lightbox-wrapper .close
-{
-   cursor: pointer;
-   height: 22px;
-   opacity: .5;
-   filter: alpha(opacity=50);
-   position: fixed;
-   right: 39px;
-   top: 30px;
-   width: 22px;
-   z-index: 10003;
-}
-
-.art-lightbox-wrapper .close:hover 
-{
-   opacity: 1;
-   filter: alpha(opacity=100);
-}
-
-.art-lightbox-wrapper .close .cw, 
-.art-lightbox-wrapper .close .ccw
-{
-   background-color: #fff;
-   border-radius: 3px;
-   height: 6px;
-   position: absolute;
-   left: -4px;
-   top: 8px;
-   width: 30px;
-}
-
-.art-lightbox-wrapper .cw
-{
-   transform: rotate(45deg);
-   -ms-transform: rotate(45deg);
-   /* IE 9 */
-    -webkit-transform: rotate(45deg);
-   /* Safari and Chrome */
-    -o-transform: rotate(45deg);
-   /* Opera */
-    -moz-transform: rotate(45deg);
-/* Firefox */}
-
-.art-lightbox-wrapper .ccw
-{
-   transform: rotate(-45deg);
-   -ms-transform: rotate(-45deg);
-   /* IE 9 */
-    -webkit-transform: rotate(-45deg);
-   /* Safari and Chrome */
-    -o-transform: rotate(-45deg);
-   /* Opera */
-    -moz-transform: rotate(-45deg);
-/* Firefox */}
-
-.art-lightbox-wrapper .close-alt, 
-.art-lightbox-wrapper .arrow-right-alt, 
-.art-lightbox-wrapper .arrow-left-alt 
-{
-   color: #fff;
-   display: none;
-   font-size: 2.5em;
-   line-height: 100%;
-}
-
-.ie8 .art-lightbox-wrapper .close-alt, 
-.ie8 .art-lightbox-wrapper .arrow-right-alt, 
-.ie8 .art-lightbox-wrapper .arrow-left-alt 
-{
-   display: block;
-}
-
-.ie8 .art-lightbox-wrapper .cw, 
-.ie8 .art-lightbox-wrapper .ccw 
-{
-   display: none;
-}
-
 .art-content-layout .art-sidebar1
 {
-   -webkit-border-radius:0 0 0 38px;
-   -moz-border-radius:0 0 0 38px;
-   border-radius:0 0 0 38px;
    border-right:1px solid #A3B4C8;
    margin:0 auto;
    width: 200px;

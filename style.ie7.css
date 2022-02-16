@@ -110,13 +110,6 @@ form.art-search
    height: 1%;
 }
 
-.close-alt, .arrow-right-alt, .arrow-left-alt {
-   display: block !important;
-}
-.cw, .ccw {
-   display: none !important;
-}
-
 .art-sidebar1
 {
    background: none !important;

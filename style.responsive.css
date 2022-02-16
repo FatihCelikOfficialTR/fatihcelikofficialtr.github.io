@@ -649,8 +649,7 @@
 
 .responsive .art-footer-inner
 {
-   width: auto;
-   padding: 2% !important;
+   min-width: 0;
 }
 .responsive .art-footer
 {
