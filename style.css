@@ -2639,13 +2639,6 @@ blockquote p,
    display: none;
 }
 
-.art-content-layout .art-sidebar1
-{
-   border-right:1px solid #A3B4C8;
-   margin:0 auto;
-   width: 200px;
-}
-
 .art-content-layout .art-content
 {
    margin:0 auto;
