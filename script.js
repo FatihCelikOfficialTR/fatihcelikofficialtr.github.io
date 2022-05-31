@@ -381,6 +381,31 @@ jQuery(function ($) {
     });
 });
 
+
+/* Icons in Header should have display block.
+ * Otherwise, in case of inline-block there's a space gap in some browsers (Opera 12.16) and icon is cutted.
+ */
+if (browser.opera) {
+    jQuery(function ($) {
+        $(".art-header a[class$='tag-icon']").css("display", "block");
+    });
+}
+
+jQuery(function($) {
+    "use strict";
+     $(window).bind("resize", function () {
+        /*global responsiveDesign */
+        "use strict";
+        if (typeof responsiveDesign !== "undefined" && responsiveDesign.isResponsive)
+            return;
+        var sheetLeft = $(".art-sheet").offset().left;
+        $("header.art-header #art-flash-area").each(function () {
+            var object = $(this);
+            object.css("left", sheetLeft + "px");
+        });
+    });
+});
+
 jQuery(function($) {
     "use strict";
     $('nav.art-nav').addClass("desktop-nav");
@@ -485,23 +510,6 @@ var setHMenuOpenDirection = (function ($) {
 
 jQuery(function ($) {
     'use strict';
-    $(window).bind('resize', function () {
-        var bh = $('body').height();
-        var mh = 0;
-        var c = $('div.art-content');
-        c.removeAttr('style');
-
-        $('#art-main').children().each(function() {
-            if ($(this).css('position') !== 'absolute') {
-                mh += $(this).outerHeight(true);
-            }
-        });
-        
-        if (mh < bh) {
-            var r = bh - mh;
-            c.css('height', (c.parent().outerHeight(true) + r) + 'px');
-        }
-    });
 
     if (browser.ie && browser.version < 8) {
         $(window).bind('resize', function() {
@@ -553,6 +561,41 @@ jQuery(function () {
     artButtonSetup("art-button");
 });
 
+jQuery(function($) {
+    'use strict';
+    $('input.art-search-button, form.art-search input[type="submit"]').attr('value', '');
+});
+
+var artRadioButtonSetup = (function ($) {
+    "use strict";
+    return (function (className) {
+        $.each($('label.' + className), function (i, val) {
+            var label = $(val),
+                ctrl = new Control();
+            ctrl.init(label, 'radio', artRadioButtonProcess);
+
+            function artRadioButtonProcess() {
+                var label = $(this),
+                    radio = label.children('input[type="radio"]');
+                if (radio.length === 0) {
+                    return;
+                }
+                //turn off checked attribute from other radiobuttons and div-s
+                $.each($(':radio[name="' + radio.attr('name') + '"]'), function () {
+                    $(this).removeAttr('checked');
+                    $(this).parent().removeClass('art-checked');
+                });
+                radio.attr('checked', 'checked');
+                label.addClass('art-checked');
+            }
+        });
+    });
+})(jQuery);
+jQuery(function () {
+    "use strict";
+    artRadioButtonSetup('art-radiobutton');
+});
+
 var Control = (function ($) {
     'use strict';
     return (function () {
@@ -585,6 +628,36 @@ var Control = (function ($) {
     });
 })(jQuery);
 
+var artCheckBoxSetup = (function ($) {
+    'use strict';
+    return (function (className) {
+        $.each($('label.' + className), function (i, val) {
+            var label = $(val),
+                ctrl = new Control();
+            ctrl.init(label, 'checkbox', artCheckBoxProcess);
+
+            function artCheckBoxProcess() {
+                var label = $(this),
+                    ch = label.children("input[type='checkbox']");
+                if (ch.length) {
+                  if (label.hasClass('art-checked')) {
+                    ch.removeAttr('checked');
+                    label.removeClass('art-checked');
+                  }
+                  else {
+                    ch.attr('checked', 'checked');
+                    label.addClass('art-checked');
+                  }
+                  ch.click();
+                }
+            }
+        });
+    });
+})(jQuery);
+jQuery(function () {
+    'use strict';
+    artCheckBoxSetup('art-checkbox');
+});
 
 jQuery(function ($) {
     'use strict';
@@ -1156,6 +1229,70 @@ if (typeof window.resizeData === 'undefined') window.resizeData = {};
 window.resizeData.headerPageWidth = false;
 if (typeof window.defaultResponsiveData === 'undefined') window.defaultResponsiveData = [false, true, true, true, true, ];
 
+resizeData['object2144987856'] = {
+   responsive: [
+                  { left: 0.02, top: 0.27, visible: true }, 
+                  { left: 0.02, top: 0.27, visible: true }, 
+                  { left: 0.02, top: 0.27, visible: true }, 
+                  { left: 0.02, top: 0.27, visible: true }, 
+                  { left: 0.02, top: 0.27, visible: true }, 
+               ],
+   area: {
+       x: 0,
+       y: 0
+   },
+   width: 80,
+   height: 80,
+   autoWidth: false};
+
+resizeData['headline'] = {
+   responsive: [
+                  { left: 0.16, top: 0.33, visible: true }, 
+                  { left: 0.16, top: 0.33, visible: true }, 
+                  { left: 0.16, top: 0.33, visible: true }, 
+                  { left: 0.16, top: 0.33, visible: true }, 
+                  { left: 0.16, top: 0.33, visible: true }, 
+               ],
+   area: {
+       x: 0,
+       y: 0
+   },
+   width: 149,
+   height: 31,
+   autoWidth: true};
+
+resizeData['slogan'] = {
+   responsive: [
+                  { left: 0.2, top: 0.49, visible: true }, 
+                  { left: 0.2, top: 0.49, visible: true }, 
+                  { left: 0.2, top: 0.49, visible: true }, 
+                  { left: 0.2, top: 0.49, visible: true }, 
+                  { left: 0.2, top: 0.49, visible: true }, 
+               ],
+   area: {
+       x: 0,
+       y: 0
+   },
+   width: 289,
+   height: 14,
+   autoWidth: true};
+
+resizeData['textblock-454043341'] = {
+   responsive: [
+                  { left: 0.99, top: 0.62, visible: true }, 
+                  { left: 0.99, top: 0.62, visible: true }, 
+                  { left: 0.99, top: 0.62, visible: true }, 
+                  { left: 0.99, top: 0.62, visible: true }, 
+                  { left: 0.99, top: 0.62, visible: true }, 
+               ],
+   area: {
+       x: 0,
+       y: 0
+   },
+   width: 32,
+   height: 32,
+   autoWidth: false};
+
 // used to apply compicated values in style like '!important!
 function applyCss(object, param, value) {
     var rg = new RegExp(param + '\s*:\s*[^;]+;', "i");
@@ -1401,10 +1538,10 @@ jQuery(function ($) {
     if (!browser.ie || browser.version > 8)
         return;
     processElementMultiplyBg(".art-header", {
-        "bgimage": "none",
+        "bgimage": "url('images/header.jpg')",
         "bgposition": "0 0",
-        "images": "",
-        "positions": ""
+        "images": "url('images/object2144987856.png'), ",
+        "positions": "14px 19px, "
     });
 });
 if (typeof window.resizeData === 'undefined') window.resizeData = {};

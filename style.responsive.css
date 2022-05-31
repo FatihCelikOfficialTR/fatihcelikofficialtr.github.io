@@ -85,6 +85,204 @@
    width: 100%;
 }
 
+.responsive .art-sheet
+{
+   width: auto !important;
+   min-width: 240px !important;
+   max-width: none !important;
+   margin-right: 1% !important;
+   margin-left: 1% !important;
+}
+
+#art-resp {
+   display: none;
+}
+
+@media all and (max-width: 799px)
+{
+    #art-resp, #art-resp-t { display: block; }
+    #art-resp-m { display: none; }
+}
+
+@media all and (max-width: 480px)
+{
+    #art-resp, #art-resp-m { display: block; }
+    #art-resp-t { display: none; }
+}
+
+#art-resp-desktop {
+   display: none;
+}
+#art-resp-tablet-landscape {
+   display: none;
+}
+#art-resp-tablet-portrait {
+   display: none;
+}
+#art-resp-phone-landscape {
+   display: none;
+}
+#art-resp-phone-portrait {
+   display: none;
+}
+
+@media (min-width: 1200px)
+{
+    #art-resp-desktop { display: block; }
+}
+
+@media (min-width: 980px) and (max-width: 1199px)
+{
+    #art-resp-tablet-landscape { display: block; }
+}
+
+@media (min-width: 768px) and (max-width: 979px)
+{
+    #art-resp-tablet-portrait { display: block; }
+}
+
+@media (min-width: 480px) and (max-width: 767px)
+{
+    #art-resp-phone-landscape { display: block; }
+}
+
+@media (max-width: 479px)
+{
+    #art-resp-phone-portrait { display: block; }
+}
+.responsive .art-header 
+{
+   width: auto !important;
+   max-width: none !important;
+   min-height: 100px !important;
+   min-width: 0 !important;
+   text-align: center;
+}
+
+.default-responsive .art-header 
+{
+   height: auto;
+}
+
+.default-responsive .art-header *
+{
+   position: relative;
+   text-align: center;
+   -webkit-transform: none !important;
+   -moz-transform: none !important;
+   -o-transform: none !important;
+   -ms-transform: none !important;
+   transform: none !important;
+}
+
+.default-responsive .art-header .art-headline, 
+.default-responsive .art-header .art-slogan 
+{
+   display: block !important;
+   top: 0 !important;
+   left: 0 !important;
+   margin: 2% !important;
+   text-align: center !important;
+}
+    
+.default-responsive .art-header .art-headline a, 
+.default-responsive .art-header .art-slogan 
+{
+   white-space: normal !important;
+}
+
+.default-responsive .art-header .art-logo
+{
+   display: inline-block;
+   margin: auto !important;
+   left: auto;
+   top: auto !important;
+   width: auto;
+   height: auto;
+}
+
+.responsive .art-header .art-slidenavigator 
+{
+   position: absolute;
+}
+
+.default-responsive .art-header .art-positioncontrol 
+{
+   display: block !important;
+   position: relative !important;
+   top: auto !important;
+   right: auto !important;
+   bottom: auto !important;
+   left: auto !important;
+   margin: 2% auto !important;
+   width: auto !important;
+   height: auto !important;
+}
+
+.responsive .art-header #art-flash-area
+{
+   display: none;
+}
+
+/* Search and other elements in header element directly */
+.default-responsive .art-header>.art-textblock
+{
+   position: relative !important;
+   display: block !important;
+   margin: 1% auto !important;
+   width: 75% !important;
+   top: auto !important;
+   right: auto !important;
+   bottom: auto !important;
+   left: auto !important;
+}
+
+.default-responsive .art-header .art-textblock 
+{
+   position: relative !important;
+   display: block !important;
+   margin: auto !important;
+   left: 0 !important;
+   right: 0 !important;
+   top: auto !important;
+   height: auto !important;
+   width: auto;
+   background-image: none;
+}
+
+/* '.art-header *' used noram align, but for '.art-textblock *' we must force align because of preview */
+.responsive .art-header .art-textblock *
+{
+   text-align: center !important;
+}
+
+.default-responsive .art-header .art-shapes > .art-textblock,
+.default-responsive .art-header .art-slide-item > .art-textblock
+{
+   display: none !important;
+}
+
+.default-responsive .art-header .art-shapes > .art-textblock *
+{
+   text-align: center !important;
+   width: auto !important;
+   height: auto !important;
+   display: block;
+}
+
+.default-responsive .art-header .art-slider .art-textblock *
+{
+   text-align: center !important;
+   width: auto !important;
+   height: auto !important;
+   display: block;
+}
+
+/* For icons like facebook, rss, etc. */
+.responsive .art-header>.art-textblock>div 
+{
+   width: 100%;
+}
 /* dynamic width nav */
 .responsive nav.art-nav,
 .responsive .art-nav-inner
@@ -110,10 +308,9 @@
 {
    padding-left: 0;
    padding-right: 0;
-   padding-top: 1px;
-   padding-bottom: 1px;
+   margin-top: 20px;
 }
- 
+
 /* full width hmenu, instead of inline-block */
 .responsive .art-nav ul.art-hmenu 
 {
@@ -244,28 +441,6 @@
    display: block;
 }
 
-.responsive .art-nav ul.art-hmenu>li>a
-{
-   border-bottom: 1px solid transparent;
-   padding-bottom: 0 !important;
-   margin-bottom: 0 !important;
-}
-
-.responsive .art-nav .art-hmenu>li>a
-{
-   border-radius: 12px;
-}
-
-.responsive .art-nav ul.art-hmenu>li>a.active
-{
-   border-bottom: 1px solid #7A0B0B;
-}
-
-.responsive .art-nav ul.art-hmenu>li>a:hover
-{
-   border-bottom: 1px solid #585A79;
-}
-
 .responsive .art-nav ul.art-hmenu>li>ul>li:first-child:after 
 {
    display: none;
@@ -304,72 +479,6 @@
    left: 0;
 }
 
-.responsive .art-sheet
-{
-   width: auto !important;
-   min-width: 240px !important;
-   max-width: none !important;
-   margin-right: 1% !important;
-   margin-left: 1% !important;
-   margin-top: 1% !important;
-}
-
-#art-resp {
-   display: none;
-}
-
-@media all and (max-width: 768px)
-{
-    #art-resp, #art-resp-t { display: block; }
-    #art-resp-m { display: none; }
-}
-
-@media all and (max-width: 480px)
-{
-    #art-resp, #art-resp-m { display: block; }
-    #art-resp-t { display: none; }
-}
-
-#art-resp-desktop {
-   display: none;
-}
-#art-resp-tablet-landscape {
-   display: none;
-}
-#art-resp-tablet-portrait {
-   display: none;
-}
-#art-resp-phone-landscape {
-   display: none;
-}
-#art-resp-phone-portrait {
-   display: none;
-}
-
-@media (min-width: 1200px)
-{
-    #art-resp-desktop { display: block; }
-}
-
-@media (min-width: 980px) and (max-width: 1199px)
-{
-    #art-resp-tablet-landscape { display: block; }
-}
-
-@media (min-width: 768px) and (max-width: 979px)
-{
-    #art-resp-tablet-portrait { display: block; }
-}
-
-@media (min-width: 480px) and (max-width: 767px)
-{
-    #art-resp-phone-landscape { display: block; }
-}
-
-@media (max-width: 479px)
-{
-    #art-resp-phone-portrait { display: block; }
-}
 .responsive .art-content-layout, 
 .responsive .art-content-layout-row, 
 .responsive .art-layout-cell 
@@ -423,11 +532,8 @@
 
 .responsive .art-footer-inner
 {
-   width: auto;
-   padding: 2% !important;
    min-width: 0;
 }
-
 .responsive .art-footer
 {
    margin-top: 1%;
