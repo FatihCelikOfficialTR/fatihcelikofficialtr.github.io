@@ -2617,24 +2617,14 @@ option {
   right: 0px;
   z-index: 100;
   transform: translateX(1200px);
-  animation: train-move 12s linear infinite;
+  animation: train-move 30s linear infinite;
   animation-delay: 1s;
 }
 
 .train {
   position: relative;
 }
-.train::before {
-  content: '';
-  position: absolute;
-  width: 160px;
-  height: 28px;
-  bottom: -2px;
-  left: -158px;
-  background: url(../images/train/train-light.png) no-repeat center;
-  background-size: 160px;
-  animation: 0.5s train-light ease-in-out infinite;
-}
+
 
 .railway {
   width: 100%;
