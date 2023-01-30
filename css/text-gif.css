@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Cairo');
+
+h1 {
+	background-image: url(https://teknomers.com/wp-content/uploads/2022/04/Uzay-Istasyonunun-Atesin-Sirlarini-Arayisi.gif);
+	background-size: cover;
+	color: transparent;
+	-moz-background-clip: text;
+	-webkit-background-clip: text;
+	text-transform: uppercase;
+	margin: 10px 0;
+	text-align: center;
+}
+
+.arkaplan {
+	background-image: url(https://teknomers.com/wp-content/uploads/2022/04/Uzay-Istasyonunun-Atesin-Sirlarini-Arayisi.gif);
+}
