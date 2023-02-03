@@ -1,6 +1,5 @@
 
 /*MENÜ AYARLARI İÇİN KODLAR*/
-
 "use strict";
 
 const attachEvent = (element, event, handler, options) => {
