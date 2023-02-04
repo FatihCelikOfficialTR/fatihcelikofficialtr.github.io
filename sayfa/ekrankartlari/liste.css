@@ -6,39 +6,49 @@
 /* TABLO YAZI TİPİ DEĞİŞTİRME */
 
 /* ANA ŞABLON KODLARI */
-.main {
-  font-family: 'Caveat Brush', cursive;
-  border-radius: 5px;
-  text-shadow: 0px 1px 0px #999, 0px 2px 0px #888, 0px 3px 0px #777, 0px 4px 0px #666, 0px 5px 0px #555, 0px 6px 0px #444, 0px 7px 0px #333, 0px 8px 7px #001135;
-}
-
 .mineradı {
   font-family: 'Russo One', sans-serif;
   font-size: 15px;
   box-shadow: 0px 1.2px 0px black;
+  -webkit-border-radius: 21px;
+-moz-border-radius: 21px;
+border-radius: 21px;
+}
+
+#demotext {
+color: #333333;
+background: #FFFFFF;
+text-shadow: 2px 2px 0px #FFFFFF, 5px 4px 0px rgba(0,0,0,0.15);
+color: #333333;
+background: #FFFFFF;
 }
 
 .minerözellikleri {
   font-family: 'Russo One', sans-serif;
   font-size: 14px;
+-webkit-border-radius: 21px;
+-moz-border-radius: 21px;
+border-radius: 21px;
 }
 
 .minerşablon {
   text-decoration:none;
   background: #9ca6ba;
   color: black;
-  text-shadow: 0px 1px 0px red;
-  box-shadow: 0px 1px 0px #434a56;
-  border-radius: 5px;
+-webkit-border-radius: 21px;
+-moz-border-radius: 21px;
+border-radius: 21px;
 }
 
 .urlayarı {
 	text-decoration:none;
 	color: black;
+	-webkit-border-radius: 21px;
+-moz-border-radius: 21px;
+border-radius: 21px;
 }
 .urlayarı:hover {
-	color: red;
-	text-shadow: 0px 2px 0px black;
+	color: white;
 }
 
 .markettegit {
@@ -61,13 +71,12 @@ rgb(180,180,180),3px 3px 0 rgb(158,158,158), 4px 4px 0 rgb(136,136,136),5px
   display:flex;
   flex-wrap:wrap;
   text-align: center;
-  margin: auto;
   text-decoration:none;
 }
 
 /* Create three equal columns that floats next to each other */
 .column { 
-	padding: 1.2px;
+	padding: 1.3px;
 	display: none; /* Hide all elements by default */
 	text-decoration:none;
 }
