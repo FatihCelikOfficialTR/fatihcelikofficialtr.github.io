@@ -202,7 +202,6 @@ text-shadow: 0px 1px 0px #999, 0px 2px 0px #888, 0px 3px 0px #777, 0px 4px 0px #
 .body {
 	background: #f7f9fb;
 	font-size: 13px;
-	letter-spacing: 0.1em;
 	min-height: calc(100vh - 0px - 940px);
 	background-image: url('https://www.mmsrn.com/wp-content/uploads/2016/04/sol-%C3%BCst-k%C3%B6%C5%9Fe-1.png'); /* Add a search icon to input */
 	background-position: top left;
