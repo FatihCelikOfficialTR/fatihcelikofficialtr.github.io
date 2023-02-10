@@ -232,8 +232,9 @@
 }
 
 .drawer-menu__close-button {
-  border-bottom: var(--gray-color-secondary) 1px solid;
+  border-bottom: var(--gray-color-secondary) 0px solid;
   order: -1;
+  background-color: #434a56;
   text-align: right;
 }
 
