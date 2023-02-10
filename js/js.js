@@ -6,8 +6,8 @@ function blockAmount() {
     switch (document.getElementById("block-type").selectedIndex) {
         case 0:
             //Bitcoin - 28000
-            var blockreward = 28000;
-            document.getElementById("block-reward").value = 28000;
+            var blockreward = 35000;
+            document.getElementById("block-reward").value = 35000;
 			document.getElementById("exp_reward").innerHTML = "❌ ⛏";
 			document.getElementById("daily").innerHTML = "❌ ⛏";
 			document.getElementById("weekly").innerHTML = "❌ ⛏";
