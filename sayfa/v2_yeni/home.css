@@ -11,7 +11,6 @@
 
 
 .hero .container .crypto-price .price-content ul li {
-  list-style: none;
   color: white;
 }
 
@@ -212,9 +211,9 @@
   font-weight: bold;
 }
 
+
 .hero .tabs-layout .tab1-content {
   background: #6e6b8f;
-  grid-template-columns: 50% 50%;
 }
 
 .hero .tabs-layout .tab1-content .box {
@@ -437,4 +436,24 @@
 
 .tablorenk {
 	color: #5530ac;
+}
+
+
+@media only screen and (min-width: 960px) { 
+.box-pad {
+	padding:0
+}
+.box {
+	background-color: #333;
+	font-family: 'Source Sans Pro', Tahoma;
+	color:#fff;
+}
+
+
+
+}
+
+body {
+	padding:0;
+	margin:0
 }
