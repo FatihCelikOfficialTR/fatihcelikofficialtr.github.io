@@ -76,7 +76,7 @@ rgb(180,180,180),3px 3px 0 rgb(158,158,158), 4px 4px 0 rgb(136,136,136),5px
 
 /* Create three equal columns that floats next to each other */
 .column { 
-	padding: 1.3px;
+	padding: 2.5px;
 	display: none; /* Hide all elements by default */
 	text-decoration:none;
 }
