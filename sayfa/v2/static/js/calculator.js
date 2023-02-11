@@ -55,34 +55,34 @@ calc = function(){
         yearBtcD = Number(yearBtc) * btcPrice
 
     if ((isNaN(minBtc))||!(isFinite(minBtc))) {
-        document.getElementById("minBtc").innerText = "【⛏ Kazım Miktarı ⛏】"}
+        document.getElementById("minBtc").innerText = "【⛏】"}
         else {
-            document.getElementById("minBtc").innerText = minBtc.toFixed(10);
+            document.getElementById("minBtc").innerText = minBtc.toFixed(10) + "⛏";
         }
     if ((isNaN(hourBtc))||!(isFinite(hourBtc))) {
-        document.getElementById("hourBtc").innerText = "【⛏ Kazım Miktarı ⛏】"}
+        document.getElementById("hourBtc").innerText = "【⛏】"}
         else {
-            document.getElementById("hourBtc").innerText = hourBtc.toFixed(10);
+            document.getElementById("hourBtc").innerText = hourBtc.toFixed(10) + "⛏";
         }
     if ((isNaN(dayBtc))||!(isFinite(dayBtc))) {
-        document.getElementById("dayBtc").innerText = "【⛏ Kazım Miktarı ⛏】"}
+        document.getElementById("dayBtc").innerText = "【⛏】"}
         else {
-            document.getElementById("dayBtc").innerText = dayBtc.toFixed(10);
+            document.getElementById("dayBtc").innerText = dayBtc.toFixed(10) + "⛏";
         }
     if ((isNaN(weekBtc))||!(isFinite(weekBtc))) {
-        document.getElementById("weekBtc").innerText = "【⛏ Kazım Miktarı ⛏】"}
+        document.getElementById("weekBtc").innerText = "【⛏】"}
         else {
-            document.getElementById("weekBtc").innerText = weekBtc.toFixed(10);
+            document.getElementById("weekBtc").innerText = weekBtc.toFixed(10) + "⛏";
         }
     if ((isNaN(monthBtc))||!(isFinite(monthBtc))) {
-        document.getElementById("monthBtc").innerText = "【⛏ Kazım Miktarı ⛏】"}
+        document.getElementById("monthBtc").innerText = "【⛏】"}
         else {
-            document.getElementById("monthBtc").innerText = monthBtc.toFixed(10);
+            document.getElementById("monthBtc").innerText = monthBtc.toFixed(10) + "⛏";
         }
     if ((isNaN(yearBtc))||!(isFinite(yearBtc))) {
-        document.getElementById("yearBtc").innerText = "【⛏ Kazım Miktarı ⛏】"}
+        document.getElementById("yearBtc").innerText = "【⛏】"}
         else {
-            document.getElementById("yearBtc").innerText = yearBtc.toFixed(10);
+            document.getElementById("yearBtc").innerText = yearBtc.toFixed(10) + "⛏";
         }
     if ((isNaN(minBtcD))||!(isFinite(minBtcD))) {
         document.getElementById("minBtcD").innerText = "∙•●$●•∙"}
@@ -132,34 +132,34 @@ calc = function(){
         yearDogeD = Number(yearDoge) * dogePrice
 
     if ((isNaN(minDoge))||!(isFinite(minDoge))) {
-        document.getElementById("minDoge").innerText = "【⛏ Kazım Miktarı ⛏】"}
+        document.getElementById("minDoge").innerText = "【⛏】"}
         else {
-            document.getElementById("minDoge").innerText = minDoge.toFixed(10);
+            document.getElementById("minDoge").innerText = minDoge.toFixed(10) + "⛏";
         }
     if ((isNaN(hourDoge))||!(isFinite(hourDoge))) {
-        document.getElementById("hourDoge").innerText = "【⛏ Kazım Miktarı ⛏】"}
+        document.getElementById("hourDoge").innerText = "【⛏】"}
         else {
-            document.getElementById("hourDoge").innerText = hourDoge.toFixed(10);
+            document.getElementById("hourDoge").innerText = hourDoge.toFixed(10) + "⛏";
         }
     if ((isNaN(dayDoge))||!(isFinite(dayDoge))) {
-        document.getElementById("dayDoge").innerText = "【⛏ Kazım Miktarı ⛏】"}
+        document.getElementById("dayDoge").innerText = "【⛏】"}
         else {
-            document.getElementById("dayDoge").innerText = dayDoge.toFixed(10);
+            document.getElementById("dayDoge").innerText = dayDoge.toFixed(10) + "⛏";
         }
     if ((isNaN(weekDoge))||!(isFinite(weekDoge))) {
-        document.getElementById("weekDoge").innerText = "【⛏ Kazım Miktarı ⛏】"}
+        document.getElementById("weekDoge").innerText = "【⛏】"}
         else {
-            document.getElementById("weekDoge").innerText = weekDoge.toFixed(10);
+            document.getElementById("weekDoge").innerText = weekDoge.toFixed(10) + "⛏";
         }
     if ((isNaN(monthDoge))||!(isFinite(monthDoge))) {
-        document.getElementById("monthDoge").innerText = "【⛏ Kazım Miktarı ⛏】"}
+        document.getElementById("monthDoge").innerText = "【⛏】"}
         else {
-            document.getElementById("monthDoge").innerText = monthDoge.toFixed(10);
+            document.getElementById("monthDoge").innerText = monthDoge.toFixed(10) + "⛏";
         }
     if ((isNaN(yearDoge))||!(isFinite(yearDoge))) {
-        document.getElementById("yearDoge").innerText = "【⛏ Kazım Miktarı ⛏】"}
+        document.getElementById("yearDoge").innerText = "【⛏】"}
         else {
-            document.getElementById("yearDoge").innerText = yearDoge.toFixed(10);
+            document.getElementById("yearDoge").innerText = yearDoge.toFixed(10) + "⛏";
         }
     
     if ((isNaN(minDogeD))||!(isFinite(minDogeD))) {
@@ -210,34 +210,34 @@ calc = function(){
         yearEthD = Number(yearEth) * ethPrice
 
     if ((isNaN(minEth))||!(isFinite(minEth))) {
-        document.getElementById("minEth").innerText = "【⛏ Kazım Miktarı ⛏】"}
+        document.getElementById("minEth").innerText = "【⛏】"}
         else {
-            document.getElementById("minEth").innerText = minEth.toFixed(10);
+            document.getElementById("minEth").innerText = minEth.toFixed(10) + "⛏";
         }
     if ((isNaN(hourEth))||!(isFinite(hourEth))) {
-        document.getElementById("hourEth").innerText = "【⛏ Kazım Miktarı ⛏】"}
+        document.getElementById("hourEth").innerText = "【⛏】"}
         else {
-            document.getElementById("hourEth").innerText = hourEth.toFixed(10);
+            document.getElementById("hourEth").innerText = hourEth.toFixed(10) + "⛏";
         }
     if ((isNaN(dayEth))||!(isFinite(dayEth))) {
-        document.getElementById("dayEth").innerText = "【⛏ Kazım Miktarı ⛏】"}
+        document.getElementById("dayEth").innerText = "【⛏】"}
         else {
-            document.getElementById("dayEth").innerText = dayEth.toFixed(10);
+            document.getElementById("dayEth").innerText = dayEth.toFixed(10) + "⛏";
         }
     if ((isNaN(weekEth))||!(isFinite(weekEth))) {
-        document.getElementById("weekEth").innerText = "【⛏ Kazım Miktarı ⛏】"}
+        document.getElementById("weekEth").innerText = "【⛏】"}
         else {
-            document.getElementById("weekEth").innerText = weekEth.toFixed(10);
+            document.getElementById("weekEth").innerText = weekEth.toFixed(10) + "⛏";
         }
     if ((isNaN(monthEth))||!(isFinite(monthEth))) {
-        document.getElementById("monthEth").innerText = "【⛏ Kazım Miktarı ⛏】"}
+        document.getElementById("monthEth").innerText = "【⛏】"}
         else {
-            document.getElementById("monthEth").innerText = monthEth.toFixed(10);
+            document.getElementById("monthEth").innerText = monthEth.toFixed(10) + "⛏";
         }
     if ((isNaN(yearEth))||!(isFinite(yearEth))) {
-        document.getElementById("yearEth").innerText = "【⛏ Kazım Miktarı ⛏】"}
+        document.getElementById("yearEth").innerText = "【⛏】"}
         else {
-            document.getElementById("yearEth").innerText = yearEth.toFixed(10);
+            document.getElementById("yearEth").innerText = yearEth.toFixed(10) + "⛏";
         }
     
     if ((isNaN(minEthD))||!(isFinite(minEthD))) {
@@ -288,34 +288,34 @@ calc = function(){
         yearbnbD = Number(yearbnb) * bnbPrice
 
     if ((isNaN(minbnb))||!(isFinite(minbnb))) {
-        document.getElementById("minbnb").innerText = "【⛏ Kazım Miktarı ⛏】"}
+        document.getElementById("minbnb").innerText = "【⛏】"}
         else {
-            document.getElementById("minbnb").innerText = minbnb.toFixed(10);
+            document.getElementById("minbnb").innerText = minbnb.toFixed(10) + "⛏";
         }
     if ((isNaN(hourbnb))||!(isFinite(hourbnb))) {
-        document.getElementById("hourbnb").innerText = "【⛏ Kazım Miktarı ⛏】"}
+        document.getElementById("hourbnb").innerText = "【⛏】"}
         else {
-            document.getElementById("hourbnb").innerText = hourbnb.toFixed(10);
+            document.getElementById("hourbnb").innerText = hourbnb.toFixed(10) + "⛏";
         }
     if ((isNaN(daybnb))||!(isFinite(daybnb))) {
-        document.getElementById("daybnb").innerText = "【⛏ Kazım Miktarı ⛏】"}
+        document.getElementById("daybnb").innerText = "【⛏】"}
         else {
-            document.getElementById("daybnb").innerText = daybnb.toFixed(10);
+            document.getElementById("daybnb").innerText = daybnb.toFixed(10) + "⛏";
         }
     if ((isNaN(weekbnb))||!(isFinite(weekbnb))) {
-        document.getElementById("weekbnb").innerText = "【⛏ Kazım Miktarı ⛏】"}
+        document.getElementById("weekbnb").innerText = "【⛏】"}
         else {
-            document.getElementById("weekbnb").innerText = weekbnb.toFixed(10);
+            document.getElementById("weekbnb").innerText = weekbnb.toFixed(10) + "⛏";
         }
     if ((isNaN(monthbnb))||!(isFinite(monthbnb))) {
-        document.getElementById("monthbnb").innerText = "【⛏ Kazım Miktarı ⛏】"}
+        document.getElementById("monthbnb").innerText = "【⛏】"}
         else {
-            document.getElementById("monthbnb").innerText = monthbnb.toFixed(10);
+            document.getElementById("monthbnb").innerText = monthbnb.toFixed(10) + "⛏";
         }
     if ((isNaN(yearbnb))||!(isFinite(yearbnb))) {
-        document.getElementById("yearbnb").innerText = "【⛏ Kazım Miktarı ⛏】"}
+        document.getElementById("yearbnb").innerText = "【⛏】"}
         else {
-            document.getElementById("yearbnb").innerText = yearbnb.toFixed(10);
+            document.getElementById("yearbnb").innerText = yearbnb.toFixed(10) + "⛏";
         }
     if ((isNaN(minbnbD))||!(isFinite(minbnbD))) {
         document.getElementById("minbnbD").innerText = "∙•●$●•∙"}
@@ -365,34 +365,34 @@ calc = function(){
         yearmaticD = Number(yearmatic) * maticPrice
 
     if ((isNaN(minmatic))||!(isFinite(minmatic))) {
-        document.getElementById("minmatic").innerText = "【⛏ Kazım Miktarı ⛏】"}
+        document.getElementById("minmatic").innerText = "【⛏】"}
         else {
-            document.getElementById("minmatic").innerText = minmatic.toFixed(10);
+            document.getElementById("minmatic").innerText = minmatic.toFixed(10) + "⛏";
         }
     if ((isNaN(hourmatic))||!(isFinite(hourmatic))) {
-        document.getElementById("hourmatic").innerText = "【⛏ Kazım Miktarı ⛏】"}
+        document.getElementById("hourmatic").innerText = "【⛏】"}
         else {
-            document.getElementById("hourmatic").innerText = hourmatic.toFixed(10);
+            document.getElementById("hourmatic").innerText = hourmatic.toFixed(10) + "⛏";
         }
     if ((isNaN(daymatic))||!(isFinite(daymatic))) {
-        document.getElementById("daymatic").innerText = "【⛏ Kazım Miktarı ⛏】"}
+        document.getElementById("daymatic").innerText = "【⛏】"}
         else {
-            document.getElementById("daymatic").innerText = daymatic.toFixed(10);
+            document.getElementById("daymatic").innerText = daymatic.toFixed(10) + "⛏";
         }
     if ((isNaN(weekmatic))||!(isFinite(weekmatic))) {
-        document.getElementById("weekmatic").innerText = "【⛏ Kazım Miktarı ⛏】"}
+        document.getElementById("weekmatic").innerText = "【⛏】"}
         else {
-            document.getElementById("weekmatic").innerText = weekmatic.toFixed(10);
+            document.getElementById("weekmatic").innerText = weekmatic.toFixed(10) + "⛏";
         }
     if ((isNaN(monthmatic))||!(isFinite(monthmatic))) {
-        document.getElementById("monthmatic").innerText = "【⛏ Kazım Miktarı ⛏】"}
+        document.getElementById("monthmatic").innerText = "【⛏】"}
         else {
-            document.getElementById("monthmatic").innerText = monthmatic.toFixed(10);
+            document.getElementById("monthmatic").innerText = monthmatic.toFixed(10) + "⛏";
         }
     if ((isNaN(yearmatic))||!(isFinite(yearmatic))) {
-        document.getElementById("yearmatic").innerText = "【⛏ Kazım Miktarı ⛏】"}
+        document.getElementById("yearmatic").innerText = "【⛏】"}
         else {
-            document.getElementById("yearmatic").innerText = yearmatic.toFixed(10);
+            document.getElementById("yearmatic").innerText = yearmatic.toFixed(10) + "⛏";
         }
     if ((isNaN(minmaticD))||!(isFinite(minmaticD))) {
         document.getElementById("minmaticD").innerText = "∙•●$●•∙"}
@@ -442,34 +442,34 @@ calc = function(){
         yearsolD = Number(yearsol) * solPrice
 
     if ((isNaN(minsol))||!(isFinite(minsol))) {
-        document.getElementById("minsol").innerText = "【⛏ Kazım Miktarı ⛏】"}
+        document.getElementById("minsol").innerText = "【⛏】"}
         else {
-            document.getElementById("minsol").innerText = minsol.toFixed(10);
+            document.getElementById("minsol").innerText = minsol.toFixed(10) + "⛏";
         }
     if ((isNaN(hoursol))||!(isFinite(hoursol))) {
-        document.getElementById("hoursol").innerText = "【⛏ Kazım Miktarı ⛏】"}
+        document.getElementById("hoursol").innerText = "【⛏】"}
         else {
-            document.getElementById("hoursol").innerText = hoursol.toFixed(10);
+            document.getElementById("hoursol").innerText = hoursol.toFixed(10) + "⛏";
         }
     if ((isNaN(daysol))||!(isFinite(daysol))) {
-        document.getElementById("daysol").innerText = "【⛏ Kazım Miktarı ⛏】"}
+        document.getElementById("daysol").innerText = "【⛏】"}
         else {
-            document.getElementById("daysol").innerText = daysol.toFixed(10);
+            document.getElementById("daysol").innerText = daysol.toFixed(10) + "⛏";
         }
     if ((isNaN(weeksol))||!(isFinite(weeksol))) {
-        document.getElementById("weeksol").innerText = "【⛏ Kazım Miktarı ⛏】"}
+        document.getElementById("weeksol").innerText = "【⛏】"}
         else {
-            document.getElementById("weeksol").innerText = weeksol.toFixed(10);
+            document.getElementById("weeksol").innerText = weeksol.toFixed(10) + "⛏";
         }
     if ((isNaN(monthsol))||!(isFinite(monthsol))) {
-        document.getElementById("monthsol").innerText = "【⛏ Kazım Miktarı ⛏】"}
+        document.getElementById("monthsol").innerText = "【⛏】"}
         else {
-            document.getElementById("monthsol").innerText = monthsol.toFixed(10);
+            document.getElementById("monthsol").innerText = monthsol.toFixed(10) + "⛏";
         }
     if ((isNaN(yearsol))||!(isFinite(yearsol))) {
-        document.getElementById("yearsol").innerText = "【⛏ Kazım Miktarı ⛏】"}
+        document.getElementById("yearsol").innerText = "【⛏】"}
         else {
-            document.getElementById("yearsol").innerText = yearsol.toFixed(10);
+            document.getElementById("yearsol").innerText = yearsol.toFixed(10) + "⛏";
         }
     if ((isNaN(minsolD))||!(isFinite(minsolD))) {
         document.getElementById("minsolD").innerText = "∙•●$●•∙"}
@@ -519,34 +519,34 @@ calc = function(){
         yeartrxD = Number(yeartrx) * trxPrice
 
     if ((isNaN(mintrx))||!(isFinite(mintrx))) {
-        document.getElementById("mintrx").innerText = "【⛏ Kazım Miktarı ⛏】"}
+        document.getElementById("mintrx").innerText = "【⛏】"}
         else {
-            document.getElementById("mintrx").innerText = mintrx.toFixed(10);
+            document.getElementById("mintrx").innerText = mintrx.toFixed(10) + "⛏";
         }
     if ((isNaN(hourtrx))||!(isFinite(hourtrx))) {
-        document.getElementById("hourtrx").innerText = "【⛏ Kazım Miktarı ⛏】"}
+        document.getElementById("hourtrx").innerText = "【⛏】"}
         else {
-            document.getElementById("hourtrx").innerText = hourtrx.toFixed(10);
+            document.getElementById("hourtrx").innerText = hourtrx.toFixed(10) + "⛏";
         }
     if ((isNaN(daytrx))||!(isFinite(daytrx))) {
-        document.getElementById("daytrx").innerText = "【⛏ Kazım Miktarı ⛏】"}
+        document.getElementById("daytrx").innerText = "【⛏】"}
         else {
-            document.getElementById("daytrx").innerText = daytrx.toFixed(10);
+            document.getElementById("daytrx").innerText = daytrx.toFixed(10) + "⛏";
         }
     if ((isNaN(weektrx))||!(isFinite(weektrx))) {
-        document.getElementById("weektrx").innerText = "【⛏ Kazım Miktarı ⛏】"}
+        document.getElementById("weektrx").innerText = "【⛏】"}
         else {
-            document.getElementById("weektrx").innerText = weektrx.toFixed(10);
+            document.getElementById("weektrx").innerText = weektrx.toFixed(10) + "⛏";
         }
     if ((isNaN(monthtrx))||!(isFinite(monthtrx))) {
-        document.getElementById("monthtrx").innerText = "【⛏ Kazım Miktarı ⛏】"}
+        document.getElementById("monthtrx").innerText = "【⛏】"}
         else {
-            document.getElementById("monthtrx").innerText = monthtrx.toFixed(10);
+            document.getElementById("monthtrx").innerText = monthtrx.toFixed(10) + "⛏";
         }
     if ((isNaN(yeartrx))||!(isFinite(yeartrx))) {
-        document.getElementById("yeartrx").innerText = "【⛏ Kazım Miktarı ⛏】"}
+        document.getElementById("yeartrx").innerText = "【⛏】"}
         else {
-            document.getElementById("yeartrx").innerText = yeartrx.toFixed(10);
+            document.getElementById("yeartrx").innerText = yeartrx.toFixed(10) + "⛏";
         }
     if ((isNaN(mintrxD))||!(isFinite(mintrxD))) {
         document.getElementById("mintrxD").innerText = "∙•●$●•∙"}
@@ -596,34 +596,34 @@ calc = function(){
         yearRltD = Number(yearRlt) * rltPrice
 
     if ((isNaN(minRlt))||!(isFinite(minRlt))) {
-        document.getElementById("minRlt").innerText = "【⛏ Kazım Miktarı ⛏】"}
+        document.getElementById("minRlt").innerText = "【⛏】"}
         else {
-            document.getElementById("minRlt").innerText = minRlt.toFixed(10);
+            document.getElementById("minRlt").innerText = minRlt.toFixed(10) + "⛏";
         }
     if ((isNaN(hourRlt))||!(isFinite(hourRlt))) {
-        document.getElementById("hourRlt").innerText = "【⛏ Kazım Miktarı ⛏】"}
+        document.getElementById("hourRlt").innerText = "【⛏】"}
         else {
-            document.getElementById("hourRlt").innerText = hourRlt.toFixed(10);
+            document.getElementById("hourRlt").innerText = hourRlt.toFixed(10) + "⛏";
         }
     if ((isNaN(dayRlt))||!(isFinite(dayRlt))) {
-        document.getElementById("dayRlt").innerText = "【⛏ Kazım Miktarı ⛏】"}
+        document.getElementById("dayRlt").innerText = "【⛏】"}
         else {
-            document.getElementById("dayRlt").innerText = dayRlt.toFixed(10);
+            document.getElementById("dayRlt").innerText = dayRlt.toFixed(10) + "⛏";
         }
     if ((isNaN(weekRlt))||!(isFinite(weekRlt))) {
-        document.getElementById("weekRlt").innerText = "【⛏ Kazım Miktarı ⛏】"}
+        document.getElementById("weekRlt").innerText = "【⛏】"}
         else {
-            document.getElementById("weekRlt").innerText = weekRlt.toFixed(10);
+            document.getElementById("weekRlt").innerText = weekRlt.toFixed(10) + "⛏";
         }
     if ((isNaN(monthRlt))||!(isFinite(monthRlt))) {
-        document.getElementById("monthRlt").innerText = "【⛏ Kazım Miktarı ⛏】"}
+        document.getElementById("monthRlt").innerText = "【⛏】"}
         else {
-            document.getElementById("monthRlt").innerText = monthRlt.toFixed(10);
+            document.getElementById("monthRlt").innerText = monthRlt.toFixed(10) + "⛏";
         }
     if ((isNaN(yearRlt))||!(isFinite(yearRlt))) {
-        document.getElementById("yearRlt").innerText = "【⛏ Kazım Miktarı ⛏】"}
+        document.getElementById("yearRlt").innerText = "【⛏】"}
         else {
-            document.getElementById("yearRlt").innerText = yearRlt.toFixed(10);
+            document.getElementById("yearRlt").innerText = yearRlt.toFixed(10) + "⛏";
         }
     if ((isNaN(minRltD))||!(isFinite(minRltD))) {
         document.getElementById("minRltD").innerText = "∙•●$●•∙"}

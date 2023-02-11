@@ -467,6 +467,17 @@ input::-webkit-inner-spin-button {
   border-collapse: collapse;
 }
 
+.tab-content {
+  
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  font-weight: bold;
+  border: 1px solid blue;
+  text-align: center;
+}
+
 .hero .tabs-layout .tab2-content table td {
   width: 33.333333%;
   text-align: center;
