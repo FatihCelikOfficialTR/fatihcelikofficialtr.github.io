@@ -37,14 +37,7 @@ input::-webkit-inner-spin-button {
  
 }
 
-.hero .container .crypto-price .price-content {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
+
 
 .hero .container .crypto-price .price-content ul {
   padding: 0;
@@ -260,10 +253,6 @@ input::-webkit-inner-spin-button {
 
 .hero .tabs-layout .tab1-content {
   background: #6e6b8f;
-  display: -ms-grid;
-  display: grid;
-      grid-template-areas: 'rate dis' 'net blreward';
-  -ms-grid-columns: 50% 50%;
       grid-template-columns: 50% 50%;
 }
 
@@ -338,8 +327,6 @@ input::-webkit-inner-spin-button {
 }
 
 .hero .tabs-layout .tab1-content .input-box {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
   text-align: right;
   width: 100%;
   background: #6e6b8f;
@@ -357,7 +344,6 @@ input::-webkit-inner-spin-button {
 }
 
 .hero .tabs-layout .tab2-content {
-  display: none;
   color: white;
   border-radius: 0 0 0.3em 0.3em;
   background: #6e6b8f;
@@ -485,60 +471,6 @@ input::-webkit-inner-spin-button {
   padding: 0.2em 0.4em;
   vertical-align: center;
 }
-
-@media only screen and (min-width: 750px) {
-  .hero .container {
-    max-width: 1920x;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  .hero .container .crypto-price {
-    margin: 0 1rem;
-  }
-  .hero .container .tabs-layout {
-    background: none;
-    margin: 0;
-  }
-
-  .hero .container .tabs-layout .tab1-content {
-    background: none;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    -webkit-column-gap: 0.5rem;
-            column-gap: 0.5rem;
-    padding: 0.7rem 0;
-  }
-  .hero .container .tabs-layout .tab1-content .box {
-    padding: 0;
-    width: 100%;
-  }
-  .hero .container .tabs-layout .tab2-content {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    background: none;
-    padding: 0;
-    margin: 0;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    -webkit-column-gap: 0.5rem;
-            column-gap: 0.5rem;
-    row-gap: 0.5rem;
-  }
-  .hero .container .tabs-layout .tab2-content .coin-box {
-    width: 49.5%;
-    padding: 0;
-    margin: 0;
-  }
-}
-/*# sourceMappingURL=home.css.map */
 
 /* KRİPTO HESAPLAMA RENK AYARLARI*/
 
