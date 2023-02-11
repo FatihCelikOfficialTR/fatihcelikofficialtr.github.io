@@ -1,8 +1,4 @@
-input::-webkit-outer-spin-button,
-input::-webkit-inner-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
-}
+
 
 .hero {
   font-size: 0.85rem;
@@ -25,9 +21,7 @@ input::-webkit-inner-spin-button {
 
 .hero .container .crypto-price .price-title {
   color: #a9d924;
-  -ms-grid-row: 1;
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 8;
+
   grid-area: title;
   background: #1f1f2c;
   border-radius: 0.3rem 0.3rem 0 0;
@@ -52,7 +46,7 @@ input::-webkit-inner-spin-button {
   display: -ms-grid;
   display: grid;
       grid-template-areas: 'title title title title title title title title title title title title title title title title title title' 'btc btc-price doge doge-price eth eth-price bnb bnb-price matic matic-price sol sol-price trx trx-price ltc ltc-price rlt rlt-price';
-  -ms-grid-columns: fit-content(100%) fit-content(100%) fit-content(100%) fit-content(100%) fit-content(100%) fit-content(100%) fit-content(100%) fit-content(100%) fit-content(100%);
+
       grid-template-columns: fit-content(100%) fit-content(100%) fit-content(100%) fit-content(100%) fit-content(100%) fit-content(100%) fit-content(100%) fit-content(100%) fit-content(100%);
 }
 
@@ -62,24 +56,18 @@ input::-webkit-inner-spin-button {
 }
 
 .hero .container .crypto-price .price-content ul .price-btc {
-  -ms-grid-row: 2;
-  -ms-grid-column: 1;
   grid-area: btc;
   color: #fb9135;
   padding: 0.5rem 0.2rem 0.5rem 0.5rem;
 }
 
 .hero .container .crypto-price .price-content ul .price-btc-price {
-  -ms-grid-row: 2;
-  -ms-grid-column: 2;
   grid-area: btc-price;
   padding: 0.5rem 0.35rem 0.5rem 0.2rem;
 
 }
 
 .hero .container .crypto-price .price-content ul .price-doge {
-  -ms-grid-row: 2;
-  -ms-grid-column: 3;
   grid-area: doge;
   color: #c4a443;
   padding: 0.5rem 0.2rem 0.5rem 0.35rem;
@@ -87,16 +75,12 @@ input::-webkit-inner-spin-button {
 }
 
 .hero .container .crypto-price .price-content ul .price-doge-price {
-  -ms-grid-row: 2;
-  -ms-grid-column: 4;
   grid-area: doge-price;
   padding: 0.5rem 0.35rem 0.5rem 0.2rem;
 
 }
 
 .hero .container .crypto-price .price-content ul .price-eth {
-  -ms-grid-row: 2;
-  -ms-grid-column: 5;
   grid-area: eth;
   color: #9782fa;
   padding: 0.5rem 0.2rem 0.5rem 0.35rem;
@@ -104,16 +88,12 @@ input::-webkit-inner-spin-button {
 }
 
 .hero .container .crypto-price .price-content ul .price-eth-price {
-  -ms-grid-row: 2;
-  -ms-grid-column: 6;
   grid-area: eth-price;
   padding: 0.5rem 0.35rem 0.5rem 0.2rem;
 
 }
 
 .hero .container .crypto-price .price-content ul .price-bnb {
-  -ms-grid-row: 2;
-  -ms-grid-column: 7;
   grid-area: bnb;
   color: #CCFF00;
   padding: 0.5rem 0.2rem 0.5rem 0.35rem;
@@ -121,16 +101,12 @@ input::-webkit-inner-spin-button {
 }
 
 .hero .container .crypto-price .price-content ul .price-bnb-price {
-  -ms-grid-row: 2;
-  -ms-grid-column: 8;
   grid-area: bnb-price;
   padding: 0.5rem 0.5rem 0.5rem 0.2rem;
 
 }
 
 .hero .container .crypto-price .price-content ul .price-matic {
-  -ms-grid-row: 2;
-  -ms-grid-column: 9;
   grid-area: matic;
   color: #5530ac;
   padding: 0.5rem 0.2rem 0.5rem 0.35rem;
@@ -138,16 +114,12 @@ input::-webkit-inner-spin-button {
 }
 
 .hero .container .crypto-price .price-content ul .price-matic-price {
-  -ms-grid-row: 2;
-  -ms-grid-column: 10;
   grid-area: matic-price;
   padding: 0.5rem 0.5rem 0.5rem 0.2rem;
 
 }
 
 .hero .container .crypto-price .price-content ul .price-rlt {
-  -ms-grid-row: 2;
-  -ms-grid-column: 11;
   grid-area: rlt;
   color: #00e2e3;
   padding: 0.5rem 0.2rem 0.5rem 0.35rem;
@@ -155,16 +127,12 @@ input::-webkit-inner-spin-button {
 }
 
 .hero .container .crypto-price .price-content ul .price-rlt-price {
-  -ms-grid-row: 2;
-  -ms-grid-column: 12;
   grid-area: rlt-price;
   padding: 0.5rem 0.5rem 0.5rem 0.2rem;
 
 }
 
 .hero .container .crypto-price .price-content ul .price-sol {
-  -ms-grid-row: 2;
-  -ms-grid-column: 13;
   grid-area: sol;
   color: #4ba6cf;
   padding: 0.5rem 0.2rem 0.5rem 0.35rem;
@@ -172,16 +140,12 @@ input::-webkit-inner-spin-button {
 }
 
 .hero .container .crypto-price .price-content ul .price-sol-price {
-  -ms-grid-row: 2;
-  -ms-grid-column: 14;
   grid-area: sol-price;
   padding: 0.5rem 0.5rem 0.5rem 0.2rem;
 
 }
 
 .hero .container .crypto-price .price-content ul .price-trx {
-  -ms-grid-row: 2;
-  -ms-grid-column: 15;
   grid-area: trx;
   color: #d3392f;
   padding: 0.5rem 0.2rem 0.5rem 0.35rem;
@@ -189,25 +153,18 @@ input::-webkit-inner-spin-button {
 }
 
 .hero .container .crypto-price .price-content ul .price-trx-price {
-  -ms-grid-row: 2;
-  -ms-grid-column: 16;
   grid-area: trx-price;
   padding: 0.5rem 0.5rem 0.5rem 0.2rem;
 
 }
 
 .hero .container .crypto-price .price-content ul .price-ltc {
-  -ms-grid-row: 2;
-  -ms-grid-column: 17;
   grid-area: ltc;
   color: #345d9d;
   padding: 0.5rem 0.2rem 0.5rem 0.35rem;
-
 }
 
 .hero .container .crypto-price .price-content ul .price-ltc-price {
-  -ms-grid-row: 2;
-  -ms-grid-column: 18;
   grid-area: ltc-price;
   padding: 0.5rem 0.5rem 0.5rem 0.2rem;
 
@@ -335,8 +292,7 @@ input::-webkit-inner-spin-button {
 }
 
 .hero .tabs-layout .tab1-content .input-box {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+
   text-align: right;
   width: 100%;
   background: #6e6b8f;
@@ -544,7 +500,6 @@ input::-webkit-inner-spin-button {
 /*# sourceMappingURL=home.css.map */
 
 /* KRİPTO HESAPLAMA RENK AYARLARI*/
-
 .tablorenk {
 	color: #5530ac;
 }
