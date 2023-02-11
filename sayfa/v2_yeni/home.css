@@ -12,23 +12,30 @@
 
 .hero .container .crypto-price {
   background: #2f3045;
+  grid-area: title;
   border-radius: 0.3rem;
   min-width: -webkit-fit-content;
   min-width: -moz-fit-content;
   min-width: fit-content;
   margin: auto;
+  	opacity: 0;
+
+      /* IE8 ve aşağısındaki tarayıcılarda sorun çıkmaması için */
+      filter: alpha(opacity=40);
 }
 
 .hero .container .crypto-price .price-title {
   color: #a9d924;
-
   grid-area: title;
   background: #1f1f2c;
   border-radius: 0.3rem 0.3rem 0 0;
   font-weight: bold;
   font-size: 0.9rem;
   padding: 0.3rem 0.5rem;
- 
+ 	opacity: 0;
+
+      /* IE8 ve aşağısındaki tarayıcılarda sorun çıkmaması için */
+      filter: alpha(opacity=40);
 }
 
 .hero .container .crypto-price .price-content {
@@ -38,21 +45,32 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+		  opacity: 0;
+
+      /* IE8 ve aşağısındaki tarayıcılarda sorun çıkmaması için */
+      filter: alpha(opacity=40);
 }
 
 .hero .container .crypto-price .price-content ul {
   padding: 0;
   margin: 0;
-  display: -ms-grid;
-  display: grid;
-      grid-template-areas: 'title title title title title title title title title title title title title title title title title title' 'btc btc-price doge doge-price eth eth-price bnb bnb-price matic matic-price sol sol-price trx trx-price ltc ltc-price rlt rlt-price';
+ display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+      grid-template-areas:'btc btc-price doge doge-price eth eth-price bnb bnb-price matic matic-price sol sol-price trx trx-price ltc ltc-price rlt rlt-price';
+	  opacity: 0;
 
-      grid-template-columns: fit-content(100%) fit-content(100%) fit-content(100%) fit-content(100%) fit-content(100%) fit-content(100%) fit-content(100%) fit-content(100%) fit-content(100%);
+      /* IE8 ve aşağısındaki tarayıcılarda sorun çıkmaması için */
+      filter: alpha(opacity=40);
 }
 
 .hero .container .crypto-price .price-content ul li {
   list-style: none;
   color: white;
+  opacity: 0.4;
+
+      /* IE8 ve aşağısındaki tarayıcılarda sorun çıkmaması için */
+      filter: alpha(opacity=40);
 }
 
 .hero .container .crypto-price .price-content ul .price-btc {
@@ -439,7 +457,7 @@
   vertical-align: center;
 }
 
-@media only screen and (min-width: 750px) {
+@media only screen and (min-width: 720px) {
   .hero .container {
     display: block;
     max-width: 1080px;
@@ -448,6 +466,10 @@
   }
   .hero .container .crypto-price {
     margin: 0 1rem;
+	opacity: 0;
+
+      /* IE8 ve aşağısındaki tarayıcılarda sorun çıkmaması için */
+      filter: alpha(opacity=40);
   }
   .hero .container .tabs-layout {
     background: none;
