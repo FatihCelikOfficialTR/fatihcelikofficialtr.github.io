@@ -109,14 +109,7 @@
 <div class="container">
 
 	<div class="tabs-layout">
-		<div class="tabs-header">
-			<button onclick="changeTab('data')" id="data-tab-btn" class="data-tab-btn">
-				Kazım Bilgileri
-			</button>
-			<button onclick="changeTab('results')" id="results-tab-btn" class="results-tab-btn">
-				Kazanç İstatistikleri
-			</button>
-		</div>
+
 		<div id="tab1-content" class="tab1-content">
 			<div class="box">
 				<div class="box-title">Kazım Gücü</div>
@@ -823,9 +816,7 @@
 <!--===============================================================================================-->
 	<script src="https://fatihcelikofficialtr.github.io/sayfa/nasilkullanilir/saat.js"></script>
 	<script src="../../js/fatihcelik.js"></script>
-<!--===============================================================================================-->
-<script src="https://fatihcelikofficialtr.github.io/sayfa/v2/static/js/alerts.js"></script>		
-<script src="https://fatihcelikofficialtr.github.io/sayfa/v2/static/js/activateTab.js"></script>
+<!--===============================================================================================-->	
 <script src="https://fatihcelikofficialtr.github.io/sayfa/v2/static/js/calculator.js"></script>
 <script>
 	// self executing function here
@@ -841,25 +832,6 @@
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
 </style>
-<!--===============================================================================================-->
-<script>
-        var animateButton = function (e) {
-            e.preventDefault;
-            //reset animation
-            e.target.classList.remove("animate");
-
-            e.target.classList.add("animate");
-            setTimeout(function () {
-                e.target.classList.remove("animate");
-            }, 700);
-        };
-
-        var bubblyButtons = document.getElementsByClassName("btn-show");
-
-        for (var i = 0; i < bubblyButtons.length; i++) {
-            bubblyButtons[i].addEventListener("click", animateButton, false);
-        }   
-    </script>
 <!--===============================================================================================-->
 </body>
 </html>
