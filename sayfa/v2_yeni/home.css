@@ -7,9 +7,6 @@
   margin: 1rem;
 }
 
-
-
-
 .hero .container .crypto-price .price-content ul li {
   color: white;
 }
@@ -436,24 +433,4 @@
 
 .tablorenk {
 	color: #5530ac;
-}
-
-
-@media only screen and (min-width: 960px) { 
-.box-pad {
-	padding:0
-}
-.box {
-	background-color: #333;
-	font-family: 'Source Sans Pro', Tahoma;
-	color:#fff;
-}
-
-
-
-}
-
-body {
-	padding:0;
-	margin:0
 }
