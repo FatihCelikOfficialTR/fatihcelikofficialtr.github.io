@@ -1,5 +1,5 @@
         var typed2 = new Typed('#haftalıködüller', {
-            strings: ["BTC: 35000 SAT", "ETH: 0.006","BNB: 0.032","MATIC: 4.5","DOGE: 100","SOL: 0.15"], // ☛ Güncellemeyi bekleyiniz.. ☚
+            strings: ["BTC: 37500 SAT", "ETH: 0.0065","BNB: 0.038","MATIC: 5","DOGE: 120","SOL: 0.19"], // ☛ Güncellemeyi bekleyiniz.. ☚
             typeSpeed: 70,
             backSpeed: 30,
             backDelay: 10000,

@@ -250,34 +250,34 @@ function blockAmount() {
   switch (document.getElementById("block-type").selectedIndex) {
     case 0:
       //bitcoin 28000
-      var blockreward = 28000;
-      document.getElementById("block-reward").value = 28000;
+      var blockreward = 37500;
+      document.getElementById("block-reward").value = 37500;
       break;
     case 1:
       //Doge 60
-      var blockreward = 100;
-      document.getElementById("block-reward").value = 100;
+      var blockreward = 120;
+      document.getElementById("block-reward").value = 120;
       break;
     case 2:
       //eth 0.0055
-      var blockreward = 0.006;
-      document.getElementById("block-reward").value = 0.006;
+      var blockreward = 0.0065;
+      document.getElementById("block-reward").value = 0.0065;
       break;
     case 3:
       //bnb 0.025
-      var blockreward = 0.032;
-      document.getElementById("block-reward").value = 0.032;
+      var blockreward = 0.038;
+      document.getElementById("block-reward").value = 0.038;
       break;
     case 4:
       //matic 4
-      var blockreward = 4.5;
-      document.getElementById("block-reward").value = 4.5;
+      var blockreward = 5;
+      document.getElementById("block-reward").value = 5;
       console.log("matic end");
       break;
     case 5:
       //SOL 0.06
-      var blockreward = 0.15;
-      document.getElementById("block-reward").value = 0.15;
+      var blockreward = 0.19;
+      document.getElementById("block-reward").value = 0.19;
       console.log("sol end");
       break;
 	case 6:
