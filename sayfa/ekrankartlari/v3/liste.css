@@ -34,7 +34,6 @@
 
 .filterable .filters input[disabled] {
   cursor: auto;
-  height: auto;
 }
 .filterable .filters input[disabled]::-webkit-input-placeholder {
   color: red;
@@ -46,11 +45,6 @@
   color: #333;
 }
 
-.avatar {
-  vertical-align: middle;
-
-  border-radius: 50%;
-}
 
 .aw-zoom {
     position: relative;
