@@ -42,9 +42,6 @@
                         <div class="container-convert col-12 col-md-10">
 						<div class="card my-1 shadow">
 <header>
-<script src="https://widgets.coingecko.com/coingecko-coin-price-marquee-widget.js"></script>
-<coingecko-coin-price-marquee-widget  coin-ids="bitcoin,dogecoin,ethereum,binancecoin,matic-network,solana,tron" currency="try" background-color="#ffffff" locale="tr"></coingecko-coin-price-marquee-widget>
-
 <div id="js-contents-wrapper" class="wrapper">
   <header class="global-header" role="banner">
     <div class="global-header__container">
@@ -67,24 +64,6 @@
         <a class="drawer-menu__link" href="/">
           <span class="drawer-menu__en-label">Ana Sayfa</span>
           <span class="drawer-menu__jp-label">Home page</span>
-        </a>
-      </li>
-	  <li class="drawer-menu__item">
-        <a class="drawer-menu__link" href="../../../sayfa/sss/">
-          <span class="drawer-menu__en-label">Nasıl Kullanılır?</span>
-          <span class="drawer-menu__jp-label">How to use</span>
-        </a>
-      </li>
-	  <li class="drawer-menu__item">
-        <a class="drawer-menu__link" href="../../../sayfa/sss/">
-          <span class="drawer-menu__en-label">S.S.S</span>
-          <span class="drawer-menu__jp-label">FAQ</span>
-        </a>
-      </li>
-      <li class="drawer-menu__item">
-        <a class="drawer-menu__link" href="https://lovesiz.github.io/roicalculate/" target="_blank" rel="noreferrer noopener">
-          <span class="drawer-menu__en-label">Roi Hesapla</span>
-          <span class="drawer-menu__jp-label">Calculate Roi</span>
         </a>
       </li>
       <li class="drawer-menu__item">
@@ -119,27 +98,81 @@
 <!--===============================================================================================-->
                         <div class="container-convert col-12 col-md-10">
 						<div class="card my-1 shadow">
-						<h6 class="card-header head"><img class="ikon1" src="https://rollercoin.com/static/img/whatIsRollertoken/purchase.png"/> ROLLERCOIN EKRAN KARTLARIN LİSTESİ</h6>
+						<h6 class="card-header head">ROLLERCOIN EKRAN KARTLARIN LİSTESİ</h6>
+<!------------ FATIH CELIK ------------->
 
-
-<div >
-	<div id="filter">
-		<div class="col-15 menusec" id="myBtnContainer">
-				<select data-filter="seviye" class="filter-seviye filter btnn">
-					<option value="">Seviye Seç (Hepsi)</option>
-				</select>
-				<select data-filter="bonus" class="filter-bonus filter btnn">
-					<option value="">Bonus Seç (Hepsi)</option>
-				</select>
-		</div>
-	</div>
-	<div class="row alev" id="products"></div>
+<div class="container small my-5">
+  <div class="row d-flex justify-content-between mx-auto mt-4 mb-3">
+    <h1 class="h3 ml-2 mb-3 text-info">Users</h1>
+    <div class="col-lg-8 col-md-12">
+      <div class="row justify-content-end">
+        <div class="input-group col-lg-10 col-md-12">
+          <div class="input-group-prepend"><span class="form-control bg-light text-white rounded-0 text-primary"><i class="fa fa-search" aria-hidden="true"></i></span></div>
+          <input class="form-control" id="search-box" type="text" name="search" placeholder="Search for... " required="required"/>
+          <div class="input-group-append">
+            <select class="form-control bg-light rounded-0 text-capitalize" id="search-filter" name="search-filter">
+              <option value="listitem">All</option>
+              <option value="name">Name</option>
+              <option value="address">Address</option>
+              <option value="email">Email</option>
+              <option value="status">Status</option>
+            </select>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="table-responsive">
+    <table class="table responsive" style="min-width:800px;">
+      <thead> 
+        <tr>
+          <th>Name</th>
+          <th>Address</th>
+          <th>Email</th>
+          <th class="text-center">Status</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="listitem">
+          <td class="td-name text-uppercase" title="Name">
+            <div class="tbl-btn d-sm-none text-primary cursor-pointer d-flex align-items-center h-100"><i class="fa fa-chevron-circle-down" aria-hidden="true"></i></div><a class="hyperlink" href="#">Juan Dela Cruz</a>
+          </td>
+          <td class="td-address" title="Address">Sta. Barbara, California, USA</td>
+          <td class="td-email" title="Email">jdc@gmail.com</td>
+          <td class="td-status text-center" title="Status">Active</td>
+        </tr>
+        <tr class="listitem">
+          <td class="td-name text-uppercase" title="Name">
+            <div class="tbl-btn d-sm-none text-primary cursor-pointer d-flex align-items-center h-100"><i class="fa fa-chevron-circle-down" aria-hidden="true"></i></div><a class="hyperlink" href="#">Chryss Infante</a>
+          </td>
+          <td class="td-address" title="Address">Iloilo City of love</td>
+          <td class="td-email" title="Email">christianreyinfante@gmail.com</td>
+          <td class="td-status text-center" title="Status">Inactive</td>
+        </tr>
+        <tr class="listitem">
+          <td class="td-name text-uppercase" title="Name">
+            <div class="tbl-btn d-sm-none text-primary cursor-pointer d-flex align-items-center h-100"><i class="fa fa-chevron-circle-down" aria-hidden="true"></i></div><a class="hyperlink" href="#">John Doe</a>
+          </td>
+          <td class="td-address" title="Address">Toronto, Canada</td>
+          <td class="td-email" title="Email">johndoe@gmail.com</td>
+          <td class="td-status text-center" title="Status">Active</td>
+        </tr>
+        <tr class="listitem">
+          <td class="td-name text-uppercase" title="Name">
+            <div class="tbl-btn d-sm-none text-primary cursor-pointer d-flex align-items-center h-100"><i class="fa fa-chevron-circle-down" aria-hidden="true"></i></div><a class="hyperlink" href="#">Jane Doe</a>
+          </td>
+          <td class="td-address" title="Address">Burgos Street, La Paz, Manila City</td>
+          <td class="td-email" title="Email">janedoe@gmail.com</td>
+          <td class="td-status text-center" title="Status">Active</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
 </div>
 
-
+<!------------ FATIH CELIK ------------->
                         </div>
                             </div>
-						
 <!------------ FOOTER ------------->
     <footer>
         <div class="footer-content">

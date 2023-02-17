@@ -1,94 +1,55 @@
-.menusec {
-	padding: 5px;
-	text-align: center;
-}
-.product {
-	margin-bottom: 10px;
-}
-.product-inner {
-	box-shadow: 0px 0px 10px #00ff0f, -1px -1px #000;
-	padding: 7px;
-	border-radius: 5px;
-	text-shadow: 0px 0px 10px red;
-	background: #434a56;
-	background-image: url(https://cutewallpaper.org/24/celebrate-png/celebration-png-transparent-images-png-all.png);
-	background-size: cover;
-}
-
-/* MENÜ AYARLARI */
-.btnn {
-  background: #434a56;
-  text-decoration:none;
-  margin: 1px;
-  padding: 5px 10px;
-  border-radius: 5px;
-  color: white;
-  font-family: 'Russo One', sans-serif;
-}
-
-.btnn2 {
-  background: #636e7f;
-  text-decoration:none;
-  margin: 1px;
-  padding: 5px 10px;
-  border-radius: 5px;
-  color: white;
-  font-family: 'Russo One', sans-serif;
-}
-
-.btnn2:hover {
-  background-color: #636e7f;
-  color: black;
-  text-shadow: 0px 0px 10px yellow;
-}
-
-.asit21{
-font-size: 15px;
-text-decoration:none;
-color: yellow;
-font-family: 'Russo One', sans-serif;
-}
-.asit21:hover{
-font-size: 15px;
-text-decoration:none;
-color: yellow;
-font-family: 'Russo One', sans-serif;
-}
-
-.ikon1 {
-    width: 25px; /*or your image's width*/
-    height: auto; /*or your image's height*/
-    margin: 0;
-    padding: 0;
-}
-
-.yildiz {
-	background-image: url(https://rollercoin.com/static/images/star.341866cda99678593251..svg);
-	background-repeat: no-repeat;
-}
-
-.svbir {
-	background-image: url(https://fatihcelikofficialtr.github.io/img/market.png);
-	background-repeat: no-repeat;
-}
-
-.sviki {
-	background-image: url(https://rollercoin.com/static/img/storage/rarity_icons/level_2.png?v=1.0.0);
-	background-repeat: no-repeat;
-}
-.svuc {
-	background-image: url(https://rollercoin.com/static/img/storage/rarity_icons/level_3.png?v=1.0.0);
-	background-repeat: no-repeat;
-}
-.svdort {
-	background-image: url(https://rollercoin.com/static/img/storage/rarity_icons/level_4.png?v=1.0.0);
-	background-repeat: no-repeat;
-}
-.svbes {
-	background-image: url(https://rollercoin.com/static/img/storage/rarity_icons/level_5.png?v=1.0.0);
-	background-repeat: no-repeat;
-}
-.svalti {
-	background-image: url(https://rollercoin.com/static/img/storage/rarity_icons/level_6.png?v=1.0.0);
-	background-repeat: no-repeat;
+@media (max-width: 576px) {
+    table.responsive {
+        min-width: 250px!important;
+    }
+    table.responsive thead{
+        display: none;
+    }
+    table.responsive tr{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 5px;
+        border: 1px solid;
+        border-color: rgba(0,0,0,0.1);
+        border-bottom-color: rgba(0,0,0,0.2);
+        border-collapse: inherit;
+        border-radius: 5px;
+        cursor: default;
+    }
+    table.responsive td:not(:first-child) {
+        display: none;
+    }
+    table.responsive td.active:not(:first-child) {
+        display: block;
+        animation: butwa 300ms linear;
+    }
+    table.responsive td {
+        text-align: left !important;
+        position: relative;
+        padding-top: 1.8em;
+        border: none;
+    }
+    table.responsive td:not(:last-child) {
+        border-bottom: 0.5px solid rgba(0,0,0,0.15);
+    }
+    table.responsive td::before{
+        content: attr(title);
+        position: absolute;
+        top: 0.5em;
+        font-size: 80%;
+        font-weight: 600;
+        text-transform: capitalize;
+        line-height: normal;
+        color: rgba(113, 113, 113, 0.45);;
+    }
+    .tbl-btn {
+        top: 0;
+        right: 1em;
+        font-size: 1.3em;
+        position: absolute;
+        transition: 300ms;
+    }
+    .tbl-btn.rotate {
+        transform: rotate(180deg);
+    }
 }
