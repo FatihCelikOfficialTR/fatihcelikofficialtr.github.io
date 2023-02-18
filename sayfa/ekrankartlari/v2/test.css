@@ -1,9 +1,7 @@
 @media (max-width: 576px) {
-    table.responsive {
-        min-width: 250px!important;
-    }
     table.responsive thead{
         display: none;
+		font-size: 20px;
     }
     table.responsive tr{
         display: flex;
@@ -26,7 +24,6 @@
     table.responsive td {
         text-align: left !important;
         position: relative;
-        padding-top: 1.8em;
         border: none;
     }
     table.responsive td:not(:last-child) {
@@ -46,7 +43,6 @@
         top: 0;
         right: 1em;
         font-size: 1.3em;
-        position: absolute;
         transition: 300ms;
     }
     .tbl-btn.rotate {

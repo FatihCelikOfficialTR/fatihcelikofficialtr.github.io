@@ -101,21 +101,20 @@
 						<h6 class="card-header head">ROLLERCOIN EKRAN KARTLARIN LİSTESİ</h6>
 <!------------ FATIH CELIK ------------->
 
-<div class="container small my-5">
-  <div class="row d-flex justify-content-between mx-auto mt-4 mb-3">
-    <h1 class="h3 ml-2 mb-3 text-info">Users</h1>
-    <div class="col-lg-8 col-md-12">
+<div class="container small my-1">
+  <div class="row d-flex justify-content-between mx-auto">
+    <div class="col-lg-8 col-md-10">
       <div class="row justify-content-end">
         <div class="input-group col-lg-10 col-md-12">
           <div class="input-group-prepend"><span class="form-control bg-light text-white rounded-0 text-primary"><i class="fa fa-search" aria-hidden="true"></i></span></div>
-          <input class="form-control" id="search-box" type="text" name="search" placeholder="Search for... " required="required"/>
+          <input class="form-control" id="search-box" type="text" name="search" placeholder="Aranacak içerik giriniz..." required="required"/>
           <div class="input-group-append">
             <select class="form-control bg-light rounded-0 text-capitalize" id="search-filter" name="search-filter">
-              <option value="listitem">All</option>
-              <option value="name">Name</option>
-              <option value="address">Address</option>
-              <option value="email">Email</option>
-              <option value="status">Status</option>
+              <option value="listitem">Hepsi</option>
+              <option value="name">Miner Adı</option>
+              <option value="address">Güç</option>
+              <option value="email">Bonus</option>
+              <option value="status">Seviye</option>
             </select>
           </div>
         </div>
@@ -123,48 +122,97 @@
     </div>
   </div>
   <div class="table-responsive">
-    <table class="table responsive" style="min-width:800px;">
+    <table class="table responsive">
       <thead> 
         <tr>
-          <th>Name</th>
-          <th>Address</th>
-          <th>Email</th>
-          <th class="text-center">Status</th>
+          <th>MINER ADI</th>
+          <th>GÜÇ</th>
+          <th>BONUS</th>
+          <th class="text-center">SEVİYE</th>
         </tr>
       </thead>
-      <tbody>
+      <tbody class="head">
         <tr class="listitem">
           <td class="td-name text-uppercase" title="Name">
-            <div class="tbl-btn d-sm-none text-primary cursor-pointer d-flex align-items-center h-100"><i class="fa fa-chevron-circle-down" aria-hidden="true"></i></div><a class="hyperlink" href="#">Juan Dela Cruz</a>
+            <div class="tbl-btn d-sm-none text-primary cursor-pointer d-flex align-items-center h-100"><i class="fa fa-chevron-circle-down" aria-hidden="true"></i></div><a class="hyperlink" href="#">Pepperoni 10K</a>
           </td>
-          <td class="td-address" title="Address">Sta. Barbara, California, USA</td>
-          <td class="td-email" title="Email">jdc@gmail.com</td>
-          <td class="td-status text-center" title="Status">Active</td>
+          <td class="td-address" title="Address">1.500.000 Gh/s</td>
+          <td class="td-email" title="Email">%10</td>
+          <td class="td-status text-center" title="Status">1</td>
         </tr>
-        <tr class="listitem">
+		<tr class="listitem">
           <td class="td-name text-uppercase" title="Name">
-            <div class="tbl-btn d-sm-none text-primary cursor-pointer d-flex align-items-center h-100"><i class="fa fa-chevron-circle-down" aria-hidden="true"></i></div><a class="hyperlink" href="#">Chryss Infante</a>
+            <div class="tbl-btn d-sm-none text-primary cursor-pointer d-flex align-items-center h-100"><i class="fa fa-chevron-circle-down" aria-hidden="true"></i></div><a class="hyperlink" href="#">Pepperoni 10K</a>
           </td>
-          <td class="td-address" title="Address">Iloilo City of love</td>
-          <td class="td-email" title="Email">christianreyinfante@gmail.com</td>
-          <td class="td-status text-center" title="Status">Inactive</td>
+          <td class="td-address" title="Address">1.500.000 Gh/s</td>
+          <td class="td-email" title="Email">%10</td>
+          <td class="td-status text-center" title="Status">1</td>
         </tr>
-        <tr class="listitem">
+		<tr class="listitem">
           <td class="td-name text-uppercase" title="Name">
-            <div class="tbl-btn d-sm-none text-primary cursor-pointer d-flex align-items-center h-100"><i class="fa fa-chevron-circle-down" aria-hidden="true"></i></div><a class="hyperlink" href="#">John Doe</a>
+            <div class="tbl-btn d-sm-none text-primary cursor-pointer d-flex align-items-center h-100"><i class="fa fa-chevron-circle-down" aria-hidden="true"></i></div><a class="hyperlink" href="#">Pepperoni 10K</a>
           </td>
-          <td class="td-address" title="Address">Toronto, Canada</td>
-          <td class="td-email" title="Email">johndoe@gmail.com</td>
-          <td class="td-status text-center" title="Status">Active</td>
+          <td class="td-address" title="Address">1.500.000 Gh/s</td>
+          <td class="td-email" title="Email">%10</td>
+          <td class="td-status text-center" title="Status">1</td>
         </tr>
-        <tr class="listitem">
+		<tr class="listitem">
           <td class="td-name text-uppercase" title="Name">
-            <div class="tbl-btn d-sm-none text-primary cursor-pointer d-flex align-items-center h-100"><i class="fa fa-chevron-circle-down" aria-hidden="true"></i></div><a class="hyperlink" href="#">Jane Doe</a>
+            <div class="tbl-btn d-sm-none text-primary cursor-pointer d-flex align-items-center h-100"><i class="fa fa-chevron-circle-down" aria-hidden="true"></i></div><a class="hyperlink" href="#">Pepperoni 10K</a>
           </td>
-          <td class="td-address" title="Address">Burgos Street, La Paz, Manila City</td>
-          <td class="td-email" title="Email">janedoe@gmail.com</td>
-          <td class="td-status text-center" title="Status">Active</td>
+          <td class="td-address" title="Address">1.500.000 Gh/s</td>
+          <td class="td-email" title="Email">%10</td>
+          <td class="td-status text-center" title="Status">1</td>
         </tr>
+		<tr class="listitem">
+          <td class="td-name text-uppercase" title="Name">
+            <div class="tbl-btn d-sm-none text-primary cursor-pointer d-flex align-items-center h-100"><i class="fa fa-chevron-circle-down" aria-hidden="true"></i></div><a class="hyperlink" href="#">Pepperoni 10K</a>
+          </td>
+          <td class="td-address" title="Address">1.500.000 Gh/s</td>
+          <td class="td-email" title="Email">%10</td>
+          <td class="td-status text-center" title="Status">1</td>
+        </tr>
+		<tr class="listitem">
+          <td class="td-name text-uppercase" title="Name">
+            <div class="tbl-btn d-sm-none text-primary cursor-pointer d-flex align-items-center h-100"><i class="fa fa-chevron-circle-down" aria-hidden="true"></i></div><a class="hyperlink" href="#">Pepperoni 10K</a>
+          </td>
+          <td class="td-address" title="Address">1.500.000 Gh/s</td>
+          <td class="td-email" title="Email">%10</td>
+          <td class="td-status text-center" title="Status">1</td>
+        </tr>
+		<tr class="listitem">
+          <td class="td-name text-uppercase" title="Name">
+            <div class="tbl-btn d-sm-none text-primary cursor-pointer d-flex align-items-center h-100"><i class="fa fa-chevron-circle-down" aria-hidden="true"></i></div><a class="hyperlink" href="#">Pepperoni 10K</a>
+          </td>
+          <td class="td-address" title="Address">1.500.000 Gh/s</td>
+          <td class="td-email" title="Email">%10</td>
+          <td class="td-status text-center" title="Status">1</td>
+        </tr>
+		<tr class="listitem">
+          <td class="td-name text-uppercase" title="Name">
+            <div class="tbl-btn d-sm-none text-primary cursor-pointer d-flex align-items-center h-100"><i class="fa fa-chevron-circle-down" aria-hidden="true"></i></div><a class="hyperlink" href="#">Pepperoni 10K</a>
+          </td>
+          <td class="td-address" title="Address">1.500.000 Gh/s</td>
+          <td class="td-email" title="Email">%10</td>
+          <td class="td-status text-center" title="Status">1</td>
+        </tr>
+		<tr class="listitem">
+          <td class="td-name text-uppercase" title="Name">
+            <div class="tbl-btn d-sm-none text-primary cursor-pointer d-flex align-items-center h-100"><i class="fa fa-chevron-circle-down" aria-hidden="true"></i></div><a class="hyperlink" href="#">Pepperoni 10K</a>
+          </td>
+          <td class="td-address" title="Address">1.500.000 Gh/s</td>
+          <td class="td-email" title="Email">%10</td>
+          <td class="td-status text-center" title="Status">1</td>
+        </tr>
+		<tr class="listitem">
+          <td class="td-name text-uppercase" title="Name">
+            <div class="tbl-btn d-sm-none text-primary cursor-pointer d-flex align-items-center h-100"><i class="fa fa-chevron-circle-down" aria-hidden="true"></i></div><a class="hyperlink" href="#">Pepperoni 10K</a>
+          </td>
+          <td class="td-address" title="Address">1.500.000 Gh/s</td>
+          <td class="td-email" title="Email">%10</td>
+          <td class="td-status text-center" title="Status">1</td>
+        </tr>
+		
       </tbody>
     </table>
   </div>
