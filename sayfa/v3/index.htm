@@ -145,8 +145,8 @@
                     <article class="col-md-5">
                         <div>
                             <!------------ INGRESA PODER DE RED ------------->
-                            <div class="form-group row my-4 fcfont3">
-                                <label class="mb-1 fctest">Ağ Gücü</label>
+                            <div class="form-group row my-4 head">
+                                <label class="mb-1 head">Ağ Gücü</label>
                                 <div class="col-7">
                                     <input type="number" class="form-control" step="any" id="network-power">
                                 </div>
@@ -161,8 +161,8 @@
                             </div>
 <!--===============================================================================================-->
                             <!------------ INGRESA PODER ------------->
-                            <div class="form-group row my-4 fcfont3">
-                                <label class="mb-1 fctest">Kazım Gücü</label>
+                            <div class="form-group row my-4 head">
+                                <label class="mb-1 head">Kazım Gücü</label>
                                 <div class="col-7">
                                     <input type="number" class="form-control" name="goal-power-hash" id="goal-power">
                                 </div>
@@ -177,8 +177,8 @@
                             </div>
 <!--===============================================================================================-->
                             <!------------ INGRESA RECOMPENSA POR BLOQUE ------------->
-                            <div class="form-group row my-4 fcfont3">
-                                <label class="mb-1 fctest">Blok Ödülü</label>
+                            <div class="form-group row my-4 head">
+                                <label class="mb-1 head">Blok Ödülü</label>
                                 <div class="col-7">
                                     <input type="number" class="form-control" name="block-reward" id="block-reward" step="any">
                                 </div>
@@ -200,51 +200,6 @@
 <!--===============================================================================================-->
                             <button class="btn-show mt-2 fcfont3" id="btn-calcular" onclick="calculateGoalPower()">Hesapla</button>
                         </div>
-                        <!------------ RESULTADOS DE CALCULADORA ------------->
-                       
-                        <!------------ END RESULTADOS DE CALCULADORA ------------->
-                        <!------------ BOTONES DE CONSUMO API ------------->
-                        <p class="text-center fctest" style="margin-top: 1rem;"><span class="text-btn-mostrar">Kripto fiyatlarını görmek için butona tıklayın!</span>
-                        </p>
-
-                        <div class="text-center">
-                            <button id="dollar" class="btn-show mx-2 fcfont3">USD</button>
-                            <button id="euro" class="btn-show mx-2 fcfont3">TL</button>
-                        </div>
-                        <!------------FIN BOTONES DE CONSUMO API ------------->
-						<!------------ TABLAS USD/EUR ------------->
-                        <div>
-                            <table class="table tabla--dollar table-dark my-4 shadow hidden fcfont3">
-                                <thead>
-                                    <tr class="text-center">
-                                        <th class="rank">#</th>
-                                        <th class="name">Kripto Adı</th>
-                                        <!-- <th class="Simbolo">Simbolo</th> -->
-                                        <th class="image">Ücret</th>
-                                        <th class="price_change">24 Saatlik Oran (%)</th>
-                                        <!-- <th class="price">Icono</th> -->
-                                    </tr>
-                                </thead>
-                                <tbody id="dollar-data">
-                                </tbody>
-                            </table>
-                            <table class="table tabla--euro table-dark my-4 shadow hidden fcfont3">
-                                <thead>
-                                    <tr class="text-center">
-                                        <th class="rank">#</th>
-                                        <th class="name">Kripto Adı</th>
-                                        <!-- <th class="Simbolo">Simbolo</th> -->
-                                        <th class="image">Ücret</th>
-                                        <th class="price_change">24 Saatlik Oran (%)</th>
-                                        <!-- <th class="price">Icono</th> -->
-                                    </tr>
-                                </thead>
-                                <tbody id="euro-data">
-
-                                </tbody>
-                            </table>
-                        </div>
-                        <!------------END TABLAS USD/EUR ------------->
                     </article>
 <!--===============================================================================================-->
                     <aside class="col-md-7">
@@ -258,16 +213,14 @@
 	<p>Haftalık: <span id="weekly"></span></p>
 	<p>Aylık: <span id="monthly"></span></p>
 	</center>
-<center> 
-<ins class="63d82f2f8c9b45972e096745" style="display:inline-block;width:180px;height:150px;"></ins><script>!function(e,n,c,t,o,r,d){!function e(n,c,t,o,r,m,d,s,a){s=c.getElementsByTagName(t)[0],(a=c.createElement(t)).async=!0,a.src="https://"+r[m]+"/js/"+o+".js?v="+d,a.onerror=function(){a.remove(),(m+=1)>=r.length||e(n,c,t,o,r,m)},s.parentNode.insertBefore(a,s)}(window,document,"script","63d82f2f8c9b45972e096745",["cdn.bmcdn5.com"], 0, new Date().getTime())}();</script>
-<p>← KAZIM GÜCÜNE GÖRE KAZANÇ SONUÇLARIN →</p> </center>
+<center><p>← KAZIM GÜCÜNE GÖRE KAZANÇ SONUÇLARIN →</p></center>
 <!--===============================================================================================-->
                         </div>
                             <!------------ SATOSHI TO BTC ------------->
                             <div class="card my-4 shadow" id="hidden-satoshi">
-                                <h6 class="card-header fctest">SATOSHI'yi, BITCOIN'e DÖNÜŞTÜR</h6>
+                                <h6 class="card-header head">SATOSHI'yi, BITCOIN'e DÖNÜŞTÜR</h6>
                                 <div class="card-body my-3">
-                                    <div class="row fcfont3">
+                                    <div class="row head">
                                         <div class="col-12 col-sm-12 col-md-6">
                                             <div class="input-group">
                                                 <input type="number" class="form-control" id="satoshi-value" oninput="calculateBTC()">
@@ -291,7 +244,7 @@
                             </div>
 <!--===============================================================================================-->
                             <!------------ END SATOSHI TO BTC ------------->
-                            <!------------ CRYPTO TO USD/EUR ------------->
+                            <!------------ CRYPTO TO USD/EUR -------------
                             <div class="card my-4 shadow" id="hidden-crypto">
                                 <h6 class="card-header fctest">KRİPTO DOLAR, TL HESAPLA</h6>
                                 <div class="card-body my-3">
