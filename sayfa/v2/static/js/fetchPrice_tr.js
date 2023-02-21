@@ -42,14 +42,14 @@ getResults = function(fetch_data){
 }
 
 postResults = function(prices){
-    document.getElementById("btc-price-api").innerHTML = prices[0] + "₺";
-    document.getElementById("doge-price-api").innerHTML = prices[1] + "₺";
-    document.getElementById("eth-price-api").innerHTML = prices[2] + "₺";
-	document.getElementById("bnb-price-api").innerHTML = prices[3] + "₺";
-	document.getElementById("matic-price-api").innerHTML = prices[4] + "₺";
-	document.getElementById("sol-price-api").innerHTML = prices[5] + "₺";
-	document.getElementById("trx-price-api").innerHTML = prices[6] + "₺";
-	document.getElementById("ltc-price-api").innerHTML = prices[7] + "₺";
+    document.getElementById("btc-price-api").innerHTML = "₺" + prices[0];
+    document.getElementById("doge-price-api").innerHTML = "₺" + prices[1];
+    document.getElementById("eth-price-api").innerHTML = "₺" + prices[2];
+	document.getElementById("bnb-price-api").innerHTML = "₺" + prices[3];
+	document.getElementById("matic-price-api").innerHTML = "₺" + prices[4];
+	document.getElementById("sol-price-api").innerHTML = "₺" + prices[5];
+	document.getElementById("trx-price-api").innerHTML = "₺" + prices[6];
+	document.getElementById("ltc-price-api").innerHTML = "₺" + prices[7];
 }
 
 //////////////////////////////
