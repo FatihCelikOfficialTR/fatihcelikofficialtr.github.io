@@ -128,7 +128,25 @@
 				<option>%3</option>
 				<option>%2.5</option>
 				<option>%2</option>
-				<option>%1.50</option>
+				<option>%1.5</option>
+				<option>%1</option>
+				<option>%0.75</option>
+				<option>%0.5</option>
+				<option>%0.25</option>
+				<option>%0</option>
+              </select>
+            </th>
+			<th>Bonuslu Raf Seç
+              <select id="status-filter" class="form-control">
+                <option>Hepsi</option>
+                <option>%10</option>
+                <option>%6</option>
+                <option>%5</option>
+				<option>%4</option>
+				<option>%3</option>
+				<option>%2.5</option>
+				<option>%2</option>
+				<option>%1.5</option>
 				<option>%1</option>
 				<option>%0.75</option>
 				<option>%0.5</option>
@@ -142,19 +160,35 @@
     </center>
     
     <div class="panel panel-primary filterable listeşablon">
-      <table id="task-list-tbl" class="table">
+      <table id="task-list-tbl" class="table minerşablon">
         <thead>
           <tr>
-			<th>Miner Resmi</th>
-            <th>Miner Adı</th>
-            <th>Miner Gücü</th>
-            <th>Miner Bonusu</th>
-            <th>Miner Seviyesi</th>
-            <th>Miner Market</th>
+			<th>RESİM</th>
+            <th>ADI</th>
+            <th>GÜÇ</th>
+            <th>BONUS</th>
+            <th>SEVİYE</th>
+            <th>SATIN AL</th>
           </tr>
         </thead>
         
         <tbody>
+		
+		<tr id="task-1"
+              class="task-list-row" 
+              data-task-id="1"
+              data-status="%2"
+              data-milestone="Seviye 1"
+			  data-minerbonus="%2">
+            <td class="minerözellikleri">
+			<img class="aw-zoom" src="https://static.rollercoin.com/static/img/market/racks/63985e43cc914df92b1a450e.png?v=1.0.3"></td>
+			<td class="minerözellikleri">Jet-Black Rack 8</td>
+            <td class="minerözellikleri">-</td>
+            <td class="minerözellikleri">%2</td>
+            <td class="minerözellikleri">-</td>
+            <td class="minerözellikleri">
+			<a class="minerözellikleri urlayarı" href="https://rollercoin.com/marketplace/buy/miner/61f9356a8b46ce688939024b" target="_blank">Satın Al</a></td>
+          </tr>
           
           <tr id="task-1"
               class="task-list-row" 
@@ -414,6 +448,22 @@
             <td class="minerözellikleri">Seviye 1</td>
             <td class="minerözellikleri">
 			<a class="minerözellikleri urlayarı" href="https://rollercoin.com/marketplace/buy/miner/61b9cce178d63d64cd626fca" target="_blank">Satın Al</a></td>
+          </tr>
+		  
+		  <tr id="task-5"
+              class="task-list-row" 
+              data-task-id="5"
+              data-status="In Progress"
+              data-milestone="Seviye 1"
+			  data-minerbonus="%1.5">
+            <td class="minerözellikleri">
+			<img class="aw-zoom" src="https://static.rollercoin.com/static/img/market/miners/63eb62ea547cfab9a29dbe0d.gif?v=1.0.3"></td>
+			<td class="minerözellikleri">Mascarado</td>
+            <td class="minerözellikleri">252 000 Gh/s</td>
+            <td class="minerözellikleri">%1.5</td>
+            <td class="minerözellikleri">Seviye 1</td>
+            <td class="minerözellikleri">
+			<a class="minerözellikleri urlayarı" href="https://rollercoin.com/marketplace/buy/miner/63eb62ea547cfab9a29dbe0d" target="_blank">Satın Al</a></td>
           </tr>
 		  
 		  <tr id="task-5"
