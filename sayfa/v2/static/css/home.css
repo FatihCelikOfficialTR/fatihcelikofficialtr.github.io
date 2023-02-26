@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Sarpanch:wght@600&display=swap');
+
+
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
   -webkit-appearance: none;
@@ -5,8 +8,8 @@ input::-webkit-inner-spin-button {
 }
 
 .hero {
-  font-size: 0.85rem;
-  font-family: 'Source Code Pro', monospace;
+  font-size: 15px;
+  font-family: 'Sarpanch', sans-serif;
 }
 
 .hero .container {
