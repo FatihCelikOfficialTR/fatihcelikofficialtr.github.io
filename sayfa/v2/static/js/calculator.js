@@ -55,32 +55,32 @@ calc = function(){
         yearBtcD = Number(yearBtc) * btcPrice
 
     if ((isNaN(minBtc))||!(isFinite(minBtc))) {
-        document.getElementById("minBtc").innerText = "【⛏】"}
+        document.getElementById("minBtc").innerText = "-♦⛏♦-"}
         else {
             document.getElementById("minBtc").innerText = minBtc.toFixed(10) + "⛏";
         }
     if ((isNaN(hourBtc))||!(isFinite(hourBtc))) {
-        document.getElementById("hourBtc").innerText = "【⛏】"}
+        document.getElementById("hourBtc").innerText = "-♦⛏♦-"}
         else {
             document.getElementById("hourBtc").innerText = hourBtc.toFixed(10) + "⛏";
         }
     if ((isNaN(dayBtc))||!(isFinite(dayBtc))) {
-        document.getElementById("dayBtc").innerText = "【⛏】"}
+        document.getElementById("dayBtc").innerText = "-♦⛏♦-"}
         else {
             document.getElementById("dayBtc").innerText = dayBtc.toFixed(10) + "⛏";
         }
     if ((isNaN(weekBtc))||!(isFinite(weekBtc))) {
-        document.getElementById("weekBtc").innerText = "【⛏】"}
+        document.getElementById("weekBtc").innerText = "-♦⛏♦-"}
         else {
             document.getElementById("weekBtc").innerText = weekBtc.toFixed(10) + "⛏";
         }
     if ((isNaN(monthBtc))||!(isFinite(monthBtc))) {
-        document.getElementById("monthBtc").innerText = "【⛏】"}
+        document.getElementById("monthBtc").innerText = "-♦⛏♦-"}
         else {
             document.getElementById("monthBtc").innerText = monthBtc.toFixed(10) + "⛏";
         }
     if ((isNaN(yearBtc))||!(isFinite(yearBtc))) {
-        document.getElementById("yearBtc").innerText = "【⛏】"}
+        document.getElementById("yearBtc").innerText = "-♦⛏♦-"}
         else {
             document.getElementById("yearBtc").innerText = yearBtc.toFixed(10) + "⛏";
         }
@@ -132,32 +132,32 @@ calc = function(){
         yearDogeD = Number(yearDoge) * dogePrice
 
     if ((isNaN(minDoge))||!(isFinite(minDoge))) {
-        document.getElementById("minDoge").innerText = "【⛏】"}
+        document.getElementById("minDoge").innerText = "-♦⛏♦-"}
         else {
             document.getElementById("minDoge").innerText = minDoge.toFixed(10) + "⛏";
         }
     if ((isNaN(hourDoge))||!(isFinite(hourDoge))) {
-        document.getElementById("hourDoge").innerText = "【⛏】"}
+        document.getElementById("hourDoge").innerText = "-♦⛏♦-"}
         else {
             document.getElementById("hourDoge").innerText = hourDoge.toFixed(10) + "⛏";
         }
     if ((isNaN(dayDoge))||!(isFinite(dayDoge))) {
-        document.getElementById("dayDoge").innerText = "【⛏】"}
+        document.getElementById("dayDoge").innerText = "-♦⛏♦-"}
         else {
             document.getElementById("dayDoge").innerText = dayDoge.toFixed(10) + "⛏";
         }
     if ((isNaN(weekDoge))||!(isFinite(weekDoge))) {
-        document.getElementById("weekDoge").innerText = "【⛏】"}
+        document.getElementById("weekDoge").innerText = "-♦⛏♦-"}
         else {
             document.getElementById("weekDoge").innerText = weekDoge.toFixed(10) + "⛏";
         }
     if ((isNaN(monthDoge))||!(isFinite(monthDoge))) {
-        document.getElementById("monthDoge").innerText = "【⛏】"}
+        document.getElementById("monthDoge").innerText = "-♦⛏♦-"}
         else {
             document.getElementById("monthDoge").innerText = monthDoge.toFixed(10) + "⛏";
         }
     if ((isNaN(yearDoge))||!(isFinite(yearDoge))) {
-        document.getElementById("yearDoge").innerText = "【⛏】"}
+        document.getElementById("yearDoge").innerText = "-♦⛏♦-"}
         else {
             document.getElementById("yearDoge").innerText = yearDoge.toFixed(10) + "⛏";
         }
@@ -210,32 +210,32 @@ calc = function(){
         yearEthD = Number(yearEth) * ethPrice
 
     if ((isNaN(minEth))||!(isFinite(minEth))) {
-        document.getElementById("minEth").innerText = "【⛏】"}
+        document.getElementById("minEth").innerText = "-♦⛏♦-"}
         else {
             document.getElementById("minEth").innerText = minEth.toFixed(10) + "⛏";
         }
     if ((isNaN(hourEth))||!(isFinite(hourEth))) {
-        document.getElementById("hourEth").innerText = "【⛏】"}
+        document.getElementById("hourEth").innerText = "-♦⛏♦-"}
         else {
             document.getElementById("hourEth").innerText = hourEth.toFixed(10) + "⛏";
         }
     if ((isNaN(dayEth))||!(isFinite(dayEth))) {
-        document.getElementById("dayEth").innerText = "【⛏】"}
+        document.getElementById("dayEth").innerText = "-♦⛏♦-"}
         else {
             document.getElementById("dayEth").innerText = dayEth.toFixed(10) + "⛏";
         }
     if ((isNaN(weekEth))||!(isFinite(weekEth))) {
-        document.getElementById("weekEth").innerText = "【⛏】"}
+        document.getElementById("weekEth").innerText = "-♦⛏♦-"}
         else {
             document.getElementById("weekEth").innerText = weekEth.toFixed(10) + "⛏";
         }
     if ((isNaN(monthEth))||!(isFinite(monthEth))) {
-        document.getElementById("monthEth").innerText = "【⛏】"}
+        document.getElementById("monthEth").innerText = "-♦⛏♦-"}
         else {
             document.getElementById("monthEth").innerText = monthEth.toFixed(10) + "⛏";
         }
     if ((isNaN(yearEth))||!(isFinite(yearEth))) {
-        document.getElementById("yearEth").innerText = "【⛏】"}
+        document.getElementById("yearEth").innerText = "-♦⛏♦-"}
         else {
             document.getElementById("yearEth").innerText = yearEth.toFixed(10) + "⛏";
         }
@@ -288,32 +288,32 @@ calc = function(){
         yearbnbD = Number(yearbnb) * bnbPrice
 
     if ((isNaN(minbnb))||!(isFinite(minbnb))) {
-        document.getElementById("minbnb").innerText = "【⛏】"}
+        document.getElementById("minbnb").innerText = "-♦⛏♦-"}
         else {
             document.getElementById("minbnb").innerText = minbnb.toFixed(10) + "⛏";
         }
     if ((isNaN(hourbnb))||!(isFinite(hourbnb))) {
-        document.getElementById("hourbnb").innerText = "【⛏】"}
+        document.getElementById("hourbnb").innerText = "-♦⛏♦-"}
         else {
             document.getElementById("hourbnb").innerText = hourbnb.toFixed(10) + "⛏";
         }
     if ((isNaN(daybnb))||!(isFinite(daybnb))) {
-        document.getElementById("daybnb").innerText = "【⛏】"}
+        document.getElementById("daybnb").innerText = "-♦⛏♦-"}
         else {
             document.getElementById("daybnb").innerText = daybnb.toFixed(10) + "⛏";
         }
     if ((isNaN(weekbnb))||!(isFinite(weekbnb))) {
-        document.getElementById("weekbnb").innerText = "【⛏】"}
+        document.getElementById("weekbnb").innerText = "-♦⛏♦-"}
         else {
             document.getElementById("weekbnb").innerText = weekbnb.toFixed(10) + "⛏";
         }
     if ((isNaN(monthbnb))||!(isFinite(monthbnb))) {
-        document.getElementById("monthbnb").innerText = "【⛏】"}
+        document.getElementById("monthbnb").innerText = "-♦⛏♦-"}
         else {
             document.getElementById("monthbnb").innerText = monthbnb.toFixed(10) + "⛏";
         }
     if ((isNaN(yearbnb))||!(isFinite(yearbnb))) {
-        document.getElementById("yearbnb").innerText = "【⛏】"}
+        document.getElementById("yearbnb").innerText = "-♦⛏♦-"}
         else {
             document.getElementById("yearbnb").innerText = yearbnb.toFixed(10) + "⛏";
         }
@@ -365,32 +365,32 @@ calc = function(){
         yearmaticD = Number(yearmatic) * maticPrice
 
     if ((isNaN(minmatic))||!(isFinite(minmatic))) {
-        document.getElementById("minmatic").innerText = "【⛏】"}
+        document.getElementById("minmatic").innerText = "-♦⛏♦-"}
         else {
             document.getElementById("minmatic").innerText = minmatic.toFixed(10) + "⛏";
         }
     if ((isNaN(hourmatic))||!(isFinite(hourmatic))) {
-        document.getElementById("hourmatic").innerText = "【⛏】"}
+        document.getElementById("hourmatic").innerText = "-♦⛏♦-"}
         else {
             document.getElementById("hourmatic").innerText = hourmatic.toFixed(10) + "⛏";
         }
     if ((isNaN(daymatic))||!(isFinite(daymatic))) {
-        document.getElementById("daymatic").innerText = "【⛏】"}
+        document.getElementById("daymatic").innerText = "-♦⛏♦-"}
         else {
             document.getElementById("daymatic").innerText = daymatic.toFixed(10) + "⛏";
         }
     if ((isNaN(weekmatic))||!(isFinite(weekmatic))) {
-        document.getElementById("weekmatic").innerText = "【⛏】"}
+        document.getElementById("weekmatic").innerText = "-♦⛏♦-"}
         else {
             document.getElementById("weekmatic").innerText = weekmatic.toFixed(10) + "⛏";
         }
     if ((isNaN(monthmatic))||!(isFinite(monthmatic))) {
-        document.getElementById("monthmatic").innerText = "【⛏】"}
+        document.getElementById("monthmatic").innerText = "-♦⛏♦-"}
         else {
             document.getElementById("monthmatic").innerText = monthmatic.toFixed(10) + "⛏";
         }
     if ((isNaN(yearmatic))||!(isFinite(yearmatic))) {
-        document.getElementById("yearmatic").innerText = "【⛏】"}
+        document.getElementById("yearmatic").innerText = "-♦⛏♦-"}
         else {
             document.getElementById("yearmatic").innerText = yearmatic.toFixed(10) + "⛏";
         }
@@ -442,32 +442,32 @@ calc = function(){
         yearsolD = Number(yearsol) * solPrice
 
     if ((isNaN(minsol))||!(isFinite(minsol))) {
-        document.getElementById("minsol").innerText = "【⛏】"}
+        document.getElementById("minsol").innerText = "-♦⛏♦-"}
         else {
             document.getElementById("minsol").innerText = minsol.toFixed(10) + "⛏";
         }
     if ((isNaN(hoursol))||!(isFinite(hoursol))) {
-        document.getElementById("hoursol").innerText = "【⛏】"}
+        document.getElementById("hoursol").innerText = "-♦⛏♦-"}
         else {
             document.getElementById("hoursol").innerText = hoursol.toFixed(10) + "⛏";
         }
     if ((isNaN(daysol))||!(isFinite(daysol))) {
-        document.getElementById("daysol").innerText = "【⛏】"}
+        document.getElementById("daysol").innerText = "-♦⛏♦-"}
         else {
             document.getElementById("daysol").innerText = daysol.toFixed(10) + "⛏";
         }
     if ((isNaN(weeksol))||!(isFinite(weeksol))) {
-        document.getElementById("weeksol").innerText = "【⛏】"}
+        document.getElementById("weeksol").innerText = "-♦⛏♦-"}
         else {
             document.getElementById("weeksol").innerText = weeksol.toFixed(10) + "⛏";
         }
     if ((isNaN(monthsol))||!(isFinite(monthsol))) {
-        document.getElementById("monthsol").innerText = "【⛏】"}
+        document.getElementById("monthsol").innerText = "-♦⛏♦-"}
         else {
             document.getElementById("monthsol").innerText = monthsol.toFixed(10) + "⛏";
         }
     if ((isNaN(yearsol))||!(isFinite(yearsol))) {
-        document.getElementById("yearsol").innerText = "【⛏】"}
+        document.getElementById("yearsol").innerText = "-♦⛏♦-"}
         else {
             document.getElementById("yearsol").innerText = yearsol.toFixed(10) + "⛏";
         }
@@ -519,32 +519,32 @@ calc = function(){
         yeartrxD = Number(yeartrx) * trxPrice
 
     if ((isNaN(mintrx))||!(isFinite(mintrx))) {
-        document.getElementById("mintrx").innerText = "【⛏】"}
+        document.getElementById("mintrx").innerText = "-♦⛏♦-"}
         else {
             document.getElementById("mintrx").innerText = mintrx.toFixed(10) + "⛏";
         }
     if ((isNaN(hourtrx))||!(isFinite(hourtrx))) {
-        document.getElementById("hourtrx").innerText = "【⛏】"}
+        document.getElementById("hourtrx").innerText = "-♦⛏♦-"}
         else {
             document.getElementById("hourtrx").innerText = hourtrx.toFixed(10) + "⛏";
         }
     if ((isNaN(daytrx))||!(isFinite(daytrx))) {
-        document.getElementById("daytrx").innerText = "【⛏】"}
+        document.getElementById("daytrx").innerText = "-♦⛏♦-"}
         else {
             document.getElementById("daytrx").innerText = daytrx.toFixed(10) + "⛏";
         }
     if ((isNaN(weektrx))||!(isFinite(weektrx))) {
-        document.getElementById("weektrx").innerText = "【⛏】"}
+        document.getElementById("weektrx").innerText = "-♦⛏♦-"}
         else {
             document.getElementById("weektrx").innerText = weektrx.toFixed(10) + "⛏";
         }
     if ((isNaN(monthtrx))||!(isFinite(monthtrx))) {
-        document.getElementById("monthtrx").innerText = "【⛏】"}
+        document.getElementById("monthtrx").innerText = "-♦⛏♦-"}
         else {
             document.getElementById("monthtrx").innerText = monthtrx.toFixed(10) + "⛏";
         }
     if ((isNaN(yeartrx))||!(isFinite(yeartrx))) {
-        document.getElementById("yeartrx").innerText = "【⛏】"}
+        document.getElementById("yeartrx").innerText = "-♦⛏♦-"}
         else {
             document.getElementById("yeartrx").innerText = yeartrx.toFixed(10) + "⛏";
         }
@@ -596,32 +596,32 @@ calc = function(){
         yearRltD = Number(yearRlt) * rltPrice
 
     if ((isNaN(minRlt))||!(isFinite(minRlt))) {
-        document.getElementById("minRlt").innerText = "【⛏】"}
+        document.getElementById("minRlt").innerText = "-♦⛏♦-"}
         else {
             document.getElementById("minRlt").innerText = minRlt.toFixed(10) + "⛏";
         }
     if ((isNaN(hourRlt))||!(isFinite(hourRlt))) {
-        document.getElementById("hourRlt").innerText = "【⛏】"}
+        document.getElementById("hourRlt").innerText = "-♦⛏♦-"}
         else {
             document.getElementById("hourRlt").innerText = hourRlt.toFixed(10) + "⛏";
         }
     if ((isNaN(dayRlt))||!(isFinite(dayRlt))) {
-        document.getElementById("dayRlt").innerText = "【⛏】"}
+        document.getElementById("dayRlt").innerText = "-♦⛏♦-"}
         else {
             document.getElementById("dayRlt").innerText = dayRlt.toFixed(10) + "⛏";
         }
     if ((isNaN(weekRlt))||!(isFinite(weekRlt))) {
-        document.getElementById("weekRlt").innerText = "【⛏】"}
+        document.getElementById("weekRlt").innerText = "-♦⛏♦-"}
         else {
             document.getElementById("weekRlt").innerText = weekRlt.toFixed(10) + "⛏";
         }
     if ((isNaN(monthRlt))||!(isFinite(monthRlt))) {
-        document.getElementById("monthRlt").innerText = "【⛏】"}
+        document.getElementById("monthRlt").innerText = "-♦⛏♦-"}
         else {
             document.getElementById("monthRlt").innerText = monthRlt.toFixed(10) + "⛏";
         }
     if ((isNaN(yearRlt))||!(isFinite(yearRlt))) {
-        document.getElementById("yearRlt").innerText = "【⛏】"}
+        document.getElementById("yearRlt").innerText = "-♦⛏♦-"}
         else {
             document.getElementById("yearRlt").innerText = yearRlt.toFixed(10) + "⛏";
         }
