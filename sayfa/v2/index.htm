@@ -81,22 +81,22 @@
 				<div class="box-content">
 					<table>
 						<tr>
-							<td class="td-btc">BTC:</td>
+							<td class="td-rlt">RLT:</td>
 							<td>
 								<form action="text" onsubmit="return false">
 									
-									<input id="distBtc" class="input-box" type="number" onchange="calc(), getData('distBtc')">
+									<input id="distRlt" class="input-box" type="number" onchange="calc(), getData('distRlt')">
 									
 								</form>
 							</td>
 							<td>%</td>
 						</tr>
 						<tr>
-							<td class="td-doge">DOGE:</td>
+							<td class="td-btc">BTC:</td>
 							<td>
 								<form action="text" onsubmit="return false">
 									
-									<input id="distDoge" class="input-box" type="number" onchange="calc(), getData('distDoge')">
+									<input id="distBtc" class="input-box" type="number" onchange="calc(), getData('distBtc')">
 									
 								</form>
 							</td>
@@ -136,6 +136,17 @@
 							<td>%</td>
 						</tr>
 						<tr>
+							<td class="td-doge">DOGE:</td>
+							<td>
+								<form action="text" onsubmit="return false">
+									
+									<input id="distDoge" class="input-box" type="number" onchange="calc(), getData('distDoge')">
+									
+								</form>
+							</td>
+							<td>%</td>
+						</tr>
+						<tr>
 							<td class="td-sol">SOL:</td>
 							<td>
 								<form action="text" onsubmit="return false">
@@ -168,17 +179,6 @@
 							</td>
 							<td>%</td>
 						</tr-->
-						<tr>
-							<td class="td-rlt">RLT:</td>
-							<td>
-								<form action="text" onsubmit="return false">
-									
-									<input id="distRlt" class="input-box" type="number" onchange="calc(), getData('distRlt')">
-									
-								</form>
-							</td>
-							<td>%</td>
-						</tr>
 					</table>
 					<div class="box-title" style="text-align:center"></div>
 				</div>
@@ -188,22 +188,22 @@
 				<div class="box-content">
 					<table>
 						<tr>
-							<td class="td-btc">BTC:</td>
+							<td class="td-rlt">RLT:</td>
 							<td>
 								<form action="text" onsubmit="return false">
 									
-									<input id="netBtc" class="input-box" type="number" onchange="calc(), getData('netBtc')">
+									<input id="netRlt" class="input-box" type="number" onchange="calc(), getData('netRlt')">
 									
 								</form>
 							</td>
 							<td>EH/s</td>
 						</tr>
 						<tr>
-							<td class="td-doge">DOGE:</td>
+							<td class="td-btc">BTC:</td>
 							<td>
 								<form action="text" onsubmit="return false">
 									
-									<input id="netDoge" class="input-box" type="number" onchange="calc(), getData('netDoge')">
+									<input id="netBtc" class="input-box" type="number" onchange="calc(), getData('netBtc')">
 									
 								</form>
 							</td>
@@ -243,6 +243,17 @@
 							<td>EH/s</td>
 						</tr>
 						<tr>
+							<td class="td-doge">DOGE:</td>
+							<td>
+								<form action="text" onsubmit="return false">
+									
+									<input id="netDoge" class="input-box" type="number" onchange="calc(), getData('netDoge')">
+									
+								</form>
+							</td>
+							<td>EH/s</td>
+						</tr>
+						<tr>
 							<td class="td-sol">SOL:</td>
 							<td>
 								<form action="text" onsubmit="return false">
@@ -275,17 +286,6 @@
 							</td>
 							<td>EH/s</td>
 						</tr-->
-						<tr>
-							<td class="td-rlt">RLT:</td>
-							<td>
-								<form action="text" onsubmit="return false">
-									
-									<input id="netRlt" class="input-box" type="number" onchange="calc(), getData('netRlt')">
-									
-								</form>
-							</td>
-							<td>EH/s</td>
-						</tr>
 					</table>
 					<div class="box-title" style="text-align:center">Toplam: <a id="totalNet"></a> EH/s</div>
 				</div>
@@ -295,14 +295,14 @@
 				<div class="box-content">
 					<table>
 						<tr>
+							<td class="td-rlt">RLT:</td><!-- 20 -->
+							<td class="no-input" id="blockRlt">20</td>
+							<td><img src="../../img/svg_rc/rlt.svg" width="13" height="13"/></td>
+						</tr>
+						<tr>
 							<td class="td-btc">BTC:</td><!-- 28000 -->
 							<td class="no-input" id="blockBtc">40000</td>
 							<td><img src="../../img/svg_rc/btc.svg" width="13" height="13"/> <!--(<script src="js/x2.js"></script>)--></td>
-						</tr>
-						<tr>
-							<td class="td-doge">DOGE:</td><!-- 60 -->
-							<td class="no-input" id="blockDoge">140</td>
-							<td><img src="../../img/svg_rc/doge.svg" width="13" height="13"/></td>
 						</tr>
 						<tr>
 							<td class="td-eth">ETH:</td><!-- 0,0055 -->
@@ -320,6 +320,11 @@
 							<td><img src="../../img/svg_rc/matic.svg" width="13" height="13"/></td>
 						</tr>
 						<tr>
+							<td class="td-doge">DOGE:</td><!-- 60 -->
+							<td class="no-input" id="blockDoge">140</td>
+							<td><img src="../../img/svg_rc/doge.svg" width="13" height="13"/></td>
+						</tr>
+						<tr>
 							<td class="td-sol">SOL:</td><!-- 0.06 -->
 							<td class="no-input" id="blocksol">0.23</td>
 							<td><img src="../../img/svg_rc/sol.svg" width="13" height="13"/></td>
@@ -334,11 +339,6 @@
 							<td class="no-input" id="blockltc">0,015</td>
 							<td><img src="../../img/svg_rc/ltc.svg" width="13" height="13"/></td>
 						</tr-->
-						<tr>
-							<td class="td-rlt">RLT:</td><!-- 20 -->
-							<td class="no-input" id="blockRlt">20</td>
-							<td><img src="../../img/svg_rc/rlt.svg" width="13" height="13"/></td>
-						</tr>
 					</table>
 					<div class="box-title" style="text-align:center"></div>
 				</div>
@@ -348,12 +348,12 @@
 				<div class="box-content">
 					<table>
 						<tr>
-							<td class="td-btc">BTC:</td><!-- 28000 -->
-							<td class="no-input " id="btc-price-api">⌛</td>
+							<td class="td-rlt">RLT:</td><!-- 20 -->
+							<td class="no-input " id="rlt-price">$1</td>
 						</tr>
 						<tr>
-							<td class="td-doge">DOGE:</td><!-- 60 -->
-							<td class="no-input " id="doge-price-api">⌛</td>
+							<td class="td-btc">BTC:</td><!-- 28000 -->
+							<td class="no-input " id="btc-price-api">⌛</td>
 						</tr>
 						<tr>
 							<td class="td-eth">ETH:</td><!-- 0,0055 -->
@@ -368,6 +368,10 @@
 							<td class="no-input " id="matic-price-api">⌛</td>
 						</tr>
 						<tr>
+							<td class="td-doge">DOGE:</td><!-- 60 -->
+							<td class="no-input " id="doge-price-api">⌛</td>
+						</tr>
+						<tr>
 							<td class="td-sol">SOL:</td><!-- 0.06 -->
 							<td class="no-input " id="sol-price-api">⌛</td>
 						</tr>
@@ -380,10 +384,6 @@
 							<td class="no-input" id="blockltc">0,015</td>
 							<td><img src="../../img/svg_rc/ltc.svg" width="13" height="13"/></td>
 						</tr-->
-						<tr>
-							<td class="td-rlt">RLT:</td><!-- 20 -->
-							<td class="no-input " id="rlt-price">$1</td>
-						</tr>
 					</table>
 					<div class="box-title" style="text-align:center"></div>
 				</div>
