@@ -62,7 +62,7 @@ display: block;
   margin: 0;
   display: -ms-grid;
   display: grid;
-      grid-template-areas: 'title title title title title title title title title title title title title title title title title title' 'btc btc-price doge doge-price eth eth-price bnb bnb-price matic matic-price sol sol-price trx trx-price ltc ltc-price rlt rlt-price';
+      grid-template-areas: 'title title title title title title title title title title title title title title title title title title' 'btc btc-price doge doge-price eth eth-price bnb bnb-price matic matic-price sol sol-price trx trx-price lite lite-price rlt rlt-price';
   -ms-grid-columns: fit-content(100%) fit-content(100%) fit-content(100%) fit-content(100%) fit-content(100%) fit-content(100%) fit-content(100%) fit-content(100%) fit-content(100%);
       grid-template-columns: fit-content(100%) fit-content(100%) fit-content(100%) fit-content(100%) fit-content(100%) fit-content(100%) fit-content(100%) fit-content(100%) fit-content(100%);
 }
@@ -207,19 +207,19 @@ display: block;
 
 }
 
-.hero .container .crypto-price .price-content ul .price-ltc {
+.hero .container .crypto-price .price-content ul .price-lite {
   -ms-grid-row: 2;
   -ms-grid-column: 17;
-  grid-area: ltc;
+  grid-area: lite;
   color: #345d9d;
   padding: 0.5rem 0.2rem 0.5rem 0.35rem;
 
 }
 
-.hero .container .crypto-price .price-content ul .price-ltc-price {
+.hero .container .crypto-price .price-content ul .price-lite-price {
   -ms-grid-row: 2;
   -ms-grid-column: 18;
-  grid-area: ltc-price;
+  grid-area: lite-price;
   padding: 0.5rem 0.5rem 0.5rem 0.2rem;
 
 }
@@ -336,7 +336,7 @@ display: block;
   color: #d3392f;
 }
 
-.hero .tabs-layout .tab1-content table .td-ltc {
+.hero .tabs-layout .tab1-content table .td-lite {
   color: #345d9d;
 }
 
@@ -460,11 +460,11 @@ display: block;
   color: #f0e7e7;
 }
 
-.hero .tabs-layout .tab2-content .ltc-box {
+.hero .tabs-layout .tab2-content .lite-box {
   background: #2d5fac;
 }
 
-.hero .tabs-layout .tab2-content .ltc-box .table-headers {
+.hero .tabs-layout .tab2-content .lite-box .table-headers {
   font-weight: bold;
   color: #718ebd;
 }

@@ -37,8 +37,8 @@ getResults = function(fetch_data){
 	maticPrice = fetch_data.eos.usd
 	solPrice = fetch_data.solana.usd
 	trxPrice = fetch_data.tron.usd
-	ltcPrice = fetch_data.litecoin.usd
-    return [btcPrice, dogePrice, ethPrice, bnbPrice, maticPrice, solPrice, trxPrice, ltcPrice]
+	litePrice = fetch_data.litecoin.usd
+    return [btcPrice, dogePrice, ethPrice, bnbPrice, maticPrice, solPrice, trxPrice, litePrice]
 }
 
 postResults = function(prices){
@@ -49,7 +49,7 @@ postResults = function(prices){
 	document.getElementById("matic-price-api").innerHTML = "$" + prices[4];
 	document.getElementById("sol-price-api").innerHTML = "$" + prices[5];
 	document.getElementById("trx-price-api").innerHTML = "$" + prices[6];
-	document.getElementById("ltc-price-api").innerHTML = "$" + prices[7];
+	document.getElementById("lite-price-api").innerHTML = "$" + prices[7];
 }
 
 //////////////////////////////
@@ -61,6 +61,7 @@ calculate = function(prices){
 		maticPrice = prices[4]
 		solPrice = prices[5]
 		trxPrice = prices[6]
+		litePrice = prices[7]
 		
     /////////////////////////////////////////////////
     // BTC CALC 10 MIN
@@ -406,7 +407,56 @@ calculate = function(prices){
         else {
             document.getElementById("yeartrxD").innerText = "$" + yeartrxD.toFixed(5);
         }
-	
+/////////////////////////////////////////////////
+    // lite CALC 10 MIN
+    minlite = document.getElementById("minlite").innerHTML;
+    minliteD = Number(minlite) * litePrice
+    if (isNaN(minliteD)) {
+        document.getElementById("minliteD").innerText = "∙•●$●•∙"}
+        else {
+            document.getElementById("minliteD").innerText = "$" + minliteD.toFixed(5);
+        }
+    // lite CALC HOUR
+    hourlite = document.getElementById("hourlite").innerHTML;
+    hourliteD = Number(hourlite) * litePrice
+    if (isNaN(hourliteD)) {
+        document.getElementById("hourliteD").innerText = "∙•●$●•∙"}
+        else {
+            document.getElementById("hourliteD").innerText = "$" + hourliteD.toFixed(5);
+        }
+    // lite CALC DAY
+    daylite = document.getElementById("daylite").innerHTML;
+    dayliteD = Number(daylite) * litePrice
+    if (isNaN(dayliteD)) {
+        document.getElementById("dayliteD").innerText = "∙•●$●•∙"}
+        else {
+            document.getElementById("dayliteD").innerText = "$" + dayliteD.toFixed(5);
+        }
+    // lite CALC WEEK
+    weeklite = document.getElementById("weeklite").innerHTML;
+    weekliteD = Number(weeklite) * litePrice
+    if (isNaN(weekliteD)) {
+        document.getElementById("weekliteD").innerText = "∙•●$●•∙"}
+        else {
+            document.getElementById("weekliteD").innerText = "$" + weekliteD.toFixed(5);
+        }    
+    // lite CALC MONTH
+    monthlite = document.getElementById("monthlite").innerHTML;
+    monthliteD = Number(monthlite) * litePrice
+    if (isNaN(minliteD)) {
+        document.getElementById("monthliteD").innerText = "∙•●$●•∙"}
+        else {
+            document.getElementById("monthliteD").innerText = "$" + monthliteD.toFixed(5);
+        }    
+    // lite CALC YEAR
+    yearlite = document.getElementById("yearlite").innerHTML;
+    yearliteD = Number(yearlite) * litePrice
+    if (isNaN(yearliteD)) {
+        document.getElementById("yearliteD").innerText = "∙•●$●•∙"}
+        else {
+            document.getElementById("yearliteD").innerText = "$" + yearliteD.toFixed(5);
+        }
+		
     }
 
 fetchData()
