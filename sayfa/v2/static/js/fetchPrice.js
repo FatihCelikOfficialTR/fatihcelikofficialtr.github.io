@@ -31,37 +31,34 @@ fetchData = function(){
 
 getResults = function(fetch_data){
     btcPrice = fetch_data.bitcoin.usd
-    dogePrice = fetch_data.dogecoin.usd
     ethPrice = fetch_data.ethereum.usd
 	bnbPrice = fetch_data.binancecoin.usd
 	maticPrice = fetch_data.eos.usd
+    dogePrice = fetch_data.dogecoin.usd
 	solPrice = fetch_data.solana.usd
 	trxPrice = fetch_data.tron.usd
-	litePrice = fetch_data.litecoin.usd
-    return [btcPrice, dogePrice, ethPrice, bnbPrice, maticPrice, solPrice, trxPrice, litePrice]
+    return [btcPrice, ethPrice, bnbPrice, maticPrice, dogePrice, solPrice, trxPrice]
 }
 
 postResults = function(prices){
     document.getElementById("btc-price-api").innerHTML = "$" + prices[0];
-    document.getElementById("doge-price-api").innerHTML = "$" + prices[1];
-    document.getElementById("eth-price-api").innerHTML = "$" + prices[2];
-	document.getElementById("bnb-price-api").innerHTML = "$" + prices[3];
-	document.getElementById("matic-price-api").innerHTML = "$" + prices[4];
+    document.getElementById("eth-price-api").innerHTML = "$" + prices[1];
+	document.getElementById("bnb-price-api").innerHTML = "$" + prices[2];
+	document.getElementById("matic-price-api").innerHTML = "$" + prices[3];
+    document.getElementById("doge-price-api").innerHTML = "$" + prices[4];
 	document.getElementById("sol-price-api").innerHTML = "$" + prices[5];
 	document.getElementById("trx-price-api").innerHTML = "$" + prices[6];
-	document.getElementById("lite-price-api").innerHTML = "$" + prices[7];
 }
 
 //////////////////////////////
 calculate = function(prices){
     var btcPrice = prices[0]
-        dogePrice = prices[1]
-        ethPrice = prices[2]
-		bnbPrice = prices[3]
-		maticPrice = prices[4]
+        ethPrice = prices[1]
+		bnbPrice = prices[2]
+		maticPrice = prices[3]
+		dogePrice = prices[4]
 		solPrice = prices[5]
 		trxPrice = prices[6]
-		litePrice = prices[7]
 		
     /////////////////////////////////////////////////
     // BTC CALC 10 MIN
@@ -407,56 +404,6 @@ calculate = function(prices){
         else {
             document.getElementById("yeartrxD").innerText = "$" + yeartrxD.toFixed(5);
         }
-/////////////////////////////////////////////////
-    // lite CALC 10 MIN
-    minlite = document.getElementById("minlite").innerHTML;
-    minliteD = Number(minlite) * litePrice
-    if (isNaN(minliteD)) {
-        document.getElementById("minliteD").innerText = "∙•●$●•∙"}
-        else {
-            document.getElementById("minliteD").innerText = "$" + minliteD.toFixed(5);
-        }
-    // lite CALC HOUR
-    hourlite = document.getElementById("hourlite").innerHTML;
-    hourliteD = Number(hourlite) * litePrice
-    if (isNaN(hourliteD)) {
-        document.getElementById("hourliteD").innerText = "∙•●$●•∙"}
-        else {
-            document.getElementById("hourliteD").innerText = "$" + hourliteD.toFixed(5);
-        }
-    // lite CALC DAY
-    daylite = document.getElementById("daylite").innerHTML;
-    dayliteD = Number(daylite) * litePrice
-    if (isNaN(dayliteD)) {
-        document.getElementById("dayliteD").innerText = "∙•●$●•∙"}
-        else {
-            document.getElementById("dayliteD").innerText = "$" + dayliteD.toFixed(5);
-        }
-    // lite CALC WEEK
-    weeklite = document.getElementById("weeklite").innerHTML;
-    weekliteD = Number(weeklite) * litePrice
-    if (isNaN(weekliteD)) {
-        document.getElementById("weekliteD").innerText = "∙•●$●•∙"}
-        else {
-            document.getElementById("weekliteD").innerText = "$" + weekliteD.toFixed(5);
-        }    
-    // lite CALC MONTH
-    monthlite = document.getElementById("monthlite").innerHTML;
-    monthliteD = Number(monthlite) * litePrice
-    if (isNaN(minliteD)) {
-        document.getElementById("monthliteD").innerText = "∙•●$●•∙"}
-        else {
-            document.getElementById("monthliteD").innerText = "$" + monthliteD.toFixed(5);
-        }    
-    // lite CALC YEAR
-    yearlite = document.getElementById("yearlite").innerHTML;
-    yearliteD = Number(yearlite) * litePrice
-    if (isNaN(yearliteD)) {
-        document.getElementById("yearliteD").innerText = "∙•●$●•∙"}
-        else {
-            document.getElementById("yearliteD").innerText = "$" + yearliteD.toFixed(5);
-        }
-		
     }
 
 fetchData()
