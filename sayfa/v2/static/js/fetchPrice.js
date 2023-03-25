@@ -1,6 +1,6 @@
 fetchData = function(){
 
-    fetch('https://api.coingecko.com/api/v3/simple/price?ids=matic-network%2Ctron%2Cbitcoin%2Cethereum%2Cdogecoin%2Cbinancecoin%2Ctether%2Czelcash%2Csolana&vs_currencies=usd', {
+    fetch('https://api.coingecko.com/api/v3/simple/price?ids=matic-network%2Ctezos%2Ctron%2Cbitcoin%2Cethereum%2Cdogecoin%2Cbinancecoin%2Ctether%2Czelcash%2Csolana&vs_currencies=usd', {
       method: 'GET', // or 'PUT'
       headers: {
         'Content-Type': 'application/json',
@@ -34,7 +34,7 @@ getResults = function(fetch_data){
     dogePrice = fetch_data.dogecoin.usd
     ethPrice = fetch_data.ethereum.usd
 	bnbPrice = fetch_data.binancecoin.usd
-	maticPrice = fetch_data.zelcash.usd
+	maticPrice = fetch_data.tezos.usd
 	solPrice = fetch_data.solana.usd
 	trxPrice = fetch_data.tron.usd
     return [btcPrice, dogePrice, ethPrice, bnbPrice, maticPrice, solPrice, trxPrice]
