@@ -8,4 +8,3 @@ alertDismiss = function(cate){
     }
 }
 
-
