@@ -7,3 +7,5 @@ alertDismiss = function(cate){
         alert.style.display = "none";
     }
 }
+
+
