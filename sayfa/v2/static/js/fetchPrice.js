@@ -1,6 +1,6 @@
 fetchData = function(){
 
-    fetch('https://api.coingecko.com/api/v3/simple/price?ids=matic-network%2Cbitcoin%2Cethereum%2Cdogecoin%2Cbinancecoin%2Ctether%2Ceos%2Ctron%2Clitecoin%2Csolana&vs_currencies=usd', {
+    fetch('https://api.coingecko.com/api/v3/simple/price?ids=matic-network%2Cbitcoin%2Cethereum%2Cdogecoin%2Cbinancecoin%2Ctether%2Czelcash%2Csolana&vs_currencies=usd', {
       method: 'GET', // or 'PUT'
       headers: {
         'Content-Type': 'application/json',
@@ -31,34 +31,31 @@ fetchData = function(){
 
 getResults = function(fetch_data){
     btcPrice = fetch_data.bitcoin.usd
+    dogePrice = fetch_data.dogecoin.usd
     ethPrice = fetch_data.ethereum.usd
 	bnbPrice = fetch_data.binancecoin.usd
-	maticPrice = fetch_data.eos.usd
-    dogePrice = fetch_data.dogecoin.usd
+	maticPrice = fetch_data.zelcash.usd
 	solPrice = fetch_data.solana.usd
-	trxPrice = fetch_data.tron.usd
-    return [btcPrice, ethPrice, bnbPrice, maticPrice, dogePrice, solPrice, trxPrice]
+    return [btcPrice, dogePrice, ethPrice, bnbPrice, maticPrice, solPrice]
 }
 
 postResults = function(prices){
     document.getElementById("btc-price-api").innerHTML = "$" + prices[0];
-    document.getElementById("eth-price-api").innerHTML = "$" + prices[1];
-	document.getElementById("bnb-price-api").innerHTML = "$" + prices[2];
-	document.getElementById("matic-price-api").innerHTML = "$" + prices[3];
-    document.getElementById("doge-price-api").innerHTML = "$" + prices[4];
+    document.getElementById("doge-price-api").innerHTML = "$" + prices[1];
+    document.getElementById("eth-price-api").innerHTML = "$" + prices[2];
+	document.getElementById("bnb-price-api").innerHTML = "$" + prices[3];
+	document.getElementById("matic-price-api").innerHTML = "$" + prices[4];
 	document.getElementById("sol-price-api").innerHTML = "$" + prices[5];
-	document.getElementById("trx-price-api").innerHTML = "$" + prices[6];
 }
 
 //////////////////////////////
 calculate = function(prices){
     var btcPrice = prices[0]
-        ethPrice = prices[1]
-		bnbPrice = prices[2]
-		maticPrice = prices[3]
-		dogePrice = prices[4]
+        dogePrice = prices[1]
+        ethPrice = prices[2]
+		bnbPrice = prices[3]
+		maticPrice = prices[4]
 		solPrice = prices[5]
-		trxPrice = prices[6]
 		
     /////////////////////////////////////////////////
     // BTC CALC 10 MIN
@@ -354,55 +351,6 @@ calculate = function(prices){
         document.getElementById("yearsolD").innerText = "∙•●$●•∙"}
         else {
             document.getElementById("yearsolD").innerText = "$" + yearsolD.toFixed(5);
-        }
-/////////////////////////////////////////////////
-    // trx CALC 10 MIN
-    mintrx = document.getElementById("mintrx").innerHTML;
-    mintrxD = Number(mintrx) * trxPrice
-    if (isNaN(mintrxD)) {
-        document.getElementById("mintrxD").innerText = "∙•●$●•∙"}
-        else {
-            document.getElementById("mintrxD").innerText = "$" + mintrxD.toFixed(5);
-        }
-    // trx CALC HOUR
-    hourtrx = document.getElementById("hourtrx").innerHTML;
-    hourtrxD = Number(hourtrx) * trxPrice
-    if (isNaN(hourtrxD)) {
-        document.getElementById("hourtrxD").innerText = "∙•●$●•∙"}
-        else {
-            document.getElementById("hourtrxD").innerText = "$" + hourtrxD.toFixed(5);
-        }
-    // trx CALC DAY
-    daytrx = document.getElementById("daytrx").innerHTML;
-    daytrxD = Number(daytrx) * trxPrice
-    if (isNaN(daytrxD)) {
-        document.getElementById("daytrxD").innerText = "∙•●$●•∙"}
-        else {
-            document.getElementById("daytrxD").innerText = "$" + daytrxD.toFixed(5);
-        }
-    // trx CALC WEEK
-    weektrx = document.getElementById("weektrx").innerHTML;
-    weektrxD = Number(weektrx) * trxPrice
-    if (isNaN(weektrxD)) {
-        document.getElementById("weektrxD").innerText = "∙•●$●•∙"}
-        else {
-            document.getElementById("weektrxD").innerText = "$" + weektrxD.toFixed(5);
-        }    
-    // trx CALC MONTH
-    monthtrx = document.getElementById("monthtrx").innerHTML;
-    monthtrxD = Number(monthtrx) * trxPrice
-    if (isNaN(mintrxD)) {
-        document.getElementById("monthtrxD").innerText = "∙•●$●•∙"}
-        else {
-            document.getElementById("monthtrxD").innerText = "$" + monthtrxD.toFixed(5);
-        }    
-    // trx CALC YEAR
-    yeartrx = document.getElementById("yeartrx").innerHTML;
-    yeartrxD = Number(yeartrx) * trxPrice
-    if (isNaN(yeartrxD)) {
-        document.getElementById("yeartrxD").innerText = "∙•●$●•∙"}
-        else {
-            document.getElementById("yeartrxD").innerText = "$" + yeartrxD.toFixed(5);
         }
     }
 
