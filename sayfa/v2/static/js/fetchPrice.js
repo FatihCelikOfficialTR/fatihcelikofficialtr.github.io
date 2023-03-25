@@ -1,6 +1,6 @@
 fetchData = function(){
 
-    fetch('https://api.coingecko.com/api/v3/simple/price?ids=matic-network%2Ctezos%2Ctron%2Cbitcoin%2Cethereum%2Cdogecoin%2Cbinancecoin%2Ctether%2Czelcash%2Csolana&vs_currencies=usd', {
+    fetch('https://api.coingecko.com/api/v3/simple/price?ids=matic-network%2Ctezos%2Clitecoin%2Ctron%2Cbitcoin%2Cethereum%2Cdogecoin%2Cbinancecoin%2Ctether%2Czelcash%2Csolana&vs_currencies=usd', {
       method: 'GET', // or 'PUT'
       headers: {
         'Content-Type': 'application/json',
@@ -35,9 +35,10 @@ getResults = function(fetch_data){
     ethPrice = fetch_data.ethereum.usd
 	bnbPrice = fetch_data.binancecoin.usd
 	maticPrice = fetch_data.tezos.usd
+	ltcPrice = fetch_data.litecoin.usd
 	solPrice = fetch_data.solana.usd
 	trxPrice = fetch_data.tron.usd
-    return [btcPrice, dogePrice, ethPrice, bnbPrice, maticPrice, solPrice, trxPrice]
+    return [btcPrice, dogePrice, ethPrice, bnbPrice, maticPrice, ltcPrice, solPrice, trxPrice]
 }
 
 postResults = function(prices){
@@ -46,8 +47,9 @@ postResults = function(prices){
     document.getElementById("eth-price-api").innerHTML = "$" + prices[2];
 	document.getElementById("bnb-price-api").innerHTML = "$" + prices[3];
 	document.getElementById("matic-price-api").innerHTML = "$" + prices[4];
-	document.getElementById("sol-price-api").innerHTML = "$" + prices[5];
-	document.getElementById("trx-price-api").innerHTML = "$" + prices[6];
+	document.getElementById("ltc-price-api").innerHTML = "$" + prices[5];
+	document.getElementById("sol-price-api").innerHTML = "$" + prices[6];
+	document.getElementById("trx-price-api").innerHTML = "$" + prices[7];
 }
 
 //////////////////////////////
@@ -57,8 +59,9 @@ calculate = function(prices){
         ethPrice = prices[2]
 		bnbPrice = prices[3]
 		maticPrice = prices[4]
-		solPrice = prices[5]
-		trxPrice = prices[6]
+		ltcPrice = prices[5]
+		solPrice = prices[6]
+		trxPrice = prices[7]
 		
     /////////////////////////////////////////////////
     // BTC CALC 10 MIN
@@ -305,6 +308,55 @@ calculate = function(prices){
         document.getElementById("yearmaticD").innerText = "∙•●$●•∙"}
         else {
             document.getElementById("yearmaticD").innerText = "$" + yearmaticD.toFixed(5);
+        }
+    /////////////////////////////////////////////////
+    // ltc CALC 10 MIN
+    minltc = document.getElementById("minltc").innerHTML;
+    minltcD = Number(minltc) * ltcPrice
+    if (isNaN(minltcD)) {
+        document.getElementById("minltcD").innerText = "∙•●$●•∙"}
+        else {
+            document.getElementById("minltcD").innerText = "$" + minltcD.toFixed(5);
+        }
+    // ltc CALC HOUR
+    hourltc = document.getElementById("hourltc").innerHTML;
+    hourltcD = Number(hourltc) * ltcPrice
+    if (isNaN(hourltcD)) {
+        document.getElementById("hourltcD").innerText = "∙•●$●•∙"}
+        else {
+            document.getElementById("hourltcD").innerText = "$" + hourltcD.toFixed(5);
+        }
+    // ltc CALC DAY
+    dayltc = document.getElementById("dayltc").innerHTML;
+    dayltcD = Number(dayltc) * ltcPrice
+    if (isNaN(dayltcD)) {
+        document.getElementById("dayltcD").innerText = "∙•●$●•∙"}
+        else {
+            document.getElementById("dayltcD").innerText = "$" + dayltcD.toFixed(5);
+        }
+    // ltc CALC WEEK
+    weekltc = document.getElementById("weekltc").innerHTML;
+    weekltcD = Number(weekltc) * ltcPrice
+    if (isNaN(weekltcD)) {
+        document.getElementById("weekltcD").innerText = "∙•●$●•∙"}
+        else {
+            document.getElementById("weekltcD").innerText = "$" + weekltcD.toFixed(5);
+        }    
+    // ltc CALC MONTH
+    monthltc = document.getElementById("monthltc").innerHTML;
+    monthltcD = Number(monthltc) * ltcPrice
+    if (isNaN(minltcD)) {
+        document.getElementById("monthltcD").innerText = "∙•●$●•∙"}
+        else {
+            document.getElementById("monthltcD").innerText = "$" + monthltcD.toFixed(5);
+        }    
+    // ltc CALC YEAR
+    yearltc = document.getElementById("yearltc").innerHTML;
+    yearltcD = Number(yearltc) * ltcPrice
+    if (isNaN(yearltcD)) {
+        document.getElementById("yearltcD").innerText = "∙•●$●•∙"}
+        else {
+            document.getElementById("yearltcD").innerText = "$" + yearltcD.toFixed(5);
         }
 	/////////////////////////////////////////////////
     // sol CALC 10 MIN

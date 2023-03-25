@@ -9,6 +9,7 @@ calc = function(){
         distEth = document.getElementById("distEth").value,
 		distbnb = document.getElementById("distbnb").value,
 		distmatic = document.getElementById("distmatic").value,
+		distltc = document.getElementById("distltc").value,
 		distsol = document.getElementById("distsol").value,
 		disttrx = document.getElementById("disttrx").value,
         distRlt = document.getElementById("distRlt").value,
@@ -19,12 +20,13 @@ calc = function(){
         netEth = document.getElementById("netEth").value,
 		netbnb = document.getElementById("netbnb").value,
 		netmatic = document.getElementById("netmatic").value,
+		netltc = document.getElementById("netltc").value,
 		netsol = document.getElementById("netsol").value,
 		nettrx = document.getElementById("nettrx").value,
         netRlt = document.getElementById("netRlt").value,
 		netrst = document.getElementById("netrst").value;
         // Calc Total Net Power
-        totalNet = Number(netBtc) + Number(netDoge) + Number(netEth) + Number(netbnb) + Number(netmatic) + Number(netsol) + Number(nettrx) + Number(netRlt) + Number(netrst);
+        totalNet = Number(netBtc) + Number(netDoge) + Number(netEth) + Number(netbnb) + Number(netmatic) + Number(netltc) + Number(netsol) + Number(nettrx) + Number(netRlt) + Number(netrst);
     document.getElementById("totalNet").innerText = totalNet.toFixed(3);
 
     var blockBtc = document.getElementById("blockBtc").innerText/100000000,
@@ -33,6 +35,7 @@ calc = function(){
 		blockbnb = document.getElementById("blockbnb").innerText,
 		blockmatic = document.getElementById("blockmatic").innerText,
 		blocksol = document.getElementById("blocksol").innerText,
+		blockltc = document.getElementById("blockltc").innerText,
 		blocktrx = document.getElementById("blocktrx").innerText,
         blockRlt = document.getElementById("blockRlt").innerText,
 		blockrst = document.getElementById("blockrst").innerText;
@@ -423,6 +426,83 @@ calc = function(){
         document.getElementById("yearmaticD").innerText = "【⛏】"}
         else {
             document.getElementById("yearmaticD").innerText = "$" + yearmaticD.toFixed(5);
+        }
+//LITECOIN HESAPLAMA ARACI//
+    var ltcPower = ((Number(totalRate)/1000) * Number(distltc))/100
+        ltcPrice1 = document.getElementById('ltc-price-api').innerHTML
+        ltcPrice = Number(ltcPrice1.substring(1))
+        minltc = (Number(ltcPower)*blockltc)/(Number(netltc)*1000)
+        minltcD = Number(minltc) * ltcPrice
+        hourltc = Number(minltc) * 6
+        hourltcD = Number(hourltc) * ltcPrice
+        dayltc = Number(hourltc) * 24 
+        dayltcD = Number(dayltc) * ltcPrice
+        weekltc = Number(dayltc) * 7
+        weekltcD = Number(weekltc) * ltcPrice
+        monthltc = Number(dayltc) * 30
+        monthltcD = Number(monthltc) * ltcPrice
+        yearltc = Number(dayltc) * 365
+        yearltcD = Number(yearltc) * ltcPrice
+
+    if ((isNaN(minltc))||!(isFinite(minltc))) {
+        document.getElementById("minltc").innerText = "【⛏】"}
+        else {
+            document.getElementById("minltc").innerText = minltc.toFixed(10);
+        }
+    if ((isNaN(hourltc))||!(isFinite(hourltc))) {
+        document.getElementById("hourltc").innerText = "【⛏】"}
+        else {
+            document.getElementById("hourltc").innerText = hourltc.toFixed(10);
+        }
+    if ((isNaN(dayltc))||!(isFinite(dayltc))) {
+        document.getElementById("dayltc").innerText = "【⛏】"}
+        else {
+            document.getElementById("dayltc").innerText = dayltc.toFixed(10);
+        }
+    if ((isNaN(weekltc))||!(isFinite(weekltc))) {
+        document.getElementById("weekltc").innerText = "【⛏】"}
+        else {
+            document.getElementById("weekltc").innerText = weekltc.toFixed(10);
+        }
+    if ((isNaN(monthltc))||!(isFinite(monthltc))) {
+        document.getElementById("monthltc").innerText = "【⛏】"}
+        else {
+            document.getElementById("monthltc").innerText = monthltc.toFixed(10);
+        }
+    if ((isNaN(yearltc))||!(isFinite(yearltc))) {
+        document.getElementById("yearltc").innerText = "【⛏】"}
+        else {
+            document.getElementById("yearltc").innerText = yearltc.toFixed(10);
+        }
+    if ((isNaN(minltcD))||!(isFinite(minltcD))) {
+        document.getElementById("minltcD").innerText = "【⛏】"}
+        else {
+            document.getElementById("minltcD").innerText = "$" + minltcD.toFixed(5);
+        }
+    if ((isNaN(hourltcD))||!(isFinite(hourltcD))) {
+        document.getElementById("hourltcD").innerText = "【⛏】"}
+        else {
+            document.getElementById("hourltcD").innerText = "$" + hourltcD.toFixed(5);
+        }
+    if ((isNaN(dayltcD))||!(isFinite(dayltcD))) {
+        document.getElementById("dayltcD").innerText = "【⛏】"}
+        else {
+            document.getElementById("dayltcD").innerText = "$" + dayltcD.toFixed(5);
+        }
+    if ((isNaN(weekltcD))||!(isFinite(weekltcD))) {
+        document.getElementById("weekltcD").innerText = "【⛏】"}
+        else {
+            document.getElementById("weekltcD").innerText = "$" + weekltcD.toFixed(5);
+        }
+    if ((isNaN(monthltcD))||!(isFinite(monthltcD))) {
+        document.getElementById("monthltcD").innerText = "【⛏】"}
+        else {
+            document.getElementById("monthltcD").innerText = "$" + monthltcD.toFixed(5);
+        }
+    if ((isNaN(yearltcD))||!(isFinite(yearltcD))) {
+        document.getElementById("yearltcD").innerText = "【⛏】"}
+        else {
+            document.getElementById("yearltcD").innerText = "$" + yearltcD.toFixed(5);
         }
 //SOLANA HESAPLAMA ARACI//
     var solPower = ((Number(totalRate)/1000) * Number(distsol))/100
