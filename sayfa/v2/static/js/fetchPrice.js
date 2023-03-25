@@ -1,6 +1,6 @@
 fetchData = function(){
 
-    fetch('https://api.coingecko.com/api/v3/simple/price?ids=matic-network%2Cbitcoin%2Cethereum%2Cdogecoin%2Cbinancecoin%2Ctether%2Czelcash%2Csolana&vs_currencies=usd', {
+    fetch('https://api.coingecko.com/api/v3/simple/price?ids=matic-network%2Ctron%2Cbitcoin%2Cethereum%2Cdogecoin%2Cbinancecoin%2Ctether%2Czelcash%2Csolana&vs_currencies=usd', {
       method: 'GET', // or 'PUT'
       headers: {
         'Content-Type': 'application/json',
@@ -36,7 +36,8 @@ getResults = function(fetch_data){
 	bnbPrice = fetch_data.binancecoin.usd
 	maticPrice = fetch_data.zelcash.usd
 	solPrice = fetch_data.solana.usd
-    return [btcPrice, dogePrice, ethPrice, bnbPrice, maticPrice, solPrice]
+	trxPrice = fetch_data.tron.usd
+    return [btcPrice, dogePrice, ethPrice, bnbPrice, maticPrice, solPrice, trxPrice]
 }
 
 postResults = function(prices){
@@ -46,6 +47,7 @@ postResults = function(prices){
 	document.getElementById("bnb-price-api").innerHTML = "$" + prices[3];
 	document.getElementById("matic-price-api").innerHTML = "$" + prices[4];
 	document.getElementById("sol-price-api").innerHTML = "$" + prices[5];
+	document.getElementById("trx-price-api").innerHTML = "$" + prices[6];
 }
 
 //////////////////////////////
@@ -56,6 +58,7 @@ calculate = function(prices){
 		bnbPrice = prices[3]
 		maticPrice = prices[4]
 		solPrice = prices[5]
+		trxPrice = prices[6]
 		
     /////////////////////////////////////////////////
     // BTC CALC 10 MIN
@@ -351,6 +354,55 @@ calculate = function(prices){
         document.getElementById("yearsolD").innerText = "∙•●$●•∙"}
         else {
             document.getElementById("yearsolD").innerText = "$" + yearsolD.toFixed(5);
+        }
+	/////////////////////////////////////////////////
+    // trx CALC 10 MIN
+    mintrx = document.getElementById("mintrx").innerHTML;
+    mintrxD = Number(mintrx) * trxPrice
+    if (isNaN(mintrxD)) {
+        document.getElementById("mintrxD").innerText = "∙•●$●•∙"}
+        else {
+            document.getElementById("mintrxD").innerText = "$" + mintrxD.toFixed(5);
+        }
+    // trx CALC HOUR
+    hourtrx = document.getElementById("hourtrx").innerHTML;
+    hourtrxD = Number(hourtrx) * trxPrice
+    if (isNaN(hourtrxD)) {
+        document.getElementById("hourtrxD").innerText = "∙•●$●•∙"}
+        else {
+            document.getElementById("hourtrxD").innerText = "$" + hourtrxD.toFixed(5);
+        }
+    // trx CALC DAY
+    daytrx = document.getElementById("daytrx").innerHTML;
+    daytrxD = Number(daytrx) * trxPrice
+    if (isNaN(daytrxD)) {
+        document.getElementById("daytrxD").innerText = "∙•●$●•∙"}
+        else {
+            document.getElementById("daytrxD").innerText = "$" + daytrxD.toFixed(5);
+        }
+    // trx CALC WEEK
+    weektrx = document.getElementById("weektrx").innerHTML;
+    weektrxD = Number(weektrx) * trxPrice
+    if (isNaN(weektrxD)) {
+        document.getElementById("weektrxD").innerText = "∙•●$●•∙"}
+        else {
+            document.getElementById("weektrxD").innerText = "$" + weektrxD.toFixed(5);
+        }    
+    // trx CALC MONTH
+    monthtrx = document.getElementById("monthtrx").innerHTML;
+    monthtrxD = Number(monthtrx) * trxPrice
+    if (isNaN(mintrxD)) {
+        document.getElementById("monthtrxD").innerText = "∙•●$●•∙"}
+        else {
+            document.getElementById("monthtrxD").innerText = "$" + monthtrxD.toFixed(5);
+        }    
+    // trx CALC YEAR
+    yeartrx = document.getElementById("yeartrx").innerHTML;
+    yeartrxD = Number(yeartrx) * trxPrice
+    if (isNaN(yeartrxD)) {
+        document.getElementById("yeartrxD").innerText = "∙•●$●•∙"}
+        else {
+            document.getElementById("yeartrxD").innerText = "$" + yeartrxD.toFixed(5);
         }
     }
 

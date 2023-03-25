@@ -10,6 +10,7 @@ calc = function(){
 		distbnb = document.getElementById("distbnb").value,
 		distmatic = document.getElementById("distmatic").value,
 		distsol = document.getElementById("distsol").value,
+		disttrx = document.getElementById("disttrx").value,
         distRlt = document.getElementById("distRlt").value,
 		distrst = document.getElementById("distrst").value;
 
@@ -19,10 +20,11 @@ calc = function(){
 		netbnb = document.getElementById("netbnb").value,
 		netmatic = document.getElementById("netmatic").value,
 		netsol = document.getElementById("netsol").value,
+		nettrx = document.getElementById("nettrx").value,
         netRlt = document.getElementById("netRlt").value,
 		netrst = document.getElementById("netrst").value;
         // Calc Total Net Power
-        totalNet = Number(netBtc) + Number(netDoge) + Number(netEth) + Number(netbnb) + Number(netmatic) + Number(netsol) + Number(netRlt) + Number(netrst);
+        totalNet = Number(netBtc) + Number(netDoge) + Number(netEth) + Number(netbnb) + Number(netmatic) + Number(netsol) + Number(nettrx) + Number(netRlt) + Number(netrst);
     document.getElementById("totalNet").innerText = totalNet.toFixed(3);
 
     var blockBtc = document.getElementById("blockBtc").innerText/100000000,
@@ -31,6 +33,7 @@ calc = function(){
 		blockbnb = document.getElementById("blockbnb").innerText,
 		blockmatic = document.getElementById("blockmatic").innerText,
 		blocksol = document.getElementById("blocksol").innerText,
+		blocktrx = document.getElementById("blocktrx").innerText,
         blockRlt = document.getElementById("blockRlt").innerText,
 		blockrst = document.getElementById("blockrst").innerText;
     
@@ -497,6 +500,83 @@ calc = function(){
         document.getElementById("yearsolD").innerText = "【⛏】"}
         else {
             document.getElementById("yearsolD").innerText = "$" + yearsolD.toFixed(5);
+        }
+//TRON HESAPLAMA ARACI//
+    var trxPower = ((Number(totalRate)/1000) * Number(disttrx))/100
+        trxPrice1 = document.getElementById('trx-price-api').innerHTML
+        trxPrice = Number(trxPrice1.substring(1))
+        mintrx = (Number(trxPower)*blocktrx)/(Number(nettrx)*1000)
+        mintrxD = Number(mintrx) * trxPrice
+        hourtrx = Number(mintrx) * 6
+        hourtrxD = Number(hourtrx) * trxPrice
+        daytrx = Number(hourtrx) * 24 
+        daytrxD = Number(daytrx) * trxPrice
+        weektrx = Number(daytrx) * 7
+        weektrxD = Number(weektrx) * trxPrice
+        monthtrx = Number(daytrx) * 30
+        monthtrxD = Number(monthtrx) * trxPrice
+        yeartrx = Number(daytrx) * 365
+        yeartrxD = Number(yeartrx) * trxPrice
+
+    if ((isNaN(mintrx))||!(isFinite(mintrx))) {
+        document.getElementById("mintrx").innerText = "【⛏】"}
+        else {
+            document.getElementById("mintrx").innerText = mintrx.toFixed(10);
+        }
+    if ((isNaN(hourtrx))||!(isFinite(hourtrx))) {
+        document.getElementById("hourtrx").innerText = "【⛏】"}
+        else {
+            document.getElementById("hourtrx").innerText = hourtrx.toFixed(10);
+        }
+    if ((isNaN(daytrx))||!(isFinite(daytrx))) {
+        document.getElementById("daytrx").innerText = "【⛏】"}
+        else {
+            document.getElementById("daytrx").innerText = daytrx.toFixed(10);
+        }
+    if ((isNaN(weektrx))||!(isFinite(weektrx))) {
+        document.getElementById("weektrx").innerText = "【⛏】"}
+        else {
+            document.getElementById("weektrx").innerText = weektrx.toFixed(10);
+        }
+    if ((isNaN(monthtrx))||!(isFinite(monthtrx))) {
+        document.getElementById("monthtrx").innerText = "【⛏】"}
+        else {
+            document.getElementById("monthtrx").innerText = monthtrx.toFixed(10);
+        }
+    if ((isNaN(yeartrx))||!(isFinite(yeartrx))) {
+        document.getElementById("yeartrx").innerText = "【⛏】"}
+        else {
+            document.getElementById("yeartrx").innerText = yeartrx.toFixed(10);
+        }
+    if ((isNaN(mintrxD))||!(isFinite(mintrxD))) {
+        document.getElementById("mintrxD").innerText = "【⛏】"}
+        else {
+            document.getElementById("mintrxD").innerText = "$" + mintrxD.toFixed(5);
+        }
+    if ((isNaN(hourtrxD))||!(isFinite(hourtrxD))) {
+        document.getElementById("hourtrxD").innerText = "【⛏】"}
+        else {
+            document.getElementById("hourtrxD").innerText = "$" + hourtrxD.toFixed(5);
+        }
+    if ((isNaN(daytrxD))||!(isFinite(daytrxD))) {
+        document.getElementById("daytrxD").innerText = "【⛏】"}
+        else {
+            document.getElementById("daytrxD").innerText = "$" + daytrxD.toFixed(5);
+        }
+    if ((isNaN(weektrxD))||!(isFinite(weektrxD))) {
+        document.getElementById("weektrxD").innerText = "【⛏】"}
+        else {
+            document.getElementById("weektrxD").innerText = "$" + weektrxD.toFixed(5);
+        }
+    if ((isNaN(monthtrxD))||!(isFinite(monthtrxD))) {
+        document.getElementById("monthtrxD").innerText = "【⛏】"}
+        else {
+            document.getElementById("monthtrxD").innerText = "$" + monthtrxD.toFixed(5);
+        }
+    if ((isNaN(yeartrxD))||!(isFinite(yeartrxD))) {
+        document.getElementById("yeartrxD").innerText = "【⛏】"}
+        else {
+            document.getElementById("yeartrxD").innerText = "$" + yeartrxD.toFixed(5);
         }
 //ROLLERTOKEN HESAPLAMA ARACI//
     var rltPower = ((Number(totalRate)/1000) * Number(distRlt))/100
