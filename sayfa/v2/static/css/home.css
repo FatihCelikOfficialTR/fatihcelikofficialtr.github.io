@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Sarpanch:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+font-family: 'Alkatra', cursive;
 
 
 input::-webkit-outer-spin-button,
@@ -18,8 +19,9 @@ display: block;
 
 .hero {
   font-size: 15px;
-  /*font-family: 'Sarpanch', sans-serif; */
-  font-family: 'Righteous', cursive;
+  /*font-family: 'Sarpanch', sans-serif;
+  font-family: 'Righteous', cursive; */
+  font-family: 'Alkatra', cursive;
 }
 
 .hero .container {
@@ -248,12 +250,10 @@ display: block;
   font-family: 'Poppins';
   font-size: 0.9rem;
   cursor: pointer;
-  font-weight: bold;
   border-radius: 0.3em 0.3em 0 0;
 }
 
 .hero .tabs-layout .tabs-header .data-tab-btn:hover {
-  font-weight: bold;
 }
 
 .hero .tabs-layout .tabs-header .results-tab-btn {
@@ -268,7 +268,6 @@ display: block;
 }
 
 .hero .tabs-layout .tabs-header .results-tab-btn:hover {
-  font-weight: bold;
 }
 
 .hero .tabs-layout .tab1-content {
@@ -289,8 +288,6 @@ display: block;
   padding: 0.3rem 0.5rem;
   color: #a9d924;
   border-radius: 0.3rem 0.3rem 0 0;
-  font-weight: bold;
-
 }
 
 .hero .tabs-layout .tab1-content .box-haftalıködüller {
