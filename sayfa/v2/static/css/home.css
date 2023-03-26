@@ -9,6 +9,15 @@ input::-webkit-inner-spin-button {
   margin: 0;
 }
 
+::-webkit-scrollbar {
+    background: #2f3045;
+    width: 7px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: red;
+}
+
 .fcimg {
   width: 90%;
   height: auto;
