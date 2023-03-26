@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Sarpanch:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
-font-family: 'Alkatra', cursive;
+
 
 
 input::-webkit-outer-spin-button,
@@ -19,9 +19,8 @@ display: block;
 
 .hero {
   font-size: 15px;
-  /*font-family: 'Sarpanch', sans-serif;
-  font-family: 'Righteous', cursive; */
-  font-family: 'Alkatra', cursive;
+	font-family: 'Sarpanch', sans-serif;
+  /*font-family: 'Righteous', cursive;*/
 }
 
 .hero .container {
