@@ -19,8 +19,5 @@
   height: auto;
   border:2px solid red;
   box-shadow: 0px -10px 30px #ccc;
-  border-top-left-radius:75px;
-  border-top-right-radius:75px;
-  border-bottom-left-radius:0px;
-  border-bottom-right-radius:0px;
+
 }
