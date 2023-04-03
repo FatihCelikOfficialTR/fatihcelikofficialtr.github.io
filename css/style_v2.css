@@ -604,7 +604,7 @@ footer {
   border-radius: 3px;
   margin-left: 5px;
   margin-right: 5px;
-  background-color: #1e1a3e;
+  background-color: #434a56;
 }
 /*
   This is where we define the fill, color, thickness,
@@ -616,7 +616,7 @@ footer {
 #shape {
   stroke-width: 6px;
   fill: transparent;
-  stroke: #009FFD;
+  stroke: red;
   stroke-dasharray: 85 400;
   stroke-dashoffset: -220;
   transition: 1s all ease;
@@ -646,5 +646,5 @@ make it thinner, then set it to again wrap around the entire parent element.
   stroke-dasharray: 50 0;
   stroke-width: 5px;
   stroke-dashoffset: 0;
-  stroke: blue;
+  stroke: red;
 }
