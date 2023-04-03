@@ -206,3 +206,5 @@ document.addEventListener("DOMContentLoaded", () => {
   const drawer = new DrawerMenu(drawerElement);
   drawer.init();
 });
+
+/* YENİ BUTTON AYARLARI */
