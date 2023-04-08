@@ -365,9 +365,9 @@ tr .name {
   font-size: 25px;
 }
 
-/* footer 
+/* footer */
 
-footer {
+footer1 {
   background: #f7f9fb;
   font-family: 'Russo One', sans-serif;
   height: auto;
@@ -375,14 +375,13 @@ footer {
   color: #000;
 }
 
-.footer-content {
+.footer1-content {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   text-align: center;
 }
-*/
 
 ul {
     margin: 0px;
