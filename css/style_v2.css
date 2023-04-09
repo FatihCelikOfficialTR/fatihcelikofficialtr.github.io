@@ -97,7 +97,7 @@ rgb(180,180,180),3px 3px 0 rgb(158,158,158), 4px 4px 0 rgb(136,136,136),5px
 	border-radius: 21px 21px 21px 21px;
 	-moz-border-radius: 21px 21px 21px 21px;
 	-webkit-border-radius: 21px 21px 21px 21px;
-	border: 6px double red;
+	border: 6px double #a33838;
 }
 
 .card-header {
