@@ -86,6 +86,13 @@ rgb(180,180,180),3px 3px 0 rgb(158,158,158), 4px 4px 0 rgb(136,136,136),5px
 5px 4px rgba(0,0,0,0.6),5px 5px 1px rgba(0,0,0,0.5),0px 0px 4px rgba(0,0,0,.2);
 }
 
+.card-body {
+	background: #0E1119; /* background: #151414; */
+	color: #00ff0f;
+	font-size: 13px;
+	text-shadow: 0px 0px 2px #00ff0f, -1px -1px #000;
+}
+
 #myInput {
   background-image: url('/css/searchicon.png'); /* Add a search icon to input */
   background-position: 10px 12px; /* Position the search icon */
@@ -124,12 +131,6 @@ rgb(180,180,180),3px 3px 0 rgb(158,158,158), 4px 4px 0 rgb(136,136,136),5px
 	background-image: url('https://www.mmsrn.com/wp-content/uploads/2016/04/sol-%C3%BCst-k%C3%B6%C5%9Fe-1.png'); /* Add a search icon to input */
 	background-position: top left;
 	background-repeat : no-repeat
-}
-
-.card-body {
-	background: #0E1119; /* background: #151414; */
-	color: #f1f1f1;
-	font-size: 13px;
 }
 
 /* font-family: 'Russo One', sans-serif; */
