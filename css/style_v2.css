@@ -765,6 +765,7 @@ ul {
   height: 100%;
   top: 0;
   left: 0;
+  font-size: 15px;
 }
 /*
     This is the outer svg wrapper that the SVG itself will 
