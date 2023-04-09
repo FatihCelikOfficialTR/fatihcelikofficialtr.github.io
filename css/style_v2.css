@@ -29,15 +29,11 @@
   font-family: 'Caveat Brush', cursive;
   font-size: 13px;
   text-decoration:none;
+  color: black
 }
 
 .fcinput {
 	text-align: center;
-	background: #2f3045;
-}
-
-.important {
-    color: red;
 }
 
 .table-responsive {
@@ -89,16 +85,15 @@ rgb(180,180,180),3px 3px 0 rgb(158,158,158), 4px 4px 0 rgb(136,136,136),5px
 
 .card-body {
 	background: #0E1119; /* background: #151414; */
-	color: #00ff0f;
 	font-size: 13px;
-	text-shadow: 0px 0px 2px #00ff0f, -1px -1px #000;
+	color: red;
 	border-radius: 0px 0px 14px 14px;
 }
 
 .card-fc {
 	width: 100%;
+	color: white;
 	background: black; /* background: #151414; */
-	color: #00ff0f;
 	border-radius: 21px 21px 21px 21px;
 	-moz-border-radius: 21px 21px 21px 21px;
 	-webkit-border-radius: 21px 21px 21px 21px;
@@ -107,6 +102,7 @@ rgb(180,180,180),3px 3px 0 rgb(158,158,158), 4px 4px 0 rgb(136,136,136),5px
 
 .card-header {
 	font-size: 14px;
+	color: #00ff0f;
 }
 
 #myInput {
@@ -200,11 +196,7 @@ input[type="number"]::-webkit-outer-spin-button {
   background: #ffc8ff !important;
   /* box-shadow: 0 0 0 0.2rem rgb(236, 208, 255) !important; */
   box-shadow: 0 0 0 0.015rem #877fdc !important;
-}
-
-.form-control {
-  border: 0.118em solid;
-  background: #3c33a2 !important;
+  color: red
 }
 
 /*Table*/
