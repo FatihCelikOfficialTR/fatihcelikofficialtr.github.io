@@ -86,7 +86,7 @@ rgb(180,180,180),3px 3px 0 rgb(158,158,158), 4px 4px 0 rgb(136,136,136),5px
 .card-body {
 	background: #0E1119; /* background: #151414; */
 	font-size: 13px;
-	color: #F08765;
+	color: #00ff0f;
 	border-radius: 0px 0px 14px 14px;
 }
 
@@ -684,18 +684,15 @@ ul {
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,700);
 
 .yenitablo th h1 {
-	font-weight: bold;
 	font-size: 13px;
 	text-align: center;
-	color: red;
+	color: #0E1119;
 }
 
 .yenitablo td {
 	font-weight: normal;
 	font-size: 13px;
-	-webkit-box-shadow: 0 2px 2px -2px #0E1119;
-	-moz-box-shadow: 0 2px 2px -2px #0E1119;
-	box-shadow: 0 2px 2px -2px #0E1119;
+
 }
 
 .yenitablo {
@@ -705,7 +702,6 @@ ul {
 	margin: 0 auto;
 	display: table;
 	padding: 0 0 8em 0;
-	color: red;
 }
 
 .yenitablo td, .yenitablo th {
