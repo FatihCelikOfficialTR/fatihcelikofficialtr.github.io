@@ -95,14 +95,14 @@ rgb(180,180,180),3px 3px 0 rgb(158,158,158), 4px 4px 0 rgb(136,136,136),5px
 }
 
 .card-fc {
-  width: 100%;
+	width: 100%;
 	background: black; /* background: #151414; */
 	color: #00ff0f;
 	font-size: 13px;
-border-radius: 21px 21px 21px 21px;
--moz-border-radius: 21px 21px 21px 21px;
--webkit-border-radius: 21px 21px 21px 21px;
-border: 6px double #000000;
+	border-radius: 21px 21px 21px 21px;
+	-moz-border-radius: 21px 21px 21px 21px;
+	-webkit-border-radius: 21px 21px 21px 21px;
+	border: 6px double #000000;
 }
 
 #myInput {
