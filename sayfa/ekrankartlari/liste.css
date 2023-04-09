@@ -124,16 +124,15 @@ rgb(180,180,180),3px 3px 0 rgb(158,158,158), 4px 4px 0 rgb(136,136,136),5px
 
 /* FİLTRELENEN ÖĞELER İÇİN "GÖSTER" KISMI */
 .show {
-  display: flex;
-  text-decoration:none;
+	display: flex;
+	text-decoration:none;
+	padding: 3px;
 }
 
 /* MENÜ AYARLARI */
 .btnn {
   background: #434a56;
-  margin: 1px;
-  padding: 5px 10px;
-  border-radius: 5px;
+  padding: 5px 8px;
   color: white;
   font-family: 'Russo One', sans-serif;
 }
