@@ -91,6 +91,18 @@ rgb(180,180,180),3px 3px 0 rgb(158,158,158), 4px 4px 0 rgb(136,136,136),5px
 	color: #00ff0f;
 	font-size: 13px;
 	text-shadow: 0px 0px 2px #00ff0f, -1px -1px #000;
+	border-radius: 0px 0px 14px 14px;
+}
+
+.card-fc {
+  width: 100%;
+	background: black; /* background: #151414; */
+	color: #00ff0f;
+	font-size: 13px;
+border-radius: 21px 21px 21px 21px;
+-moz-border-radius: 21px 21px 21px 21px;
+-webkit-border-radius: 21px 21px 21px 21px;
+border: 6px double #000000;
 }
 
 #myInput {
@@ -350,10 +362,6 @@ tr .name {
   padding-left: var(--bs-gutter-x,.75rem);
   margin-right: auto;
   margin-left: auto;
-}
-
-.card {
-  width: 100%;
 }
 
 .başlık {
