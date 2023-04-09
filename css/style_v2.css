@@ -25,6 +25,12 @@
   text-decoration:none;
 }
 
+.drawer-menu {
+  font-family: 'Caveat Brush', cursive;
+  font-size: 13px;
+  text-decoration:none;
+}
+
 .fcinput {
 	text-align: center;
 }
