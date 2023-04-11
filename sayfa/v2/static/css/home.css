@@ -289,6 +289,10 @@ display: block;
 
 .hero .tabs-layout .tab1-content .box {
   padding: 0.5rem;
+border-radius: 10px 10px 10px 10px;
+-moz-border-radius: 10px 10px 10px 10px;
+-webkit-border-radius: 10px 10px 10px 10px;
+border: 5px double #2f3045;
 }
 
 .hero .tabs-layout .tab1-content .box-title {
@@ -382,10 +386,12 @@ display: block;
 .hero .tabs-layout .tab2-content {
   display: none;
   color: white;
-  border-radius: 0 0 0.3em 0.3em;
   background: #6e6b8f;
   padding: 0.1rem 0;
-
+border-radius: 10px 10px 10px 10px;
+-moz-border-radius: 10px 10px 10px 10px;
+-webkit-border-radius: 10px 10px 10px 10px;
+border: 5px double #2f3045;
 }
 
 .hero .tabs-layout .tab2-content .coin-box {
