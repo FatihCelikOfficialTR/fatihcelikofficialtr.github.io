@@ -185,7 +185,6 @@ input[type="number"]::-webkit-inner-spin-button,
 input[type="number"]::-webkit-outer-spin-button {
   -webkit-appearance: none;
   margin: 0;
-  
 }
 
 /* Form control , form select */
@@ -197,6 +196,16 @@ input[type="number"]::-webkit-outer-spin-button {
   /* box-shadow: 0 0 0 0.2rem rgb(236, 208, 255) !important; */
   box-shadow: 0 0 0 0.015rem #877fdc !important;
 }
+
+.form-select,
+.form-control,
+.input-group-text {
+  background: #434a56 !important;
+  color: #0E1119 !important;
+  /* box-shadow: 0 0 0 0.2rem rgb(236, 208, 255) !important; */
+  box-shadow: 0 0 0 0.015rem #877fdc !important;
+}
+
 
 /*Table*/
 .table {
