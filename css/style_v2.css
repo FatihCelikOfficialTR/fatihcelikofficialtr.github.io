@@ -191,7 +191,7 @@ input[type="number"]::-webkit-outer-spin-button {
 
 .form-select:focus,
 .form-control:focus {
-  background: #ffc8ff !important;
+  background: #434a56 !important;
   /* box-shadow: 0 0 0 0.2rem rgb(236, 208, 255) !important; */
   box-shadow: 0 0 0 0.015rem #877fdc !important;
 }
