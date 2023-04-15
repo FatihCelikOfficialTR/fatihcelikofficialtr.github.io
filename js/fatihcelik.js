@@ -213,11 +213,9 @@ const tBody= document.getElementById('table-body');
 
 let flights= [
     {
-        time: '#1',
         remarks: 'Genel olarak blok ödülleri güncellenmiştir!'
     },
     {
-        time: '#2',
         remarks: 'Web sitemizin şablonu değiştirildi!'
     },
 
