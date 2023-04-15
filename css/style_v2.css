@@ -825,3 +825,87 @@ make it thinner, then set it to again wrap around the entire parent element.
   stroke-dashoffset: 0;
   stroke: red;
 }
+
+/* BOARD KISMI */
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
+
+.departures{
+    background-color: rgba(0, 0, 0, 0.384);
+    border-radius: 10px;
+    padding: 10px;
+}
+.departures table{
+    text-align: center;
+}
+.departures table th{  
+    background-color: rgba(0, 0, 0, 0.103);
+    color: rgb(255, 255, 255);
+    text-align: left;
+}
+.departures table td{
+    background-color: rgba(0, 0, 0, 0.103);
+    overflow: hidden;
+}
+.departures table div{
+    position:relative;
+    float: left;
+    margin: 1px;
+    min-height: 24px;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+}   
+
+.text-slide{
+    transform-style: preserve-3d;
+    perspective: 1000px;
+    animation: 10s  rolling;
+}
+@keyframes rolling {
+    0% {
+        top: 4em;
+    }
+    25%{
+        top: 0em;
+    }
+    50%{
+        top: 0;
+    }
+    65%{
+        top: 0;
+    }
+    75%{
+        top: 0em;
+    }
+    100%{
+        top: 4em;
+    }
+}
+@media only screen and (max-width: 600px) {
+    *{
+        font-size: 9px;
+        font-weight:200;
+    }
+    
+    header{
+        font-size: 24px;
+        padding: 3px;
+    }
+    #time{
+        width: 40px;
+    }
+    #destination{
+        width: 100px;
+    }
+    #flight{
+        width: 47px;
+    }
+    #hall{
+        width: 30px;
+    }
+    #State{
+        width: 80px;
+    }
+    .departures table div{
+        min-height: 12px;
+    }
+}
