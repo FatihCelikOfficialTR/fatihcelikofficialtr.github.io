@@ -238,7 +238,7 @@ tr .name {
 /* Botones mostrar modal */
 .btn-show {
   background-color: #4e42d4;
-  border-radius: 2px;
+
   border-style: none;
   box-shadow: 1px 0px #3c33a2, 0px 1px #3c33a2, 2px 1px #3c33a2, 1px 2px #3c33a2,
     3px 2px #3c33a2, 2px 3px #3c33a2, 4px 3px #3c33a2, 3px 4px #3c33a2,
