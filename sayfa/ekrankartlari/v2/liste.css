@@ -46,13 +46,13 @@ a { text-decoration:none!important; }
 .musour-color button::before { display:none; }
 
 
-.musour-right { background:var(--backgroundTwo);background:linear-gradient(to bottom left,var(--accentOne),var(--accentTwo));border-radius:50px 0px 0px 0px;padding:75px;min-width:490px;box-shadow: 0px 0px 20px rgba(44,44,44,.1);box-shadow:none; }
-.musour-right .grid { max-height:calc(100vh - 150px);overflow:auto; }
+.musour-right { background:var(--backgroundTwo);background:linear-gradient(to bottom left,var(--accentOne),var(--accentTwo));border-radius:15px 0px 0px 0px;padding:15px;min-width:500px;box-shadow: 0px 0px 20px rgba(44,44,44,.1);box-shadow:none; }
+.musour-right .grid { max-height:calc(100vh - 45px);overflow:auto; }
 .musour-right .grid::-webkit-scrollbar-thumb { background-color:var(--background);border-radius:5px; }
 .musour-right .grid::-webkit-scrollbar { width:10px; }
-.musour-icon { background-color:var(--background);padding:15px;border-radius:15px;width:125px;margin:0px 25px 25px 0px;box-shadow: 5px 5px 10px -3px rgba(44,44,44,.05);height:170px;transform:scale(1);transition:.3s all; }
+.musour-icon { background-color:var(--background);padding:0px;border-radius:15px;width:125px;margin:0px 25px 25px 0px;box-shadow: 5px 5px 10px -3px rgba(44,44,44,.05);height:170px;transform:scale(1);transition:.3s all; }
 .musour-icon img {;border-radius:5px 5px 0px 0px;margin-bottom:0px!important;display:block;filter:grayscale(75%) contrast(100%);opacity:1;transition:.3s all; }
-.musour-icon div { border-radius:0px 0px 5px 5px;background-color:var(--backgroundTwo);padding:10px;font:11px var(--body);color:var(--text);text-transform:lowercase;line-height:13px;font-style:italic;height:50px;display:flex;flex-direction:column;justify-content:center; }
+.musour-icon div { border-radius:0px 0px 5px 5px;background-color:var(--backgroundTwo);padding:0px;font:11px var(--body);color:var(--text);text-transform:lowercase;line-height:13px;font-style:italic;height:50px;display:flex;flex-direction:column;justify-content:center; }
 .musour-icon div b { display:block;font-style:normal!important;color:var(--accentOne);text-transform:uppercase; }
 .musour-icon:hover { transform:scale(1); }
 .musour-icon:hover img { opacity:1;filter:grayscale(0%) contrast(100%)!important; }
