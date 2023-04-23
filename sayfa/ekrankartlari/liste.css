@@ -26,18 +26,12 @@ background: #FFFFFF;
 .minerözellikleri {
   font-family: 'Russo One', sans-serif;
   font-size: 14px;
--webkit-border-radius: 21px;
--moz-border-radius: 21px;
-border-radius: 21px;
 }
 
 .minerşablon {
   text-decoration:none;
   background: #9ca6ba;
   color: black;
--webkit-border-radius: 21px;
--moz-border-radius: 21px;
-border-radius: 21px;
 }
 
 .urlayarı {
@@ -76,7 +70,6 @@ rgb(180,180,180),3px 3px 0 rgb(158,158,158), 4px 4px 0 rgb(136,136,136),5px
 
 /* Create three equal columns that floats next to each other */
 .column { 
-	padding: 2.5px;
 	display: none; /* Hide all elements by default */
 	text-decoration:none;
 }
