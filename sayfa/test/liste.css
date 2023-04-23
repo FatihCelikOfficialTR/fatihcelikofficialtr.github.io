@@ -1,13 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
+
 :root {
-  --accentOne: #A3B29F;
+  --accentOne: red;
   --accentTwo: #D1D3B9;
   --accentThree: #D2BD76;
-  --background: #eeeeee;
-  --backgroundTwo: #e5e5e5;
-  --text: #555555;
+  --background: #2f3045;
+  --backgroundTwo: #202020;
+  --text: white;
   
-  --title: Oranienbaum, serif;
-  --body: Open Sans, sans serif;
+  --title: Bruno Ace SC, cursive;
+  --body: Bruno Ace SC, cursive;
 }
 body { margin:0px!important;background-color:var(--background); }
 a { text-decoration:none!important; }
