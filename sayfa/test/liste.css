@@ -47,7 +47,7 @@ a { text-decoration:none!important; }
 
 
 .musour-right { background:var(--backgroundTwo);background:linear-gradient(to bottom left,var(--accentOne),var(--accentTwo));border-radius:50px 0px 0px 0px;padding:75px;min-width:490px;box-shadow: 0px 0px 20px rgba(44,44,44,.1);box-shadow:none; }
-.musour-right .grid {overflow:auto; }
+.musour-right .grid { max-height:calc(100vh - 150px);overflow:auto; }
 .musour-right .grid::-webkit-scrollbar-thumb { background-color:var(--background);border-radius:5px; }
 .musour-right .grid::-webkit-scrollbar { width:10px; }
 .musour-icon { background-color:var(--background);padding:15px;border-radius:15px;width:100px;margin:0px 25px 25px 0px;box-shadow: 5px 5px 10px -3px rgba(44,44,44,.05);height:170px;transform:scale(1);transition:.3s all; }
