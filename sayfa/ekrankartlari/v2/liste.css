@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
+
+:root {
+  --accentOne: red;
+  --accentTwo: #D1D3B9;
+  --accentThree: #D2BD76;
+  --background: #2f3045;
+  --backgroundTwo: #202020;
+  --text: white;
+  
+  --title: Bruno Ace SC, cursive;
+  --body: Bruno Ace SC, cursive;
+}
+body { margin:0px!important;background-color:var(--background); }
+a { text-decoration:none!important; }
+.musour { display:grid;height:100vh;width:100vw;grid-template-columns:280px auto;overflow-y:hidden; }
+.musour-left { padding:50px;color:var(--text);font:12px var(--body);display:flex;height:calc(100vh - 100px);flex-direction:column; }
+.musour-title { font:40px var(--title);line-height:40px;padding-top:3px; }
+.musour-title div { font-size:99px;margin-left:-2px;line-height:80px;color:var(--accentOne); }
+.musour-title-2 { background:linear-gradient(to bottom left,var(--accentOne),var(--accentTwo));font:700 10px var(--body);line-height:10px;padding:14px 0px 16px 4px;text-align:center;color:var(--background);letter-spacing:4.2px;border-radius:10px;margin:15px 0px 30px 0px;cursor:pointer;transition:.3s all; }
+.musour-title-2:hover {opacity:.8; }
+.musour-blurb { text-align:justify;line-height:18px; }
+.musour-filters { margin-top:30px;flex-grow:1;overflow:auto; }
+.musour-filters::-webkit-scrollbar-thumb { border-left:solid 15px var(--background);background:linear-gradient(to bottom,var(--accentOne),var(--accentTwo)); }
+.musour-filters::-webkit-scrollbar { width:16px; }
+.musour-filters div { display:flex;flex-direction:column; }
+.musour-filters h1 { background-color:var(--backgroundTwo);font:700 10px var(--body);line-height:10px;padding:14px 0px 16px 4px;text-align:center;color:var(--text);letter-spacing:4.2px;border-radius:10px;margin:20px 0px;text-transform:uppercase;line-height:12px; }
+.musour-filters button { margin-top:0px;border:none;background:transparent;text-align:left;padding:0px;cursor:pointer;font:12px var(--body);color:var(--text);line-height:20px;transition:.3s all; }
+.musour-filters .is-checked { font-weight:700!important; }
+.musour-filters button::before { content:'+';color:var(--accentOne);padding-right:5px; }
+.musour-filters button:hover { color:var(--accentOne); }
+
+.musour-color { flex-direction:row!important;flex-wrap:wrap;justify-content:center;gap:8px; }
+.musour-color button { height:20px;width:20px;background:linear-gradient(to bottom left,var(--accentOne),var(--accentTwo));border-radius:3px; }
+.musour-color .red { background:#B45758!important; }
+.musour-color .orange { background:#AE8657!important; }
+.musour-color .yellow { background:#AAA95F!important; }
+.musour-color .green { background:#5C916B!important; }
+.musour-color .blue { background:#6599B0!important; }
+.musour-color .purple { background:#8564AD!important; }
+.musour-color .pink { background:#B9619D!important; }
+.musour-color .brown { background:#735E45!important; }
+.musour-color .black { background:#555555!important; }
+.musour-color .gray { background:#bbbbbb!important; }
+.musour-color .white { background:var(--backgroundTwo)!important; }
+.musour-color button::before { display:none; }
+
+
+.musour-right { background:var(--backgroundTwo);background:linear-gradient(to bottom left,var(--accentOne),var(--accentTwo));border-radius:50px 0px 0px 0px;padding:75px;min-width:490px;box-shadow: 0px 0px 20px rgba(44,44,44,.1);box-shadow:none; }
+.musour-right .grid { max-height:calc(100vh - 150px);overflow:auto; }
+.musour-right .grid::-webkit-scrollbar-thumb { background-color:var(--background);border-radius:5px; }
+.musour-right .grid::-webkit-scrollbar { width:10px; }
+.musour-icon { background-color:var(--background);padding:15px;border-radius:15px;width:125px;margin:0px 25px 25px 0px;box-shadow: 5px 5px 10px -3px rgba(44,44,44,.05);height:170px;transform:scale(1);transition:.3s all; }
+.musour-icon img {;border-radius:5px 5px 0px 0px;margin-bottom:0px!important;display:block;filter:grayscale(75%) contrast(100%);opacity:1;transition:.3s all; }
+.musour-icon div { border-radius:0px 0px 5px 5px;background-color:var(--backgroundTwo);padding:10px;font:11px var(--body);color:var(--text);text-transform:lowercase;line-height:13px;font-style:italic;height:50px;display:flex;flex-direction:column;justify-content:center; }
+.musour-icon div b { display:block;font-style:normal!important;color:var(--accentOne);text-transform:uppercase; }
+.musour-icon:hover { transform:scale(1); }
+.musour-icon:hover img { opacity:1;filter:grayscale(0%) contrast(100%)!important; }
+
+
+/* SEVİYELİ MİNER AYARLARI */
+
+.yildiz {
+	background-image: url(https://rollercoin.com/static/images/level_star.4ff18517e5e8eed42060..png);
+	background-repeat: no-repeat;
+}
+
+.svbir {
+	background-image: url(https://rollercoin.com/static/img/storage/rarity_icons/level_1.png);
+	background-repeat: no-repeat;
+}
+
+.sviki {
+	background-image: url(https://rollercoin.com/static/img/storage/rarity_icons/level_2.png);
+	background-repeat: no-repeat;
+}
+.svuc {
+	background-image: url(https://rollercoin.com/static/img/storage/rarity_icons/level_3.png);
+	background-repeat: no-repeat;
+}
+.svdort {
+	background-image: url(https://rollercoin.com/static/img/storage/rarity_icons/level_4.png);
+	background-repeat: no-repeat;
+}
+.svbes {
+	background-image: url(https://rollercoin.com/static/img/storage/rarity_icons/level_5.png);
+	background-repeat: no-repeat;
+}
+.svalti {
+	background-image: url(https://rollercoin.com/static/img/storage/rarity_icons/level_6.png);
+	background-repeat: no-repeat;
+}
