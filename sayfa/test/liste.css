@@ -61,32 +61,32 @@ a { text-decoration:none!important; }
 /* SEVİYELİ MİNER AYARLARI */
 
 .yildiz {
-	background-image: url(https://rollercoin.com/static/images/star.341866cda99678593251..svg);
+	background-image: url(https://rollercoin.com/static/images/level_star.4ff18517e5e8eed42060..png);
 	background-repeat: no-repeat;
 }
 
 .svbir {
-	background-image: url(https://rollercoin.com/static/img/storage/rarity_icons/level_1.png?v=1.0.0);
+	background-image: url(https://rollercoin.com/static/img/storage/rarity_icons/level_1.png);
 	background-repeat: no-repeat;
 }
 
 .sviki {
-	background-image: url(https://rollercoin.com/static/img/storage/rarity_icons/level_2.png?v=1.0.0);
+	background-image: url(https://rollercoin.com/static/img/storage/rarity_icons/level_2.png);
 	background-repeat: no-repeat;
 }
 .svuc {
-	background-image: url(https://rollercoin.com/static/img/storage/rarity_icons/level_3.png?v=1.0.0);
+	background-image: url(https://rollercoin.com/static/img/storage/rarity_icons/level_3.png);
 	background-repeat: no-repeat;
 }
 .svdort {
-	background-image: url(https://rollercoin.com/static/img/storage/rarity_icons/level_4.png?v=1.0.0);
+	background-image: url(https://rollercoin.com/static/img/storage/rarity_icons/level_4.png);
 	background-repeat: no-repeat;
 }
 .svbes {
-	background-image: url(https://rollercoin.com/static/img/storage/rarity_icons/level_5.png?v=1.0.0);
+	background-image: url(https://rollercoin.com/static/img/storage/rarity_icons/level_5.png);
 	background-repeat: no-repeat;
 }
 .svalti {
-	background-image: url(https://rollercoin.com/static/img/storage/rarity_icons/level_6.png?v=1.0.0);
+	background-image: url(https://rollercoin.com/static/img/storage/rarity_icons/level_6.png);
 	background-repeat: no-repeat;
 }
