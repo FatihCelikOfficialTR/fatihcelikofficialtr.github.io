@@ -68,28 +68,28 @@ a { text-decoration:none!important; }
 	background-repeat: no-repeat;
 }
 
-.svbir {
+.s1 {
 	background-image: url(https://rollercoin.com/static/img/storage/rarity_icons/level_1.png);
 	background-repeat: no-repeat;
 }
 
-.sviki {
+.s2 {
 	background-image: url(https://rollercoin.com/static/img/storage/rarity_icons/level_2.png);
 	background-repeat: no-repeat;
 }
-.svuc {
+.s3 {
 	background-image: url(https://rollercoin.com/static/img/storage/rarity_icons/level_3.png);
 	background-repeat: no-repeat;
 }
-.svdort {
+.s4 {
 	background-image: url(https://rollercoin.com/static/img/storage/rarity_icons/level_4.png);
 	background-repeat: no-repeat;
 }
-.svbes {
+.s5 {
 	background-image: url(https://rollercoin.com/static/img/storage/rarity_icons/level_5.png);
 	background-repeat: no-repeat;
 }
-.svalti {
+.s6 {
 	background-image: url(https://rollercoin.com/static/img/storage/rarity_icons/level_6.png);
 	background-repeat: no-repeat;
 }
