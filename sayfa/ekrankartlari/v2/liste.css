@@ -59,7 +59,7 @@ a { text-decoration:none!important; }
 .musour-icon:hover img { opacity:1;filter:grayscale(0%) contrast(100%)!important; }
 
 .musour-blurb2 { text-align:justify;line-height:18px;font:20px var(--title); }
-.musour-icon b2 {font-style:normal!important;color:var(--accentOne2);text-transform:uppercase;font-size:12px; }
+.musour-icon b2 {font-style:normal!important;color:var(--accentOne2);text-transform:uppercase;font-size:11px; }
 
 /* SEVİYELİ MİNER AYARLARI */
 
