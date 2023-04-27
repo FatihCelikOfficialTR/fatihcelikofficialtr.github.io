@@ -61,7 +61,18 @@
         <p class="logo"><img src="./img/logo.png" width="auto" height="50"/></p>
       </div>
 	  
-      <nav class="global-header__nav" aria-label="サイト内メニュー">
+<div class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle" type="button" id="drop_yazı" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Language
+  </button>
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    <a class="dropdown-item"  id="tr" href="#">Türkçe</a>
+    <a class="dropdown-item" id="en" href="#">English</a>
+   
+  </div>
+</div>
+
+	  <nav class="global-header__nav" aria-label="サイト内メニュー">
         <button class="menu-button js-menu-open-trigger" type="button" aria-label="メニューを開く">
           <span class="menu-button__icon" data-type="open"></span>
         </button>
@@ -138,16 +149,7 @@
 	  </center></div>
 </div>
 <!--===============================================================================================-->
-<div class="dropdown">
-  <button class="btn btn-secondary dropdown-toggle" type="button" id="drop_yazı" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-    Language
-  </button>
-  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-    <a class="dropdown-item"  id="tr" href="#">Türkçe</a>
-    <a class="dropdown-item" id="en" href="#">English</a>
-   
-  </div>
-</div>
+
 <!--===============================================================================================-->
 </header>
                                 <!--h6 class="card-header head">📣 RCHesapla Yenilendi! / 17.08.2022</h6-->
@@ -333,7 +335,7 @@
 </center>
 <!--===============================================================================================-->
 						<div class="card-fc my-1 head" id="hidden-satoshi">
-                                <h6 class="card-header head">➾ SATOSHI'yi, BITCOIN'e DÖNÜŞTÜR</h6>
+                                <h6 class="card-header head" key="satoshidönüştür">➾ SATOSHI'yi, BITCOIN'e DÖNÜŞTÜR</h6>
                                 <div class="card-body">
                                     <div class="row">
                                         <div class="col-12 col-sm-12 col-md-6">
@@ -356,7 +358,7 @@
                                             </div>
                                         </div>
                                     </div>
-<label><img src="./img/svg/bilgi.svg" width="15" height="15"> BTC'ye dönüştür ne kadar kazandığını öğren.</label>
+<label><img src="./img/svg/bilgi.svg" width="15" height="15"><a key="s-açıklama">BTC'ye dönüştür ne kadar kazandığını öğren.</a></label>
                                 </div>
                             </div>
                         </div>

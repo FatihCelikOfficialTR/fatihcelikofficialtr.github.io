@@ -21,8 +21,8 @@ $(document).ready(function() {
 			'haftalık':'Haftalık',
 			'aylık':'Aylık',
 			'yıllık':'Yıllık',
-            '12':"Avrupa'nın her yerinden Hanya havalimanına ulaşabilirsiniz.",
-            '13':'İçeriğin yeniden boyutlandırmaya nasıl yanıt verdiğini görmek için tarayıcı penceresini yeniden boyutlandırın.'
+            'satoshidönüştür':"➾ SATOSHI'yi, BITCOIN'e DÖNÜŞTÜR",
+            's-açıklama':' BTC,ye dönüştür ne kadar kazandığını öğren.'
  
 
 
@@ -46,8 +46,8 @@ $(document).ready(function() {
 			'haftalık':'Weekly',
 			'aylık':'Monthly',
 			'yıllık':'Yearly',
-            '12':'You can reach Chania airport from all over Europe.',
-            '13':'Resize the browser window to see how the content respond to the resizing.'
+            'satoshidönüştür':'➾ CONVERT SATOSHI TO BITCOIN',
+            's-açıklama':' Convert to BTC and find out how much you earn.'
         },
         
         
