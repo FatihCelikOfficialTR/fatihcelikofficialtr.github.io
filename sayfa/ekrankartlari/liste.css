@@ -20,7 +20,7 @@ a { text-decoration:none!important; }
 .musour-left { padding:50px;color:var(--text);font:12px var(--body);display:flex;height:calc(100vh - 100px);flex-direction:column; }
 .musour-title { font:40px var(--title);line-height:40px;padding-top:3px; }
 .musour-title div { font-size:99px;margin-left:-2px;line-height:80px;color:var(--accentOne); }
-.musour-title-2 { background:linear-gradient(to bottom left,var(--accentOne),var(--accentTwo));font:700 10px var(--body);line-height:10px;padding:14px 0px 16px 4px;text-align:center;color:var(--background);letter-spacing:4.2px;border-radius:10px;margin:15px 0px 30px 0px;cursor:pointer;transition:.3s all; }
+.musour-title-2 { background:linear-gradient(to bottom left,var(--accentOne),var(--accentTwo));font:700 10px var(--body);line-height:10px;padding:14px 0px 16px 4px;text-align:center;color:var(--background);border-radius:10px;margin:15px 0px 30px 0px;cursor:pointer;transition:.3s all; }
 .musour-title-2:hover {opacity:.8; }
 .musour-blurb { text-align:justify;line-height:18px; }
 .musour-filters { margin-top:1px;flex-grow:50px;overflow:auto; }
