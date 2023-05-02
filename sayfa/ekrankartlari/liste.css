@@ -22,7 +22,7 @@ a { text-decoration:none!important; }
 .musour-title div { font-size:99px;margin-left:-2px;line-height:80px;color:var(--accentOne); }
 .musour-title-2 { background:linear-gradient(to bottom left,var(--accentOne),var(--accentTwo));font:700 10px var(--body);line-height:10px;padding:14px 0px 16px 4px;text-align:center;color:var(--background);border-radius:10px;margin:15px 0px 30px 0px;cursor:pointer;transition:.3s all; }
 .musour-title-2:hover {opacity:.8; }
-.musour-blurb { text-align:justify;line-height:18px; }
+.musour-blurb { text-align:center;line-height:18px; }
 .musour-filters { margin-top:1px;flex-grow:50px;overflow:auto; }
 .musour-filters::-webkit-scrollbar-thumb { border-left:solid 15px var(--background);background:linear-gradient(to bottom,var(--accentOne),var(--accentTwo)); }
 .musour-filters::-webkit-scrollbar { width:16px; }
