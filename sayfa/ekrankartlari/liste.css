@@ -1,179 +1,97 @@
-/* TABLO YAZI TİPİ DEĞİŞTİRME */
-@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap');
-/* TABLO YAZI TİPİ DEĞİŞTİRME */
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
 
-/* ANA ŞABLON KODLARI */
-.mineradı {
-  font-family: 'Russo One', sans-serif;
-  font-size: 15px;
-  box-shadow: 0px 1.2px 0px black;
-  -webkit-border-radius: 21px;
--moz-border-radius: 21px;
-border-radius: 21px;
+:root {
+  --accentOne: yellow;
+  --accentOne2: white;
+  --accentTwo: #D1D3B9;
+  --accentThree: #D2BD76;
+  --background: #2f3045;
+  --backgroundTwo: #202020;
+  --text: white;
+  
+  --seçilen: red;
+  
+  --title: Bruno Ace SC, cursive;
+  --body: Bruno Ace SC, cursive;
 }
+body { margin:0px!important;background-color:var(--background); }
+a { text-decoration:none!important; }
+.musour { display:grid;height:100vh;width:100vw;grid-template-columns:280px auto;overflow-y:hidden; }
+.musour-left { padding:50px;color:var(--text);font:12px var(--body);display:flex;height:calc(100vh - 100px);flex-direction:column; }
+.musour-title { font:40px var(--title);line-height:40px;padding-top:3px; }
+.musour-title div { font-size:99px;margin-left:-2px;line-height:80px;color:var(--accentOne); }
+.musour-title-2 { background:linear-gradient(to bottom left,var(--accentOne),var(--accentTwo));font:700 10px var(--body);line-height:10px;padding:14px 0px 16px 4px;text-align:center;color:var(--background);letter-spacing:4.2px;border-radius:10px;margin:15px 0px 30px 0px;cursor:pointer;transition:.3s all; }
+.musour-title-2:hover {opacity:.8; }
+.musour-blurb { text-align:justify;line-height:18px; }
+.musour-filters { margin-top:1px;flex-grow:50px;overflow:auto; }
+.musour-filters::-webkit-scrollbar-thumb { border-left:solid 15px var(--background);background:linear-gradient(to bottom,var(--accentOne),var(--accentTwo)); }
+.musour-filters::-webkit-scrollbar { width:16px; }
+.musour-filters div { display:flex;flex-direction:column; }
+.musour-filters h1 { background-color:var(--backgroundTwo);font:700 10px var(--body);line-height:10px;padding:14px 0px 16px 4px;text-align:center;color:var(--text);border-radius:10px;text-transform:uppercase;line-height:12px; }
+.musour-filters button { margin-top:0px;border:none;background:transparent;text-align:left;padding:0px;cursor:pointer;font:14px var(--body);color:var(--text);line-height:20px;transition:.3s all; }
+.musour-filters .is-checked { font-weight:700!important;color:var(--seçilen); }
+.musour-filters button::before { content:'+';color:var(--accentOne);padding-right:5px; }
+.musour-filters button:hover { color:var(--accentOne); }
 
-#demotext {
-color: #333333;
-background: #FFFFFF;
-text-shadow: 2px 2px 0px #FFFFFF, 5px 4px 0px rgba(0,0,0,0.15);
-color: #333333;
-background: #FFFFFF;
-}
-
-.minerözellikleri {
-  font-family: 'Russo One', sans-serif;
-  font-size: 14px;
-}
-
-.minerşablon {
-  text-decoration:none;
-  background: #9ca6ba;
-  color: black;
-}
-
-.urlayarı {
-	text-decoration:none;
-	color: black;
-	-webkit-border-radius: 21px;
--moz-border-radius: 21px;
-border-radius: 21px;
-}
-.urlayarı:hover {
-	color: white;
-}
-
-.markettegit {
-  margin: 1px;
-  border-radius: 5px;
-  color: black;
-  font-family: 'Russo One', sans-serif;
-  font-size: 16px;
-}
+.musour-color { flex-direction:row!important;flex-wrap:wrap;justify-content:center;gap:8px; }
+.musour-color button { height:20px;width:20px;background:linear-gradient(to bottom left,var(--accentOne),var(--accentTwo));border-radius:3px; }
+.musour-color .red { background:#B45758!important; }
+.musour-color .orange { background:#AE8657!important; }
+.musour-color .yellow { background:#AAA95F!important; }
+.musour-color .green { background:#5C916B!important; }
+.musour-color .blue { background:#6599B0!important; }
+.musour-color .purple { background:#8564AD!important; }
+.musour-color .pink { background:#B9619D!important; }
+.musour-color .brown { background:#735E45!important; }
+.musour-color .black { background:#555555!important; }
+.musour-color .gray { background:#bbbbbb!important; }
+.musour-color .white { background:var(--backgroundTwo)!important; }
+.musour-color button::before { display:none; }
 
 
+.musour-right { background:var(--backgroundTwo);background:linear-gradient(to bottom left,var(--accentOne),var(--accentTwo));border-radius:15px 0px 0px 0px;padding:15px;min-width:500px;box-shadow: 0px 0px 20px rgba(44,44,44,.1);box-shadow:none; }
+.musour-right .grid { max-height:calc(100vh - 45px);overflow:auto; }
+.musour-right .grid::-webkit-scrollbar-thumb { background-color:var(--background);border-radius:5px; }
+.musour-right .grid::-webkit-scrollbar { width:10px; }
+.musour-icon { background-color:var(--background);padding:0px;border-radius:15px;width:127px;margin:0px 5px 5px 0px;box-shadow: 5px 5px 10px -3px rgba(44,44,44,.05);height:auto;transform:scale(1);transition:.3s all; }
+.musour-icon img {border-radius:5px 5px 0px 0px;margin-bottom:0px!important;display:block;filter:grayscale(75%) contrast(100%);opacity:1;transition:.3s all; }
+.musour-icon div { border-radius:0px 0px 5px 5px;background-color:var(--backgroundTwo);padding:0px;font:10px var(--body);color:var(--text);text-transform:lowercase;line-height:13px;font-style:italic;height:50px;display:flex;flex-direction:column;justify-content:center; }
+.musour-icon div b { display:block;font-style:normal!important;color:var(--accentOne);text-transform:uppercase;font-size:10px; }
+.musour-icon:hover { transform:scale(1); }
+.musour-icon:hover img { opacity:1;filter:grayscale(0%) contrast(100%)!important; }
 
-.arkaplanrengi {
-text-shadow: 0px 0px 0 rgb(223,223,223),1px 1px 0 rgb(202,202,202),2px 2px 0 
-rgb(180,180,180),3px 3px 0 rgb(158,158,158), 4px 4px 0 rgb(136,136,136),5px 
-5px 4px rgba(0,0,0,0.6),5px 5px 1px rgba(0,0,0,0.5),0px 0px 4px rgba(0,0,0,.2);
-}
+.musour-blurb2 { text-align:center;line-height:18px;font:20px var(--title); }
+.musour-icon b2 {font-style:normal!important;color:var(--accentOne2);text-transform:uppercase;font-size:11px; }
 
-.row2 {
-  display:flex;
-  flex-wrap:wrap;
-  text-align: center;
-  text-decoration:none;
-}
-
-/* Create three equal columns that floats next to each other */
-.column { 
-	display: none; /* Hide all elements by default */
-	text-decoration:none;
-}
-
-.myBtnContainer {
-  margin: auto;
-}
-
-.asit2{
-font: 80px;
-font-family: 'Russo One', sans-serif;
-color:#00ff0f;
-text-shadow: 0px 0px 10px #00ff0f, -1px -1px #000;
-}
-
-.ucboyut2{
-font: 80px;
-font-family: 'Russo One', sans-serif;
-color: #fff;
-text-shadow: 0px 1px 0px #999, 0px 2px 0px #888, 0px 3px 0px #777, 0px 4px 0px #666, 0px 5px 0px #555, 0px 6px 0px #444, 0px 7px 0px #333, 0px 8px 7px #001135;
-}
-
-.alfa2{
-font-family: 'Russo One', sans-serif;
-color: black;
-text-shadow: 0px 0px 0 rgb(223,223,223),1px 1px 0 rgb(202,202,202),2px 2px 0 
-rgb(180,180,180),3px 3px 0 rgb(158,158,158), 4px 4px 0 rgb(136,136,136),5px 
-5px 4px rgba(0,0,0,0.6),5px 5px 1px rgba(0,0,0,0.5),0px 0px 4px rgba(0,0,0,.2);
-}
-
-/* İÇERİK AYARLARI */
-/* 1. Resim https://i.pinimg.com/originals/10/4a/f8/104af85aaeb789450a7852d87595740b.png */
-/* 2. Resim https://cutewallpaper.org/24/celebrate-png/celebration-png-transparent-images-png-all.png > Kullanılan*/
-.content {
-	background-image: url(https://cutewallpaper.org/24/celebrate-png/celebration-png-transparent-images-png-all.png);
-	background-size: cover;
-	box-shadow: 0 0 3px black, 0 0 5px red;	
-}
-
-.bonus {
-	background-image: url(https://rollercoin.com/static/images/arrow_top_cyan.0c480b8075fed9b13159..svg);
-	background-repeat: no-repeat;
-	background-position:35px top;
-}
-
-/* FİLTRELENEN ÖĞELER İÇİN "GÖSTER" KISMI */
-.show {
-	display: flex;
-	text-decoration:none;
-	padding: 3px;
-}
-
-/* MENÜ AYARLARI */
-.btnn {
-  background: #434a56;
-  padding: 5px 8px;
-  color: white;
-  font-family: 'Russo One', sans-serif;
-}
-
-.btnn:hover {
-  background-color: #00ff0f;
-}
-
-.btnn.active {
-  background-color: red;
-  color: white;
-}
-
-.ikon1 {
-    width: 25px; /*or your image's width*/
-    height: auto; /*or your image's height*/
-    margin: 0;
-    padding: 0;
-}
+/* SEVİYELİ MİNER AYARLARI */
 
 .yildiz {
-	background-image: url(https://rollercoin.com/static/images/star.341866cda99678593251..svg);
+	background-image: url(https://rollercoin.com/static/images/level_star.4ff18517e5e8eed42060..png);
 	background-repeat: no-repeat;
 }
 
-.svbir {
-	background-image: url(https://rollercoin.com/static/img/storage/rarity_icons/level_1.png?v=1.0.0);
+.s1 {
+	background-image: url(https://rollercoin.com/static/img/storage/rarity_icons/level_1.png);
 	background-repeat: no-repeat;
 }
 
-.sviki {
-	background-image: url(https://rollercoin.com/static/img/storage/rarity_icons/level_2.png?v=1.0.0);
+.s2 {
+	background-image: url(https://rollercoin.com/static/img/storage/rarity_icons/level_2.png);
 	background-repeat: no-repeat;
 }
-.svuc {
-	background-image: url(https://rollercoin.com/static/img/storage/rarity_icons/level_3.png?v=1.0.0);
+.s3 {
+	background-image: url(https://rollercoin.com/static/img/storage/rarity_icons/level_3.png);
 	background-repeat: no-repeat;
 }
-.svdort {
-	background-image: url(https://rollercoin.com/static/img/storage/rarity_icons/level_4.png?v=1.0.0);
+.s4 {
+	background-image: url(https://rollercoin.com/static/img/storage/rarity_icons/level_4.png);
 	background-repeat: no-repeat;
 }
-.svbes {
-	background-image: url(https://rollercoin.com/static/img/storage/rarity_icons/level_5.png?v=1.0.0);
+.s5 {
+	background-image: url(https://rollercoin.com/static/img/storage/rarity_icons/level_5.png);
 	background-repeat: no-repeat;
 }
-.svalti {
-	background-image: url(https://rollercoin.com/static/img/storage/rarity_icons/level_6.png?v=1.0.0);
+.s6 {
+	background-image: url(https://rollercoin.com/static/img/storage/rarity_icons/level_6.png);
 	background-repeat: no-repeat;
 }
-

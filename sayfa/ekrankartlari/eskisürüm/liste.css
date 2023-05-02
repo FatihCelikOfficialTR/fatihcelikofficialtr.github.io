@@ -1,0 +1,179 @@
+/* TABLO YAZI TİPİ DEĞİŞTİRME */
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap');
+/* TABLO YAZI TİPİ DEĞİŞTİRME */
+
+/* ANA ŞABLON KODLARI */
+.mineradı {
+  font-family: 'Russo One', sans-serif;
+  font-size: 15px;
+  box-shadow: 0px 1.2px 0px black;
+  -webkit-border-radius: 21px;
+-moz-border-radius: 21px;
+border-radius: 21px;
+}
+
+#demotext {
+color: #333333;
+background: #FFFFFF;
+text-shadow: 2px 2px 0px #FFFFFF, 5px 4px 0px rgba(0,0,0,0.15);
+color: #333333;
+background: #FFFFFF;
+}
+
+.minerözellikleri {
+  font-family: 'Russo One', sans-serif;
+  font-size: 14px;
+}
+
+.minerşablon {
+  text-decoration:none;
+  background: #9ca6ba;
+  color: black;
+}
+
+.urlayarı {
+	text-decoration:none;
+	color: black;
+	-webkit-border-radius: 21px;
+-moz-border-radius: 21px;
+border-radius: 21px;
+}
+.urlayarı:hover {
+	color: white;
+}
+
+.markettegit {
+  margin: 1px;
+  border-radius: 5px;
+  color: black;
+  font-family: 'Russo One', sans-serif;
+  font-size: 16px;
+}
+
+
+
+.arkaplanrengi {
+text-shadow: 0px 0px 0 rgb(223,223,223),1px 1px 0 rgb(202,202,202),2px 2px 0 
+rgb(180,180,180),3px 3px 0 rgb(158,158,158), 4px 4px 0 rgb(136,136,136),5px 
+5px 4px rgba(0,0,0,0.6),5px 5px 1px rgba(0,0,0,0.5),0px 0px 4px rgba(0,0,0,.2);
+}
+
+.row2 {
+  display:flex;
+  flex-wrap:wrap;
+  text-align: center;
+  text-decoration:none;
+}
+
+/* Create three equal columns that floats next to each other */
+.column { 
+	display: none; /* Hide all elements by default */
+	text-decoration:none;
+}
+
+.myBtnContainer {
+  margin: auto;
+}
+
+.asit2{
+font: 80px;
+font-family: 'Russo One', sans-serif;
+color:#00ff0f;
+text-shadow: 0px 0px 10px #00ff0f, -1px -1px #000;
+}
+
+.ucboyut2{
+font: 80px;
+font-family: 'Russo One', sans-serif;
+color: #fff;
+text-shadow: 0px 1px 0px #999, 0px 2px 0px #888, 0px 3px 0px #777, 0px 4px 0px #666, 0px 5px 0px #555, 0px 6px 0px #444, 0px 7px 0px #333, 0px 8px 7px #001135;
+}
+
+.alfa2{
+font-family: 'Russo One', sans-serif;
+color: black;
+text-shadow: 0px 0px 0 rgb(223,223,223),1px 1px 0 rgb(202,202,202),2px 2px 0 
+rgb(180,180,180),3px 3px 0 rgb(158,158,158), 4px 4px 0 rgb(136,136,136),5px 
+5px 4px rgba(0,0,0,0.6),5px 5px 1px rgba(0,0,0,0.5),0px 0px 4px rgba(0,0,0,.2);
+}
+
+/* İÇERİK AYARLARI */
+/* 1. Resim https://i.pinimg.com/originals/10/4a/f8/104af85aaeb789450a7852d87595740b.png */
+/* 2. Resim https://cutewallpaper.org/24/celebrate-png/celebration-png-transparent-images-png-all.png > Kullanılan*/
+.content {
+	background-image: url(https://cutewallpaper.org/24/celebrate-png/celebration-png-transparent-images-png-all.png);
+	background-size: cover;
+	box-shadow: 0 0 3px black, 0 0 5px red;	
+}
+
+.bonus {
+	background-image: url(https://rollercoin.com/static/images/arrow_top_cyan.0c480b8075fed9b13159..svg);
+	background-repeat: no-repeat;
+	background-position:35px top;
+}
+
+/* FİLTRELENEN ÖĞELER İÇİN "GÖSTER" KISMI */
+.show {
+	display: flex;
+	text-decoration:none;
+	padding: 3px;
+}
+
+/* MENÜ AYARLARI */
+.btnn {
+  background: #434a56;
+  padding: 5px 8px;
+  color: white;
+  font-family: 'Russo One', sans-serif;
+}
+
+.btnn:hover {
+  background-color: #00ff0f;
+}
+
+.btnn.active {
+  background-color: red;
+  color: white;
+}
+
+.ikon1 {
+    width: 25px; /*or your image's width*/
+    height: auto; /*or your image's height*/
+    margin: 0;
+    padding: 0;
+}
+
+.yildiz {
+	background-image: url(https://rollercoin.com/static/images/star.341866cda99678593251..svg);
+	background-repeat: no-repeat;
+}
+
+.svbir {
+	background-image: url(https://rollercoin.com/static/img/storage/rarity_icons/level_1.png?v=1.0.0);
+	background-repeat: no-repeat;
+}
+
+.sviki {
+	background-image: url(https://rollercoin.com/static/img/storage/rarity_icons/level_2.png?v=1.0.0);
+	background-repeat: no-repeat;
+}
+.svuc {
+	background-image: url(https://rollercoin.com/static/img/storage/rarity_icons/level_3.png?v=1.0.0);
+	background-repeat: no-repeat;
+}
+.svdort {
+	background-image: url(https://rollercoin.com/static/img/storage/rarity_icons/level_4.png?v=1.0.0);
+	background-repeat: no-repeat;
+}
+.svbes {
+	background-image: url(https://rollercoin.com/static/img/storage/rarity_icons/level_5.png?v=1.0.0);
+	background-repeat: no-repeat;
+}
+.svalti {
+	background-image: url(https://rollercoin.com/static/img/storage/rarity_icons/level_6.png?v=1.0.0);
+	background-repeat: no-repeat;
+}
+
