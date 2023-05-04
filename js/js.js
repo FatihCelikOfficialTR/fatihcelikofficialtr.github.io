@@ -16,8 +16,8 @@ function blockAmount() {
             break;
         case 1:
             //Doge - 60
-            var blockreward = 119;
-            document.getElementById("block-reward").value = 119;
+            var blockreward = 140;
+            document.getElementById("block-reward").value = 140;
 			document.getElementById("exp_reward").innerHTML = "❌ ⛏";
 			document.getElementById("daily").innerHTML = "❌ ⛏";
 			document.getElementById("weekly").innerHTML = "❌ ⛏";
