@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nova+Flat&display=swap');
+
+
 
 :root {
   --accentOne: yellow;
@@ -13,23 +16,23 @@
   --seçilen: red;
   
   --title: Bruno Ace SC, cursive;
-  --body: Barlow Condensed, cursive;
+  --body: Nova Flat, cursive;
 }
 body { margin:0px!important;background-color:var(--background); }
 a { text-decoration:none!important; }
 .musour { display:grid;height:100vh;width:100vw;grid-template-columns:280px auto;overflow-y:hidden; }
-.musour-left { padding:50px;color:var(--text);font:18px var(--body);display:flex;height:calc(100vh - 100px);flex-direction:column; }
+.musour-left { padding:10px;color:var(--text);font:15px var(--body);display:flex;height:calc(100vh - 100px);flex-direction:column; }
 .musour-title { font:40px var(--title);line-height:40px;padding-top:3px; }
 .musour-title div { font-size:99px;margin-left:-2px;line-height:80px;color:var(--accentOne); }
-.musour-title-2 { background:linear-gradient(to bottom left,var(--accentOne),var(--accentTwo));font:700 10px var(--body);line-height:10px;padding:14px 0px 16px 4px;text-align:center;color:var(--background);border-radius:10px;margin:15px 0px 30px 0px;cursor:pointer;transition:.3s all; }
+.musour-title-2 { background:linear-gradient(to bottom left,var(--accentOne),var(--accentTwo));font:700 13px var(--body);line-height:10px;padding:14px 0px 16px 4px;text-align:center;color:var(--background);border-radius:10px;margin:15px 0px 30px 0px;cursor:pointer;transition:.3s all; }
 .musour-title-2:hover {opacity:.8; }
 .musour-blurb { text-align:center;line-height:18px; }
-.musour-filters { margin-top:1px;flex-grow:50px;overflow:auto; }
+.musour-filters { margin-top:10px;flex-grow:100px;overflow:auto; }
 .musour-filters::-webkit-scrollbar-thumb { border-left:solid 15px var(--background);background:linear-gradient(to bottom,var(--accentOne),var(--accentTwo)); }
 .musour-filters::-webkit-scrollbar { width:16px; }
 .musour-filters div { display:flex;flex-direction:column; }
-.musour-filters h1 { background-color:var(--backgroundTwo);font:700 18px var(--body);line-height:10px;padding:14px 0px 16px 4px;text-align:center;color:var(--text);border-radius:10px;text-transform:uppercase;line-height:12px; }
-.musour-filters button { margin-top:0px;border:none;background:transparent;text-align:left;padding:0px;cursor:pointer;font:20px var(--body);color:var(--text);line-height:20px;transition:.3s all; }
+.musour-filters h1 { background-color:var(--backgroundTwo);font:700 15px var(--body);line-height:10px;padding:14px 0px 16px 4px;text-align:center;color:var(--text);border-radius:10px;text-transform:uppercase;line-height:12px; }
+.musour-filters button { margin-top:0px;border:none;background:transparent;text-align:left;padding:0px;cursor:pointer;font:15px var(--body);color:var(--text);line-height:20px;transition:.3s all; }
 .musour-filters .is-checked { font-weight:700!important;color:var(--seçilen); }
 .musour-filters button::before { content:'+';color:var(--accentOne);padding-right:5px; }
 .musour-filters button:hover { color:var(--accentOne); }
@@ -55,9 +58,9 @@ a { text-decoration:none!important; }
 .musour-right .grid::-webkit-scrollbar-thumb { background-color:var(--background);border-radius:5px; }
 .musour-right .grid::-webkit-scrollbar { width:10px; }
 .musour-icon { background-color:var(--background);padding:0px;border-radius:15px;width:127px;margin:0px 5px 5px 0px;box-shadow: 5px 5px 10px -3px rgba(44,44,44,.05);height:auto;transform:scale(1);transition:.3s all; }
-.musour-icon img {border-radius:5px 5px 0px 0px;margin-bottom:0px!important;display:block;filter:grayscale(75%) contrast(100%);opacity:1;transition:.3s all; }
-.musour-icon div { border-radius:0px 0px 5px 5px;background-color:var(--backgroundTwo);padding:0px;font:10px var(--body);color:var(--text);text-transform:lowercase;line-height:13px;font-style:italic;height:50px;display:flex;flex-direction:column;justify-content:center; }
-.musour-icon div b { display:block;font-style:normal!important;color:var(--accentOne);text-transform:uppercase;font-size:15px; }
+.musour-icon img {margin-bottom:0px!important;display:block;filter:grayscale(75%) contrast(100%);opacity:1;transition:.3s all; }
+.musour-icon div { border-radius:5px 5px 5px 5px;background-color:var(--backgroundTwo);padding:0px;font:10px var(--body);color:var(--text);line-height:15px;font-style:italic;height:50px;display:flex;flex-direction:column;justify-content:center; }
+.musour-icon div b { display:block;font-style:normal!important;color:var(--accentOne);text-transform:uppercase;font-size:13px; }
 .musour-icon:hover { transform:scale(1); }
 .musour-icon:hover img { opacity:1;filter:grayscale(0%) contrast(100%)!important; }
 
