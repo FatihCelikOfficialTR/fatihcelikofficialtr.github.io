@@ -30,6 +30,10 @@
 	<meta property="og:image" content="https://raw.githubusercontent.com/FatihCelikOfficialTR/rchesapla/main/nasilkullanilir/27-8-2022_rc.png">
     <meta property="og:url" content="https://fatihcelikofficialtr.github.io/">
 <!--===============================================================================================-->
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+<!--===============================================================================================-->
 </head>
 <!--===============================================================================================-->
 <body class="body" onload="calculateGoalPower(), blockAmount()">
@@ -41,19 +45,23 @@
   <div class="musour-title">
     <div>RC</div>Miner
   </div>
-  <a href="../../../index.html"><div class="musour-title-2">Ana Sayfa</div></a>
+  <a href="../../../index.html"><div class="musour-title-2" key="anasayfa"></div></a>
   <div class="musour-blurb">
-    Satın almak istediğiniz ekran kartın üstüne tıklayarak mağazaya gidebilirsiniz.
+    <p key="altaçıklama"></p>
   </div>
   <div class="musour-filters filters">
-  
-	<script>
+<div class="fc">
+	<h1 key="dilseçeneği"></h1>
+    <a class="dropdown-item" id="tr" href="#">Türkçe</a>
+    <a class="dropdown-item" id="en" href="#">English</a>
+</div>
+	<!--script>
 		const handleClick = () => {
 		alert("ÖNERİ ALIMLARIMIZ KAPALIDIR!");
 		}
 	</script>
   
-  <a target="_blank"><div class="musour-title-2" onClick="handleClick()">Önerin Nedir?</div></a>
+  <a target="_blank"><div class="musour-title-2" onClick="handleClick()">Önerin Nedir?</div></a-->
 	<!--h1>Yakında!</h1>
     <div class="button-group js-radio-button-group" data-filter-group="appearance">
     <button class="button is-checked" data-filter="">Hepsi</button>
@@ -78,9 +86,9 @@
     <button class="button" data-filter=".unnatural">unnatural</button>
     </div-->
     
-    <h1>BONUSLARA GÖRE</h1>
+    <h1 key="bonuslaragöre">BONUSLARA GÖRE</h1>
     <div class="button-group js-radio-button-group" data-filter-group="length">
-    <button class="button is-checked" data-filter="">Hepsi</button>
+    <button class="button is-checked" data-filter="" key="hepsi">Hepsi</button>
     <button class="button" data-filter=".b-10">%10</button>
 	<button class="button" data-filter=".b-6">%6</button>
 	<button class="button" data-filter=".b-5">%5</button>
@@ -123,9 +131,9 @@
 	Yakında eklenecek
     </div-->
 	
-	<h1>SEVİYELERE GÖRE</h1>
+	<h1 key="levelleregöre">SEVİYELERE GÖRE</h1>
     <div class="button-group js-radio-button-group" data-filter-group="seviyeleregöre">
-	<button class="button is-checked" data-filter="">Hepsi</button>
+	<button class="button is-checked" data-filter="" key="hepsi">Hepsi</button>
     <button class="button" data-filter=".s-yıldızlı"><img src="https://rollercoin.com/static/images/level_star.4ff18517e5e8eed42060..png"/></button>
 	<button class="button" data-filter=".s-2"><img src="https://rollercoin.com/static/img/storage/rarity_icons/level_2.png"/></button>
 	<button class="button" data-filter=".s-3"><img src="https://rollercoin.com/static/img/storage/rarity_icons/level_3.png"/></button>

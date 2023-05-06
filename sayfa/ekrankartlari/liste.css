@@ -13,6 +13,8 @@
   --backgroundTwo: #202020;
   --text: white;
   
+  --dilseçeneği: red;
+  
   --seçilen: red;
   
   --title: Bruno Ace SC, cursive;
@@ -109,3 +111,26 @@ a { text-decoration:none!important; }
 	background-image: url(https://rollercoin.com/static/img/storage/rarity_icons/level_6.png);
 	background-repeat: no-repeat;
 }
+
+/* DİL AYARLARI */
+.dil-menü ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.dil-menü li {
+  padding: 8px;
+  margin-bottom: 7px;
+  background-color: #33b5e5;
+  color: #ffffff;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.dil-menü li:hover {
+  background-color: #0099cc;
+}
+
+
+.fc a { background-color:var(--backgroundTwo);font:700 11px var(--body);line-height:10px;padding:11px 10px 11px 10px;text-align:center;color:var(--dilseçeneği);border-radius:10px;text-transform:uppercase;line-height:12px; }
+/* DİL AYARLARI */
