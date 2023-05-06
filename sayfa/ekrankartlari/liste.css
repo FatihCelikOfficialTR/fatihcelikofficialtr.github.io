@@ -69,6 +69,16 @@ a { text-decoration:none!important; }
 
 /* SEVİYELİ MİNER AYARLARI */
 
+.güç {
+	background-image: url(https://rollercoin.com/static/images/lightning.9aeb20686a6436fa05cd..svg);
+	background-repeat: no-repeat; 
+}
+
+.bonus {
+	background-image: url(https://rollercoin.com/static/images/arrow_top_cyan.0c480b8075fed9b13159..svg);
+	background-repeat: no-repeat;
+}
+
 .yildiz {
 	background-image: url(https://rollercoin.com/static/images/level_star.4ff18517e5e8eed42060..png);
 	background-repeat: no-repeat;
