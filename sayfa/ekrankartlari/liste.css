@@ -113,24 +113,5 @@ a { text-decoration:none!important; }
 }
 
 /* DİL AYARLARI */
-.dil-menü ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-.dil-menü li {
-  padding: 8px;
-  margin-bottom: 7px;
-  background-color: #33b5e5;
-  color: #ffffff;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-}
-
-.dil-menü li:hover {
-  background-color: #0099cc;
-}
-
-
 .fc img { background-color:var(--backgroundTwo);padding:5px 5px 5px 5px;border-radius:10px; }
 /* DİL AYARLARI */
