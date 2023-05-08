@@ -132,5 +132,5 @@ a { text-decoration:none!important; }
 }
 
 
-.fc a { background-color:var(--backgroundTwo);font:700 11px var(--body);line-height:10px;padding:11px 10px 11px 10px;text-align:center;color:var(--dilseçeneği);border-radius:10px;text-transform:uppercase;line-height:12px; }
+.fc img { background-color:var(--backgroundTwo);padding:5px 5px 5px 5px;border-radius:10px; }
 /* DİL AYARLARI */
