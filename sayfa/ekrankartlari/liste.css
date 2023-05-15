@@ -33,7 +33,7 @@ a { text-decoration:none!important; }
 .musour-filters::-webkit-scrollbar-thumb { border-left:solid 15px var(--background);background:linear-gradient(to bottom,var(--accentOne),var(--accentTwo)); }
 .musour-filters::-webkit-scrollbar { width:16px; }
 .musour-filters div { display:flex;flex-direction:column; }
-.musour-filters h1 { background-color:var(--backgroundTwo);font:700 15px var(--body);line-height:10px;padding:14px 0px 16px 4px;text-align:center;color:var(--text);border-radius:10px;text-transform:uppercase;line-height:12px; }
+.musour-filters h1 { background-color:var(--backgroundTwo);font:700 15px var(--body);line-height:10px;padding:14px 0px 16px 4px;text-align:center;color:var(--text);border-radius:10px;text-transform:uppercase;line-height:12px;border: 2px dashed #ff0000 }
 .musour-filters button { margin-top:0px;border:none;background:transparent;text-align:left;padding:0px;cursor:pointer;font:15px var(--body);color:var(--text);line-height:20px;transition:.3s all; }
 .musour-filters .is-checked { font-weight:700!important;color:var(--seçilen); }
 .musour-filters button::before { content:'+';color:var(--accentOne);padding-right:5px; }
@@ -113,5 +113,5 @@ a { text-decoration:none!important; }
 }
 
 /* DİL AYARLARI */
-.fc img { background-color:var(--backgroundTwo);padding:5px 5px 5px 5px;border-radius:10px; }
+.fc img { background-color:var(--backgroundTwo);padding:5px 5px 5px 5px;border-radius:10px;border: 2px dashed #ff0000 }
 /* DİL AYARLARI */
