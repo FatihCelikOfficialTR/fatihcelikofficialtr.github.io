@@ -35,9 +35,9 @@ a { text-decoration:none!important; }
 .musour-filters div { display:flex;flex-direction:column; }
 .musour-filters h1 { background-color:var(--backgroundTwo);font:700 15px var(--body);line-height:10px;padding:14px 0px 16px 4px;text-align:center;color:var(--text);border-radius:10px;text-transform:uppercase;line-height:12px;border: 2px dashed #ff0000 }
 .musour-filters button { margin-top:0px;border:none;background:transparent;text-align:left;padding:0px;cursor:pointer;font:15px var(--body);color:var(--text);line-height:20px;transition:.3s all; }
-.musour-filters .is-checked { font-weight:700!important;color:var(--seçilen); }
+.musour-filters .is-checked { font-weight:700!important;color:var(--seçilen);border: 1px dashed }
 .musour-filters button::before { content:'+';color:var(--accentOne);padding-right:5px; }
-.musour-filters button:hover { color:var(--accentOne); }
+.musour-filters button:hover { color:var(--accentOne);border: 1px dashed }
 
 .musour-color { flex-direction:row!important;flex-wrap:wrap;justify-content:center;gap:8px; }
 .musour-color button { height:20px;width:20px;background:linear-gradient(to bottom left,var(--accentOne),var(--accentTwo));border-radius:3px; }
