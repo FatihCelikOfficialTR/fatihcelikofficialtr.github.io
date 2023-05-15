@@ -59,9 +59,9 @@ a { text-decoration:none!important; }
 .musour-right .grid { max-height:calc(100vh - 40px);overflow:auto; }
 .musour-right .grid::-webkit-scrollbar-thumb { background-color:var(--background);border-radius:5px; }
 .musour-right .grid::-webkit-scrollbar { width:10px; }
-.musour-icon { background-color:var(--background);padding:10px;border-radius:15px;width:125px;margin:0px 5px 5px 0px;box-shadow: 5px 5px 10px -3px rgba(44,44,44,.05);height:170px;transform:scale(1);transition:.3s all; }
+.musour-icon { background-color:var(--background);padding:10px;border-radius:15px;width:125px;margin:0px 5px 5px 0px;box-shadow: 5px 5px 10px -3px rgba(44,44,44,.05);height:170px;transform:scale(1);transition:.3s all;border: 2px dashed #ff0000 }
 .musour-icon img {margin-bottom:0px!important;display:block;filter:grayscale(75%) contrast(100%);opacity:1;transition:.3s all; }
-.musour-icon div {background-color:var(--backgroundTwo);padding:5px;font:11px var(--body);color:var(--text);font-style:italic;height:50px;display:flex;flex-direction:column;justify-content:center; }
+.musour-icon div {background-color:var(--backgroundTwo);padding:10px;font:11px var(--body);color:var(--text);font-style:italic;height:50px;display:flex;flex-direction:column;justify-content:center;border-radius: 10px 10px 10px 10px;border: 2px dashed #ff0000 }
 .musour-icon div b { display:block;font-style:normal!important;color:var(--accentOne);font-size:14px; }
 .musour-icon:hover { transform:scale(1); }
 .musour-icon:hover img { opacity:1;filter:grayscale(0%) contrast(100%)!important; }
