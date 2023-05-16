@@ -125,46 +125,43 @@ rc:before {
 .fc img { background-color:var(--backgroundTwo);padding:5px 5px 5px 5px;border-radius:10px;border: 2px dashed #ff0000; }
 /* DİL AYARLARI */
 
-.panel {
-	margin:0px 0px 0px 0px;
-}
-.jj {
-	position: absolute;
-	text-align: center;
-	margin:0px 0px 15px 0px;
-	font-size: 50px;
-	color: #fff;
-	text-transform: uppercase;
-	background-image: url(https://anonimag.es/i/cee6d0f7-9dd3-430b-b9c3-bee2c52779b453d9f.jpg);
-	background-size: contain;
 
-}
-.jj:before {
-	content: 'RCHesapla';
-	display: table;
-	font-size: 10px;
-	color: white;
-	-webkit-text-fill-color: white;
-	-webkit-background-clip: none;
-	background-color: red;
-	padding: 3px;
-}
-.jj + .jj {
-	-webkit-text-fill-color: red;
-	animation: meh 3s ease-out infinite alternate;
-}
-@keyframes meh {
-	from {
-		clip-path: polygon(100% 0, 100% 100%, 20% 100%, 61% 91%, 94% 47%);
-		}
-	50% {
-		clip-path: polygon(100% 0, 100% 100%, 20% 100%, 59% 52%, 74% 13%);
-		}
-	to {
-    clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 85%, 87% 41%);
-		}
-}
-.jj span {
-  display: block;
+
+.logo {
+  font-size: 30px;
+  color: white;
 }
 
+.logo * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.1s;
+  transition: all 0.3s
+}
+
+.logo a {
+  color: white;
+  text-decoration: none;
+}
+
+.logo a:hover {
+  color: #FFC721;
+}
+
+@media only screen and (max-width: 767px) {
+  .logo {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 1180px) {
+  .logo {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 150px) {
+  .logo {
+    font-size: 8px;
+  }
+}
