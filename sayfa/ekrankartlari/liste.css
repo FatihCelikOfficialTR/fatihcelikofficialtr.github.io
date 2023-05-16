@@ -72,21 +72,12 @@ a { text-decoration:none!important; }
 
 .musour-title:before {
 	content: 'RC';
-	display: table;
 	font-size: 99px;
-	color:var(--accentOne2);
-	text-transform: uppercase;
-	-webkit-text-fill-color: red;
-	-webkit-background-clip: none;
+	color: #D2BD76;
 }
 rc:before {
 	content: 'Miner';
-	display: table;
 	font-size: 35px;
-	color:var(--accentOne2);
-	text-transform: uppercase;
-	-webkit-text-fill-color: linear-gradient(to bottom left,var(--accentOne),var(--accentTwo));
-	-webkit-background-clip: none;
 }
 
 .güç {
