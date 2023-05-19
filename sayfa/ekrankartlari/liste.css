@@ -2,8 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nova+Flat&display=swap');
 
-
-
 :root {
   --accentOne: yellow;
   --accentOne2: white;
@@ -69,17 +67,6 @@ a { text-decoration:none!important; }
 .musour-icon b2 {font-style:normal!important;color:var(--accentOne2);text-transform:uppercase;font-size:12px; }
 
 /* SEVİYELİ MİNER AYARLARI */
-
-.musour-title:before {
-	content: 'RC';
-	font-size: 99px;
-	color: #D2BD76;
-}
-rc:before {
-	content: 'Miner';
-	font-size: 35px;
-}
-
 .güç {
 	background-image: url(https://rollercoin.com/static/images/lightning.9aeb20686a6436fa05cd..svg);
 	background-repeat: no-repeat; 
@@ -120,7 +107,7 @@ rc:before {
 	background-image: url(https://rollercoin.com/static/img/storage/rarity_icons/level_6.png);
 	background-repeat: no-repeat;
 }
-
+/* SEVİYELİ MİNER AYARLARI */
 /* DİL AYARLARI */
 .fc img { background-color:var(--backgroundTwo);padding:5px 5px 5px 5px;border-radius:10px;border: 2px dashed #ff0000; }
 /* DİL AYARLARI */
