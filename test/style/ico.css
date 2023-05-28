@@ -1,0 +1,86 @@
+.wrapper{
+width: 352px;
+position: relative;
+margin:0;
+}
+.wrapper:before {
+font-family: 'FontAwesome';
+position: absolute;
+left: 13px;
+z-index: 1;
+top: 2px;
+font-size: 23px;
+}
+
+
+.wrapper.fauser:before {
+content: "\f007";
+}
+.wrapper.pass:before {
+content: "\f084";
+}
+.wrapper.mail:before {
+content: "\f003";
+}
+.wrapper.oldpass:before {
+content: "\f09c";
+}
+.wrapper.newpass:before {
+content: "\f13e";
+}
+.wrapper.btc:before {
+content: "\f15a";
+}
+.wrapper.url:before {
+content: "\f0c1";
+}
+.wrapper.time:before {
+content: "\f073";
+}
+.wrapper.picture:before {
+content: "\f03e";
+}
+
+
+.wrapper.title:before {
+content: "\f27a";
+}
+.wrapper.desc:before {
+content: "\f044";
+}
+.wrapper.timer:before {
+content: "\f017";
+}
+.wrapper.move:before {
+content: "\f0a9";
+}
+.wrapper.vip:before {
+content: "\f219";
+}
+.wrapper.wind:before {
+content: "\f17a";
+}
+.wrapper.sum:before {
+content: "\f155";
+}
+
+.wrapper.position:before {
+content: "\f039";
+}
+
+
+
+
+input,textarea,select {
+background: #381706;
+border-radius: 4px;
+padding: 7px 7px 7px 7px;
+border: 1px solid #94835c;
+position: relative;
+color: white;
+margin: 5px auto;
+}
+
+form div{
+font-size: 15px;
+}
