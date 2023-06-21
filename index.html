@@ -63,7 +63,7 @@
         <p class="logo"><img src="./img/logo.png" width="auto" height="50"/></p>
       </div>
 	  
-<div class="dropdown">
+<!--div class="dropdown">
   <button class="btn btn-secondary dropdown-toggle" type="button" id="drop_yazı" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
     Language
   </button>
@@ -72,7 +72,7 @@
     <a class="dropdown-item" id="en" href="#">English</a>
    
   </div>
-</div>
+</div-->
 
 	  <nav class="global-header__nav" aria-label="サイト内メニュー">
         <button class="menu-button js-menu-open-trigger" type="button" aria-label="メニューを開く">
@@ -122,11 +122,6 @@
           <span class="drawer-menu__jp-label">Click for V2 version.</span>
         </a>
       </li>
-	  <center>
-	  <iframe data-aa='2195009' src='//ad.a-ads.com/2195009?size=320x50' style='width:320px; height:50px; border:0px; padding:0; overflow:hidden; background-color: transparent;'></iframe>
-	  
-	  <iframe data-aa='2163843' src='//ad.a-ads.com/2163843?size=200x200' style='width:200px; height:200px; border:0px; padding:0; overflow:hidden; background-color: transparent;'></iframe>
-	  </center>
     </ul>
 	
     <div class="drawer-menu__close-button">
@@ -136,16 +131,14 @@
     </div>
   </div>
   
-  <div class="drawer-menu__overlay js-menu-close-trigger">	  <center>
-	  <iframe data-aa='2195009' src='//ad.a-ads.com/2195009?size=320x50' style='width:320px; height:50px; border:0px; padding:0; overflow:hidden; background-color: transparent;'></iframe>
-	  </center></div>
+  <div class="drawer-menu__overlay js-menu-close-trigger"></div>
 </div>
 <!--===============================================================================================-->
 </header>
                                 <!--h6 class="card-header head">📣 RCHesapla Yenilendi! / 17.08.2022</h6-->
                                 <div class="card-body"><center>
-								<h6 key="başlık" class="başlık asit">RCHesapla</h6>
-								<p class="head" key="altaçıklama">Kişisel kazım gücünü hesapla!</p>
+								<h6 class="başlık asit">RCHesapla</h6>
+								<p class="head">Kişisel kazım gücünü hesapla!</p>
 <!--===============================================================================================-->
 <div class="head" id="cpcontainer">&nbsp;</div>
 <div class="head" id="clock"></div>
@@ -176,10 +169,10 @@
                     <article class="col-md-5 head">
                         <div>
 						<div class="card-fc my-1">
-                                <h6 class="card-header" key="kazımbilgisi">📝 ROLLERCOIN KAZIM BİLGİLERİNİZ</h6>
+                                <h6 class="card-header">📝 ROLLERCOIN KAZIM BİLGİLERİNİZ</h6>
                                 <div class="card-body">
 							<div class="form-group row my-1">
-                                <label><img src="./img/svg/ag_gucu.svg" width="15" height="15"/><a key="ağgücü">Ağ Gücü</a></label>
+                                <label><img src="./img/svg/ag_gucu.svg" width="15" height="15"/> Ağ Gücü</label>
                                 <div class="col-7">
                                     <input type="number" class="form-control" step="any" id="network-power" >
                                 </div>
@@ -194,7 +187,7 @@
                             </div>
 <!--===============================================================================================-->
                             <div class="form-group row my-1">
-                                <label><img src="./img/svg/kazım_gucu.svg" width="15" height="15"><a key="kazımgücü">Kazım Gücü</a></label>
+                                <label><img src="./img/svg/kazım_gucu.svg" width="15" height="15"> Kazım Gücü</label>
                                 <div class="col-7">
                                     <input type="number" class="form-control" name="goal-power-hash" id="goal-power" >
                                 </div>
@@ -209,7 +202,7 @@
                             </div>
 <!--===============================================================================================-->
                             <div class="form-group row my-1">
-                                <label><img src="./img/svg/blok_odulu.svg" width="15" height="15"><a key="bloködülü">Blok Ödülü</a></label>
+                                <label><img src="./img/svg/blok_odulu.svg" width="15" height="15"> Blok Ödülü</label>
                                 <div class="col-7">
                                     <input type="number" class="form-control" name="block-reward" id="block-reward"
                                         step="any" >
@@ -231,7 +224,7 @@
                                 </div>
                             </div>
 							<div class="form-group row my-1">
-                                <label><img src="./img/svg/blok_suresi.svg" width="15" height="15"><a key="bloksüresi">Blok Süresi</a></label>
+                                <label><img src="./img/svg/blok_suresi.svg" width="15" height="15"> Blok Süresi</label>
                                 <div class="col-7">
                                             <div class="input-group">
                                                 <input type="number" class="form-control" value="10" name="block-timer" id="block-timer" step="any" oninput="calculateGoalPower()">
@@ -241,12 +234,12 @@
                             </div>
 <!--===============================================================================================-->
 							<div class="form-group row my-1">
-                                <label><img src="https://rollercoin.com/static/images/scheduler.7575e0e815bd39edc1ab..svg" width="15" height="15"><a key="haftalıködül">Haftalık Ödül</a></label>
+                                <label><img src="https://rollercoin.com/static/images/scheduler.7575e0e815bd39edc1ab..svg" width="15" height="15"> Haftalık Ödül</label>
                                 <div class="col-13">
                                     <input class="form-control fcinput"  id="haftalıködüller" step="any" disabled />
                                 </div>
                             </div>
-<label><img src="./img/svg/bilgi.svg" width="15" height="15"><a key="k-açıklama">Kazım bilgilerini doğru girdiğiniz durumda hesaplama işlemini yapabilirsiniz.</a></label>
+<label><img src="./img/svg/bilgi.svg" width="15" height="15"> Kazım bilgilerini doğru girdiğiniz durumda hesaplama işlemini yapabilirsiniz.</label>
 <!--===============================================================================================-->
 	<div class="svg-wrapper">
       <svg height="40" width="150" xmlns="http://www.w3.org/2000/svg">
@@ -269,28 +262,28 @@
 <!--===============================================================================================-->
                     <aside class="col-12 col-md-7">
 						<div class="card-fc my-1 head">
-                                <h6 class="card-header" key="istatistikbaşlık">🧮 KAZANÇ İSTATİSTİKLERİ</h6>
+                                <h6 class="card-header">🧮 KAZANÇ İSTATİSTİKLERİ</h6>
 								<div class="card-body">
 <table class="yenitablo">
 	<tbody>
   <tr>
-    <td style="width:50%;" key="beklenen">Beklenen</td>
+    <td style="width:50%;">Beklenen</td>
     <td style="width:50%;"><span id="exp_reward"></span></td>
   </tr>
   <tr>
-    <td style="width:50%;" key="günlük">Günlük</td>
+    <td style="width:50%;">Günlük</td>
     <td style="width:50%;"><span id="daily"></span></td>
   </tr>
   <tr>
-    <td style="width:50%;" key="haftalık">Haftalık</td>
+    <td style="width:50%;">Haftalık</td>
     <td style="width:50%;"><span id="weekly"></span></td>
   </tr>
   <tr>
-    <td style="width:50%;" key="aylık">Aylık</td>
+    <td style="width:50%;">Aylık</td>
     <td style="width:50%;"><span id="monthly"></span></td>
   </tr>
     <tr>
-    <td style="width:50%;" key="yıllık">Yıllık</td>
+    <td style="width:50%;">Yıllık</td>
     <td style="width:50%;"><span id="yearly"></span></td>
   </tr>
 	</tbody>
@@ -319,7 +312,7 @@
 						</div>
 <!--===============================================================================================-->
 						<div class="card-fc my-1 head" id="hidden-satoshi">
-                                <h6 class="card-header head" key="satoshidönüştür">➾ SATOSHI'yi, BITCOIN'e DÖNÜŞTÜR</h6>
+                                <h6 class="card-header head">➾ SATOSHI'yi, BITCOIN'e DÖNÜŞTÜR</h6>
                                 <div class="card-body">
                                     <div class="row">
                                         <div class="col-12 col-sm-12 col-md-6">
@@ -342,7 +335,7 @@
                                             </div>
                                         </div>
                                     </div>
-<label><img src="./img/svg/bilgi.svg" width="15" height="15"><a key="s-açıklama">BTC'ye dönüştür ne kadar kazandığını öğren.</a></label>
+<label><img src="./img/svg/bilgi.svg" width="15" height="15"> BTC'ye dönüştür ne kadar kazandığını öğren.</label>
                                 </div>
                             </div>
                         </div>
@@ -379,22 +372,6 @@
                             </div-->
                         </div>
                     </div>
-                    <!--div class="col-xl-4 col-lg-4 col-md-6 mb-30">
-                        <div class="footer-widget">
-                            <div class="footer-widget-heading">
-                                <h3>Hızlı Ulaşım Noktası</h3>
-                            </div>
-                            <ul>
-                                <li><a href="/">Ana Sayfa</a></li>
-                                <li><a href="./sayfa/nasilkullanilir/">Nasıl Kullanılır?</a></li>
-                                <li><a href="./sayfa/sss/">S.S.S</a></li>
-                                <li><a href="./sayfa/ekrankartlari/">Önerilen Ekran Kartları</a></li>
-                                <li><a href="./sayfa/roi/">ROI Hesapla</a></li>
-                                <li><a href="./sayfa/minietkinlik/">Mini Etkinlik Listesi</a></li>
-								<li><a href="./sayfa/v2/">v2 Sürüm</a></li>
-                            </ul>
-                        </div>
-                    </div-->
                     <div class="col-xl-4 col-lg-4 col-md-6 mb-50">
                         <div class="footer-widget">
                             <div class="footer-widget-heading">

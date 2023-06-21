@@ -28,7 +28,6 @@
 
 .menu-button {
   appearance: none;
-  border-radius: 14px 14px 14px 14px;
   background-color: var(--base-color);
   border: none;
   box-shadow: 0 0 12px rgba(0, 0, 0, 0.15);
@@ -247,7 +246,7 @@
   position: sticky;
   top: 0;
   z-index: 1;
-  border-radius: 14px 14px 14px 14px;
+  border-radius: 14px 14px 0px 0px;
 }
 
 .global-header__container {
