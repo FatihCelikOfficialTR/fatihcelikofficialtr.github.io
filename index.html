@@ -353,159 +353,18 @@
         </div>
     </footer-->
 	
-<!DOCTYPE html>
-<html lang="en" >
-<body>
-
 <!--strong><p style="font-family:verdana,sans-serif;font-size:12px;text-align:left;background-color:BurlyWood;color:black;padding-top:10px;padding-bottom:10px;padding-left:10px;margin-top:10px;margin-bottom:20px;">Notes:<br><br> 1. Please click the "View in Editor" button above, to get all the links fully working in this codepen project.<br> 2. This codepen project of mine can be fully downloaded for local / offline working from here: <a href="https://sourceforge.net/projects/create-website-news-blog-etc/files/Create_Your_Own_Website_News%2C_Magazine%2C_Blogs%2C_Articles_etc..zip/download" target="_blank">Project Website</a> ( Right Click to Copy Link )<br> 3. My Google Webfonts Help System Open Source Project ( very useful for website designing in all languages ) can also be fully downloaded from here: <a href="https://sourceforge.net/projects/google-webfonts-help-system/files/Google_Webfonts_Help_System.zip/download" target="_blank">Project Website</a> ( Right Click to Copy Link )<br> 4. For many other related Web Based Projects, Please visit my Projects Profile Page : <a href="https://sourceforge.net/u/nathan-sr/profile/" target="_blank">My Projects</a> ( Right Click to Copy Link ) </p></strong-->  
   
   <div class="time">
-    <time><span id='date-time'></span></time>
+    <time>SİZE UYGUN BAZI HABERLER :)</time>
   </div>
-
-<!--  
-<link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
--->
-
-<link href="https://cdn.jsdelivr.net/gh/linuxguist/news@main/lora.css" rel="stylesheet">
-
-<link href="https://cdn.jsdelivr.net/gh/linuxguist/news@main/oswald.css" rel="stylesheet">
-
-<style>
-
-html,body {
-  background: violet;
-}
-
-h1 {
-  font: 700 2.5rem/1 'Oswald', sans-serif;
-  // text-transform: uppercase;
-  text-align: center;
-  margin-top: 1px;
-  margin-bottom: 14px;  
-}
-
-time {
-  font: 700 1.00rem 'Oswald', sans-serif;
-  text-align: center;
-  text-transform: uppercase;
-  border-top: 3px solid #333333;
-  border-bottom: 3px solid #333333;
-  padding: 6px 0;
-  display: block;
-  color: white;
-}
-time sup {
-  font-size: .675rem;
-  font-weight: normal;
-}
-
-  .news-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-content: space-between;
-  }
-
-  .article-container {
-    text-decoration: none;
-    color: black;
-    background: burlywood;
-    display: flex;
-    flex-direction: column;
-    width: 28vw; /* Increase this value if you want more articles per row, decrease if you want less*/
-    min-width: 150px;
-    max-width: 700px;
-    box-shadow: 2px 2px 25px 2px rgba(0,0,0,0.9);
-    margin: 20px;
-    transition: 0.3s;
-    font-size: 14px;
-    font-family: 'Lora', serif;
-    font-weight: 400;
-  }
-
-  @media only screen and (max-width: 850px) {
-    .article-container {
-      width: 90vw;
-    }
-  }
-
-  .article-container:hover {
-    transform: scale(1.02);
-    box-shadow: 2px 2px 25px 2px rgba(139, 139, 139, 0.89);
-
-  }
-
-  .article-image {
-    width: 100%;
-    max-height: 100%;
-  }
-
-  .article-title {
-    padding: 10px;
-  }
-</style>
-
-<script>
-  // Add, remove, modify your articles here
-  document.addEventListener("DOMContentLoaded", function() {
-    var articles = [
-      {
-        onClickLink: 'https://shreyascyber.com/test/1.html',
-        imageSource: 'https://cdn.jsdelivr.net/gh/linuxguist/news@main/1.png',
-        title: 'Tobacco is a huge health threat. So why aren’t we doing more about it?'
-      },
-
-    ]
-
-    var rootElement = document.getElementById("imageGalleryWithTitle");
-
-    for (let i=0; i < articles.length; i++) {
-      //Create the container
-      var itemContainer = document.createElement("a");
-      itemContainer.classList.add("article-container");
-      var href = document.createAttribute("href");
-      href.value = articles[i].onClickLink;
-      itemContainer.setAttributeNode(href);
-      var target = document.createAttribute("target");
-      target.value = '_blank';
-      itemContainer.setAttributeNode(target);
-
-      //Create Image
-      var image = document.createElement("img");
-      image.classList.add("article-image");
-      var src = document.createAttribute("src");
-      src.value = articles[i].imageSource;
-      image.setAttributeNode(src);
-      var alt = document.createAttribute("alt");
-      alt.value = articles[i].title;
-      image.setAttributeNode(alt);
-
-      //Create title
-      var h3 = document.createElement("h3");
-      h3.classList.add("article-title");
-      var h3Text = document.createTextNode(articles[i].title);
-      h3.appendChild(h3Text);
-
-      //Atach image and title to container
-      itemContainer.appendChild(image);
-      itemContainer.appendChild(h3);
-
-      //Attach element to root div
-      rootElement.appendChild(itemContainer);
-    }
-  });
-</script>
-
+  
 <script>
 var dt = new Date();
 document.getElementById('date-time').innerHTML=dt;
 </script>
 
 <div id='imageGalleryWithTitle' class="news-container"></div>
-  
-</body>
-</html>
 
 	
 <footer class="footer-section">
@@ -589,6 +448,7 @@ document.getElementById('date-time').innerHTML=dt;
 	<script src="js/fatihcelik.js"></script>
 	<script src="js/gün-tarih-saat.js"></script>
 	<script src="js/dilsecenegi.js"></script>
+	<script src="js/blog.js"></script>
 	<!--script src="js/yükleniyor.js"></script-->
 <!--===============================================================================================-->
 <script type='text/javascript' src='js/online2.js'></script>
