@@ -2,49 +2,19 @@
   document.addEventListener("DOMContentLoaded", function() {
     var articles = [
 		{
-			onClickLink: 'https://shreyascyber.com/test/1.html',
-			imageSource: 'https://cdn.jsdelivr.net/gh/linuxguist/news@main/1.png',
-			title: 'Tobacco is a huge health threat. So why aren’t we doing more about it?'
+			onClickLink: 'https://rollercoin.com/what-is-rollertoken',
+			imageSource: 'https://rollercoin.com/static/img/whatIsRollertoken/what_is_rollertoken.gif',
+			title: 'RollerToken nedir? RollerToken, gelecekteki RollerCoin kripto ekonomisinin temelini oluşturacak yeni bir sanal para birimidir. '
 		},
 		{
-			onClickLink: 'https://shreyascyber.com/test/1.html',
-			imageSource: 'https://cdn.jsdelivr.net/gh/linuxguist/news@main/1.png',
-			title: 'Tobacco is a huge health threat. So why aren’t we doing more about it?'
+			onClickLink: 'https://rollercoin.com/faq',
+			imageSource: 'https://rollercoin.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ffaq.810496ea.png&w=384&q=75',
+			title: 'RollerCoin hakkında sorulan sorular.'
 		},
 		{
-			onClickLink: 'https://shreyascyber.com/test/1.html',
-			imageSource: 'https://cdn.jsdelivr.net/gh/linuxguist/news@main/1.png',
-			title: 'Tobacco is a huge health threat. So why aren’t we doing more about it?'
-		},
-		{
-			onClickLink: 'https://shreyascyber.com/test/1.html',
-			imageSource: 'https://cdn.jsdelivr.net/gh/linuxguist/news@main/1.png',
-			title: 'Tobacco is a huge health threat. So why aren’t we doing more about it?'
-		},
-		{
-			onClickLink: 'https://shreyascyber.com/test/1.html',
-			imageSource: 'https://cdn.jsdelivr.net/gh/linuxguist/news@main/1.png',
-			title: 'Tobacco is a huge health threat. So why aren’t we doing more about it?'
-		},
-		{
-			onClickLink: 'https://shreyascyber.com/test/1.html',
-			imageSource: 'https://cdn.jsdelivr.net/gh/linuxguist/news@main/1.png',
-			title: 'Tobacco is a huge health threat. So why aren’t we doing more about it?'
-		},
-		{
-			onClickLink: 'https://shreyascyber.com/test/1.html',
-			imageSource: 'https://cdn.jsdelivr.net/gh/linuxguist/news@main/1.png',
-			title: 'Tobacco is a huge health threat. So why aren’t we doing more about it?'
-		},
-		{
-			onClickLink: 'https://shreyascyber.com/test/1.html',
-			imageSource: 'https://cdn.jsdelivr.net/gh/linuxguist/news@main/1.png',
-			title: 'Tobacco is a huge health threat. So why aren’t we doing more about it?'
-		},
-		{
-			onClickLink: 'https://shreyascyber.com/test/1.html',
-			imageSource: 'https://cdn.jsdelivr.net/gh/linuxguist/news@main/1.png',
-			title: 'Tobacco is a huge health threat. So why aren’t we doing more about it?'
+			onClickLink: 'https://rollercoin.com/how-it-works/basics',
+			imageSource: 'https://rollercoin.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fmount.cd7bf810.png&w=384&q=75',
+			title: 'Nasıl kazım yapabilirim?'
 		},
 		
     ]

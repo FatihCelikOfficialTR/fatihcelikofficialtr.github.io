@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Agdasima&display=swap');
 
 time {
   font: 500 1.00rem 'Oswald', sans-serif;
@@ -35,7 +35,7 @@ time sup {
     margin: 10px;
     transition: 0.3s;
     font-size: 14px;
-    font-family: 'Lora', serif;
+	font-family: 'Agdasima', sans-serif;
     font-weight: 400;
   }
 
