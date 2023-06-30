@@ -353,93 +353,159 @@
         </div>
     </footer-->
 	
-<div class="wrapper">
+<!DOCTYPE html>
+<html lang="en" >
+<body>
 
-	<h2><strong>Son Güncellemeler</strong></h2>
+<!--strong><p style="font-family:verdana,sans-serif;font-size:12px;text-align:left;background-color:BurlyWood;color:black;padding-top:10px;padding-bottom:10px;padding-left:10px;margin-top:10px;margin-bottom:20px;">Notes:<br><br> 1. Please click the "View in Editor" button above, to get all the links fully working in this codepen project.<br> 2. This codepen project of mine can be fully downloaded for local / offline working from here: <a href="https://sourceforge.net/projects/create-website-news-blog-etc/files/Create_Your_Own_Website_News%2C_Magazine%2C_Blogs%2C_Articles_etc..zip/download" target="_blank">Project Website</a> ( Right Click to Copy Link )<br> 3. My Google Webfonts Help System Open Source Project ( very useful for website designing in all languages ) can also be fully downloaded from here: <a href="https://sourceforge.net/projects/google-webfonts-help-system/files/Google_Webfonts_Help_System.zip/download" target="_blank">Project Website</a> ( Right Click to Copy Link )<br> 4. For many other related Web Based Projects, Please visit my Projects Profile Page : <a href="https://sourceforge.net/u/nathan-sr/profile/" target="_blank">My Projects</a> ( Right Click to Copy Link ) </p></strong-->  
+  
+  <div class="time">
+    <time><span id='date-time'></span></time>
+  </div>
 
-	<div class="news">
+<!--  
+<link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+-->
 
-		<figure class="article">
+<link href="https://cdn.jsdelivr.net/gh/linuxguist/news@main/lora.css" rel="stylesheet">
 
-			<img src="https://i.imgur.com/TFEDBJx.png" />
+<link href="https://cdn.jsdelivr.net/gh/linuxguist/news@main/oswald.css" rel="stylesheet">
 
-			<figcaption>
+<style>
 
-				<h3>Haftalık Satış</h3>
+html,body {
+  background: violet;
+}
 
-				<p>
+h1 {
+  font: 700 2.5rem/1 'Oswald', sans-serif;
+  // text-transform: uppercase;
+  text-align: center;
+  margin-top: 1px;
+  margin-bottom: 14px;  
+}
 
-🎉 Hamster Bağımsızlığını ilan ediyor, @Rollers 🐹 🗽
+time {
+  font: 700 1.00rem 'Oswald', sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  border-top: 3px solid #333333;
+  border-bottom: 3px solid #333333;
+  padding: 6px 0;
+  display: block;
+}
+time sup {
+  font-size: .675rem;
+  font-weight: normal;
+}
 
-Havai fişeklerinizi 💥 hazırlayın ve yeni Üretim Teklifleri ile Bağımsızlık Gününü 🇺🇸 kutlamaya başlayın!
+  .news-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-between;
+  }
 
-Şimdi özgürlüğüne sahip çık 👉 http://bit.ly/3JTfmSW
+  .article-container {
+    text-decoration: none;
+    color: black;
+    background: burlywood;
+    display: flex;
+    flex-direction: column;
+    width: 28vw; /* Increase this value if you want more articles per row, decrease if you want less*/
+    min-width: 150px;
+    max-width: 700px;
+    box-shadow: 2px 2px 25px 2px rgba(0,0,0,0.9);
+    margin: 20px;
+    transition: 0.3s;
+    font-size: 14px;
+    font-family: 'Lora', serif;
+    font-weight: 400;
+  }
 
-				</p>
+  @media only screen and (max-width: 850px) {
+    .article-container {
+      width: 90vw;
+    }
+  }
 
-			</figcaption>
+  .article-container:hover {
+    transform: scale(1.02);
+    box-shadow: 2px 2px 25px 2px rgba(139, 139, 139, 0.89);
 
-		</figure>
-		
-		<figure class="article">
+  }
 
-			<img src="https://www.linkpicture.com/q/news1_1.jpg" />
+  .article-image {
+    width: 100%;
+    max-height: 100%;
+  }
 
-			<figcaption>
+  .article-title {
+    padding: 10px;
+  }
+</style>
 
-				<h3>New Item</h3>
+<script>
+  // Add, remove, modify your articles here
+  document.addEventListener("DOMContentLoaded", function() {
+    var articles = [
+      {
+        onClickLink: 'https://shreyascyber.com/test/1.html',
+        imageSource: 'https://cdn.jsdelivr.net/gh/linuxguist/news@main/1.png',
+        title: 'Tobacco is a huge health threat. So why aren’t we doing more about it?'
+      },
 
-				<p>
+    ]
 
-					In today’s update, two heads are better than one, and three heads are better than that, as the all-new Flockheart’s Gamble Arcana item for Ogre Magi makes its grand debut.
+    var rootElement = document.getElementById("imageGalleryWithTitle");
 
-				</p>
+    for (let i=0; i < articles.length; i++) {
+      //Create the container
+      var itemContainer = document.createElement("a");
+      itemContainer.classList.add("article-container");
+      var href = document.createAttribute("href");
+      href.value = articles[i].onClickLink;
+      itemContainer.setAttributeNode(href);
+      var target = document.createAttribute("target");
+      target.value = '_blank';
+      itemContainer.setAttributeNode(target);
 
-			</figcaption>
+      //Create Image
+      var image = document.createElement("img");
+      image.classList.add("article-image");
+      var src = document.createAttribute("src");
+      src.value = articles[i].imageSource;
+      image.setAttributeNode(src);
+      var alt = document.createAttribute("alt");
+      alt.value = articles[i].title;
+      image.setAttributeNode(alt);
 
-		</figure>
-		
-		<figure class="article">
+      //Create title
+      var h3 = document.createElement("h3");
+      h3.classList.add("article-title");
+      var h3Text = document.createTextNode(articles[i].title);
+      h3.appendChild(h3Text);
 
-			<img src="https://www.linkpicture.com/q/news1_1.jpg" />
+      //Atach image and title to container
+      itemContainer.appendChild(image);
+      itemContainer.appendChild(h3);
 
-			<figcaption>
+      //Attach element to root div
+      rootElement.appendChild(itemContainer);
+    }
+  });
+</script>
 
-				<h3>New Item</h3>
+<script>
+var dt = new Date();
+document.getElementById('date-time').innerHTML=dt;
+</script>
 
-				<p>
+<div id='imageGalleryWithTitle' class="news-container"></div>
+  
+</body>
+</html>
 
-					In today’s update, two heads are better than one, and three heads are better than that, as the all-new Flockheart’s Gamble Arcana item for Ogre Magi makes its grand debut.
-
-				</p>
-
-			</figcaption>
-
-		</figure>
-		
-		
-
-		<figure class="article">
-
-			<img src="https://www.linkpicture.com/q/news2.png" />
-
-			<figcaption>
-
-				<h3>Update</h3>
-
-				<p>
-
-					Just in time for Lunar New Year and the Rat’s time in the cyclical place of honor, the Treasure of Unbound Majesty is now available.
-
-				</p>
-
-			</figcaption>
-
-		</figure>
-
-	</div>
-
-</div>
 	
 <footer class="footer-section">
         <div class="container">
