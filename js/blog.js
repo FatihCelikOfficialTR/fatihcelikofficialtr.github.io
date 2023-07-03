@@ -3,7 +3,7 @@
     var articles = [
 		{
 			onClickLink: 'https://www.youtube.com/watch?v=eVGxGg0TAjA',
-			imageSource: 'https://i.ytimg.com/an_webp/eVGxGg0TAjA/mqdefault_6s.webp?du=3000&sqp=CKDNiKUG&rs=AOn4CLApW7fLwXj7Lt4pv5l_hjGXLw1ieQ',
+			imageSource: 'https://img.youtube.com/vi/eVGxGg0TAjA/maxresdefault.jpg',
 			title: 'Rollercoin Oyun Oyna Para Kazan | Yeni Mini Event Geldi'
 		},
 		{
