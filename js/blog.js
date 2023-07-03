@@ -2,9 +2,9 @@
   document.addEventListener("DOMContentLoaded", function() {
     var articles = [
 		{
-			onClickLink: 'https://rollercoin.com/what-is-rollertoken',
-			imageSource: 'https://rollercoin.com/static/img/whatIsRollertoken/what_is_rollertoken.gif',
-			title: 'RollerToken nedir? RollerToken, gelecekteki RollerCoin kripto ekonomisinin temelini oluşturacak yeni bir sanal para birimidir. '
+			onClickLink: 'https://www.youtube.com/watch?v=eVGxGg0TAjA',
+			imageSource: 'https://i.ytimg.com/an_webp/eVGxGg0TAjA/mqdefault_6s.webp?du=3000&sqp=CKDNiKUG&rs=AOn4CLApW7fLwXj7Lt4pv5l_hjGXLw1ieQ',
+			title: 'Rollercoin Oyun Oyna Para Kazan | Yeni Mini Event Geldi'
 		},
 		{
 			onClickLink: 'https://rollercoin.com/faq',
