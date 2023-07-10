@@ -1,19 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Agdasima&display=swap');
 
-time {
-  font: 500 1.00rem 'Oswald', sans-serif;
-  text-align: center;
-  text-transform: uppercase;
-  border-top: 3px solid #333333;
-  border-bottom: 3px solid #333333;
-  padding: 6px 0;
-  display: block;
-  color: white;
-}
-time sup {
-  font-size: .675rem;
-  font-weight: normal;
-}
 
   .news-container {
     display: flex;
@@ -40,12 +26,14 @@ time sup {
 	border-radius: 14px 14px 14px 14px;
   }
 
-  @media only screen and (max-width: 850px) {
+  @media only screen and (max-width: 1250px) {
     .article-container {
-      width: 90vw;
+      width: 40vw;
     }
   }
+ 
 
+  
   .article-container:hover {
     transform: scale(1.02);
     box-shadow: 1px 1px 10px 1px red;
