@@ -16,6 +16,11 @@
 			imageSource: 'https://rollercoin.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fmount.cd7bf810.png&w=384&q=75',
 			title: 'Nasıl kazım yapabilirim?'
 		},
+		{
+			onClickLink: 'https://www.youtube.com/watch?v=-YjltjGIOuI',
+			imageSource: 'https://img.youtube.com/vi/-YjltjGIOuI/maxresdefault.jpg',
+			title: '9. Sezon: Dünya Çapında - Yayın Fragmanı'
+		},
 		
     ]
 
