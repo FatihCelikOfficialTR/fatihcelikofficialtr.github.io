@@ -2,6 +2,11 @@
   document.addEventListener("DOMContentLoaded", function() {
     var articles = [
 		{
+			onClickLink: 'https://www.youtube.com/watch?v=ehxUGzJYl1Q',
+			imageSource: 'https://img.youtube.com/vi/ehxUGzJYl1Q/maxresdefault.jpg',
+			title: 'Rollercoin Sezon 9 Geldi | Yenilikler Neler ? Otomatik Şarj Sistemi'
+		},
+		{
 			onClickLink: 'https://www.youtube.com/watch?v=eVGxGg0TAjA',
 			imageSource: 'https://img.youtube.com/vi/eVGxGg0TAjA/maxresdefault.jpg',
 			title: 'Rollercoin Oyun Oyna Para Kazan | Yeni Mini Event Geldi'
