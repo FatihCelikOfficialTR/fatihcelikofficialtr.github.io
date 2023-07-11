@@ -25,39 +25,11 @@
     font-weight: 400;
 	border-radius: 14px 14px 14px 14px;
   }
-  
-    @media only screen and (max-width: 1920px) {
-    .article-container {
-      width: 15vw;
-    }
-  }
 
-  @media only screen and (max-width: 1250px) {
-    .article-container {
-      width: 20vw;
-    }
-  }
- 
- /* On screens that are 992px or less, set the background color to blue */
-@media screen and (max-width: 850px) {
-  .article-container {
-      width: 39vw;
-    }
-}
-
-/* On screens that are 600px or less, set the background color to olive */
-@media screen and (max-width: 600px) {
-  .article-container {
-      width: 40vw;
-    }
-}
-
-  
   .article-container:hover {
     transform: scale(1.02);
     box-shadow: 1px 1px 10px 1px red;
 	border-radius: 14px 14px 14px 14px;
-
   }
 
   .article-image {
@@ -69,3 +41,27 @@
   .article-title {
     padding: 10px;
   }
+  
+    @media only screen and (max-width: 1920px) {
+    .article-container {
+      width: 15vw;
+    }
+  }
+ 
+	@media only screen and (max-width: 1250px) {
+    .article-container {
+      width: 20vw;
+    }
+  }
+ 
+	@media screen and (max-width: 850px) {
+  .article-container {
+      width: 39vw;
+    }
+}
+ 
+	@media screen and (max-width: 600px) {
+  .article-container {
+      width: 40vw;
+    }
+}
