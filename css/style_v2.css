@@ -112,38 +112,7 @@ rgb(180,180,180),3px 3px 0 rgb(158,158,158), 4px 4px 0 rgb(136,136,136),5px
 	color: #00ff0f;
 }
 
-#myInput {
-  background-image: url('/css/searchicon.png'); /* Add a search icon to input */
-  background-position: 10px 12px; /* Position the search icon */
-  background-repeat: no-repeat; /* Do not repeat the icon image */
-  width: 100%; /* Full-width */
-  font-size: 16px; /* Increase font-size */
-  padding: 12px 20px 12px 40px; /* Add some padding */
-  border: 1px solid #ddd; /* Add a grey border */
-  margin-bottom: 12px; /* Add some space below the input */
-}
 
-#myTable {
-  border-collapse: collapse; /* Collapse borders */
-  width: 100%; /* Full-width */
-  border: 1px solid #ddd; /* Add a grey border */
-  font-size: 13px; /* Increase font-size */
-}
-
-#myTable th, #myTable td {
-  text-align: left; /* Left-align text */
-  padding: 12px; /* Add padding */
-}
-
-#myTable tr {
-  /* Add a bottom border to all table rows */
-  border-bottom: 1px solid #ddd;
-}
-
-#myTable tr.header, #myTable tr:hover {
-  /* Add a grey background color to the table header and on hover */
-  background-color: #f1f1f1;
-}
 
 .body {
 	background: #202020; /* background: #151414; */
@@ -158,33 +127,6 @@ rgb(180,180,180),3px 3px 0 rgb(158,158,158), 4px 4px 0 rgb(136,136,136),5px
   max-width: 100% !important;
 }
 
-.titulo {
-  /* font-family: 'Shizuru', cursive; */
-  /* font-family: "Fredoka One", cursive; */
-  font-family: "Press Start 2P", cursive;
-  font-size: 3em;
-  color: #4e42d4;
-  letter-spacing: 0.07em;
-  line-height: 1.44em;
-  font-weight: bold;
-  margin-top: 24px;
-  /* margin-bottom: 5%; */
-  text-align: center;
-}
-
-.titulo img {
-  width: 10%;
-}
-
-/* Parrafo */
-.contenedor-text {
-  height: 2em;
-}
-
-#text {
-  color: #3c33a2;
-  font-size: 1.2rem;
-}
 
 /* Input type number */
 
@@ -195,14 +137,12 @@ input[type="number"]::-webkit-outer-spin-button {
 }
 
 /* Form control , form select */
-
 .form-select:focus,
 .form-control:focus {
   background: #434a56 !important;
   /* box-shadow: 0 0 0 0.2rem rgb(236, 208, 255) !important; */
   box-shadow: 0 0 0 0.015rem #877fdc !important;
 }
-
 .form-select,
 .form-control,
 .input-group-text {
@@ -211,36 +151,6 @@ input[type="number"]::-webkit-outer-spin-button {
   /* box-shadow: 0 0 0 0.2rem rgb(236, 208, 255) !important; */
   box-shadow: 0 0 0 0.015rem #877fdc !important;
 }
-
-
-/*Table*/
-.table {
-  font-size: 0.85em;
-}
-
-tr .name {
-  width: 30%;
-}
-
-.symbol {
-  text-transform: uppercase;
-  font-size: 0.8em;
-  color: rgb(118, 107, 107);
-  margin-left: 1em;
-}
-
-/*Imagen crypto*/
-.img__crypto {
-  width: 15%;
-  padding-right: 10px;
-}
-
-/* Mostrar y ocultar */
-.hidden {
-  display: none;
-}
-
-/*botón mostrar*/
 
 /* Botones mostrar modal */
 .btn-show {
@@ -711,11 +621,9 @@ ul {
 
 .yenitablo {
 	text-align: center;
-	overflow: hidden;
+ 
 	width: 100%;
-	margin: 0 auto;
-	display: table;
-	padding: 0 0 8em 0;
+ 
 }
 
 .yenitablo td, .yenitablo th {
