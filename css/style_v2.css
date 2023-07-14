@@ -5,6 +5,7 @@
 
 
 
+
 ::-webkit-scrollbar {
     background: #2f3045;
     width: 7px;
@@ -120,7 +121,7 @@ rgb(180,180,180),3px 3px 0 rgb(158,158,158), 4px 4px 0 rgb(136,136,136),5px
 	background-position: top left;
 	background-repeat : no-repeat
 }
-
+body { cursor : url( https://www.sihirlifasulyeler.com/images/topics/cursor.png ),auto;}
 /* font-family: 'Russo One', sans-serif; */
 .container{
   width: 100% !important;
