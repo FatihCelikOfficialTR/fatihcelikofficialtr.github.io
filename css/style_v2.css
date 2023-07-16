@@ -311,8 +311,18 @@ input[type="number"]::-webkit-outer-spin-button {
 /* footer */
 
 footer1 {
-  background: #f7f9fb;
   font-family: 'Russo One', sans-serif;
+background-image: radial-gradient(circle, #4e42d4 20%, transparent 20%),
+    radial-gradient(circle, transparent 20%, #4e42d4 20%, transparent 30%),
+    radial-gradient(circle, #4e42d4 20%, transparent 20%),
+    radial-gradient(circle, #4e42d4 20%, transparent 20%),
+    radial-gradient(circle, transparent 10%, #4e42d4 15%, transparent 20%),
+    radial-gradient(circle, #4e42d4 20%, transparent 20%),
+    radial-gradient(circle, #4e42d4 20%, transparent 20%),
+    radial-gradient(circle, #4e42d4 20%, transparent 20%),
+    radial-gradient(circle, #4e42d4 20%, transparent 20%);
+  background-size: 10% 10%, 20% 20%, 15% 15%, 20% 20%, 18% 18%, 10% 10%, 15% 15%,
+    10% 10%, 18% 18%;
   height: auto;
   width: 100%;
   color: #000;
@@ -490,12 +500,10 @@ ul {
 /* Copyright */
 
 .footer-bottom {
-  border-top: 1px solid #555;
-  background: #f7f9fb;
   width: 100%;
   padding: 5px 20px;
   /* color: #122f4a; */
-  color: #161d2c;
+  color: white;
 }
 
 .çizgi {
