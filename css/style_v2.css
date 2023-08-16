@@ -138,17 +138,16 @@ input[type="number"]::-webkit-outer-spin-button {
 /* Form control , form select */
 .form-select:focus,
 .form-control:focus {
-  background: #434a56 !important;
-  /* box-shadow: 0 0 0 0.2rem rgb(236, 208, 255) !important; */
-  box-shadow: 0 0 0 0.015rem #877fdc !important;
+box-shadow: 0 0 0 1px rgb(236, 208, 255) !important;
+
 }
+
 .form-select,
 .form-control,
 .input-group-text {
-  background: #434a56 !important;
-  color: #c0d346 !important;
-  /* box-shadow: 0 0 0 0.2rem rgb(236, 208, 255) !important; */
-  box-shadow: 0 0 0 0.015rem #877fdc !important;
+box-shadow: 0 0 0 1px rgb(236, 208, 255) !important;
+color: red !important;
+ background-color: #202020 !important;
 }
 
 /* Botones mostrar modal */
