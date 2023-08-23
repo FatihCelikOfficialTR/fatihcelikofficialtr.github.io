@@ -131,7 +131,7 @@
 .drawer-menu__container {
   animation-duration: var(--menu-toggle-duration);
   animation-fill-mode: forwards;
-  background-color: var(--white-color-primary);
+  background-color: #2f3045;
   border-left: var(--gray-color-secondary) 1px solid;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
   display: flex;
@@ -144,6 +144,7 @@
   right: 0;
   top: 0;
   width: 80%;
+  color: #00ff0f;
 }
 .drawer-menu[inert] .drawer-menu__container {
   animation-name: menu-container-leaved;
