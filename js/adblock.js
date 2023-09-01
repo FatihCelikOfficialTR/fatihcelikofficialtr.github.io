@@ -48,15 +48,14 @@ var adBlockHtml=`<div class="modal fade" id="adBlockAlertDiv">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header" style="background-color: #1955a5;color:white;">
-        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-        <div style="border-bottom: 2px solid #174e98;padding:10px 0;">CoreVertical.com</div>
-        <h2 class="modal-title">We noticed you’re blocking ads.</h2>
+        
+        <h2 class="modal-title">WEB SİTE GENEL DUYURU</h2>
       </div>
       <div class="modal-body">
-        <p> Our website is made possible by displaying online advertisements to our visitors.<br> Please consider supporting us by disabling your ad blocker on our website.</p>
+        <p>Web sitemiz, ziyaretçilerimize çevrimiçi reklamlar göstererek mümkün olmaktadır.<br> Lütfen web sitemizde reklam engelleyicinizi devre dışı bırakarak bize destek olmayı düşünün.</p>
         
-        <p>Here are the steps to whitelist this site</p>
-        <ul>
+        <p>Hesaplama sitemiz sorunsuz çalışmaktadır!</p>
+        <!--ul>
           <li>
             <b>AdBlock Plus</b>
 Click ”Enabled on this site”  or  ”Disable on corevertical.com.” Refresh the page.
@@ -71,12 +70,12 @@ Version 6.0: click ”trust site.” Refresh the page. Older versions:  click �
           </li>  
           <li>
             <b>uBlock</b>
-Click the big blue ”Power” icon. Refresh the page.
+Büyük mavi “Güç” simgesine tıklayın. Sayfayı yenile.
           </li>
-        </ul>
+        </ul-->
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-primary" data-dismiss="modal" >Continue to site</button>
+        <button type="button" class="btn btn-primary" data-dismiss="modal" >Devam et</button>
       </div>
     </div>
     <!-- /.modal-content -->
