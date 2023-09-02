@@ -1,3 +1,10 @@
+//Conversion SATOSHI a BTC
+function calculateBTC() {
+  var satoshi = parseFloat(document.getElementById("satoshi-value").value);
+  var btc = satoshi / 100000000;
+  document.getElementById("btc-resultado").value = btc.toFixed(8);
+}
+
 const { Block } = require("strip-comments/lib/Node");
 
 function blockAmount() {
