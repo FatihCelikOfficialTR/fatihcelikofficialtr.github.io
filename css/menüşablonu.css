@@ -19,13 +19,6 @@
   }
 }
 
-*,
-*::before,
-*::after {
-  box-sizing: inherit;
-  margin: 0;
-}
-
 .menu-button {
   appearance: none;
   background-color: var(--base-color);
@@ -37,7 +30,7 @@
   position: relative;
   transition: background-color 0.3s;
   width: var(--header-height);
-  border-radius: 14px 14px 14px 14px;
+
 }
 .menu-button.focus-visible {
   background-color: var(--gray-color-primary);
