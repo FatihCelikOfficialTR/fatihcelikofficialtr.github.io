@@ -563,7 +563,7 @@ ul {
 
   /*Table*/
 
-  .table {
+  .tabless {
     font-size: 0.8em;
     margin-right: 0rem !important;
     margin-left: 0rem !important;
@@ -597,67 +597,6 @@ ul {
     margin: 0 10px;
   }
 }
-
-
-
-
-
-
-
-
-/*	
-	Table Responsive
-	===================
-	Author: https://github.com/pablorgarcia
- */
-
-@charset "UTF-8";
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,700);
-
-.yenitablo th h1 {
-	text-align: center;
-	color: #0E1119;
-}
-
-.yenitablo td {
-	font-weight: normal;
-	font-size: 13px;
-	border-radius: 10px 10px 10px 10px;
-	-moz-border-radius: 10px 10px 10px 10px;
-	-webkit-border-radius: 10px 10px 10px 10px;
-	border: 2px dotted #000000;
-}
-
-.yenitablo {
-	text-align: center;
-	width: 100%;
-	border-radius: 10px 10px 10px 10px;
-	-moz-border-radius: 10px 10px 10px 10px;
-	-webkit-border-radius: 10px 10px 10px 10px;
-	border: 4px dotted #000000;
-}
-
-.yenitablo td, .yenitablo th {
-	padding-bottom: 2%;
-	padding-top: 2%;
-	padding-left:2%;  
-}
-
-/* Background-color of the odd rows */
-.yenitablo tr:nth-child(odd) {
-	background-color: #434a56;
-}
-
-/* Background-color of the even rows */
-.yenitablo tr:nth-child(even) {
-	background-color: #35373c;
-}
-
-@media (max-width: 800px) {
-.yenitablo td:nth-child(4),
-.yenitablo th:nth-child(4) { display: none; }
-}
-
 
 /* YENİ BUTON AYARLARI */
 
