@@ -162,10 +162,10 @@
 							<div class="form-group row my-1">
                                 <label><img src="./img/svg/ag_gucu.svg" width="15" height="15"/> Ağ Gücü</label>
                                 <div class="col-7">
-                                    <input type="number" class="form-control" step="any" id="network-power" >
+                                    <input type="number" class="form-control" step="any" id="network-power" oninput="calculateGoalPower()">
                                 </div>
                                 <div class="col-5">
-                                    <select class="form-select" name="network-power-prefix" id="network-power-selector" >
+                                    <select class="form-select" name="network-power-prefix" id="network-power-selector" onchange="calculateGoalPower()">
                                         <option value="ghs">GH/s</option>
                                         <option value="ths">TH/s</option>
                                         <option value="phs">PH/s</option>
@@ -177,10 +177,10 @@
                             <div class="form-group row my-1">
                                 <label><img src="./img/svg/kazım_gucu.svg" width="15" height="15"> Kazım Gücü</label>
                                 <div class="col-7">
-                                    <input type="number" class="form-control" name="goal-power-hash" id="goal-power" >
+                                    <input type="number" class="form-control" name="goal-power-hash" id="goal-power" oninput="calculateGoalPower()">
                                 </div>
                                 <div class="col-5">
-                                    <select class="form-select" name="goal-power-prefix" id="goal-power-selector" >
+                                    <select class="form-select" name="goal-power-prefix" id="goal-power-selector" onchange="calculateGoalPower()">
                                         <option value="ghs">GH/s</option>
                                         <option selected value="ths">TH/s</option>
                                         <option value="phs">PH/s</option>
@@ -193,11 +193,11 @@
                                 <label><img src="./img/svg/blok_odulu.svg" width="15" height="15"> Blok Ödülü</label>
                                 <div class="col-7">
                                     <input type="number" class="form-control" name="block-reward" id="block-reward"
-                                        step="any" >
+                                        step="any" oninput="calculateGoalPower()">
                                 </div>
                                 <div class="col-5">
                                     <select class="form-select" name="block-type" id="block-type"
-                                        onchange="blockAmount()" >
+                                        onchange="blockAmount(), calculateGoalPower()">
                                         <option value="btc">BitCoin</option>
                                         <option value="doge">Doge</option>
                                         <option value="eth">Ethereum</option>
@@ -229,7 +229,7 @@
                             </div-->
 <label><img src="./img/svg/bilgi.svg" width="15" height="15"> Kazım bilgilerini doğru girdiğiniz durumda hesaplama işlemini yapabilirsiniz.</label>
 <!--===============================================================================================-->
-	<button class="btn-show mt-2 head" id="btn-calcular"  onclick="calculateGoalPower()">Hesapla</button>
+	<button class="btn-show mt-2 head" id="btn-calcular"  onclick="calculateGoalPower()" >Hesapla</button>
 <!--===============================================================================================-->
                         </div>
                                 </div>
