@@ -3,9 +3,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
 
-
-
-
 ::-webkit-scrollbar {
     background: #2f3045;
     width: 7px;
@@ -92,21 +89,13 @@ rgb(180,180,180),3px 3px 0 rgb(158,158,158), 4px 4px 0 rgb(136,136,136),5px
 	border-radius: 0px 0px 10px 10px;
 }
 
-.card-body-fc {
-	background: #0E1119; /* background: #151414; */
-	font-size: 13px;
-	color: #00ff0f;
-	border-radius: 0px 0px 10px 10px;
-}
-
 .card-fc {
 	width: 100%;
 	color: white;
-	background: #434a56; /* background: #151414; */
+	background: black; /* background: #151414; */
 	border-radius: 10px 10px 10px 10px;
 	-moz-border-radius: 10px 10px 10px 10px;
 	-webkit-border-radius: 10px 10px 10px 10px;
-	border: 4px double red;
 }
 
 .card-header {
