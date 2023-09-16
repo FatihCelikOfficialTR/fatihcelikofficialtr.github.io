@@ -1,11 +1,11 @@
 /* YENİ MENÜ AYARLARI */
 :root {
-  --base-color: #434a56;
-  --white-color-primary: #f7f8f8;
-  --gray-color-primary: #676f79;
-  --gray-color-secondary: #e2e2e2;
-  --gray-color-tertiary: #aaa;
-  --active-color: #006e9b;
+  --anarenk: #2f3045;
+  --menüikonrenk: red;
+  --menüikonrenk2: #181928;
+  --menüçerçeverenk: red;
+  --menüaçıklamarenk: #aaa;
+  --active-color: red;
   --header-height: 52px;
 }
 @media screen and (min-width: 768px) {
@@ -21,7 +21,7 @@
 
 .menu-button {
   appearance: none;
-  background-color: var(--base-color);
+  background-color: var(--anarenk);
   border: none;
   box-shadow: 0 0 12px rgba(0, 0, 0, 0.15);
   cursor: pointer;
@@ -30,15 +30,28 @@
   position: relative;
   transition: background-color 0.3s;
   width: var(--header-height);
-  border-radius: 14px 14px 0px 0px;
-
+  border-radius: 0px 14px 0px 0px;
 }
+.menu-button2 {
+  appearance: none;
+  background-color: var(--anarenk);
+  border: none;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+  height: var(--header-height);
+  padding: 0;
+  position: relative;
+  transition: background-color 0.3s;
+  width: var(--header-height);
+}
+
 .menu-button.focus-visible {
-  background-color: var(--gray-color-primary);
+  background-color: var(--menüikonrenk2);
 }
 @media (hover) {
-  .menu-button:hover {
-    background-color: var(--gray-color-primary);
+  .menu-button:hover,
+  .menu-button2:hover {
+    background-color: var(--menüikonrenk2);
   }
 }
 
@@ -54,7 +67,7 @@
   border-radius: 14px 14px 14px 0px;
 }
 .menu-button__icon::before, .menu-button__icon::after {
-  background-color: var(--white-color-primary);
+  background-color: var(--menüikonrenk);
   content: "";
   height: 100%;
   left: 0;
@@ -64,7 +77,7 @@
   border-radius: 14px 14px 14px 0px;
 }
 .menu-button__icon[data-type=open] {
-  background-color: var(--white-color-primary);
+  background-color: var(--menüikonrenk);
 }
 .menu-button__icon[data-type=open]::before {
   transform: translateY(-6px);
@@ -128,7 +141,7 @@
   animation-duration: var(--menu-toggle-duration);
   animation-fill-mode: forwards;
   background-color: #2f3045;
-  border-left: var(--gray-color-secondary) 1px solid;
+  border-left: var(--menüçerçeverenk) 1px solid;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
   display: flex;
   flex-direction: column;
@@ -174,7 +187,7 @@
 }
 
 .drawer-menu__item {
-  border-bottom: var(--gray-color-secondary) 1px dashed;
+  border-bottom: var(--menüçerçeverenk) 1px dashed;
 }
 
 .drawer-menu__link {
@@ -189,8 +202,8 @@
   transition: background-color 0.3s;
 }
 .drawer-menu__link::after {
-  border-right: 2px solid var(--gray-color-tertiary);
-  border-top: 2px solid var(--gray-color-tertiary);
+  border-right: 2px solid var(--menüaçıklamarenk);
+  border-top: 2px solid var(--menüaçıklamarenk);
   bottom: 0;
   content: "";
   display: inline-block;
@@ -224,20 +237,20 @@
 }
 
 .drawer-menu__jp-label {
-  color: var(--gray-color-tertiary);
+  color: var(--menüaçıklamarenk);
   display: block;
   font-size: max(10px, 0.75em);
 }
 
 .drawer-menu__close-button {
-  border-bottom: var(--gray-color-secondary) 0px solid;
+  border-bottom: var(--menüçerçeverenk) 0px solid;
   order: -1;
   background-color: #434a56;
   text-align: right;
 }
 
 .global-header {
-  background-color: var(--base-color);
+  background-color: var(--anarenk);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   height: var(--header-height);
   position: sticky;
@@ -293,7 +306,7 @@
 }
 
 .article__subtitle {
-  border-bottom: 2px solid var(--gray-color-secondary);
+  border-bottom: 2px solid var(--menüçerçeverenk);
   font-size: 1.333em;
   font-weight: normal;
   padding: 0.2em 0;
