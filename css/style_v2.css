@@ -177,27 +177,6 @@ color: red !important;
   background-color: #2f3045;
 }
 
-.btn-show:before,
-.btn-show:after {
-  position: absolute;
-  content: "";
-  display: block;
-  width: 140%;
-  height: 100%;
-  left: -20%;
-  z-index: -1000;
-  transition: all ease-in-out 0.5s;
-  background-repeat: no-repeat;
-}
-.btn-show:before {
-  display: none;
-  top: -75%;
-}
-.btn-show:active {
-  transform: scale(0.9);
-  background-color: #4035b3;
-  box-shadow: 0 2px 35px rgba(33, 27, 199, 0.5);
-}
 
 
 /* Imagen Promo */
