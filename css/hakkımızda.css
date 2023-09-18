@@ -11,7 +11,7 @@
     --rum: #6a668a;
     --white: #fff;
     --default-btn: #7e7da1;
-    --primary: #03e1e4;
+    --primary: red;
     --breakpoint-md: 768px;
     --breakpoint-lg: 992px;
     --breakpoint-xl: 1200px;
@@ -19,23 +19,11 @@
     --font-family-sans-serif: pixelSC,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
 }
 
-@font-face {
-    font-family: pixelSC;
-    src: url('../fonts/PixelOperatorSC.ttf');
-    font-display: swap;
-}
-
 body {
     background-color: var(--arkaplanrenki);
     color: var(--white);
     font-family: 'Mooli', sans-serif;
     font-size: 1.1rem;
-}
-
-a{
-    color: var(--primary);
-    text-decoration: none;
-    
 }
 
 h1 {
@@ -53,7 +41,7 @@ h1::after {
 
 
 main {
-    margin: 0 1rem;
+    margin: 5%;
     margin-bottom: 1rem;
     display: flex;
     flex-direction: column;
