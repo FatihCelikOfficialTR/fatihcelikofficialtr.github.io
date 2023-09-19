@@ -39,6 +39,15 @@ h1::after {
     content: "🐹 ";
 }
 
+header {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: var(--ebony-clay);
+
+    margin-bottom: .5rem;
+}
 
 main {
     margin: 5%;
