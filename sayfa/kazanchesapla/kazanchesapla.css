@@ -72,6 +72,13 @@ main {
     flex-direction: column;
 }
 
+.main {
+    margin: 0 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
 main form {
     display: flex;
     flex-direction: column;
