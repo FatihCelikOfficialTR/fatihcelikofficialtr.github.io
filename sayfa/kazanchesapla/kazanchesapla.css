@@ -341,7 +341,7 @@ aside.apps-promotion img {
         justify-content: space-evenly;
     }
     table tbody tr td p {
-        padding: 0 10rem;
+        padding: 0 .5rem;
     }
     .form-container {
         margin-right: 1.2rem;
