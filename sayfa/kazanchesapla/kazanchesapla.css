@@ -58,7 +58,10 @@ h1 {
 }
 
 h1::before {
-    content: "🐹 ";
+    content: "🐹";
+}
+h1::after {
+    content: "🐹";
 }
 
 /* h2, h3{
@@ -73,7 +76,7 @@ main {
 }
 
 .main {
-    margin: 0 1rem;
+    margin: 0 10rem;
     margin-bottom: 1rem;
     display: flex;
     flex-direction: column;
