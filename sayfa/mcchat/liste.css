@@ -1,0 +1,113 @@
+body {
+  background-image: url('https://sgray.neocities.org/assets/minecraft_tile_background_by_ivan2294.jpg');
+}
+
+.wrapper {
+  background-color: rgba(110, 110, 110, 0.7);
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding-top: 2em;
+}
+
+a {
+  color: #bdf;
+}
+
+a:hover {
+  color: #cef;
+}
+
+.ui.container {
+  margin-bottom: 2em;
+}
+
+#input,
+#output {
+  width: 100%;
+}
+
+#preview,
+#codes {
+  background-color: rgba(10, 10, 10, 0.6);
+  border-radius: 3px;
+}
+
+#preview {
+  color: #fff;
+  font-size: 1.6em;
+  min-height: 1.6em;
+  width: 100%;
+  padding: 0.1em 0.5em;
+}
+
+#codes {
+  color: #ccc;
+  padding: 0.9em 1.2em;
+}
+
+.render .blue {
+  color: #00c;
+}
+
+.render .green {
+  color: #090;
+}
+
+.render .darkaqua {
+  color: #0aa;
+}
+
+.render .red {
+  color: #b00;
+}
+
+.render .purple {
+  color: #909;
+}
+
+.render .orange {
+  color: #d60;
+}
+
+.render .gray {
+  color: #999;
+}
+
+.render .darkgray {
+  color: #555;
+}
+
+.render .lightblue {
+  color: #66f;
+}
+
+.render .black {
+  color: #000;
+}
+
+.render .lime {
+  color: #0f0;
+}
+
+.render .aqua {
+  color: #0ff;
+}
+
+.render .lightred {
+  color: #f55;
+}
+
+.render .pink {
+  color: #c0f;
+}
+
+.render .yellow {
+  color: #ff0;
+}
+
+.render .white {
+  color: #fff;
+}
