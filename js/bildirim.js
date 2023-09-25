@@ -194,9 +194,8 @@
         new novaAlert({
             title: 'Hoş Geldin!',
             text: 'Seni burada görmek güzel oldu :) | He sana bi bilgim var ZH hesaplama eklendi!',
-            icon: 'success',
             dismissButton: false,
-            darkMode: false,
+            darkMode: true,
             ConfirmButtonText: 'Hadi hesaplama yapalım mı?',
 
         });
