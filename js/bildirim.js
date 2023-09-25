@@ -197,7 +197,7 @@
             icon: 'success',
             dismissButton: false,
             darkMode: false,
-            ConfirmButtonText: 'Lets go',
+            ConfirmButtonText: 'Hadi hesaplama yapalım mı?',
 
         });
 
