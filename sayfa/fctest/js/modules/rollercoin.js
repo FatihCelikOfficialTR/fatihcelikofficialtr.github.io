@@ -4,7 +4,7 @@ export const blockReward = {
     timePerBlock: 600,
     name: "Bitcoin",
     ticker: "BTC",
-    icon: "btc.svg",
+    icon: "https://fatihcelikofficialtr.github.io/sayfa/fctest/img/btc.svg",
     coinGeckoId: "bitcoin",
   },
   "DOGE": {
@@ -12,7 +12,7 @@ export const blockReward = {
     timePerBlock: 600,
     name: "Dogecoin",
     ticker: "DOGE",
-    icon: "doge.svg",
+    icon: "https://fatihcelikofficialtr.github.io/sayfa/fctest/img/doge.svg",
     coinGeckoId: "dogecoin",
   },
   "ETH": {
@@ -20,7 +20,7 @@ export const blockReward = {
     timePerBlock: 600,
     name: "Ethereum",
     ticker: "ETH",
-    icon: "eth.svg",
+    icon: "https://fatihcelikofficialtr.github.io/sayfa/fctest/img/eth.svg",
     coinGeckoId: "ethereum",
   },
   "BNB": {
@@ -28,7 +28,7 @@ export const blockReward = {
     timePerBlock: 600,
     name: "Binancecoin",
     ticker: "BNB",
-    icon: "bnb.svg",
+    icon: "https://fatihcelikofficialtr.github.io/sayfa/fctest/img/bnb.svg",
     coinGeckoId: "binancecoin",
   },
   "MATIC": {
@@ -36,7 +36,7 @@ export const blockReward = {
     timePerBlock: 600,
     name: "Polygon",
     ticker: "matic-network",
-    icon: "matic.svg",
+    icon: "https://fatihcelikofficialtr.github.io/sayfa/fctest/img/matic.svg",
     coinGeckoId: "matic-network",
   },
   "RLT": {
@@ -44,28 +44,28 @@ export const blockReward = {
     timePerBlock: 600,
     name: "Rollertoken",
     ticker: "RLT",
-    icon: "rlt.svg",
+    icon: "https://fatihcelikofficialtr.github.io/sayfa/fctest/img/rlt.svg",
   },
   "SOL": {
     dailyReward: 0.23,
     timePerBlock: 600,
     name: "Solana",
     ticker: "SOL",
-    icon: "sol.svg",
+    icon: "https://fatihcelikofficialtr.github.io/sayfa/fctest/img/sol.svg",
     coinGeckoId: "solana",
   },
   "RST": {
     dailyReward: 150,
     timePerBlock: 600,
     name: "Roller Season Token",
-    icon: "rst.svg",
+    icon: "https://fatihcelikofficialtr.github.io/sayfa/fctest/img/rst.svg",
   },
   "TRX": {
     dailyReward: 60,
     timePerBlock: 600,
     name: "Tron",
     ticker: "tron",
-    icon: "trx.svg",
+    icon: "https://fatihcelikofficialtr.github.io/sayfa/fctest/img/trx.svg",
     coinGeckoId: "tron",
   },
   "LTC": {
@@ -73,7 +73,7 @@ export const blockReward = {
     timePerBlock: 600,
     name: "Litecoin",
     ticker: "ltc",
-    icon: "ltc.svg",
+    icon: "https://fatihcelikofficialtr.github.io/sayfa/fctest/img/ltc.svg",
     coinGeckoId: "litecoin",
   },
 }
