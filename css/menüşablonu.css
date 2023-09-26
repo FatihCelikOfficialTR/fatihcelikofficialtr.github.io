@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Skranji&display=swap');
+
 /* YENİ MENÜ AYARLARI */
 :root {
   --anarenk: #2f3045;
@@ -92,10 +94,12 @@
   transform: rotate(-45deg);
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Germania+One&display=swap');
+
 .drawer-menu {
   height: 100%;
   left: 0;
-  font-family: 'Russo One', sans-serif;
+  font-family: 'Germania One', cursive;
   overflow: hidden;
   position: fixed;
   top: 0;
