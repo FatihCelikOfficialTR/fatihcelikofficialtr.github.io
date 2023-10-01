@@ -20,7 +20,7 @@
 body { margin:0px!important;background-color:var(--background); }
 a { text-decoration:none!important; }
 .musour { display:grid;height:100vh;width:100vw;grid-template-columns:280px auto;overflow-y:hidden; }
-.musour-left { padding:10px;color:var(--text);font:15px var(--body);display:grid;height:calc(100vh - 15px);flex-direction:column; }
+.musour-left { padding:5px;color:var(--text);font:13px var(--body);display:grid;height:calc(100vh - 10px);flex-direction:column; }
 .musour-title { font:40px var(--title);padding-top:3px; }
 .musour-title div { font-size:40px;margin-left:-2px;line-height:80px;color:var(--accentOne); }
 .musour-title-2 { background:linear-gradient(to bottom left,var(--accentOne),var(--accentTwo));font:700 13px var(--title);line-height:10px;padding:14px 0px 16px 4px;text-align:center;color:var(--background);border-radius:10px;transition:.3s all; }
@@ -33,7 +33,7 @@ a { text-decoration:none!important; }
 .musour-filters h1 { background-color:var(--backgroundTwo);font:700 15px var(--title);line-height:10px;padding:14px 0px 16px 4px;text-align:center;color:var(--text);border-radius:10px;text-transform:uppercase;line-height:12px;border: 2px dashed #ff0000; }
 .musour-filters button { margin-top:0px;border:none;background:transparent;text-align:left;padding:0px;cursor:pointer;font:15px var(--body);color:var(--text);line-height:20px;transition:.3s all; }
 .musour-filters .is-checked { font-weight:700!important;color:var(--seçilen);border: 1px dashed; }
-.musour-filters button::before { content:'+';color:var(--accentOne);padding-right:5px; }
+.musour-filters button::before { content:'+';color:var(--accentOne);padding-right:3px; }
 .musour-filters button:hover { color:var(--accentOne);border: 1px dashed; }
 
 .musour-color { flex-direction:row!important;flex-wrap:wrap;justify-content:center;gap:8px; }
@@ -56,7 +56,7 @@ a { text-decoration:none!important; }
 .musour-right .grid { max-height:calc(100vh - 20px);overflow:auto; }
 .musour-right .grid::-webkit-scrollbar-thumb { background-color:var(--background);border-radius:5px; }
 .musour-right .grid::-webkit-scrollbar { width:10px; }
-.musour-icon { background-color:var(--background);padding:10px;border-radius:15px;width:130px;margin:0px 0px 0px 0px;box-shadow: 5px 5px 10px -3px rgba(44,44,44,.05);height:176px;transform:scale(1);transition:.3s all;border: 2px dashed #ff0000; }
+.musour-icon { background-color:var(--background);padding:5px;border-radius:15px;width:130px;margin:0px 0px 0px 0px;box-shadow: 5px 5px 10px -3px rgba(44,44,44,.05);height:176px;transform:scale(1);transition:.3s all;border: 2px dashed #ff0000; }
 .musour-icon img {display:block;filter:grayscale(75%) contrast(100%);opacity:1;transition:.3s all;border-radius: 10px 10px 10px 10px;border: 2px dashed #ff0000; }
 .musour-icon div {background-color:var(--backgroundTwo);padding:10px;font:13px var(--body);color:var(--text);font-style:italic;height:50px;display:flex;flex-direction:column;justify-content:center;border-radius: 10px 10px 10px 10px;border: 2px dashed #ff0000; }
 .musour-icon div b { display:block;font-style:normal!important;color:var(--accentOne);font-size:12px; }
