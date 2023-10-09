@@ -14,7 +14,6 @@
 
 .head {
   /*font-family: 'Russo One', sans-serif; */
-  font-family: "Audiowide", sans-serif;
   text-decoration:none;
 }
 
@@ -25,7 +24,7 @@
 }
 
 .drawer-menu {
-  font-family: 'Caveat Brush', cursive;
+  font-family: 'Germania One', cursive;
   font-size: 13px;
   text-decoration:none;
   color: black
@@ -50,7 +49,7 @@
 }
 
 .fatihceliktr-3d{
-font-family: 'Russo One', sans-serif;
+font-family: 'Germania One', cursive;
 color: #2f3045;
 font-weight:bold;
 font-size: 25px;
@@ -114,12 +113,14 @@ rgb(180,180,180),3px 3px 0 rgb(158,158,158), 4px 4px 0 rgb(136,136,136),5px
 	color: #00ff0f;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Germania+One&display=swap');
+
 .body {
 	background: #181928; /* background: #151414; */
 	background-image: url('https://www.mmsrn.com/wp-content/uploads/2016/04/sol-%C3%BCst-k%C3%B6%C5%9Fe-1.png'); /* Add a search icon to input */
 	background-position: top left;
 	background-repeat : no-repeat;
-	font-family: "Audiowide", sans-serif;
+	font-family: 'Germania One', cursive;
 }
 
 /* font-family: 'Russo One', sans-serif; */
@@ -228,7 +229,6 @@ color: #c3b0d0 !important;
 /* footer */
 
 footer1 {
-  font-family: 'Russo One', sans-serif;
 background-image: radial-gradient(circle, #2f3045 20%, transparent 20%),
     radial-gradient(circle, transparent 20%, #2f3045 20%, transparent 30%),
     radial-gradient(circle, #2f3045 20%, transparent 20%),
@@ -313,7 +313,6 @@ ul {
   display: block;
   font-size: 20px;
   font-weight: 700;
-  font-family: 'Poppins', sans-serif;
   margin-bottom: 20px;
 }
 .footer-social-icon a {
@@ -443,7 +442,6 @@ ul {
   .titulo {
     /* font-family: 'Shizuru', cursive; */
     /* font-family: "Fredoka One", cursive; */
-    font-family: "Press Start 2P", cursive;
     font-size: 1.8em;
     color: #2f3045;
     letter-spacing: 0.07em;
