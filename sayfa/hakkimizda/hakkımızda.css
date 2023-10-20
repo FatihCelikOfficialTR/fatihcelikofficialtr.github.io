@@ -45,7 +45,7 @@ header {
     align-items: center;
 
     background-color: var(--ebony-clay);
-
+	font-size: 13px;
     margin-bottom: .5rem;
 }
 
