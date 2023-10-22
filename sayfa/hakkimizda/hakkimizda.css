@@ -61,10 +61,81 @@ main form {
     flex-direction: column;
 }
 
-
-hr{
-    margin-bottom: 1rem;
+.hr-one {
+  color: #333;
 }
+.hr-two {
+  border-bottom: 1px dashed #cccccc;
+}
+.hr-three {
+  height: 14px;
+  border: 0;
+  box-shadow: inset 0 12px 12px -12px #cccccc;
+}
+.hr-four {
+  border: 13px inset #cccccc;
+}
+.hr-five {
+  border-bottom: 20px solid #cccccc;
+  border-radius: 15px;
+}
+.hr-six {
+  padding: 0;
+  border: none;
+  border-top: medium double #cccccc;
+  color: #333;
+  text-align: center;
+}
+.hr-six::after {
+  content: "§";
+  display: inline-block;
+  position: relative;
+  top: -0.7em;
+  font-size: 1.5em;
+  padding: 0 0.25em;
+  background: #cccccc;
+}
+.hr-seven {
+  height: 12px;
+  background-image: linear-gradient(90deg, #cccccc, transparent);
+  border: 0;
+}
+.hr-eight {
+  overflow: visible;
+  height: 30px;
+  border-style: solid;
+  border-color: #cccccc;
+  border-width: 1px 0 0 0;
+  border-radius: 20px;
+}
+.hr-eight::before {
+  display: block;
+  content: "";
+  height: 30px;
+  margin-top: -31px;
+  border-style: solid;
+  border-color: #cccccc;
+  border-width: 0 0 1px 0;
+  border-radius: 20px;
+}
+.hr-nine {
+  padding: 0;
+  border: none;
+  border-top: medium double #333;
+  color: #333;
+  text-align: center;
+}
+.hr-nine::after {
+  content: "RCHesapla";
+  display: inline-block;
+  position: relative;
+  top: -0.7em;
+  font-size: 12px;
+  padding: 0 0.25em;
+  color: #cccccc;
+  background: #191919;
+}
+
 
 @media (hover: hover) {
     .tree-dimensional-button:hover {
