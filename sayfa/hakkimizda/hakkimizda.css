@@ -40,6 +40,7 @@ body {
 h1 {
     margin: 0 1rem;
     text-align: center;
+	color: red;
 }
 
 h1::before {
@@ -297,11 +298,6 @@ main form {
 }
 
 
-
-* {
- box-sizing: border-box;
-}
-
 .sorubody {
  font-family: "Poppins", sans-serif;
  color: #000;
@@ -312,7 +308,7 @@ main form {
  max-width: 800px !important;
  margin: auto;
  width: 100%;
- padding: 40px 0px;
+ padding: 10px 0px;
 }
 
 /**Typeo CSS End (Note if is not need so remove)**/
@@ -412,7 +408,6 @@ main form {
 
 .faq-contact {
  text-align: center;
- padding: 10px 0;
 }
 
 .faq-contact h3 {
