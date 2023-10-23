@@ -334,7 +334,7 @@ main form {
 }
 
 .cw-section__title span {
- color: #6A49F2;
+ color: red;
 }
 
 .cw-accordion {
@@ -362,6 +362,7 @@ main form {
  display: inline-block;
  font-size: 15px;
  font-weight: 500;
+ color: #00ff0f;
 }
 
 .cw-accordion__item .cw-label:after {
@@ -390,6 +391,7 @@ main form {
  font-size: 15px;
  padding-left: 25px;
  padding-right: 25px;
+ color: red;
 }
 
 .cw-accordion__item .cw-acordion-cont ul {
