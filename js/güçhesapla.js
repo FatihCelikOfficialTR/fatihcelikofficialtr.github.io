@@ -13,8 +13,8 @@ function blockAmount() {
     switch (document.getElementById("block-type").selectedIndex) {
         case 0:
             //Bitcoin - 28000
-            var blockreward = 40000;
-            document.getElementById("block-reward").value = 40000;
+            var blockreward = 37000;
+            document.getElementById("block-reward").value = 37000;
 			document.getElementById("exp_reward").innerHTML = "❌ ⛏";
 			document.getElementById("daily").innerHTML = "❌ ⛏";
 			document.getElementById("weekly").innerHTML = "❌ ⛏";
@@ -23,8 +23,8 @@ function blockAmount() {
             break;
         case 1:
             //Doge - 60
-            var blockreward = 140;
-            document.getElementById("block-reward").value = 140;
+            var blockreward = 170;
+            document.getElementById("block-reward").value = 170;
 			document.getElementById("exp_reward").innerHTML = "❌ ⛏";
 			document.getElementById("daily").innerHTML = "❌ ⛏";
 			document.getElementById("weekly").innerHTML = "❌ ⛏";
@@ -33,8 +33,8 @@ function blockAmount() {
             break;
         case 2:
             //Eth - 0.0055
-            var blockreward = 0.007;
-            document.getElementById("block-reward").value = 0.007;
+            var blockreward = 0.005;
+            document.getElementById("block-reward").value = 0.005;
 			document.getElementById("exp_reward").innerHTML = "❌ ⛏";
 			document.getElementById("daily").innerHTML = "❌ ⛏";
 			document.getElementById("weekly").innerHTML = "❌ ⛏";
@@ -43,8 +43,8 @@ function blockAmount() {
             break;
         case 3:
             //Bnb - 0.025
-            var blockreward = 0.044;
-            document.getElementById("block-reward").value = 0.044;
+            var blockreward = 0.04;
+            document.getElementById("block-reward").value = 0.04;
 			document.getElementById("exp_reward").innerHTML = "❌ ⛏";
 			document.getElementById("daily").innerHTML = "❌ ⛏";
 			document.getElementById("weekly").innerHTML = "❌ ⛏";
@@ -53,8 +53,8 @@ function blockAmount() {
             break;
         case 4:
             //Matic - 4
-            var blockreward = 5.5;
-            document.getElementById("block-reward").value = 5.5;
+            var blockreward = 6;
+            document.getElementById("block-reward").value = 6;
 			document.getElementById("exp_reward").innerHTML = "❌ ⛏";
 			document.getElementById("daily").innerHTML = "❌ ⛏";
 			document.getElementById("weekly").innerHTML = "❌ ⛏";
@@ -64,8 +64,8 @@ function blockAmount() {
             break;
         case 5:
             //SOL - 0.06
-            var blockreward = 0.23;
-            document.getElementById("block-reward").value = 0.23;
+            var blockreward = 0.25;
+            document.getElementById("block-reward").value = 0.25;
 			document.getElementById("exp_reward").innerHTML = "❌ ⛏";
 			document.getElementById("daily").innerHTML = "❌ ⛏";
 			document.getElementById("weekly").innerHTML = "❌ ⛏";
