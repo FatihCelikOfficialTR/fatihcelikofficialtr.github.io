@@ -55,7 +55,7 @@ html, body {
   align-items: center;
 }
 .container .product-card .card-details .bottom-row .price {
-  font-size: 13pt;
+  font-size: 13px;
   margin: 0;
 }
 .container .product-card .card-details .bottom-row .add-cart {
