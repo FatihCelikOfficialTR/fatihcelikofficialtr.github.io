@@ -11,6 +11,7 @@
 
 * {
     margin: 0;
+ 
     box-sizing: border-box;
 }
 
@@ -69,7 +70,7 @@ section {
 }
 
 video {
-	border: 2px dotted #ff6550;
+	border: 1px dotted #ff6550;
 }
 
 iframe {
