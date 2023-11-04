@@ -5,6 +5,9 @@ html, body {
   font-family: 'Manrope', sans-serif;
   background-color: var(--arkaplanrenki);
 }
+header {
+	font-size: 13px;
+}
 .container {
   height: 100%;
   display: flex;
@@ -27,9 +30,6 @@ html, body {
 }
 .container .product-card .product-picture {
   position: relative;
-  top: -20px;
-  width: 100%;
-  left: 0%;
 }
 .container .product-card .card-details {
   background-color: white;
@@ -81,13 +81,13 @@ html, body {
   }
   .container .product-card .product-header .product-picture {
     position: relative;
-    top: -50px;
+    top: -20px;
     height: 150px;
     width: 150px;
     left: calc(50% - 75px);
   }
   .container .product-card .card-details .product-name {
-    font-size: 11pt;
+    font-size: 15px;
     overflow: hidden;
     text-overflow: ellipsis;
     display: -webkit-box;
@@ -102,7 +102,7 @@ html, body {
     font-size: 7pt;
   }
   .container .product-card .card-details .bottom-row .price {
-    font-size: 10pt;
+    font-size: 10px;
   }
 }
 
