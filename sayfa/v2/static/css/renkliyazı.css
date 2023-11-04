@@ -7,7 +7,6 @@
 			background: linear-gradient(132deg, #12c2e9, #b92b27, #c31432,#009fff,#ff416c,#8a2387,#ed213a);
 			-webkit-background-clip: text;
 			-webkit-text-fill-color: transparent;
-			
 			background-size: 400% 4%;
 			-webkit-animation: textcolorchange 15s linear infinite;
 			        animation: textcolorchange 15s linear infinite;
