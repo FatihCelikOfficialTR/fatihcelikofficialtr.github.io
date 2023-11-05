@@ -12,7 +12,6 @@
 * {
     margin: 0;
  
-    box-sizing: border-box;
 }
 
 :root {
@@ -34,13 +33,12 @@ body {
     background-color: var(--arkaplanrenki);
     color: var(--white);
     font-family: 'Mooli', sans-serif;
-    font-size: 1.1rem;
 }
 
 h1 {
     text-align: center;
 	color: red;
-	padding: 20px;
+	padding: 10px;
 }
 
 h1::before {
@@ -52,28 +50,14 @@ h1::after {
 }
 
 header {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
     background-color: var(--ebony-clay);
 	font-size: 13px;
-    margin-bottom: .5rem;
 }
 
 main {
     text-align: center;
-	padding: 20px;
-}
-
-section {
-    min-height: 100vh;
 }
 
 video {
-
-}
-
-iframe {
-    height: auto;
+	padding: 50px;
 }
