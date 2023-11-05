@@ -71,10 +71,9 @@ section {
 }
 
 video {
-	border: 1px dotted #ff6550;
+
 }
 
 iframe {
     height: auto;
-	border: 8px dotted #ff6550;
 }
