@@ -56,11 +56,13 @@ header {
 
 main {
     text-align: center;
+	
 }
 
 video {
 	width: 30%;
 	padding: 2px;
+	box-shadow: 0 0 3px 1px #2f3045;
 }
 
 @media screen and (max-width: 768px) {
