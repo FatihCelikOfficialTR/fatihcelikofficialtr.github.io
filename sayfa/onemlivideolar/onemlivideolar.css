@@ -59,7 +59,8 @@ main {
 }
 
 video {
-
+	width: 30%;
+	padding: 2px;
 }
 
 @media screen and (max-width: 768px) {
