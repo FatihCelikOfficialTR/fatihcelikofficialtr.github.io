@@ -4,16 +4,16 @@ calc = function(){
         totalRate = Number(minerRate);
     document.getElementById("totalRate").innerText = totalRate.toFixed(3);
         
-    var distBtc = document.getElementById("distBtc").value,
-        distDoge = document.getElementById("distDoge").value,
-        distEth = document.getElementById("distEth").value,
-		distbnb = document.getElementById("distbnb").value,
-		distmatic = document.getElementById("distmatic").value,
-		distltc = document.getElementById("distltc").value,
-		distsol = document.getElementById("distsol").value,
-		disttrx = document.getElementById("disttrx").value,
-        distRlt = document.getElementById("distRlt").value,
-		distrst = document.getElementById("distrst").value;
+    //var //distBtc = document.getElementById("distBtc").value,
+        //distDoge = document.getElementById("distDoge").value,
+        //distEth = document.getElementById("distEth").value,
+		//distbnb = document.getElementById("distbnb").value,
+		//distmatic = document.getElementById("distmatic").value,
+		//distltc = document.getElementById("distltc").value,
+		//distsol = document.getElementById("distsol").value,
+		//disttrx = document.getElementById("disttrx").value,
+		//distRlt = document.getElementById("distRlt").value,
+		//distrst = document.getElementById("distrst").value;
 
     var netBtc = document.getElementById("netBtc").value,
         netDoge = document.getElementById("netDoge").value,
@@ -41,7 +41,7 @@ calc = function(){
 		blockrst = document.getElementById("blockrst").innerText;
     
 //BITCOIN HESAPLAMA ARACI//
-    var btcPower = ((Number(totalRate)/1000) * Number(distBtc))/100
+    var btcPower = ((Number(totalRate)/1000))
         btcPrice1 = document.getElementById('btc-price-api').innerHTML
         btcPrice = Number(btcPrice1.substring(1))
         minBtc = (Number(btcPower)*blockBtc)/(Number(netBtc)*1000)
@@ -118,7 +118,7 @@ calc = function(){
             document.getElementById("yearBtcD").innerText = "$" + yearBtcD.toFixed(5);
         }
 //DOGECOIN HESAPLAMA ARACI//
-    var dogePower = ((Number(totalRate)/1000) * Number(distDoge))/100
+    var dogePower = ((Number(totalRate)/1000))
         dogePrice1 = document.getElementById('doge-price-api').innerHTML
         dogePrice = Number(dogePrice1.substring(1))
         minDoge = (Number(dogePower)*blockDoge)/(Number(netDoge)*1000)
@@ -196,7 +196,7 @@ calc = function(){
             document.getElementById("yearDogeD").innerText = "$" + yearDogeD.toFixed(5);
         }
 //ETHEREUM HESAPLAMA ARACI//
-    var ethPower = ((Number(totalRate)/1000) * Number(distEth))/100
+    var ethPower = ((Number(totalRate)/1000))
         ethPrice1 = document.getElementById('eth-price-api').innerHTML
         ethPrice = Number(ethPrice1.substring(1))
         minEth = (Number(ethPower)*blockEth)/(Number(netEth)*1000)
@@ -274,7 +274,7 @@ calc = function(){
             document.getElementById("yearEthD").innerText = "$" + yearEthD.toFixed(5);
         }
 //BINANCECOIN HESAPLAMA ARACI//
-    var bnbPower = ((Number(totalRate)/1000) * Number(distbnb))/100
+    var bnbPower = ((Number(totalRate)/1000))
         bnbPrice1 = document.getElementById('bnb-price-api').innerHTML
         bnbPrice = Number(bnbPrice1.substring(1))
         minbnb = (Number(bnbPower)*blockbnb)/(Number(netbnb)*1000)
@@ -351,7 +351,7 @@ calc = function(){
             document.getElementById("yearbnbD").innerText = "$" + yearbnbD.toFixed(5);
         }
 //POLYGON (MATIC) HESAPLAMA ARACI//
-    var maticPower = ((Number(totalRate)/1000) * Number(distmatic))/100
+    var maticPower = ((Number(totalRate)/1000))
         maticPrice1 = document.getElementById('matic-price-api').innerHTML
         maticPrice = Number(maticPrice1.substring(1))
         minmatic = (Number(maticPower)*blockmatic)/(Number(netmatic)*1000)
@@ -428,7 +428,7 @@ calc = function(){
             document.getElementById("yearmaticD").innerText = "$" + yearmaticD.toFixed(5);
         }
 //LITECOIN HESAPLAMA ARACI//
-    var ltcPower = ((Number(totalRate)/1000) * Number(distltc))/100
+    var ltcPower = ((Number(totalRate)/1000))
         ltcPrice1 = document.getElementById('ltc-price-api').innerHTML
         ltcPrice = Number(ltcPrice1.substring(1))
         minltc = (Number(ltcPower)*blockltc)/(Number(netltc)*1000)
@@ -505,7 +505,7 @@ calc = function(){
             document.getElementById("yearltcD").innerText = "$" + yearltcD.toFixed(5);
         }
 //SOLANA HESAPLAMA ARACI//
-    var solPower = ((Number(totalRate)/1000) * Number(distsol))/100
+    var solPower = ((Number(totalRate)/1000))
         solPrice1 = document.getElementById('sol-price-api').innerHTML
         solPrice = Number(solPrice1.substring(1))
         minsol = (Number(solPower)*blocksol)/(Number(netsol)*1000)
@@ -582,7 +582,7 @@ calc = function(){
             document.getElementById("yearsolD").innerText = "$" + yearsolD.toFixed(5);
         }
 //TRON HESAPLAMA ARACI//
-    var trxPower = ((Number(totalRate)/1000) * Number(disttrx))/100
+    var trxPower = ((Number(totalRate)/1000))
         trxPrice1 = document.getElementById('trx-price-api').innerHTML
         trxPrice = Number(trxPrice1.substring(1))
         mintrx = (Number(trxPower)*blocktrx)/(Number(nettrx)*1000)
@@ -659,7 +659,7 @@ calc = function(){
             document.getElementById("yeartrxD").innerText = "$" + yeartrxD.toFixed(5);
         }
 //SEZONTOKEN HESAPLAMA ARACI//
-    var rstPower = ((Number(totalRate)/1000) * Number(distrst))/100
+    var rstPower = ((Number(totalRate)/1000))
         minrst = (Number(rstPower)*blockrst)/(Number(netrst)*1000)
         hourrst = Number(minrst) * 6
         dayrst = Number(hourrst) * 24 
@@ -728,7 +728,7 @@ calc = function(){
             document.getElementById("yearrstD").innerText = "$" + yearrstD.toFixed(5);
         }
 //ROLLERTOKEN HESAPLAMA ARACI//
-    var rltPower = ((Number(totalRate)/1000) * Number(distRlt))/100
+    var rltPower = ((Number(totalRate)/1000))
         rltPrice1 = document.getElementById('rlt-price').innerHTML
         rltPrice = Number(rltPrice1.substring(1))
         minRlt = (Number(rltPower)*blockRlt)/(Number(netRlt)*1000)
