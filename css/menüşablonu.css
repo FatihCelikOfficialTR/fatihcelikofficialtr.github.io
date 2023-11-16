@@ -280,14 +280,14 @@
   border-radius: 14px 14px 14px 0px;
 }
 
-.global-header_v2 {
+.global-header_v2, header {
   background-color: var(--anarenk);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   height: var(--header-height);
   position: sticky;
   top: 0;
   z-index: 1;
-  border-radius: 14px 14px 14px 0px;
+  font-size: 13px;
 }
 
 .global-header__container {
