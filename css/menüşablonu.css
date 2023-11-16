@@ -280,6 +280,16 @@
   border-radius: 14px 14px 14px 0px;
 }
 
+.global-header_v2 {
+  background-color: var(--anarenk);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  height: var(--header-height);
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  border-radius: 14px 14px 14px 0px;
+}
+
 .global-header__container {
   align-items: center;
   display: flex;
