@@ -313,6 +313,17 @@
 							<td>EH/s</td>
 						</tr>
 						<tr>
+							<td class="td-trx">TRX:</td>
+							<td>
+								<form action="text" onsubmit="return false">
+									
+									<input id="nettrx" class="input-box" type="number" onchange="calc(), getData('nettrx')">
+									
+								</form>
+							</td>
+							<td>EH/s</td>
+						</tr>
+						<tr>
 							<td class="td-doge">DOGE:</td>
 							<td>
 								<form action="text" onsubmit="return false">
@@ -368,17 +379,6 @@
 							<td>EH/s</td>
 						</tr>
 						<tr>
-							<td class="td-lite">LTC:</td>
-							<td>
-								<form action="text" onsubmit="return false">
-									
-									<input id="netltc" class="input-box" type="number" onchange="calc(), getData('netltc')">
-									
-								</form>
-							</td>
-							<td>EH/s</td>
-						</tr>
-						<tr>
 							<td class="td-sol">SOL:</td>
 							<td>
 								<form action="text" onsubmit="return false">
@@ -390,11 +390,11 @@
 							<td>EH/s</td>
 						</tr>
 						<tr>
-							<td class="td-trx">TRX:</td>
+							<td class="td-lite">LTC:</td>
 							<td>
 								<form action="text" onsubmit="return false">
 									
-									<input id="nettrx" class="input-box" type="number" onchange="calc(), getData('nettrx')">
+									<input id="netltc" class="input-box" type="number" onchange="calc(), getData('netltc')">
 									
 								</form>
 							</td>
@@ -417,6 +417,11 @@
 							<td class="td-rst">RST:</td><!-- 150 -->
 							<td class="no-input" id="blockrst">150</td>
 							<td><img src="../../img/svg_rc/rst.svg" width="13" height="13"/></td>
+						</tr>
+						<tr>
+							<td class="td-trx">TRX:</td><!-- 60 -->
+							<td class="no-input" id="blocktrx">60</td>
+							<td><img src="../../img/svg_rc/trx.svg" width="13" height="13"/></td>
 						</tr>
 						<tr>
 							<td class="td-doge">DOGE:</td><!-- 60 -->
@@ -444,19 +449,14 @@
 							<td><img src="../../img/svg_rc/matic.svg" width="13" height="13"/></td>
 						</tr>
 						<tr>
-							<td class="td-lite">LTC:</td><!-- 0.015 -->
-							<td class="no-input" id="blockltc">0.015</td>
-							<td><img src="../../img/svg_rc/ltc.svg" width="13" height="13"/></td>
-						</tr>
-						<tr>
 							<td class="td-sol">SOL:</td><!-- 0.06 -->
 							<td class="no-input" id="blocksol">0.25</td>
 							<td><img src="../../img/svg_rc/sol.svg" width="13" height="13"/></td>
 						</tr>
 						<tr>
-							<td class="td-trx">TRX:</td><!-- 60 -->
-							<td class="no-input" id="blocktrx">60</td>
-							<td><img src="../../img/svg_rc/trx.svg" width="13" height="13"/></td>
+							<td class="td-lite">LTC:</td><!-- 0.015 -->
+							<td class="no-input" id="blockltc">0.015</td>
+							<td><img src="../../img/svg_rc/ltc.svg" width="13" height="13"/></td>
 						</tr>
 					</table>
 					<div class="box-title" style="text-align:center"></div>
@@ -469,6 +469,10 @@
 						<tr>
 							<td class="td-rlt">RLT:</td><!-- 20 -->
 							<td class="no-input " id="rlt-price">$1</td>
+						</tr>
+						<tr>
+							<td class="td-trx">TRX:</td><!-- 60 -->
+							<td class="no-input " id="trx-price-api">⌛</td>
 						</tr>
 						<tr>
 							<td class="td-doge">DOGE:</td><!-- 60 -->
@@ -491,16 +495,12 @@
 							<td class="no-input " id="matic-price-api">⌛</td>
 						</tr>
 						<tr>
-							<td class="td-lite">LTC:</td><!-- 4 -->
-							<td class="no-input " id="ltc-price-api">⌛</td>
-						</tr>
-						<tr>
 							<td class="td-sol">SOL:</td><!-- 0.06 -->
 							<td class="no-input " id="sol-price-api">⌛</td>
 						</tr>
 						<tr>
-							<td class="td-trx">TRX:</td><!-- 60 -->
-							<td class="no-input " id="trx-price-api">⌛</td>
+							<td class="td-lite">LTC:</td><!-- 4 -->
+							<td class="no-input " id="ltc-price-api">⌛</td>
 						</tr>
 					</table>
 					<div class="box-title" style="text-align:center"></div>
