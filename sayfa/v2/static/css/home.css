@@ -1,8 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Sarpanch:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 
-
-
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
   -webkit-appearance: none;
@@ -11,7 +9,7 @@ input::-webkit-inner-spin-button {
 
 ::-webkit-scrollbar {
     background: #2f3045;
-    width: 7px;
+    width: 2px;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -27,36 +25,24 @@ input::-webkit-inner-spin-button {
 }
 
 .hero {
-  font-size: 15px;
+ 
   /*font-family: 'Righteous', cursive;*/
 }
 
 .hero .container {
-  display: block;
-  margin: 1rem;
+ 
 }
 
 .hero .container .crypto-price {
   background: #2f3045;
-  border-radius: 0.3rem;
-  min-width: -webkit-fit-content;
-  min-width: -moz-fit-content;
-  min-width: fit-content;
-  margin: auto;
 }
 
 .hero .container .crypto-price .price-title {
   color: #a9d924;
-  -ms-grid-row: 1;
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 8;
-  grid-area: title;
+ 
   background: #1f1f2c;
   border-radius: 0.3rem 0.3rem 0 0;
-  font-weight: bold;
-  font-size: 0.9rem;
-  padding: 0.3rem 0.5rem;
- 
+  font-weight: bold; 
 }
 
 .hero .container .crypto-price .price-content {
@@ -69,8 +55,6 @@ input::-webkit-inner-spin-button {
 }
 
 .hero .container .crypto-price .price-content ul {
-  padding: 0;
-  margin: 0;
   display: -ms-grid;
   display: grid;
       grid-template-areas: 'title title title title title title title title title title title title title title title title' 'btc btc-price doge doge-price eth eth-price bnb bnb-price matic matic-price sol sol-price trx trx-price rlt rlt-price';
@@ -88,7 +72,7 @@ input::-webkit-inner-spin-button {
   -ms-grid-column: 1;
   grid-area: btc;
   color: #fb9135;
-  padding: 0.5rem 0.2rem 0.5rem 0.5rem;
+ 
 }
 
 .hero .container .crypto-price .price-content ul .price-btc-price {
@@ -243,8 +227,7 @@ input::-webkit-inner-spin-button {
 }
 
 .hero .tabs-layout .tabs-header {
-  margin: 0;
-  padding: 0;
+ 
   background: #1f1f2c;
   border-radius: 0.3rem;
 }
@@ -383,18 +366,17 @@ input::-webkit-inner-spin-button {
   display: none;
   color: white;
   background: #6e6b8f;
-  padding: 0.1rem 0;
+ 
 
 }
 
 .hero .tabs-layout .tab2-content .coin-box {
-  margin: 0.5rem;
-  border-radius: 0.3rem;
+ 
 
 }
 
 .hero .tabs-layout .tab2-content .box-title {
-  padding: 0.3rem 0.5rem;
+ 
   background: #1f1f2c;
   border-bottom: none;
   font-weight: bold;
