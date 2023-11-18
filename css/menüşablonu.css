@@ -288,12 +288,14 @@
   top: 0;
   z-index: 1;
   font-size: 13px;
+  border-radius: 14px 14px 14px 0px;
 }
 
 .global-header__container {
   align-items: center;
   display: flex;
   justify-content: space-between;
+  border-radius: 14px 14px 14px 0px;
 }
 .global-header__container::before {
   content: "";
