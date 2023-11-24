@@ -44,9 +44,9 @@ body {
 h1 {
     text-align: center;
 	color: red;
-	padding: 20px;
+	padding: 10px;
 }
-
+/*
 h1::before {
     content: "🐹";
 }
@@ -54,7 +54,7 @@ h1::before {
 h1::after {
     content: "🐹 ";
 }
-
+*/
 header {
     background-color: var(--ebony-clay);
 	font-size: 13px;
@@ -77,3 +77,111 @@ video {
 		padding: 5px;
     }
 }
+
+
+/*ALT BÖLÜM BİLGİLENDİRME*/
+ .banner {
+	 vertical-align: middle;
+	 margin: 6px 1em;
+	 bottom: 0;
+	 left: 0;
+}
+ .banner .left {
+	 float: left;
+	 margin-right: 8px;
+	 width: calc(100% - 104px);
+}
+ .banner .left .headline-heading-bar {
+	 display: inline-block;
+	 padding: 0.15em 0.5em;
+	 background-color: #ec1b2e;
+	 color: #fff;
+	 font-size: 1.5em;
+	 text-transform: uppercase;
+	 font-family: "Helvetica Neue", "Arial", sans-serif;
+	 font-weight: 500;
+	 letter-spacing: 0.03em;
+}
+ .banner .left marquee {
+	 display: block;
+	 background-color: #fff;
+	 color: #000;
+	 font-size: 1.5em;
+	 font-weight: 800;
+	 text-transform: uppercase;
+	 padding: 0.25em 0;
+	 border-left: 5px solid #ec1b2e;
+	 font-family: "HelveticaNeue-CondensedBold", "HelveticaNeueBoldCondensed", "HelveticaNeue-Bold-Condensed", "Helvetica Neue Bold Condensed", "HelveticaNeueBold", "HelveticaNeue-Bold", "Helvetica Neue Bold", "HelveticaNeue", "Helvetica Neue", "TeXGyreHerosCnBold", "Helvetica", "Tahoma", "Geneva", "Arial Narrow", "Arial", sans-serif;
+}
+ .banner .left .bottom-bar {
+	 display: block;
+	 padding: 0.25em 0.5em;
+	 background-color: #000;
+	 color: #fff;
+	 border-left: 5px solid #ec1b2e;
+	 font-family: "Helvetica Neue", "Arial", sans-serif;
+	 font-weight: 300;
+	 font-size: 1.25em;
+}
+ .banner .left .bottom-bar span span {
+	 color: #ec1b2e;
+}
+ .banner .right {
+	 vertical-align: middle;
+	 float: left;
+	 width: 96px;
+}
+ .banner .right .status {
+	 color: #fff;
+	 background-color: #ec1b2e;
+	 text-align: center;
+	 text-transform: uppercase;
+	 font-size: 1.5em;
+	 font-weight: 400;
+	 letter-spacing: 6px;
+}
+ .banner .right .network-box {
+	 background-color: #fff;
+	 text-align: center;
+	 display: block;
+	 width: 96px;
+	 height: 50px;
+}
+ .banner .right .network-box img {
+	 display: block;
+	 width: 45px;
+	 margin: auto;
+}
+ .banner .right #clock {
+	 padding: 0.25em;
+	 display: block;
+	 background-color: #000;
+	 color: #fff;
+	 text-align: center;
+	 font-size: 0.8em;
+	 font-weight: 600;
+}
+ .banner .show {
+	 display: inline-block;
+	 float: right;
+	 margin-top: 6px;
+	 font-weight: 500;
+	 background-color: #515151;
+	 color: #fff;
+	 text-transform: uppercase;
+	 padding: 0.25em 0.75em;
+}
+ small {
+	 position: absolute;
+	 font-size: 0.75em;
+	 bottom: 0;
+	 left: 0;
+	 background-color: rgba(255, 255, 255, 0.3);
+	 padding: 0.5em 0.5em;
+	 color: rgba(0, 0, 0, 0.5);
+	 border-radius: 0 8px 0 0;
+}
+ small a {
+	 color: rgba(0, 0, 0, 0.5);
+}
+ 
