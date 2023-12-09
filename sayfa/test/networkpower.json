@@ -1,0 +1,64 @@
+{
+  "data": {
+    "RLT": {
+      "power": "207.050",
+      "multiplier": "100",
+      "min": "10",
+      "sec": "1"
+    },
+    "RST": {
+      "power": "23.034",
+      "multiplier": "100",
+      "min": "10",
+      "sec": "14"
+    },
+    "TRX": {
+      "power": "51.679",
+      "multiplier": "100",
+      "min": "17",
+      "sec": "59"
+    },
+    "DOGE": {
+      "power": "160.350",
+      "multiplier": "100",
+      "min": "10",
+      "sec": "1"
+    },
+    "BTC": {
+      "power": "183.388",
+      "multiplier": "100",
+      "min": "10",
+      "sec": "1"
+    },
+    "ETH": {
+      "power": "136.047",
+      "multiplier": "100",
+      "min": "10",
+      "sec": "1"
+    },
+    "BNB": {
+      "power": "131.403",
+      "multiplier": "100",
+      "min": "10",
+      "sec": "11"
+    },
+    "MATIC": {
+      "power": "68.557",
+      "multiplier": "100",
+      "min": "10",
+      "sec": "2"
+    },
+    "SOL": {
+      "power": "172.424",
+      "multiplier": "100",
+      "min": "10",
+      "sec": "16"
+    },
+    "LTC": {
+      "power": "14.034",
+      "multiplier": "100",
+      "min": "13",
+      "sec": "57"
+    }
+  }
+}
