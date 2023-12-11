@@ -61,20 +61,20 @@ var pageStats = {"sid":"165226","url":"\/page-stats\/event-collection","config":
                             </select>
                         </div>
                     </td>
-					<td style="padding-left: 5rem;">
-                        <button id="btn-load-prices" class="btn btn-primary btn__prices">
-                            <span class="btn-label">Load latest prices</span>
-                        </button>
-                    </td>
-                    <td>
-                        <button id="btn-load-networkpower" class="btn btn-primary btn__networkpower">
-                            <span class="btn-label">Load latest network power</span>
-                        </button>
-                    </td>
                 </tr>
             </tbody>
         </table>
         <div class="table-wrapper">
+					<td>
+                        <button id="btn-load-prices" class="btn btn-primary btn__prices">
+                            <span class="btn-label">Kripto Güncel Fiyat Gir</span>
+                        </button>
+                    </td>
+                    <td>
+                        <button id="btn-load-networkpower" class="btn btn-primary btn__networkpower">
+                            <span class="btn-label">RollerCoin Ağ Gücü Otomatik Gir</span>
+                        </button>
+                    </td>
             <table class="table table-scroll table-calc">
                 <thead>
                     <tr>
@@ -100,9 +100,9 @@ var pageStats = {"sid":"165226","url":"\/page-stats\/event-collection","config":
                     </tr>
                     <tr style="background-color: #25294b;">
                         <th></th>
-                        <th class="w-100 text-right">Ağ Gücü <span class="tooltip tooltip-right" data-tooltip="in Eh/s – You find this value in the “Network Power” dropdown on RollerCoin">ⓘ</span></th>
-                        <th class="text-left">Blok Ödül <span class="tooltip tooltip-right" data-tooltip="Global block reward per 10 minutes without multiplier.">ⓘ</span></th>
-                        <th class="text-center">Güç Oranı <span class="tooltip tooltip-right" data-tooltip="Set the mining power you want to put into the coin to see your real reward. Leave 100 to see reward for all coins.">ⓘ</span></th>
+                        <th class="w-100 text-right">Ağ Gücü <span class="tooltip tooltip-right" data-tooltip="RollerCoin sitesindeki seçmiş olduğunuz ağ gücünü giriniz.">ⓘ</span></th>
+                        <th class="text-left">Blok Ödül <span class="tooltip tooltip-right" data-tooltip="Dağıtılan blok ödül">ⓘ</span></th>
+                        <th class="text-center">Güç Oranı <span class="tooltip tooltip-right" data-tooltip="Gerçek ödülünüzü görmek için madalyonun içine koymak istediğiniz madencilik gücünü ayarlayın. Tüm madeni paraların ödülünü görmek için 100 bırakın.">ⓘ</span></th>
                         <th class="text-center">Blok Süre<br><div class="flex-row-wrapper"><span class="flex-item">Dk.</span><span class="flex-item">Sn.</span></div></th>
                         <th class="text-right">USD Değeri <span class="tooltip tooltip-right" data-tooltip="Prices are updated once per hour.">ⓘ</span></th>
                         <th class="text-right">Kripto Değeri <span class="tooltip tooltip-right" data-tooltip="Price to buy 1 RLT with given coin. Estimated, not 100% correct. Discounts not considered.">ⓘ</span></th>
@@ -795,9 +795,6 @@ var pageStats = {"sid":"165226","url":"\/page-stats\/event-collection","config":
                         <span class="btn-label">Calculate</span>
                     </button>
                 </div>
-                <p>
-                    <small>All your inputs will be stored in a cookie when you click on “Calculate” so you just need to update them. :)</small>
-                </p>
             </div>
         </div>
     </div>
@@ -810,57 +807,9 @@ var pageStats = {"sid":"165226","url":"\/page-stats\/event-collection","config":
                 </section>
 
     </div>
-
-            <section id="footer" class="section">
-    <section class="container ">
-        <p>
-            <small>
-                <b>RollerCoin Profit</b> is not associated with <a href="https://rollercoin.com/?r=julfvapx" title="RollerCoin" rel="noopener nofollow">RollerCoin</a>. All information on this site are non-official and may be incorrect or change. Graphics by <a href="https://rollercoin.com/?r=julfvapx" title="RollerCoin" rel="noopener nofollow">RollerCoin</a>.
-            </small>
-        </p>
-        <p>
-            <small>
-                * Affiliate links. You support this site when buying something from the partner shop. There’s no disadvantage for you or increased price on the product.
-            </small>
-        </p>
-    </section>
-</section>
     
-        <div class="mobile-container">
-        <div class="overlay" id="overlay">
-            <div class="mobile-logo">
-                <a href="/" class="navbar-brand mr-10">
-  <span class="logo-wrapper">
-    <span>
-      RCPC
-    </span>
-  </span>
-</a>            </div>
-            <nav class="overlay-menu">
-                
-<ul class="tree">
-                <li>
-      <a href="/" class="active">
-        Profit Calculator
-      </a>
-          </li>
-          <li>
-      <a href="/faq" class="">
-        RollerCoin FAQ
-      </a>
-          </li>
-  
-</ul>
-
-            </nav>
-        </div>
-    </div>
-    
-    <script src="js/jquery-3.6.1.min.js"></script>
-<script src="js/js.cookie.min.js"></script>
-<script src="js/calc.min.js"></script>
-
-
-
-
-</body></html>
+	<script src="js/jquery-3.6.1.min.js"></script>
+	<script src="js/js.cookie.min.js"></script>
+	<script src="js/calc.min.js"></script>
+</body>
+</html>
