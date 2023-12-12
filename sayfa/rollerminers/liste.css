@@ -13,6 +13,7 @@
   
   --dilseçeneği: red;
   --seçilen: red;
+  --renk: red;
   
   --title: Bruno Ace SC, cursive;
   --body: Nova Flat, cursive;
@@ -65,6 +66,10 @@ a { text-decoration:none!important; }
 
 .musour-blurb2 { text-align:center;line-height:20px;font:13px var(--title); }
 .musour-icon b2 {font-style:normal!important;color:var(--accentOne2);text-transform:uppercase;font-size:12px; }
+
+.renk {
+	color:var(--renk)
+}
 
 /* SEVİYELİ MİNER AYARLARI */
 .güç {
