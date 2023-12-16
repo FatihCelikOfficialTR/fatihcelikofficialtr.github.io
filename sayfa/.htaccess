@@ -1,0 +1,4 @@
+ErrorDocument 404 https://fatihcelikofficialtr.github.io/404
+Options -Indexes
+#deny all access
+deny from all
