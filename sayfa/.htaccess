@@ -1,4 +1,4 @@
-ErrorDocument 404 https://fatihcelikofficialtr.github.io/404
+ErrorDocument 404 https://fatihcelikofficialtr.github.io/sayfa/404.html
 Options -Indexes
 #deny all access
 deny from all
