@@ -20,16 +20,16 @@
 }
 body { margin:0px!important;background-color:var(--background); }
 a { text-decoration:none!important; }
-.musour { display:grid;height:100vh;width:100vw;grid-template-columns:280px auto;overflow-y:hidden; }
-.musour-left { padding:5px;color:var(--text);font:13px var(--body);display:grid;height:calc(100vh - 10px);flex-direction:column; }
-.musour-title { font:40px var(--title);padding-top:3px; }
+.musour { display:grid;height:100vh;width:100vw;grid-template-columns:210px auto;overflow-y:hidden; }
+.musour-left { padding:10px;color:var(--text);font:15px var(--body);display:grid;height:calc(98vh - 5px);flex-direction:column; }
+.musour-title { font:40px var(--title); }
 .musour-title div { font-size:40px;margin-left:-2px;line-height:80px;color:var(--accentOne); }
 .musour-title-2 { background:linear-gradient(to bottom left,var(--accentOne),var(--accentTwo));font:700 13px var(--title);line-height:10px;padding:14px 0px 16px 4px;text-align:center;color:var(--background);border-radius:10px;transition:.3s all; }
 .musour-title-2:hover {opacity:.8; }
 .musour-blurb { text-align:center;line-height:18px; }
-.musour-filters { margin-top:10px;flex-grow:100px;overflow:auto; }
-.musour-filters::-webkit-scrollbar-thumb { border-left:solid 15px var(--background);background:linear-gradient(to bottom,var(--accentOne),var(--accentTwo)); }
-.musour-filters::-webkit-scrollbar { width:16px; }
+.musour-filters {flex-grow:100px;overflow:auto; }
+.musour-filters::-webkit-scrollbar-thumb { border-left:solid 5px var(--background);background:linear-gradient(to bottom,var(--accentOne),var(--accentTwo));border-radius:2px; }
+.musour-filters::-webkit-scrollbar { width:10px; }
 .musour-filters div { display:flex;flex-direction:column; }
 .musour-filters h1 { background-color:var(--backgroundTwo);font:700 15px var(--title);line-height:10px;padding:14px 0px 16px 4px;text-align:center;color:var(--text);border-radius:10px;text-transform:uppercase;line-height:12px;border: 2px dashed #ff0000; }
 .musour-filters button { margin-top:0px;border:none;background:transparent;text-align:left;padding:0px;cursor:pointer;font:15px var(--body);color:var(--text);line-height:20px;transition:.3s all; }
