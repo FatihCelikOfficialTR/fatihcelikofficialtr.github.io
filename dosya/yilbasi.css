@@ -1,4 +1,4 @@
-body { height:1500px; background:url('bg.jpg') repeat-y top left; padding:0px; margin:0px; }
+
 .govde { width:100%;}
 .solust { width:272px; height:283px; top:0; left:0; background:url('solust.png') no-repeat top left; position:absolute; z-index:999; }
 .sagust { width:281px; height:268px; top:0; right:0; background:url('sagust.png') no-repeat top left; position:absolute; z-index:999; }
