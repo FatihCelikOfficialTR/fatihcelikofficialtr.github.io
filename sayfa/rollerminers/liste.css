@@ -1,7 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Nova+Flat&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
 
 :root {
   --accentOne: yellow;
@@ -16,8 +14,9 @@
   --seçilen: red;
   --renk: red;
   
-  --title: Montserrat, cursive;
-  --body: Montserrat, cursive;
+  --anasayfabuton: Silkscreen, sans-serif;
+  --title: Montserrat, sans-serif;
+  --body: Montserrat, sans-serif;
 }
 body { margin:0px!important;background-color:var(--background); }
 a { text-decoration:none!important; }
@@ -25,7 +24,7 @@ a { text-decoration:none!important; }
 .musour-left { padding:10px;color:var(--text);font:15px var(--body);display:grid;height:calc(98vh - 5px);flex-direction:column; }
 .musour-title { font:40px var(--title); }
 .musour-title div { font-size:40px;margin-left:-2px;line-height:80px;color:var(--accentOne); }
-.musour-title-2 { background:linear-gradient(to bottom left,var(--accentOne),var(--accentTwo));font:700 13px var(--title);line-height:10px;padding:14px 0px 16px 4px;text-align:center;color:var(--background);border-radius:10px;transition:.3s all; }
+.musour-title-2 { background:linear-gradient(to bottom left,var(--accentOne),var(--accentTwo));font:700 13px var(--anasayfabuton);line-height:10px;padding:14px 0px 16px 4px;text-align:center;color:var(--background);border-radius:10px;transition:.3s all; }
 .musour-title-2:hover {opacity:.8; }
 .musour-blurb { text-align:center;line-height:18px; }
 .musour-filters {flex-grow:100px;overflow:auto; }
