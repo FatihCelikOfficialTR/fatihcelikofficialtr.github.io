@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nova+Flat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 
 :root {
   --accentOne: yellow;
@@ -15,8 +16,8 @@
   --seçilen: red;
   --renk: red;
   
-  --title: Bruno Ace SC, cursive;
-  --body: Nova Flat, cursive;
+  --title: Montserrat, cursive;
+  --body: Montserrat, cursive;
 }
 body { margin:0px!important;background-color:var(--background); }
 a { text-decoration:none!important; }
