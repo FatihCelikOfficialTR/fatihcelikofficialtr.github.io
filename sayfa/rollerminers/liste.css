@@ -16,7 +16,7 @@
   
   --anasayfabuton: Silkscreen, sans-serif;
   --title: Montserrat, sans-serif;
-  --body: Montserrat, sans-serif;
+  --body: Montserrat, monospace;
 }
 body { margin:0px!important;background-color:var(--background); }
 a { text-decoration:none!important; }
