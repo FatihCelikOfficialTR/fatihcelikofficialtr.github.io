@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
 
 :root {
   --yazılar: Montserrat, sans-serif;
-  --başlıklar: Silkscreen, sans-serif;
+  --başlıklar: Bungee Spice, sans-serif;
 }
 
 .özelfont {font:700 15px var(--yazılar);}
