@@ -380,9 +380,9 @@ font-family: 'Righteous', cursive;
 }
 
 .hero .tabs-layout .tab1-content .box-content {
-  background: #2f3045;
-  border-radius: 0 0 0.3rem 0.3rem;
-font-family: 'Righteous', cursive;
+	background: #2f3045;
+	border-radius: 0 0 0.3rem 0.3rem;
+	font-family: 'Righteous', cursive;
 }
 
 .hero .tabs-layout .tab2-content {
