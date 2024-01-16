@@ -372,7 +372,6 @@ display: block;
   color: white;
   border: none;
   padding: 0.2em;
-font-family: 'Righteous', cursive;
 }
 
 .başlık {
@@ -380,9 +379,8 @@ font-family: 'Righteous', cursive;
 }
 
 .hero .tabs-layout .tab1-content .box-content {
-	background: #2f3045;
+  background: #2f3045;
 	border-radius: 0 0 0.3rem 0.3rem;
-	font-family: 'Righteous', cursive;
 }
 
 .hero .tabs-layout .tab2-content {
