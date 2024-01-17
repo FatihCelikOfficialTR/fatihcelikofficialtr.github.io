@@ -384,7 +384,6 @@ font-family: 'Righteous', cursive;
 }
 
 .hero .tabs-layout .tab2-content {
-  display: none;
   color: white;
   background: #6e6b8f;
   padding: 0.1rem 0;
@@ -521,7 +520,7 @@ font-family: 'Righteous', cursive;
   vertical-align: center;
 }
 
-@media only screen and (min-width: 750px) {
+@media only screen and (min-width: 400px) {
   .hero .container {
     display: block;
     max-width: 1080px;
@@ -536,9 +535,7 @@ font-family: 'Righteous', cursive;
     margin: 0;
     padding: 0 1rem;
   }
-  .hero .container .tabs-layout .tabs-header {
-    display: none;
-  }
+
   .hero .container .tabs-layout .tab1-content {
     background: none;
     display: -webkit-box;
@@ -567,9 +564,6 @@ font-family: 'Righteous', cursive;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    -webkit-column-gap: 0.5rem;
-            column-gap: 0.5rem;
-    row-gap: 0.5rem;
   }
   .hero .container .tabs-layout .tab2-content .coin-box {
     width: 49.4%;
