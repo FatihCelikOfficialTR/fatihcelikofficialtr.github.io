@@ -1,19 +1,119 @@
+/*
+  You can easily make changes in the CSS with the variables below.
+
+  All variables are done in HSL(hue saturation light / opacity):
+  - hue:        0 to 360;
+  - saturation: 0 to 100 (%);
+  - light:      0 to 100 (%);
+  - / opacity:  0.00 to 1 (1 by default)
+*/
+
+:root {
+  --text-color: hsl(0 0% 100%);
+  
+  --table-background-hue: 255;
+  --table-background-saturation: 20%;
+  --table-background-light: 20%;
+  
+  --th-opacity: 0.5;
+  --th-2n: 0.15;
+}
+
+html {
+  color-scheme: dark;
+}
+
+body {
+  color: var(--text-color);
+  font-size: 1.125rem;
+  font-family: system-ui;
+  line-height: 1.5;
+}
+
+
+
+/* All the code below is for "Sources" and "Testing" sections. They're not necessary to make the table itself.*/
+h1 {
+  color: #fafafa;  
+}
+
+section {
+  margin-bottom: 2rem;
+  color: #fafafa;
+}
+section h3 {
+  line-height: 2rem;
+}
+
+span.code-css {
+  background-color: hsl(210 100% 50%);
+  color: hsl(0 0% 100%);
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.5rem;
+}
+span.code {
+  background-color: hsl(0 0% 0% / 0.25);
+  font-style: italic;
+  color: hsl(0 0% 80%);
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.5rem;
+}
+
+a:link, a:visited {
+  background-color: transparent;
+  color: hsl(120 100% 50%);
+  text-decoration: none;
+  border-radius: .25rem;
+  line-height: 2rem;
+  transition: .3s;
+}
+a:hover, a:active {
+  color: hsl(120 100% 0%);
+  background-color: hsl(120 100% 50%);
+  padding: 0.25rem 0.5rem;
+}
+/* ------------------------------------ */
+
+
+
+
+
+.wrapper {
+  width: min(900px, 100% - 3rem);
+  margin-inline: auto;
+}
+
 table {
-  overflow: hidden;
+  width: 100%;
+  background: hsl(var(--table-background-hue) var(--table-background-saturation) var(--table-background-light));
+  border-collapse: collapse;
 }
-table th, table td {
-  padding: 0.25em 0.5em;
-  font-size: 15px;
-  text-align: center;
-  vertical-align: top;
+
+caption, 
+th, 
+td {
+  padding: 1rem;
 }
-table th {
-  color: #fff;
+
+caption,
+th {
+  text-align: left;
 }
-table tr {
-  transition: all 1s ease-in-out;
-  color: red;
+
+caption {
+  background: hsl(0 0% 0%);
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
 }
-table tr.slide-out {
-  transform: translateX(100%);
+
+th {
+  background: hsl(0 0% 0% / var(--th-opacity));
 }
+
+tr:nth-of-type(2n) {
+  background: hsl(0 0% 0% / var(--th-2n));
+}
+
+
+
