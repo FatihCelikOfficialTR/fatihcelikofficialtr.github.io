@@ -211,6 +211,7 @@
 
 .drawer-menu__item {
   border-bottom: var(--menüçerçeverenk) 1px dashed;
+  font-size: 13px;
 }
 
 .drawer-menu__link {
@@ -247,22 +248,15 @@
 .drawer-menu__link[aria-current]::after {
   content: none;
 }
-@media (hover) {
-  .drawer-menu__link:hover {
-    background-color: rgba(0, 0, 0, 0.05);
-  }
-}
 
 .drawer-menu__en-label {
   display: block;
-  font-weight: 500;
   text-transform: uppercase;
 }
 
 .drawer-menu__jp-label {
   color: var(--menüaçıklamarenk);
   display: block;
-  font-size: max(10px, 0.75em);
 }
 
 .drawer-menu__close-button {
@@ -289,7 +283,6 @@
   position: sticky;
   top: 0;
   z-index: 1;
-  font-size: 13px;
 }
 
 .global-header__container {
@@ -315,14 +308,11 @@
 }
 
 .article {
-  font-size: 1rem;
   margin: auto;
   max-width: 1024px;
 }
 
 .article__title {
-  font-size: 1.778em;
-  font-weight: normal;
   margin: 0;
 }
 
@@ -340,8 +330,6 @@
 
 .article__subtitle {
   border-bottom: 2px solid var(--menüçerçeverenk);
-  font-size: 1.333em;
-  font-weight: normal;
   padding: 0.2em 0;
 }
 

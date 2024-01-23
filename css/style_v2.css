@@ -358,9 +358,6 @@ ul {
   width: 50%;
   margin-bottom: 12px;
 }
-.footer-widget ul li a:hover{
-  color: #ff5e14;
-}
 .footer-widget ul li a {
   color: #878787;
   text-transform: capitalize;
@@ -405,9 +402,7 @@ ul {
   display: inline-block;
   margin-left: 20px;
 }
-.footer-menu li:hover a{
-  color: #ff5e14;
-}
+
 .footer-menu li a {
   font-size: 14px;
   color: #878787;

@@ -19,16 +19,6 @@
   --th-2n: 0.15;
 }
 
-html {
-  color-scheme: dark;
-}
-
-body {
-  color: var(--text-color);
-  font-size: 1.125rem;
-  font-family: system-ui;
-  line-height: 1.5;
-}
 
 
 
@@ -37,13 +27,6 @@ h1 {
   color: #fafafa;  
 }
 
-section {
-  margin-bottom: 2rem;
-  color: #fafafa;
-}
-section h3 {
-  line-height: 2rem;
-}
 
 span.code-css {
   background-color: hsl(210 100% 50%);
@@ -58,21 +41,6 @@ span.code {
   padding: 0.25rem 0.5rem;
   border-radius: 0.5rem;
 }
-
-a:link, a:visited {
-  background-color: transparent;
-  color: hsl(120 100% 50%);
-  text-decoration: none;
-  border-radius: .25rem;
-  line-height: 2rem;
-  transition: .3s;
-}
-a:hover, a:active {
-  color: hsl(120 100% 0%);
-  background-color: hsl(120 100% 50%);
-  padding: 0.25rem 0.5rem;
-}
-/* ------------------------------------ */
 
 
 
@@ -114,6 +82,3 @@ th {
 tr:nth-of-type(2n) {
   background: hsl(0 0% 0% / var(--th-2n));
 }
-
-
-
