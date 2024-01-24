@@ -300,6 +300,12 @@ display: block;
   border-radius: 0.3rem 0.3rem 0 0;
 }
 
+.hero .tabs-layout .tab1-content .box-title2 {
+  background: #1f1f2c;
+  padding: 0.3rem 0.5rem;
+  color: #a9d924;
+}
+
 .hero .tabs-layout .tab1-content .box-haftalıködüller {
   color: #a9d924;
   font-weight: bold;
@@ -310,7 +316,6 @@ display: block;
   padding: 0.5rem;
   color: white;
   margin: auto;
-
 }
 
 .hero .tabs-layout .tab1-content table td {
@@ -379,21 +384,17 @@ font-family: 'Righteous', cursive;
 }
 
 .hero .tabs-layout .tab1-content .box-content {
-  background: #2f3045;
+	background: #2f3045;
 	border-radius: 0 0 0.3rem 0.3rem;
 }
 
 .hero .tabs-layout .tab2-content {
   color: white;
   background: #6e6b8f;
-  padding: 0.1rem 0;
-
 }
 
 .hero .tabs-layout .tab2-content .coin-box {
   margin: 0.5rem;
-  border-radius: 0.3rem;
-
 }
 
 .hero .tabs-layout .tab2-content .box-title {
@@ -402,7 +403,6 @@ font-family: 'Righteous', cursive;
   border-bottom: none;
   font-weight: bold;
   color: #a9d924;
-  border-radius: 0.3em 0.3em 0 0;
   text-align: center;
 }
 
@@ -507,8 +507,6 @@ font-family: 'Righteous', cursive;
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
-  font-weight: bold;
-  border: 1px solid blue;
   text-align: center;
 }
 
