@@ -10,12 +10,12 @@ var globalQueryFilter = {
     levels: new Set(),
 }
 
-const globalMiners = `VI;Bilgilendiriyor;10000000;3.9;2;0;6399c3481c483a58f70e9a20
+const globalMiners = `VI;YMCA Game;14210700;3.9;2;0;6399c34c1c483a58f70e9a66
 VI;Unreal Helipop;9787260;3.9;2;0;6399c3481c483a58f70e9a20
 I;The Primordial;8400000;5;2;0;63ecc9a6547cfab9a233770e
 IV;Epic Tamborim;8175930;5.87;2;0;63eba16eccd07b6d1a43f4a6
 III;Rare Singularity;6890625;5.51;2;0;631f78418238ed283a232d1a
-I;MINERVERSARY III;2700000;7.5;2;0;61bb6126698d2f88e80c7766
+I;MINERVERSARY III;900000;5;2;0;6087feb365dce86c869c1d04
 II;Uncommon MINERVERSARY III;2362500;5.25;2;0;631f77bf8238ed283a232736
 II;Uncommon RollerMillion;2625000;5.25;2;0;631f77d08238ed283a2327f9
 II;Uncommon Crypto Combo;1777965;4.18;2;0;6437cd92e3a758465821783f
@@ -322,23 +322,20 @@ I;Awaken;195000;0;2;0;65326c7ba072ea9506f99f68
 II;Uncommon Awaken;511875;0.4;2;0;65326c7ba072ea9506f99f6b
 I;Night Witnesses;240000;0;2;0;65326ca8a072ea9506f99fc0
 II;Uncommon Night Witnesses;630000;0.4;2;0;65326ca8a072ea9506f99fc3
-I;Heretic Opera Miner;580000;0.45;2;0;65326cd3a072ea9506f9a018
-I;Boogieman;870000;1;2;0;65326d03a072ea9506f9a09f
+I;Heretic Opera Miner;580000;0.45;2;0;heretic_opera_miner
+I;Boogieman;870000;1;2;0;boogieman
 II;Uncommon Boogieman;2283750;2.4;2;0;65326d03a072ea9506f9a0a2
-I;Booo!;1150000;1;2;0;65326d37a072ea9506f9a0f7
 II;Uncommon Booo!;3018750;2.4;2;0;65326d37a072ea9506f9a0fa
-I;Pumpkin King;1915000;1;2;0;65326d54a072ea9506f9a14f
 I;Dreamweaver;80400;0;2;0;6509915348ee2c2ada95fb41
 I;Mega Maner;130500;0;2;0;650aa7ac48ee2c2ada9617e0
 I;CommunityCatalyst;56400;0;2;0;6509909b48ee2c2ada95fb0b
 I;Pacminer;403000;0.45;2;0;650aaa7c48ee2c2ada961a51
-I;Devil's Carnival;870000;1;2;0;65326ea4a072ea9506f9a257
+I;Devil's Carnival;870000;1;2;0;devils_carnival
 I;YMCA Game;114000;0;2;0;63930d86380ccf549d7f5c2b
 I;The Icarus;225000;3;2;0;61532146db5008102f9f77e8
 I;Hamster's Enemy;114000;0;2;0;650aa78a48ee2c2ada9617b7
 IV;Epic Guess-the-Card;19534935;6.13;2;0;631f7b2e8238ed283a234faf
 III;Rare CyberSun;5236875;4.91;2;0;64ec953822c75110b9b098a7
-I;SkullMiner;7900000;1;2;0;65326ecba072ea9506f9a2af
 II;Uncommon RollerFuture;1312500;3.15;2;0;631f79fe8238ed283a23419e
 I;JBS-144;83100;1.5;2;1;61bb6126698d2f88e80c775b
 IV;Epic Corn Popper;2532495;2.08;2;0;631f7b6a8238ed283a23527a
@@ -474,8 +471,7 @@ function buildTable(m) {
                     img.src = imgUrl;
                     img.width = 63;
                     img.height = 50;
-                    img.alt = "Not Found" 
-                    img.onerror="img/basic-miner.svg';"
+                    img.alt = "Resim yok"
                     td.appendChild(img);
                 } else if (j == 2) {
                     td.appendChild(document.createTextNode(thousanize(m[i][j])));
