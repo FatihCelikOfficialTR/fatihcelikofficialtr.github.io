@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Sixtyfour&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300&display=swap');
+
+
 :root {
   --main-bg-color: #181928;
   --border-color: #7e7da1;
@@ -14,20 +18,15 @@
 body {
 padding:0;
 margin:0;
-font-size:13px;
+font-family: 'Cairo', sans-serif;
+font-size:15px;
 }
-@font-face {
-	font-family:pxl;
-	src:url(../font/8-bit-operator/8bitOperatorPlusSC-Regular.ttf);
-}	 
-@font-face {
-	font-family:pxlBold;
-	src:url(../font/8-bit-operator/8bitOperatorPlusSC-Bold.ttf);
-}
+
 html {
 	background-color: var(--main-bg-color);
 	color: #fff;			
 	font-family : pxl;
+	font-family: 'Cairo', sans-serif;
 }
 td {
 	border: 1px solid var(--main-bg-color);
@@ -151,6 +150,7 @@ h2 {
 }
 .dropdown-less-more{
 	width:190px;
+	font-family: 'Cairo', sans-serif;
 }
 .dropdown-pagination{
 	width:100px;
@@ -170,7 +170,8 @@ h2 {
 	left:0;						
 	cursor:pointer;	
 	border:none;
-	outline:none;		
+	outline:none;	
+font-family: 'Cairo', sans-serif;	
 }
 .dropdown .option {
 	position:absolute;
@@ -203,6 +204,7 @@ h2 {
 	border-right:2px solid var(--input-bg-color);
 	transform:rotate(-45deg);
 	pointer-events:none;
+	font-family: 'Cairo', sans-serif;
 }
 .dropdown.active::before {
 	top: 22px;
@@ -293,18 +295,17 @@ h2 {
 .miner-count-wrapper {
 	background-color:var(--main-bg-color);	
 	border:solid 2px var(--border-color);
-	border-radius:4px;		
+	border-radius:4px;
 	color:var(--color-white);
-	font-size:15px;	
-	width:35%;
+	font-size:10px;	
 	margin-top:30px;
 	margin-left:30px;
-	padding:15px;
-	margin-bottom:30px;
+	padding:10px;
 	display:flex;
 }
 #miner-count-amount {
 	font-size:20px;
+	padding: 0 0 0 10px;
 	margin:auto;
 }
 .search-filter-wrapper {
@@ -312,6 +313,7 @@ h2 {
 	margin-left:30px;
 	margin-top:15px;
 	margin-bottom:15px;
+	font-family: 'Cairo', sans-serif;
 }
 .reset-button {
 	padding:15px;
@@ -343,8 +345,7 @@ h2 {
 	width:fit-content;
 	margin-top:30px;
 	margin-left:30px;
-	padding:10px;
-	margin-bottom:30px;		
+	padding:1000px;	
 }
 .result-layout-tile:hover {
 	border:solid 2px var(--cyan-button);
@@ -360,9 +361,6 @@ h2 {
 }
 .result-layout-img-container{ 
 	text-align:center;
-}
-.miner-count-wrapper-image {
-	margin:auto
 }
 .table-bottom {
 	padding-left:280px;

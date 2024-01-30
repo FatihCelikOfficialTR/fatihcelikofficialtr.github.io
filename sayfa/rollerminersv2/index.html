@@ -37,9 +37,6 @@
 							</div>
 							<div id="miner-count-amount">
 							</div>							
-							<div class="result-layout-tile-title">
-								Miner
-							</div>
 						</div>						
 					</div>
 					<div class="search-filter-wrapper">
@@ -54,13 +51,13 @@
 							<input 
 								 type="text" 
 								 id="txtBxMrLss" 
-								 placeholder="Power: Yuksek - Dusuk" 
+								 placeholder="Güç: Yüksek - Düşük" 
 								 readonly>
 							<div class="option">
-								<div onclick="show('Power: Yuksek - Dusuk','txtBxMrLss');sortMiners(globalFilteredMinerArr,'desc',2);">Power: Yuksek - Dusuk</div>
-								<div onclick="show('Power: Dusuk - Yuksek','txtBxMrLss');sortMiners(globalFilteredMinerArr,'asc',2);">Power: Dusuk - Yuksek</div>
-								<div onclick="show('Bonus: Yuksek - Dusuk','txtBxMrLss');sortMiners(globalFilteredMinerArr,'desc',3);">Bonus: Yuksek - Dusuk</div>
-								<div onclick="show('Bonus: Dusuk - Yuksek','txtBxMrLss');sortMiners(globalFilteredMinerArr,'asc',3);">Bonus: Dusuk - Yuksek</div>
+								<div onclick="show('Güç: Yüksek - Düşük','txtBxMrLss');sortMiners(globalFilteredMinerArr,'desc',2);">Güç: Yüksek - Düşük</div>
+								<div onclick="show('Güç: Düşük - Yüksek','txtBxMrLss');sortMiners(globalFilteredMinerArr,'asc',2);">Güç: Düşük - Yüksek</div>
+								<div onclick="show('Bonus: Yüksek - Düşük','txtBxMrLss');sortMiners(globalFilteredMinerArr,'desc',3);">Bonus: Yüksek - Düşük</div>
+								<div onclick="show('Bonus: Düşük - Yüksek','txtBxMrLss');sortMiners(globalFilteredMinerArr,'asc',3);">Bonus: Düşük - Yüksek</div>
 							</div>
 						</div>						
 						<div class="dropdown dropdown-pagination">
@@ -78,12 +75,12 @@
 					</div>
 					<table id="minerTable" class="tableMiners">
 						<tr>
-							<th> LEVEL </th>
+							<th> SEVİYE </th>
 							<th> MINER </th>
-							<th> GUC (Gh/s) </th>
+							<th> GÜÇ (Gh/s) </th>
 							<th> BONUS (%) </th>
-							<th> HUCRE(s) </th>
-							<th> SEVIYE(s) </th>      
+							<th> HÜCRE </th>
+							<th> LEVEL </th>      
 							<th>	</th>
 						</tr>
 					</table>
@@ -97,8 +94,8 @@
 				</div>
 				<div class="filterDiv">											
 						<div id="powerDiv" class="filters-wrapper">
-							<p class="filter-title">Power (Gh/s):</p>
-							<input class="input" type="number" id="powerRangeLow" placeholder="0" title="Type in miner"> - 
+							<p class="filter-title">Güç (Gh/s):</p>
+							<input class="input" type="number" id="powerRangeLow" placeholder="0" title="Type in miner">
 							<input class="input" type="number" id="powerRangeHigh" placeholder="100000" title="Type in miner">
 							<button class="triggerFilterButton" id="TriggerFilterPower" type="button" value="OK" 
 								onclick="filterOnColumns('power');">
@@ -106,8 +103,8 @@
 							</button>
 						</div>
 						<div class="filters-wrapper">
-							<p class="filter-title">Bonus</p>
-							<input class="input" type="number" id="bonusRangeLow" placeholder="0" title="Type in bonus"> - 
+							<p class="filter-title">bonus (%)</p>
+							<input class="input" type="number" id="bonusRangeLow" placeholder="0" title="Type in bonus">
 							<input class="input" type="number" id="bonusRangeHigh" placeholder="10" title="Type in bonus">
 							<button class="triggerFilterButton" id="TriggerFilterBonus" type="button" value="OK" 
 									onclick="filterOnColumns('bonus');">
