@@ -1,6 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Sixtyfour&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
 
 :root {
   --main-bg-color: #181928;
@@ -18,15 +17,14 @@
 body {
 padding:0;
 margin:0;
-font-family: 'Cairo', sans-serif;
-font-size:15px;
+font-size:13px;
+font-family: 'Orbitron', sans-serif;
 }
 
 html {
 	background-color: var(--main-bg-color);
 	color: #fff;			
 	font-family : pxl;
-	font-family: 'Cairo', sans-serif;
 }
 td {
 	border: 1px solid var(--main-bg-color);
@@ -36,9 +34,13 @@ td {
 	border-radius:4px;
 	padding:5px;	
 }
+tr {	
+font-family: 'Orbitron', sans-serif;
+}
 table {
 	margin-left:20px;
 	border-spacing:10px;
+	font-family: 'Orbitron', sans-serif;
 }
 input, textarea {
 	background-color: var(--input-bg-color);
@@ -51,6 +53,7 @@ input, textarea {
 }
 input[type="checkbox"]{
 	opacity:0;
+	font-family: 'Orbitron', sans-serif;
 }
 input[type="checkbox"] + label{
 	position:relative;
@@ -58,6 +61,7 @@ input[type="checkbox"] + label{
 	cursor:point;
 	display:inline-block;
 	line-height:25px;
+	font-family: 'Orbitron', sans-serif;
 }
 input[type="checkbox"] + label::before {
 	content:"";
@@ -98,7 +102,8 @@ button {
 	padding: 15px 15px;
 	font-family: pxlBold;
 	border-radius:10px;
-	box-shadow:  0 5px #186668;			
+	box-shadow:  0 5px #186668;	
+font-family: 'Orbitron', sans-serif;	
 }
 button:hover {
 	background-color:#17a2b8;
@@ -150,23 +155,27 @@ h2 {
 }
 .dropdown-less-more{
 	width:190px;
-	font-family: 'Cairo', sans-serif;
 }
 .dropdown-pagination{
 	width:100px;
 }
 .dropdown {
 	position:relative;			
+	height:50px;
 	border:solid 1px var(--border-color);
 	border-radius:4px;
 	background-color:#1f1f2d;
 	padding-left:10px;
 	margin-left:10px;
+	font-family: 'Orbitron', sans-serif;
 }
-.dropdown input{				
+.dropdown input{
+	position:absolute;
+	top:0;
+	left:0;						
 	cursor:pointer;	
 	border:none;
-	font-family: 'Cairo', sans-serif;	
+	outline:none;		
 }
 .dropdown .option {
 	position:absolute;
@@ -175,12 +184,13 @@ h2 {
 	overflow:hidden;
 	display:none;
 	width:100%;
+	font-family: 'Orbitron', sans-serif;
 }
 .dropdown .option div {
 	cursor:pointer;
 	background-color:var(--input-bg-color);
 	border-radius:4px;
-	width:90%
+	font-family: 'Orbitron', sans-serif;
 }
 .dropdown .option div:hover {
 	border:solid 1px var(--cyan-button);
@@ -200,29 +210,37 @@ h2 {
 	transform:rotate(-45deg);
 	pointer-events:none;
 }
-
+.dropdown.active::before {
+	top: 22px;
+	transform:rotate(-225deg);
+}
 .dropdown.active .option {
 	display:block;
+	font-family: 'Orbitron', sans-serif;
 }
 #txtBxMrLss {
+	font-family: 'Orbitron', sans-serif;
 	width:80%;
 }
 #txtBxPgntn {
 	width:70%;
+	font-family: 'Orbitron', sans-serif;
+}
+#minerSearchInput {
+	font-family: 'Orbitron', sans-serif;
 }
 .reset {
 	width:50%;
 }
 .header {
 	background-color: var(--bg-color-footer-bottom);
-	width: 100%;
 	text-align: center;
-	font-size: 30px;
+	margin-bottom: 50px;
+	font-size: 45px;
 }
 .main-area {
 	background-color:var(--main-bg-color);
 	display:flex;
-	padding: 20px;
 }
 .footer-top {
 	background-color:var(--bg-color-footer-top);	
@@ -277,31 +295,41 @@ h2 {
 	padding-right:30px;
 	margin-left:15px;
 }
-.tableMiners{
-	border-radius:4px;
+
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+.fatihfont{
+	border-radius:1px;
 }
+
+.tableMiners{
+	border-radius:1px;
+}
+
+
 .miner-count-wrapper {
 	background-color:var(--main-bg-color);	
 	border:solid 2px var(--border-color);
-	border-radius:4px;
+	border-radius:4px;		
 	color:var(--color-white);
-	font-size:10px;	
+	font-size:15px;	
 	margin-top:30px;
 	margin-left:30px;
-	padding:10px;
+	padding:15px;
+	margin-bottom:30px;
 	display:flex;
 }
 #miner-count-amount {
 	font-size:20px;
-	padding: 0 0 0 10px;
 	margin:auto;
+	padding: 0 0 0 15px;
+	font-family: 'Orbitron', sans-serif;
 }
 .search-filter-wrapper {
 	display:flex;
 	margin-left:30px;
 	margin-top:15px;
 	margin-bottom:15px;
-	font-family: 'Cairo', sans-serif;
 }
 .reset-button {
 	padding:15px;
@@ -323,6 +351,7 @@ h2 {
 }
 #results-layout {
 	display:flex;	
+	font-family: 'Orbitron', sans-serif;
 }
 .result-layout-tile {
 	background-color:var(--main-bg-color);	
@@ -333,7 +362,8 @@ h2 {
 	width:fit-content;
 	margin-top:30px;
 	margin-left:30px;
-	padding:1000px;	
+	padding:10px;
+	margin-bottom:30px;		
 }
 .result-layout-tile:hover {
 	border:solid 2px var(--cyan-button);
@@ -349,6 +379,9 @@ h2 {
 }
 .result-layout-img-container{ 
 	text-align:center;
+}
+.miner-count-wrapper-image {
+	margin:auto
 }
 .table-bottom {
 	padding-left:280px;

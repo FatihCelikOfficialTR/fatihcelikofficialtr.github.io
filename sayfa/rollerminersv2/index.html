@@ -1,27 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<title>RollerCoin miners - All miners</title>
-		<link rel="shortcut icon" href="./img/basic-miner.png">
-		<link href="./img/basic-miner.png" rel="icon" type="image/png" />
-		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>RCHesapla - RollerCoin Miner Listesi</title>
+		<link rel="shortcut icon" href="img/basic-miner.png">
+		<link href="img/basic-miner.png" rel="icon" type="image/png" />
 		<meta name="description" content="Rollercoin Miners, The most complete Rollercoin Miner search tool.">	
-		<link rel="stylesheet" href="./style/style.css">
-		<!-- Matomo -->
-		<script>
-		  var _paq = window._paq = window._paq || [];
-		  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
-		  _paq.push(['trackPageView']);
-		  _paq.push(['enableLinkTracking']);
-		  (function() {
-		    var u="https://githubalainsopp.matomo.cloud/";
-		    _paq.push(['setTrackerUrl', u+'matomo.php']);
-		    _paq.push(['setSiteId', '1']);
-		    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-		    g.async=true; g.src='//cdn.matomo.cloud/githubalainsopp.matomo.cloud/matomo.js'; s.parentNode.insertBefore(g,s);
-		  })();
-		</script>
-		<!-- End Matomo Code -->
+		<link rel="stylesheet" href="style/style.css">
 	</head>
 	<body>
 		<div class="header">
@@ -51,13 +35,13 @@
 							<input 
 								 type="text" 
 								 id="txtBxMrLss" 
-								 placeholder="Güç: Yüksek - Düşük" 
+								 placeholder="Power: High - Low" 
 								 readonly>
 							<div class="option">
-								<div onclick="show('Güç: Yüksek - Düşük','txtBxMrLss');sortMiners(globalFilteredMinerArr,'desc',2);">Güç: Yüksek - Düşük</div>
-								<div onclick="show('Güç: Düşük - Yüksek','txtBxMrLss');sortMiners(globalFilteredMinerArr,'asc',2);">Güç: Düşük - Yüksek</div>
-								<div onclick="show('Bonus: Yüksek - Düşük','txtBxMrLss');sortMiners(globalFilteredMinerArr,'desc',3);">Bonus: Yüksek - Düşük</div>
-								<div onclick="show('Bonus: Düşük - Yüksek','txtBxMrLss');sortMiners(globalFilteredMinerArr,'asc',3);">Bonus: Düşük - Yüksek</div>
+								<div onclick="show('Power: High - Low','txtBxMrLss');sortMiners(globalFilteredMinerArr,'desc',2);" selected>Power: High - Low</div>
+								<div onclick="show('Power: Low - High','txtBxMrLss');sortMiners(globalFilteredMinerArr,'asc',2);">Power: Low - High</div>
+								<div onclick="show('Bonus: High - Low','txtBxMrLss');sortMiners(globalFilteredMinerArr,'desc',3);">Bonus: High - Low</div>
+								<div onclick="show('Bonus: Low - High','txtBxMrLss');sortMiners(globalFilteredMinerArr,'asc',3);">Bonus: Low - High</div>
 							</div>
 						</div>						
 						<div class="dropdown dropdown-pagination">
@@ -73,16 +57,14 @@
 							</div>
 						</div>
 					</div>
-					<table id="minerTable" class="tableMiners">
+					<table id="minerTable" class="tableMiners fatihfont">
 						<tr>
 							<th> SEVİYE </th>
-							<th> MINER </th>
+							<th> MİNER ADI </th>
 							<th> GÜÇ (Gh/s) </th>
 							<th> BONUS (%) </th>
 							<th> HÜCRE </th>
-							<th> YILDIZ </th>
 							<th> RESİM </th>
-							<th>	</th>
 						</tr>
 					</table>
 					<div id="pagination" class="pagination">
@@ -95,9 +77,9 @@
 				</div>
 				<div class="filterDiv">											
 						<div id="powerDiv" class="filters-wrapper">
-							<p class="filter-title">Güç (Gh/s):</p>
-							<input class="input" type="number" id="powerRangeLow" placeholder="0" title="Type in miner">
-							<input class="input" type="number" id="powerRangeHigh" placeholder="100000" title="Type in miner">
+							<p class="filter-title">Power (Gh/s):</p>
+							<input class="input" type="number" id="powerRangeLow" placeholder="0" title="Type in miner"> - 
+							<input class="input" type="number" id="powerRangefatih" placeholder="100000" title="Type in miner">
 							<button class="triggerFilterButton" id="TriggerFilterPower" type="button" value="OK" 
 								onclick="filterOnColumns('power');">
 									OK
@@ -105,8 +87,8 @@
 						</div>
 						<div class="filters-wrapper">
 							<p class="filter-title">Bonus (%):</p>
-							<input class="input" type="number" id="bonusRangeLow" placeholder="0" title="Type in bonus">
-							<input class="input" type="number" id="bonusRangeHigh" placeholder="10" title="Type in bonus">
+							<input class="input" type="number" id="bonusRangeLow" placeholder="0" title="Type in bonus"> - 
+							<input class="input" type="number" id="bonusRangefatih" placeholder="10" title="Type in bonus">
 							<button class="triggerFilterButton" id="TriggerFilterBonus" type="button" value="OK" 
 									onclick="filterOnColumns('bonus');">
 								OK
@@ -120,21 +102,8 @@
 							<div><input class="checkbox checkboxCell" type="checkbox" id="2c" name="cellForm" value="twoCells" onchange="filterOnColumns('cells')">
 							<label for="2c"> 2 </label></div>    
 						</div>
-						<div id="starDiv" class="checkbox-filter">
-							<p class="filter-title">Yıldız Sayısı:</p>
-							<div><input class="checkbox checkboxStar" type="checkbox" id="1s" name="stars" onchange="filterOnColumns('stars')">
-							<label for="1s"> 1 </label></div>
-							<div><input class="checkbox checkboxStar" type="checkbox" id="2s" name="stars" onchange="filterOnColumns('stars')">
-							<label for="2s"> 2 </label></div>
-							<div><input class="checkbox checkboxStar" type="checkbox" id="3s" name="stars" onchange="filterOnColumns('stars')">
-							<label for="3s"> 3 </label></div>
-							<div><input class="checkbox checkboxStar" type="checkbox" id="4s" name="stars" onchange="filterOnColumns('stars')">
-							<label for="4s"> 4 </label></div>
-							<div><input class="checkbox checkboxStar" type="checkbox" id="5s" name="stars" onchange="filterOnColumns('stars')">
-							<label for="5s"> 5 </label></div>
-						</div>
 						<div class=" checkbox-filter"> 
-							<p class="filter-title">Seviye Sayısı</p>
+							<p class="filter-title">Seviye Sayısı:</p>
 							<div><input class="checkbox level" type="checkbox" id="I" name="level" onchange="filterOnColumns('levels')">
 							<label for="I"> 1 </label></div>
 							<div><input class="checkbox level" type="checkbox" id="II" name="level" onchange="filterOnColumns('levels')" >
@@ -156,6 +125,36 @@
 						</div>				
 				</div>
 			</div>	
+		</div>
+		<div class="footer-container">
+			<div class="footer-top">
+				<div class="table-bottom">
+					<table class="table-bottom-table">
+						<thead>
+							<tr class="table-header-block">
+								<th class="table-block-left">INFORMATION</th>
+								<th class="table-block-right">CONTACTS</th>
+							</tr>			
+						</thead>
+						<tbody>
+							<tr>
+								<td class="table-block-left table-bottom-body"><a>How It Works</a></td>
+								<td class="table-block-right table-bottom-body"> </td>
+							<tr>
+						</tbody>
+					</table>
+				</div>				
+			</div>			
+			<div class="footer-bottom">
+				<div class="terms-service">
+					<p><a href="#">Privacy policy</a></p> 
+					<p>|</p>
+					<p><a href="#">Term of service</a></p> 
+					<p>|</p>
+					<p><a href="#">Disclaimer & User Warranties</a></p>
+				</div>
+				<div class="ligth-info">Additional information</div>
+			</div>
 		</div>
 		<script src="./script/script.js"></script>
 	</body>
