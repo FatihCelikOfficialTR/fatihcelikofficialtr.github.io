@@ -20,6 +20,9 @@ III;JingleGrooveGram;4944240;3.27;2;jinglegroovegram
 II;BTW-2024;4685625;7.3;2;btw_2024
 III;The Big Top;4410000;4.91;2;the_big_top
 III;Snake;4410000;3.27;2;snake
+I;HoloIA Companion;2920000;1;2;holoia_companion
+II;Pencil-ReRoller;2982000;1.64;2;pencil_reroller
+I;Muerte Miner;3000000;1;2;muerte_miner
 III;Fallout Finder 55;4184040;4.21;2;fallout_finder_55`
 
 class Pagination {
