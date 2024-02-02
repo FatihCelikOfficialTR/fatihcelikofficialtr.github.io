@@ -23,6 +23,11 @@ III;Snake;4410000;3.27;2;snake
 I;HoloIA Companion;2920000;1;2;holoia_companion
 II;Pencil-ReRoller;2982000;1.64;2;pencil_reroller
 I;Muerte Miner;3000000;1;2;muerte_miner
+II;Guess-the-Card;2835000;1.64;2;631f7b2c8238ed283a234f95
+I;Guess-the-Card;1080000;0;2;631f7b2c8238ed283a234f95
+III;Pacminer;2776935;1.96;2;pacminer
+II;Pacminer;1057875;1.08;2;pacminer
+I;Pacminer;403000;0.45;2;pacminer
 III;Fallout Finder 55;4184040;4.21;2;fallout_finder_55`
 
 class Pagination {
