@@ -10,7 +10,7 @@ var globalQueryFilter = {
     levels: new Set(),
 }
 
-const globalMiners = `I;Earthbind;210000;0;İkili;63d90106547cfab9a2a43623
+const globalMiners = `I;Earthbind;210000;0;2;63d90106547cfab9a2a43623
 II;Earthbind;551250;0.73;2;63d90106547cfab9a2a43623
 V;Earthbind;9971640;3.4;2;63d90bef08311b97a96a9cba
 I;Aurora Citadel;9750000;5;2;aurora_citadel

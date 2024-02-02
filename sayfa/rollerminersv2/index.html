@@ -32,7 +32,10 @@
 								<img src="./img/basic-miner.svg" width="35" height="35" alt="basic miner">
 							</div>
 							<div id="miner-count-amount">
-							</div>							
+							</div>
+								<div class="result-layout-tile-title">
+								ADET MINER LİSTELENMİŞ
+							</div>
 						</div>						
 					</div>
 					<div class="search-filter-wrapper">
@@ -90,8 +93,8 @@
 				<div class="filterDiv">											
 						<div id="powerDiv" class="filters-wrapper">
 							<p class="filter-title">Power (Gh/s):</p>
-							<input class="input" type="number" id="powerRangeLow" placeholder="0" title="Type in miner"> - 
-							<input class="input" type="number" id="powerRangeHigh" placeholder="100000" title="Type in miner">
+							<input class="input" type="number" id="powerRangeLow" placeholder="0"> - 
+							<input class="input" type="number" id="powerRangeHigh" placeholder="100000">
 							<button class="triggerFilterButton" id="TriggerFilterPower" type="button" value="OK" 
 								onclick="filterOnColumns('power');">
 									OK
@@ -99,8 +102,8 @@
 						</div>
 						<div class="filters-wrapper">
 							<p class="filter-title">Bonus (%):</p>
-							<input class="input" type="number" id="bonusRangeLow" placeholder="0" title="Type in bonus"> - 
-							<input class="input" type="number" id="bonusRangeHigh" placeholder="10" title="Type in bonus">
+							<input class="input" type="number" id="bonusRangeLow" placeholder="0"> - 
+							<input class="input" type="number" id="bonusRangeHigh" placeholder="10">
 							<button class="triggerFilterButton" id="TriggerFilterBonus" type="button" value="OK" 
 									onclick="filterOnColumns('bonus');">
 								OK
