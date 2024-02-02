@@ -10,7 +10,9 @@ var globalQueryFilter = {
     levels: new Set(),
 }
 
-const globalMiners = `I;Earthbind;210000;0;2;63d90106547cfab9a2a43623
+const globalMiners = `I;RollerGirl Dream;220000;0.25;2;rollergirl_dream
+I;Earthbind;210000;0;2;63d90106547cfab9a2a43623
+I;The Turret;389000;0;1;the_turret
 II;Earthbind;551250;0.73;2;63d90106547cfab9a2a43623
 V;Earthbind;9971640;3.4;2;63d90bef08311b97a96a9cba
 I;Aurora Citadel;9750000;5;2;aurora_citadel
@@ -33,6 +35,9 @@ IV;Entminer;398055;2.08;2;entminer
 III;Entminer;151620;1.66;2;entminer
 II;Entminer;57750;0.55;2;entminer
 I;Entminer;22000;0;2;entminer
+I;Brush'n'Palette;700000;0;2;brushnpalette
+I;Sweet Memory Miner;560000;1.5;2;sweet_memory_miner
+I;RollerMiner R4;6000;0.5;1;rollerminer_r4
 III;Fallout Finder 55;4184040;4.21;2;fallout_finder_55`
 
 class Pagination {
@@ -155,8 +160,8 @@ function buildTable(m) {
                     img.src = imgUrl;
                     img.width = 63;
                     img.height = 50;
-                    img.alt = "Not Found" 
-                    img.onerror="img/basic-miner.svg';"
+                    img.alt = "Resim Yok" 
+                    img.onerror="img/basic-miner.png"
                     td.appendChild(img);
                 } else if (j == 2) {
                     td.appendChild(document.createTextNode(thousanize(m[i][j])));
