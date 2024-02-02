@@ -28,6 +28,11 @@ I;Guess-the-Card;1080000;0;2;631f7b2c8238ed283a234f95
 III;Pacminer;2776935;1.96;2;pacminer
 II;Pacminer;1057875;1.08;2;pacminer
 I;Pacminer;403000;0.45;2;pacminer
+VI;Entminer;2743020;3.9;2;entminer
+IV;Entminer;398055;2.08;2;entminer
+III;Entminer;151620;1.66;2;entminer
+II;Entminer;57750;0.55;2;entminer
+I;Entminer;22000;0;2;entminer
 III;Fallout Finder 55;4184040;4.21;2;fallout_finder_55`
 
 class Pagination {
