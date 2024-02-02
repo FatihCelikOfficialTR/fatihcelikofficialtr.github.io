@@ -13,6 +13,7 @@ var globalQueryFilter = {
 const globalMiners = `I;RollerGirl Dream;220000;0.25;2;rollergirl_dream
 II;Heretic Opera Miner;1522500;1.08;2;heretic_opera_miner
 I;Earthbind;210000;0;2;63d90106547cfab9a2a43623
+I;CP-106;11106;0.5;1;cp_106
 I;The Turret;389000;0;1;the_turret
 II;Earthbind;551250;0.73;2;63d90106547cfab9a2a43623
 V;Earthbind;9971640;3.4;2;63d90bef08311b97a96a9cba
