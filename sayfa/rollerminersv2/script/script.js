@@ -12,13 +12,24 @@ var globalQueryFilter = {
 
 const globalMiners = `I;RollerGirl Dream;220000;0.25;2;rollergirl_dream
 II;Heretic Opera Miner;1522500;1.08;2;heretic_opera_miner
+I;Eclipse Energion;11800000;5.5;2;eclipse_energion
+VI;Rainbow Fairy;11167590;3.9;2;631f7b818238ed283a235398
 I;Earthbind;210000;0;2;63d90106547cfab9a2a43623
+II;Earthbind;551250;0.73;2;63d90106547cfab9a2a43623
+III;Earthbind;1447110;2.18;2;63d90106547cfab9a2a43623
+V;Earthbind;9971640;3.4;2;63d90106547cfab9a2a43623
+V;YMCA Game;5413590;2.6;2;6399c34b1c483a58f70e9a58
+IV;YMCA Game;2062305;2.08;2;6399c34b1c483a58f70e9a58
+III;YMCA Game;785610;1.66;2;6399c34b1c483a58f70e9a58
+II;YMCA Game;299250;0.55;2;6399c34b1c483a58f70e9a58
+I;YMCA Game;114000;0;2;6399c34b1c483a58f70e9a58
 I;SkullMiner;7900000;1;2;skullminer
 I;Pumpkin King;1915000;1;2;pumpkin_king
 I;CP-106;11106;0.5;1;cp_106
+II;CP-106;29190;0.53;1;cp_106
+III;CP-106;76650;0.55;1;cp_106
+IV;CP-106;201285;0.58;1;cp_106
 I;The Turret;389000;0;1;the_turret
-II;Earthbind;551250;0.73;2;63d90106547cfab9a2a43623
-V;Earthbind;9971640;3.4;2;63d90bef08311b97a96a9cba
 I;Aurora Citadel;9750000;5;2;aurora_citadel
 I;The Big Boss;9200000;3.5;2;the_big_boss
 I;Riding Free Relic;5000000;2.5;2;644bb671648294b4642f3690

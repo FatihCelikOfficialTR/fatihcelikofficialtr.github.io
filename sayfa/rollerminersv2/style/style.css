@@ -34,8 +34,6 @@ input[type="number"]::-webkit-outer-spin-button {
 	--color-bonus:#03e1e4;
 }
 body {
-padding:0;
-margin:0;
 font-size:13px;
 font-family: 'Red Rose', serif;
 }
@@ -264,6 +262,7 @@ h2 {
 .main-area {
 	background-color:var(--main-bg-color);
 	display:flex;
+	padding:50px;
 }
 .footer-top {
 	background-color:var(--bg-color-footer-top);	
