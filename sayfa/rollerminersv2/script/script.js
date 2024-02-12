@@ -25,6 +25,11 @@ I;Gandhi's Splittie;213600;0;2;6399c3541c483a58f70e9ae4
 II;Gandhi's Splittie;560700;0.74;2;6399c3541c483a58f70e9ae4
 III;Gandhi's Splittie;1471890;2.22;2;6399c3541c483a58f70e9ae4
 V;Gandhi's Splittie;10142475;3.47;2;6399c3541c483a58f70e9ae4
+I;Magma;210000;0;2;63d90be608311b97a96a9c2e
+II;Magma;551250;0.73;2;63d90be608311b97a96a9c2e
+V;Magma;9971640;3.4;2;63d90be608311b97a96a9c2e
+II;Pencil-ReRoller;2982000;1.64;2;pencil_reroller
+III;Pencil-ReRoller;7827750;4.91;2;pencil_reroller
 I;Earthbind;210000;0;2;63d90106547cfab9a2a43623
 II;Earthbind;551250;0.73;2;63d90106547cfab9a2a43623
 III;Earthbind;1447110;2.18;2;63d90106547cfab9a2a43623
@@ -49,7 +54,6 @@ II;BTW-2024;4685625;7.3;2;btw_2024
 III;The Big Top;4410000;4.91;2;the_big_top
 III;Snake;4410000;3.27;2;snake
 I;HoloIA Companion;2920000;1;2;holoia_companion
-II;Pencil-ReRoller;2982000;1.64;2;pencil_reroller
 I;Muerte Miner;3000000;1;2;muerte_miner
 II;Guess-the-Card;2835000;1.64;2;631f7b2c8238ed283a234f95
 I;Guess-the-Card;1080000;0;2;631f7b2c8238ed283a234f95
