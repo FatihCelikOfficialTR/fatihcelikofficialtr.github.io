@@ -13,7 +13,18 @@ var globalQueryFilter = {
 const globalMiners = `I;RollerGirl Dream;220000;0.25;2;rollergirl_dream
 II;Heretic Opera Miner;1522500;1.08;2;heretic_opera_miner
 I;Eclipse Energion;11800000;5.5;2;eclipse_energion
+I;Rainbow Fairy;89600;0;2;631f7b818238ed283a235398
+II;Rainbow Fairy;235200;0.55;2;631f7b818238ed283a235398
+III;Rainbow Fairy;617400;1.66;2;631f7b818238ed283a235398
 VI;Rainbow Fairy;11167590;3.9;2;631f7b818238ed283a235398
+I;Giftbox Pile;230000;0;2;6474a38830cd78b9cb76478c
+II;Giftbox Pile;603750;0.82;2;6474a38830cd78b9cb76478c
+III;Giftbox Pile;1584870;2.47;2;6474a38830cd78b9cb76478c
+V;Giftbox Pile;10920840;3.87;2;6474a38830cd78b9cb76478c
+I;Gandhi's Splittie;213600;0;2;6399c3541c483a58f70e9ae4
+II;Gandhi's Splittie;560700;0.74;2;6399c3541c483a58f70e9ae4
+III;Gandhi's Splittie;1471890;2.22;2;6399c3541c483a58f70e9ae4
+V;Gandhi's Splittie;10142475;3.47;2;6399c3541c483a58f70e9ae4
 I;Earthbind;210000;0;2;63d90106547cfab9a2a43623
 II;Earthbind;551250;0.73;2;63d90106547cfab9a2a43623
 III;Earthbind;1447110;2.18;2;63d90106547cfab9a2a43623
