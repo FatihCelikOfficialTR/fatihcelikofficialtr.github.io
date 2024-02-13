@@ -262,7 +262,7 @@ h2 {
 .main-area {
 	background-color:var(--main-bg-color);
 	display:flex;
-	padding:50px;
+	padding:10px;
 }
 .footer-top {
 	background-color:var(--bg-color-footer-top);	
