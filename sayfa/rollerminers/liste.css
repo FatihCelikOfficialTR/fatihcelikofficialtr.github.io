@@ -8,7 +8,6 @@
 
 ::-webkit-scrollbar-thumb {
     background: red;
-	height: 7px;
 }
 
 :root {
@@ -28,18 +27,16 @@
   --title: Montserrat, sans-serif;
   --body: Montserrat, monospace;
 }
-body { margin:0px!important;background-color:var(--background); }
+body {background-color:var(--background); }
 a { text-decoration:none!important; }
-.musour { display:grid;height:100vh;width:100vw;grid-template-columns:210px auto;overflow-y:hidden; }
+.musour { display:grid;height:675px;width:auto;grid-template-columns:210px auto;overflow-y:hidden; }
 .musour-left { padding:10px;color:var(--text);font:15px var(--body);display:grid;height:calc(98vh - 5px);flex-direction:column; }
 .musour-title { font:40px var(--title); }
 .musour-title div { font-size:40px;margin-left:-2px;line-height:80px;color:var(--accentOne); }
 .musour-title-2 { background:linear-gradient(to bottom left,var(--accentOne),var(--accentTwo));font:700 13px var(--anasayfabuton);line-height:10px;padding:14px 0px 16px 4px;text-align:center;color:var(--background);border-radius:10px;transition:.3s all; }
 .musour-title-2:hover {opacity:.8; }
 .musour-blurb { text-align:center;line-height:18px; }
-.musour-filters {flex-grow:100px;overflow:auto; }
-.musour-filters::-webkit-scrollbar-thumb { border-left:solid 5px var(--background);background:linear-gradient(to bottom,var(--accentOne),var(--accentTwo));border-radius:2px; }
-.musour-filters::-webkit-scrollbar { width:10px; }
+.musour-filters {flex-grow:1000px;overflow:auto; height:auto;}
 .musour-filters div { display:flex;flex-direction:column; }
 .musour-filters h1 { background-color:var(--backgroundTwo);font:700 15px var(--title);line-height:10px;padding:14px 0px 16px 4px;text-align:center;color:var(--text);border-radius:10px;text-transform:uppercase;line-height:12px;border: 2px dashed #ff0000; }
 .musour-filters button { margin-top:0px;border:none;background:transparent;text-align:left;padding:0px;cursor:pointer;font:15px var(--body);color:var(--text);line-height:20px;transition:.3s all; }
@@ -64,18 +61,16 @@ a { text-decoration:none!important; }
 
 
 .musour-right { background:var(--backgroundTwo);background:linear-gradient(to bottom left,var(--accentOne),var(--accentTwo));border-radius:10px 0px 0px 0px;padding:10px;min-width:500px;box-shadow: 0px 0px 5px rgba(44,44,44,.1);box-shadow:none; }
-.musour-right .grid { max-height:calc(100vh - 20px);overflow:auto; }
-.musour-right .grid::-webkit-scrollbar-thumb { background-color:var(--background);border-radius:5px; }
-.musour-right .grid::-webkit-scrollbar { width:10px; }
-.musour-icon { background-color:var(--background);padding:5px;border-radius:15px;width:130px;margin:0px 0px 0px 0px;box-shadow: 5px 5px 10px -3px rgba(44,44,44,.05);height:176px;transform:scale(1);transition:.3s all;border: 2px dashed #ff0000; }
-.musour-icon img {display:block;filter:grayscale(75%) contrast(100%);opacity:1;transition:.3s all;border-radius: 10px 10px 10px 10px;border: 2px dashed #ff0000; }
+.musour-right .grid { max-height:calc(150vh - 20px);overflow:auto; }
+.musour-icon { background-color:var(--background);padding:5px;border-radius:15px;width:110px;margin:0px 0px 0px 0px;box-shadow: 5px 5px 10px -3px rgba(44,44,44,.05);height:155px;transform:scale(1);transition:.3s all;border: 2px dashed #ff0000; }
+.musour-icon img {display:block;filter:grayscale(75%) contrast(100%);opacity:1;transition:.3s all;border-radius: 10px 10px 10px 10px;border: 2px dashed #ff0000; width:100px;}
 .musour-icon div {background-color:var(--backgroundTwo);padding:10px;font:13px var(--body);color:var(--text);height:50px;display:flex;flex-direction:column;justify-content:center;border-radius: 10px 10px 10px 10px;border: 2px dashed #ff0000; }
 .musour-icon div b { display:block;color:var(--accentOne);font-size:14px; }
 .musour-icon:hover { transform:scale(1); }
 .musour-icon:hover img { opacity:1;filter:grayscale(0%) contrast(100%)!important; }
 
-.musour-blurb2 { text-align:center;line-height:20px;font:13px var(--title); }
-.musour-icon b2 {font-style:normal!important;color:var(--accentOne2);text-transform:uppercase;font-size:12px; }
+.musour-blurb2 { text-align:center;line-height:20px;font:10px var(--title); }
+.musour-icon b2 {font-style:normal!important;color:var(--accentOne2);text-transform:uppercase;font-size:10px; }
 
 .renk {
 	color:var(--renk)
