@@ -1,6 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
 
+::-webkit-scrollbar {
+    background: #2f3045;
+    width: 7px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: red;
+	height: 7px;
+}
+
 :root {
   --accentOne: yellow;
   --accentOne2: white;
