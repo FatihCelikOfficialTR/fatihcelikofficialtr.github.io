@@ -1,6 +1,6 @@
 fetchData = function(){
 
-    fetch('https://api.coingecko.com/api/v3/simple/price?ids=matic-network%2Csei-network%2Clitecoin%2Ctron%2Cbitcoin%2Cethereum%2Cdogecoin%2Cbinancecoin%2Ctether%2Cflow%2Csolana&vs_currencies=usd', {
+    fetch('https://api.coingecko.com/api/v3/simple/price?ids=matic-network%2Cmantle%2Clitecoin%2Ctron%2Cbitcoin%2Cethereum%2Cdogecoin%2Cbinancecoin%2Ctether%2Cflow%2Csolana&vs_currencies=usd', {
       method: 'GET', // or 'PUT'
       headers: {
         'Content-Type': 'application/json',
@@ -9,8 +9,7 @@ fetchData = function(){
       .then(
         function(response) {
           if (response.status !== 200) {
-            console.log('Looks like there was a problem. Status Code: ' +
-              response.status);
+            console.log('Looks like there was a problem. Status Code: ' + response.status);
             return;
           }
     
@@ -34,7 +33,7 @@ getResults = function(fetch_data){
     dogePrice = fetch_data.dogecoin.usd
     ethPrice = fetch_data.ethereum.usd
 	bnbPrice = fetch_data.binancecoin.usd
-	maticPrice = fetch_data.flow.usd
+	maticPrice = fetch_data.mantle.usd
 	ltcPrice = fetch_data.litecoin.usd
 	solPrice = fetch_data.solana.usd
 	trxPrice = fetch_data.tron.usd
