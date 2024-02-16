@@ -67,7 +67,7 @@ calculate = function(prices){
     minBtc = document.getElementById("minBtc").innerHTML;
     minBtcD = Number(minBtc) * btcPrice
     if (isNaN(minBtcD)) {
-        document.getElementById("minBtcD").innerText = "∙•●$●•∙"}
+        document.getElementById("minBtcD").innerText = "【Önce Hesapla】"}
         else {
             document.getElementById("minBtcD").innerText = "$" + minBtcD.toFixed(5);
         }
@@ -75,7 +75,7 @@ calculate = function(prices){
     hourBtc = document.getElementById("hourBtc").innerHTML;
     hourBtcD = Number(hourBtc) * btcPrice
     if (isNaN(hourBtcD)) {
-        document.getElementById("hourBtcD").innerText = "∙•●$●•∙"}
+        document.getElementById("hourBtcD").innerText = "【Önce Hesapla】"}
         else {
             document.getElementById("hourBtcD").innerText = "$" + hourBtcD.toFixed(5);
         }
@@ -83,7 +83,7 @@ calculate = function(prices){
     dayBtc = document.getElementById("dayBtc").innerHTML;
     dayBtcD = Number(dayBtc) * btcPrice
     if (isNaN(dayBtcD)) {
-        document.getElementById("dayBtcD").innerText = "∙•●$●•∙"}
+        document.getElementById("dayBtcD").innerText = "【Önce Hesapla】"}
         else {
             document.getElementById("dayBtcD").innerText = "$" + dayBtcD.toFixed(5);
         }
@@ -91,7 +91,7 @@ calculate = function(prices){
     weekBtc = document.getElementById("weekBtc").innerHTML;
     weekBtcD = Number(weekBtc) * btcPrice
     if (isNaN(weekBtcD)) {
-        document.getElementById("weekBtcD").innerText = "∙•●$●•∙"}
+        document.getElementById("weekBtcD").innerText = "【Önce Hesapla】"}
         else {
             document.getElementById("weekBtcD").innerText = "$" + weekBtcD.toFixed(5);
         }    
@@ -99,7 +99,7 @@ calculate = function(prices){
     monthBtc = document.getElementById("monthBtc").innerHTML;
     monthBtcD = Number(monthBtc) * btcPrice
     if (isNaN(minBtcD)) {
-        document.getElementById("monthBtcD").innerText = "∙•●$●•∙"}
+        document.getElementById("monthBtcD").innerText = "【Önce Hesapla】"}
         else {
             document.getElementById("monthBtcD").innerText = "$" + monthBtcD.toFixed(5);
         }    
@@ -107,7 +107,7 @@ calculate = function(prices){
     yearBtc = document.getElementById("yearBtc").innerHTML;
     yearBtcD = Number(yearBtc) * btcPrice
     if (isNaN(yearBtcD)) {
-        document.getElementById("yearBtcD").innerText = "∙•●$●•∙"}
+        document.getElementById("yearBtcD").innerText = "【Önce Hesapla】"}
         else {
             document.getElementById("yearBtcD").innerText = "$" + yearBtcD.toFixed(5);
         }
@@ -116,7 +116,7 @@ calculate = function(prices){
     minDoge = document.getElementById("minDoge").innerHTML;
     minDogeD = Number(minDoge) * dogePrice
     if (isNaN(minDogeD)) {
-        document.getElementById("minDogeD").innerText = "∙•●$●•∙"}
+        document.getElementById("minDogeD").innerText = "【Önce Hesapla】"}
         else {
             document.getElementById("minDogeD").innerText = "$" + minDogeD.toFixed(5);
         }
@@ -124,7 +124,7 @@ calculate = function(prices){
     hourDoge = document.getElementById("hourDoge").innerHTML;
     hourDogeD = Number(hourDoge) * dogePrice
     if (isNaN(hourDogeD)) {
-        document.getElementById("hourDogeD").innerText = "∙•●$●•∙"}
+        document.getElementById("hourDogeD").innerText = "【Önce Hesapla】"}
         else {
             document.getElementById("hourDogeD").innerText = "$" + hourDogeD.toFixed(5);
         }
@@ -132,7 +132,7 @@ calculate = function(prices){
     dayDoge = document.getElementById("dayDoge").innerHTML;
     dayDogeD = Number(dayDoge) * dogePrice
     if (isNaN(dayDogeD)) {
-        document.getElementById("dayDogeD").innerText = "∙•●$●•∙"}
+        document.getElementById("dayDogeD").innerText = "【Önce Hesapla】"}
         else {
             document.getElementById("dayDogeD").innerText = "$" + dayDogeD.toFixed(5);
         }
@@ -140,7 +140,7 @@ calculate = function(prices){
     weekDoge = document.getElementById("weekDoge").innerHTML;
     weekDogeD = Number(weekDoge) * dogePrice
     if (isNaN(weekDogeD)) {
-        document.getElementById("weekDogeD").innerText = "∙•●$●•∙"}
+        document.getElementById("weekDogeD").innerText = "【Önce Hesapla】"}
         else {
             document.getElementById("weekDogeD").innerText = "$" + weekDogeD.toFixed(5);
         }    
@@ -148,7 +148,7 @@ calculate = function(prices){
     monthDoge = document.getElementById("monthDoge").innerHTML;
     monthDogeD = Number(monthDoge) * dogePrice
     if (isNaN(minDogeD)) {
-        document.getElementById("monthDogeD").innerText = "∙•●$●•∙"}
+        document.getElementById("monthDogeD").innerText = "【Önce Hesapla】"}
         else {
             document.getElementById("monthDogeD").innerText = "$" + monthDogeD.toFixed(5);
         }    
@@ -156,7 +156,7 @@ calculate = function(prices){
     yearDoge = document.getElementById("yearDoge").innerHTML;
     yearDogeD = Number(yearDoge) * dogePrice
     if (isNaN(yearDogeD)) {
-        document.getElementById("yearDogeD").innerText = "∙•●$●•∙"}
+        document.getElementById("yearDogeD").innerText = "【Önce Hesapla】"}
         else {
             document.getElementById("yearDogeD").innerText = "$" + yearDogeD.toFixed(5);
         }
@@ -165,7 +165,7 @@ calculate = function(prices){
     minEth = document.getElementById("minEth").innerHTML;
     minEthD = Number(minEth) * ethPrice
     if (isNaN(minEthD)) {
-        document.getElementById("minEthD").innerText = "∙•●$●•∙"}
+        document.getElementById("minEthD").innerText = "【Önce Hesapla】"}
         else {
             document.getElementById("minEthD").innerText = "$" + minEthD.toFixed(5);
         }
@@ -173,7 +173,7 @@ calculate = function(prices){
     hourEth = document.getElementById("hourEth").innerHTML;
     hourEthD = Number(hourEth) * ethPrice
     if (isNaN(hourEthD)) {
-        document.getElementById("hourEthD").innerText = "∙•●$●•∙"}
+        document.getElementById("hourEthD").innerText = "【Önce Hesapla】"}
         else {
             document.getElementById("hourEthD").innerText = "$" + hourEthD.toFixed(5);
         }
@@ -181,7 +181,7 @@ calculate = function(prices){
     dayEth = document.getElementById("dayEth").innerHTML;
     dayEthD = Number(dayEth) * ethPrice
     if (isNaN(dayEthD)) {
-        document.getElementById("dayEthD").innerText = "∙•●$●•∙"}
+        document.getElementById("dayEthD").innerText = "【Önce Hesapla】"}
         else {
             document.getElementById("dayEthD").innerText = "$" + dayEthD.toFixed(5);
         }
@@ -189,7 +189,7 @@ calculate = function(prices){
     weekEth = document.getElementById("weekEth").innerHTML;
     weekEthD = Number(weekEth) * ethPrice
     if (isNaN(weekEthD)) {
-        document.getElementById("weekEthD").innerText = "∙•●$●•∙"}
+        document.getElementById("weekEthD").innerText = "【Önce Hesapla】"}
         else {
             document.getElementById("weekEthD").innerText = "$" + weekEthD.toFixed(5);
         }    
@@ -197,7 +197,7 @@ calculate = function(prices){
     monthEth = document.getElementById("monthEth").innerHTML;
     monthEthD = Number(monthEth) * ethPrice
     if (isNaN(minEthD)) {
-        document.getElementById("monthEthD").innerText = "∙•●$●•∙"}
+        document.getElementById("monthEthD").innerText = "【Önce Hesapla】"}
         else {
             document.getElementById("monthEthD").innerText = "$" + monthEthD.toFixed(5);
         }    
@@ -205,7 +205,7 @@ calculate = function(prices){
     yearEth = document.getElementById("yearEth").innerHTML;
     yearEthD = Number(yearEth) * ethPrice
     if (isNaN(yearEthD)) {
-        document.getElementById("yearEthD").innerText = "∙•●$●•∙"}
+        document.getElementById("yearEthD").innerText = "【Önce Hesapla】"}
         else {
             document.getElementById("yearEthD").innerText = "$" + yearEthD.toFixed(5);
         }
@@ -215,7 +215,7 @@ calculate = function(prices){
     minbnb = document.getElementById("minbnb").innerHTML;
     minbnbD = Number(minbnb) * bnbPrice
     if (isNaN(minbnbD)) {
-        document.getElementById("minbnbD").innerText = "∙•●$●•∙"}
+        document.getElementById("minbnbD").innerText = "【Önce Hesapla】"}
         else {
             document.getElementById("minbnbD").innerText = "$" + minbnbD.toFixed(5);
         }
@@ -223,7 +223,7 @@ calculate = function(prices){
     hourbnb = document.getElementById("hourbnb").innerHTML;
     hourbnbD = Number(hourbnb) * bnbPrice
     if (isNaN(hourbnbD)) {
-        document.getElementById("hourbnbD").innerText = "∙•●$●•∙"}
+        document.getElementById("hourbnbD").innerText = "【Önce Hesapla】"}
         else {
             document.getElementById("hourbnbD").innerText = "$" + hourbnbD.toFixed(5);
         }
@@ -231,7 +231,7 @@ calculate = function(prices){
     daybnb = document.getElementById("daybnb").innerHTML;
     daybnbD = Number(daybnb) * bnbPrice
     if (isNaN(daybnbD)) {
-        document.getElementById("daybnbD").innerText = "∙•●$●•∙"}
+        document.getElementById("daybnbD").innerText = "【Önce Hesapla】"}
         else {
             document.getElementById("daybnbD").innerText = "$" + daybnbD.toFixed(5);
         }
@@ -239,7 +239,7 @@ calculate = function(prices){
     weekbnb = document.getElementById("weekbnb").innerHTML;
     weekbnbD = Number(weekbnb) * bnbPrice
     if (isNaN(weekbnbD)) {
-        document.getElementById("weekbnbD").innerText = "∙•●$●•∙"}
+        document.getElementById("weekbnbD").innerText = "【Önce Hesapla】"}
         else {
             document.getElementById("weekbnbD").innerText = "$" + weekbnbD.toFixed(5);
         }    
@@ -247,7 +247,7 @@ calculate = function(prices){
     monthbnb = document.getElementById("monthbnb").innerHTML;
     monthbnbD = Number(monthbnb) * bnbPrice
     if (isNaN(minbnbD)) {
-        document.getElementById("monthbnbD").innerText = "∙•●$●•∙"}
+        document.getElementById("monthbnbD").innerText = "【Önce Hesapla】"}
         else {
             document.getElementById("monthbnbD").innerText = "$" + monthbnbD.toFixed(5);
         }    
@@ -255,7 +255,7 @@ calculate = function(prices){
     yearbnb = document.getElementById("yearbnb").innerHTML;
     yearbnbD = Number(yearbnb) * bnbPrice
     if (isNaN(yearbnbD)) {
-        document.getElementById("yearbnbD").innerText = "∙•●$●•∙"}
+        document.getElementById("yearbnbD").innerText = "【Önce Hesapla】"}
         else {
             document.getElementById("yearbnbD").innerText = "$" + yearbnbD.toFixed(5);
         }
@@ -264,7 +264,7 @@ calculate = function(prices){
     minmatic = document.getElementById("minmatic").innerHTML;
     minmaticD = Number(minmatic) * maticPrice
     if (isNaN(minmaticD)) {
-        document.getElementById("minmaticD").innerText = "∙•●$●•∙"}
+        document.getElementById("minmaticD").innerText = "【Önce Hesapla】"}
         else {
             document.getElementById("minmaticD").innerText = "$" + minmaticD.toFixed(5);
         }
@@ -272,7 +272,7 @@ calculate = function(prices){
     hourmatic = document.getElementById("hourmatic").innerHTML;
     hourmaticD = Number(hourmatic) * maticPrice
     if (isNaN(hourmaticD)) {
-        document.getElementById("hourmaticD").innerText = "∙•●$●•∙"}
+        document.getElementById("hourmaticD").innerText = "【Önce Hesapla】"}
         else {
             document.getElementById("hourmaticD").innerText = "$" + hourmaticD.toFixed(5);
         }
@@ -280,7 +280,7 @@ calculate = function(prices){
     daymatic = document.getElementById("daymatic").innerHTML;
     daymaticD = Number(daymatic) * maticPrice
     if (isNaN(daymaticD)) {
-        document.getElementById("daymaticD").innerText = "∙•●$●•∙"}
+        document.getElementById("daymaticD").innerText = "【Önce Hesapla】"}
         else {
             document.getElementById("daymaticD").innerText = "$" + daymaticD.toFixed(5);
         }
@@ -288,7 +288,7 @@ calculate = function(prices){
     weekmatic = document.getElementById("weekmatic").innerHTML;
     weekmaticD = Number(weekmatic) * maticPrice
     if (isNaN(weekmaticD)) {
-        document.getElementById("weekmaticD").innerText = "∙•●$●•∙"}
+        document.getElementById("weekmaticD").innerText = "【Önce Hesapla】"}
         else {
             document.getElementById("weekmaticD").innerText = "$" + weekmaticD.toFixed(5);
         }    
@@ -296,7 +296,7 @@ calculate = function(prices){
     monthmatic = document.getElementById("monthmatic").innerHTML;
     monthmaticD = Number(monthmatic) * maticPrice
     if (isNaN(minmaticD)) {
-        document.getElementById("monthmaticD").innerText = "∙•●$●•∙"}
+        document.getElementById("monthmaticD").innerText = "【Önce Hesapla】"}
         else {
             document.getElementById("monthmaticD").innerText = "$" + monthmaticD.toFixed(5);
         }    
@@ -304,7 +304,7 @@ calculate = function(prices){
     yearmatic = document.getElementById("yearmatic").innerHTML;
     yearmaticD = Number(yearmatic) * maticPrice
     if (isNaN(yearmaticD)) {
-        document.getElementById("yearmaticD").innerText = "∙•●$●•∙"}
+        document.getElementById("yearmaticD").innerText = "【Önce Hesapla】"}
         else {
             document.getElementById("yearmaticD").innerText = "$" + yearmaticD.toFixed(5);
         }
@@ -313,7 +313,7 @@ calculate = function(prices){
     minltc = document.getElementById("minltc").innerHTML;
     minltcD = Number(minltc) * ltcPrice
     if (isNaN(minltcD)) {
-        document.getElementById("minltcD").innerText = "∙•●$●•∙"}
+        document.getElementById("minltcD").innerText = "【Önce Hesapla】"}
         else {
             document.getElementById("minltcD").innerText = "$" + minltcD.toFixed(5);
         }
@@ -321,7 +321,7 @@ calculate = function(prices){
     hourltc = document.getElementById("hourltc").innerHTML;
     hourltcD = Number(hourltc) * ltcPrice
     if (isNaN(hourltcD)) {
-        document.getElementById("hourltcD").innerText = "∙•●$●•∙"}
+        document.getElementById("hourltcD").innerText = "【Önce Hesapla】"}
         else {
             document.getElementById("hourltcD").innerText = "$" + hourltcD.toFixed(5);
         }
@@ -329,7 +329,7 @@ calculate = function(prices){
     dayltc = document.getElementById("dayltc").innerHTML;
     dayltcD = Number(dayltc) * ltcPrice
     if (isNaN(dayltcD)) {
-        document.getElementById("dayltcD").innerText = "∙•●$●•∙"}
+        document.getElementById("dayltcD").innerText = "【Önce Hesapla】"}
         else {
             document.getElementById("dayltcD").innerText = "$" + dayltcD.toFixed(5);
         }
@@ -337,7 +337,7 @@ calculate = function(prices){
     weekltc = document.getElementById("weekltc").innerHTML;
     weekltcD = Number(weekltc) * ltcPrice
     if (isNaN(weekltcD)) {
-        document.getElementById("weekltcD").innerText = "∙•●$●•∙"}
+        document.getElementById("weekltcD").innerText = "【Önce Hesapla】"}
         else {
             document.getElementById("weekltcD").innerText = "$" + weekltcD.toFixed(5);
         }    
@@ -345,7 +345,7 @@ calculate = function(prices){
     monthltc = document.getElementById("monthltc").innerHTML;
     monthltcD = Number(monthltc) * ltcPrice
     if (isNaN(minltcD)) {
-        document.getElementById("monthltcD").innerText = "∙•●$●•∙"}
+        document.getElementById("monthltcD").innerText = "【Önce Hesapla】"}
         else {
             document.getElementById("monthltcD").innerText = "$" + monthltcD.toFixed(5);
         }    
@@ -353,7 +353,7 @@ calculate = function(prices){
     yearltc = document.getElementById("yearltc").innerHTML;
     yearltcD = Number(yearltc) * ltcPrice
     if (isNaN(yearltcD)) {
-        document.getElementById("yearltcD").innerText = "∙•●$●•∙"}
+        document.getElementById("yearltcD").innerText = "【Önce Hesapla】"}
         else {
             document.getElementById("yearltcD").innerText = "$" + yearltcD.toFixed(5);
         }
@@ -362,7 +362,7 @@ calculate = function(prices){
     minsol = document.getElementById("minsol").innerHTML;
     minsolD = Number(minsol) * solPrice
     if (isNaN(minsolD)) {
-        document.getElementById("minsolD").innerText = "∙•●$●•∙"}
+        document.getElementById("minsolD").innerText = "【Önce Hesapla】"}
         else {
             document.getElementById("minsolD").innerText = "$" + minsolD.toFixed(5);
         }
@@ -370,7 +370,7 @@ calculate = function(prices){
     hoursol = document.getElementById("hoursol").innerHTML;
     hoursolD = Number(hoursol) * solPrice
     if (isNaN(hoursolD)) {
-        document.getElementById("hoursolD").innerText = "∙•●$●•∙"}
+        document.getElementById("hoursolD").innerText = "【Önce Hesapla】"}
         else {
             document.getElementById("hoursolD").innerText = "$" + hoursolD.toFixed(5);
         }
@@ -378,7 +378,7 @@ calculate = function(prices){
     daysol = document.getElementById("daysol").innerHTML;
     daysolD = Number(daysol) * solPrice
     if (isNaN(daysolD)) {
-        document.getElementById("daysolD").innerText = "∙•●$●•∙"}
+        document.getElementById("daysolD").innerText = "【Önce Hesapla】"}
         else {
             document.getElementById("daysolD").innerText = "$" + daysolD.toFixed(5);
         }
@@ -386,7 +386,7 @@ calculate = function(prices){
     weeksol = document.getElementById("weeksol").innerHTML;
     weeksolD = Number(weeksol) * solPrice
     if (isNaN(weeksolD)) {
-        document.getElementById("weeksolD").innerText = "∙•●$●•∙"}
+        document.getElementById("weeksolD").innerText = "【Önce Hesapla】"}
         else {
             document.getElementById("weeksolD").innerText = "$" + weeksolD.toFixed(5);
         }    
@@ -394,7 +394,7 @@ calculate = function(prices){
     monthsol = document.getElementById("monthsol").innerHTML;
     monthsolD = Number(monthsol) * solPrice
     if (isNaN(minsolD)) {
-        document.getElementById("monthsolD").innerText = "∙•●$●•∙"}
+        document.getElementById("monthsolD").innerText = "【Önce Hesapla】"}
         else {
             document.getElementById("monthsolD").innerText = "$" + monthsolD.toFixed(5);
         }    
@@ -402,7 +402,7 @@ calculate = function(prices){
     yearsol = document.getElementById("yearsol").innerHTML;
     yearsolD = Number(yearsol) * solPrice
     if (isNaN(yearsolD)) {
-        document.getElementById("yearsolD").innerText = "∙•●$●•∙"}
+        document.getElementById("yearsolD").innerText = "【Önce Hesapla】"}
         else {
             document.getElementById("yearsolD").innerText = "$" + yearsolD.toFixed(5);
         }
@@ -411,7 +411,7 @@ calculate = function(prices){
     mintrx = document.getElementById("mintrx").innerHTML;
     mintrxD = Number(mintrx) * trxPrice
     if (isNaN(mintrxD)) {
-        document.getElementById("mintrxD").innerText = "∙•●$●•∙"}
+        document.getElementById("mintrxD").innerText = "【Önce Hesapla】"}
         else {
             document.getElementById("mintrxD").innerText = "$" + mintrxD.toFixed(5);
         }
@@ -419,7 +419,7 @@ calculate = function(prices){
     hourtrx = document.getElementById("hourtrx").innerHTML;
     hourtrxD = Number(hourtrx) * trxPrice
     if (isNaN(hourtrxD)) {
-        document.getElementById("hourtrxD").innerText = "∙•●$●•∙"}
+        document.getElementById("hourtrxD").innerText = "【Önce Hesapla】"}
         else {
             document.getElementById("hourtrxD").innerText = "$" + hourtrxD.toFixed(5);
         }
@@ -427,7 +427,7 @@ calculate = function(prices){
     daytrx = document.getElementById("daytrx").innerHTML;
     daytrxD = Number(daytrx) * trxPrice
     if (isNaN(daytrxD)) {
-        document.getElementById("daytrxD").innerText = "∙•●$●•∙"}
+        document.getElementById("daytrxD").innerText = "【Önce Hesapla】"}
         else {
             document.getElementById("daytrxD").innerText = "$" + daytrxD.toFixed(5);
         }
@@ -435,7 +435,7 @@ calculate = function(prices){
     weektrx = document.getElementById("weektrx").innerHTML;
     weektrxD = Number(weektrx) * trxPrice
     if (isNaN(weektrxD)) {
-        document.getElementById("weektrxD").innerText = "∙•●$●•∙"}
+        document.getElementById("weektrxD").innerText = "【Önce Hesapla】"}
         else {
             document.getElementById("weektrxD").innerText = "$" + weektrxD.toFixed(5);
         }    
@@ -443,7 +443,7 @@ calculate = function(prices){
     monthtrx = document.getElementById("monthtrx").innerHTML;
     monthtrxD = Number(monthtrx) * trxPrice
     if (isNaN(mintrxD)) {
-        document.getElementById("monthtrxD").innerText = "∙•●$●•∙"}
+        document.getElementById("monthtrxD").innerText = "【Önce Hesapla】"}
         else {
             document.getElementById("monthtrxD").innerText = "$" + monthtrxD.toFixed(5);
         }    
@@ -451,7 +451,7 @@ calculate = function(prices){
     yeartrx = document.getElementById("yeartrx").innerHTML;
     yeartrxD = Number(yeartrx) * trxPrice
     if (isNaN(yeartrxD)) {
-        document.getElementById("yeartrxD").innerText = "∙•●$●•∙"}
+        document.getElementById("yeartrxD").innerText = "【Önce Hesapla】"}
         else {
             document.getElementById("yeartrxD").innerText = "$" + yeartrxD.toFixed(5);
         }
