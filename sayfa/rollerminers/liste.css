@@ -56,7 +56,7 @@ a { text-decoration:none!important; }
 
 
 .musour-right { background:var(--backgroundTwo);background:linear-gradient(to bottom left,var(--accentOne),var(--accentTwo));border-radius:20px 0px 0px 0px;padding:20px;min-width:825px;box-shadow: 0px 0px 20px rgba(44,44,44,.1);box-shadow:none; }
-.musour-right .grid { max-height:calc(108vh - 150px);overflow:auto; }
+.musour-right .grid { max-height:calc(108vh - 108px);overflow:auto; }
 .musour-right .grid::-webkit-scrollbar-thumb { background-color:var(--background);border-radius:5px; }
 .musour-right .grid::-webkit-scrollbar { width:10px; }
 .musour-icon { background-color:var(--background);padding:10px;border-radius:15px;width:100px;margin:0px 25px 25px 0px;box-shadow: 5px 5px 10px -3px;height:160px;transform:scale(1);transition:.3s all; }
@@ -65,3 +65,49 @@ a { text-decoration:none!important; }
 .musour-icon div b { display:block;font-style:normal!important;color:var(--accentOne);text-transform:uppercase; }
 .musour-icon:hover { transform:scale(1); }
 .musour-icon:hover img { opacity:1;filter:grayscale(0%) contrast(100%)!important; }
+
+.musour-blurb2 { text-align:center;line-height:20px;font:13px var(--title); }
+.musour-icon b2 {font-style:normal!important;color:var(--accentOne2);text-transform:uppercase;font-size:12px; }
+
+/* SEVİYELİ MİNER AYARLARI */
+.güç {
+	background-image: url(https://rollercoin.com/static/images/lightning.9aeb20686a6436fa05cd..svg);
+	background-repeat: no-repeat; 
+}
+
+.bonus {
+	background-image: url(https://rollercoin.com/static/images/arrow_top_cyan.0c480b8075fed9b13159..svg);
+	background-repeat: no-repeat;
+}
+
+.yildiz {
+	background-image: url(https://rollercoin.com/static/images/level_star.4ff18517e5e8eed42060..png);
+	background-repeat: no-repeat;
+}
+
+.s1 {
+	background-image: url(https://rollercoin.com/static/img/storage/rarity_icons/level_1.png);
+	background-repeat: no-repeat;
+}
+
+.s2 {
+	background-image: url(https://rollercoin.com/static/img/storage/rarity_icons/level_2.png);
+	background-repeat: no-repeat;
+}
+.s3 {
+	background-image: url(https://rollercoin.com/static/img/storage/rarity_icons/level_3.png);
+	background-repeat: no-repeat;
+}
+.s4 {
+	background-image: url(https://rollercoin.com/static/img/storage/rarity_icons/level_4.png);
+	background-repeat: no-repeat;
+}
+.s5 {
+	background-image: url(https://rollercoin.com/static/img/storage/rarity_icons/level_5.png);
+	background-repeat: no-repeat;
+}
+.s6 {
+	background-image: url(https://rollercoin.com/static/img/storage/rarity_icons/level_6.png);
+	background-repeat: no-repeat;
+}
+/* SEVİYELİ MİNER AYARLARI */
