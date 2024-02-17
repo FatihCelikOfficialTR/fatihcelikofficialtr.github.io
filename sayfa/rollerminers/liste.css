@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
 :root {
   --accentOne: #181928;
   --accentTwo: #2f3045;
@@ -9,13 +12,21 @@
   --başlık: Oranienbaum, serif;
   --body: Open Sans, sans serif;
 }
-body { margin:0px!important;background-color:var(--background); }
+body { margin:0px!important;background-color:var(--background);
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
 a { text-decoration:none!important; }
 .musour { display:grid;height:100vh;width:100vw;grid-template-columns:280px auto;overflow-y:hidden; }
-.musour-left { padding:20px;color:var(--text);font:12px var(--body);display:flex;height:calc(100vh - 100px);flex-direction:column; }
+.musour-left { padding:20px;color:var(--text);font-size:12px;display:flex;height:calc(100vh - 100px);flex-direction:column; }
 .musour-title { font:40px var(--başlık);line-height:40px;padding-top:3px; }
 .musour-title div { font-size:99px;margin-left:-2px;line-height:80px;color:var(--accentOne); }
-.musour-title-2 { background:linear-gradient(to bottom left,var(--accentOne),var(--accentTwo));font:700 10px var(--body);line-height:10px;padding:14px 0px 16px 4px;text-align:center;color:var(--background);letter-spacing:4.2px;border-radius:10px;margin:15px 0px 30px 0px;cursor:pointer;transition:.3s all; }
+.musour-title-2 { background:linear-gradient(to bottom left,var(--accentOne),var(--accentTwo));line-height:10px;padding:14px 0px 16px 4px;text-align:center;color:var(--background);letter-spacing:4.2px;border-radius:10px;margin:15px 0px 30px 0px;cursor:pointer;transition:.3s all; 
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
 .musour-title-2:hover { transform:scale(1.05);opacity:.8; }
 .musour-blurb { text-align:justify;line-height:18px; }
 .musour-filters { margin-top:30px;flex-grow:1;overflow:auto; }
