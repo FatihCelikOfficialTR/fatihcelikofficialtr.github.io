@@ -2,12 +2,12 @@
 
 
 :root {
-  --accentOne: #181928;
+  --accentOne: red;
   --accentTwo: #2f3045;
   --accentThree: #D2BD76;
-  --background: #8984b1;
-  --backgroundTwo: #e5e5e5;
-  --text: black;
+  --background: #181928;
+  --backgroundTwo: darkblue;
+  --text: #8984b1;
   
   --başlık: Oranienbaum, serif;
   --body: Open Sans, sans serif;
@@ -29,11 +29,11 @@ a { text-decoration:none!important; }
 }
 .musour-title-2:hover { transform:scale(1.05);opacity:.8; }
 .musour-blurb { text-align:justify;line-height:18px; }
-.musour-filters { margin-top:30px;flex-grow:1;overflow:auto; }
+.musour-filters { margin-top:5px;flex-grow:1;overflow:auto; }
 .musour-filters::-webkit-scrollbar-thumb { border-left:solid 15px var(--background);background:linear-gradient(to bottom,var(--accentOne),var(--accentTwo)); }
 .musour-filters::-webkit-scrollbar { width:2px; }
-.musour-filters div { display:flex;flex-direction:column; }
-.musour-filters h1 { background-color:var(--backgroundTwo);font:700 10px var(--body);line-height:10px;padding:14px 0px 16px 4px;text-align:center;color:var(--text);letter-spacing:4.2px;border-radius:10px;margin:20px 0px;text-transform:uppercase;line-height:12px; }
+.musour-filters div { display:flex;flex-direction:column;font-size:15px; }
+.musour-filters h1 { background-color:var(--backgroundTwo);font:700 12px var(--body);line-height:10px;padding:14px 0px 16px 4px;text-align:center;color:var(--text);letter-spacing:4.2px;border-radius:10px;margin:20px 0px;line-height:12px; }
 .musour-filters button { margin-top:0px;border:none;background:transparent;text-align:left;padding:0px;cursor:pointer;font:12px var(--body);color:var(--text);line-height:20px;transition:.3s all; }
 .musour-filters .is-checked { font-weight:700!important; }
 .musour-filters button::before { content:'+';color:var(--accentOne);padding-right:10px; }
@@ -55,13 +55,13 @@ a { text-decoration:none!important; }
 .musour-color button::before { display:none; }
 
 
-.musour-right { background:var(--backgroundTwo);background:linear-gradient(to bottom left,var(--accentOne),var(--accentTwo));border-radius:50px 0px 0px 0px;padding:75px;min-width:490px;box-shadow: 0px 0px 20px rgba(44,44,44,.1);box-shadow:none; }
-.musour-right .grid { max-height:calc(100vh - 150px);overflow:auto; }
+.musour-right { background:var(--backgroundTwo);background:linear-gradient(to bottom left,var(--accentOne),var(--accentTwo));border-radius:20px 0px 0px 0px;padding:20px;min-width:825px;box-shadow: 0px 0px 20px rgba(44,44,44,.1);box-shadow:none; }
+.musour-right .grid { max-height:calc(108vh - 150px);overflow:auto; }
 .musour-right .grid::-webkit-scrollbar-thumb { background-color:var(--background);border-radius:5px; }
 .musour-right .grid::-webkit-scrollbar { width:10px; }
-.musour-icon { background-color:var(--background);padding:15px;border-radius:15px;width:100px;margin:0px 25px 25px 0px;box-shadow: 5px 5px 10px -3px rgba(44,44,44,.05);height:170px;transform:scale(1);transition:.3s all; }
+.musour-icon { background-color:var(--background);padding:10px;border-radius:15px;width:100px;margin:0px 25px 25px 0px;box-shadow: 5px 5px 10px -3px;height:160px;transform:scale(1);transition:.3s all; }
 .musour-icon img { height:100px;width:100px;border-radius:5px 5px 0px 0px;margin-bottom:0px!important;display:block;filter:grayscale(75%) contrast(100%);opacity:1;transition:.3s all; }
-.musour-icon div { border-radius:0px 0px 5px 5px;background-color:var(--backgroundTwo);padding:10px;font:11px var(--body);color:var(--text);text-transform:lowercase;line-height:13px;font-style:italic;height:50px;display:flex;flex-direction:column;justify-content:center; }
+.musour-icon div { border-radius:0px 0px 5px 5px;background-color:var(--backgroundTwo);padding:5px;font:12px var(--body);color:var(--text);line-height:13px;height:50px;display:flex;flex-direction:column;justify-content:center; }
 .musour-icon div b { display:block;font-style:normal!important;color:var(--accentOne);text-transform:uppercase; }
 .musour-icon:hover { transform:scale(1); }
 .musour-icon:hover img { opacity:1;filter:grayscale(0%) contrast(100%)!important; }
