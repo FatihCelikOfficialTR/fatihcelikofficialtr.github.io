@@ -1,26 +1,26 @@
 :root {
-  --accentOne: #A3B29F;
-  --accentTwo: #D1D3B9;
+  --accentOne: #181928;
+  --accentTwo: #2f3045;
   --accentThree: #D2BD76;
   --background: #eeeeee;
   --backgroundTwo: #e5e5e5;
   --text: #555555;
   
-  --title: Oranienbaum, serif;
+  --başlık: Oranienbaum, serif;
   --body: Open Sans, sans serif;
 }
 body { margin:0px!important;background-color:var(--background); }
 a { text-decoration:none!important; }
 .musour { display:grid;height:100vh;width:100vw;grid-template-columns:280px auto;overflow-y:hidden; }
-.musour-left { padding:50px;color:var(--text);font:12px var(--body);display:flex;height:calc(100vh - 100px);flex-direction:column; }
-.musour-title { font:40px var(--title);line-height:40px;padding-top:3px; }
+.musour-left { padding:20px;color:var(--text);font:12px var(--body);display:flex;height:calc(100vh - 100px);flex-direction:column; }
+.musour-title { font:40px var(--başlık);line-height:40px;padding-top:3px; }
 .musour-title div { font-size:99px;margin-left:-2px;line-height:80px;color:var(--accentOne); }
 .musour-title-2 { background:linear-gradient(to bottom left,var(--accentOne),var(--accentTwo));font:700 10px var(--body);line-height:10px;padding:14px 0px 16px 4px;text-align:center;color:var(--background);letter-spacing:4.2px;border-radius:10px;margin:15px 0px 30px 0px;cursor:pointer;transition:.3s all; }
 .musour-title-2:hover { transform:scale(1.05);opacity:.8; }
 .musour-blurb { text-align:justify;line-height:18px; }
 .musour-filters { margin-top:30px;flex-grow:1;overflow:auto; }
 .musour-filters::-webkit-scrollbar-thumb { border-left:solid 15px var(--background);background:linear-gradient(to bottom,var(--accentOne),var(--accentTwo)); }
-.musour-filters::-webkit-scrollbar { width:16px; }
+.musour-filters::-webkit-scrollbar { width:2px; }
 .musour-filters div { display:flex;flex-direction:column; }
 .musour-filters h1 { background-color:var(--backgroundTwo);font:700 10px var(--body);line-height:10px;padding:14px 0px 16px 4px;text-align:center;color:var(--text);letter-spacing:4.2px;border-radius:10px;margin:20px 0px;text-transform:uppercase;line-height:12px; }
 .musour-filters button { margin-top:0px;border:none;background:transparent;text-align:left;padding:0px;cursor:pointer;font:12px var(--body);color:var(--text);line-height:20px;transition:.3s all; }
