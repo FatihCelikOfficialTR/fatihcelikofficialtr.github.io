@@ -43,8 +43,8 @@ function blockAmount() {
             break;
         case 3:
             //Bnb - 0.025
-            var blockreward = 0.046;
-            document.getElementById("block-reward").value = 0.046;
+            var blockreward = 0.047;
+            document.getElementById("block-reward").value = 0.047;
 			document.getElementById("exp_reward").innerHTML = "【Önce Hesapla】";
 			document.getElementById("daily").innerHTML = "【Önce Hesapla】";
 			document.getElementById("weekly").innerHTML = "【Önce Hesapla】";
@@ -64,8 +64,8 @@ function blockAmount() {
             break;
         case 5:
             //SOL - 0.06
-            var blockreward = 0.13;
-            document.getElementById("block-reward").value = 0.13;
+            var blockreward = 0.12;
+            document.getElementById("block-reward").value = 0.12;
 			document.getElementById("exp_reward").innerHTML = "【Önce Hesapla】";
 			document.getElementById("daily").innerHTML = "【Önce Hesapla】";
 			document.getElementById("weekly").innerHTML = "【Önce Hesapla】";
@@ -86,8 +86,8 @@ function blockAmount() {
             break;
 		case 7:
             //LTC - 0.015
-            var blockreward = 0.017;
-            document.getElementById("block-reward").value = 0.017;
+            var blockreward = 0.02;
+            document.getElementById("block-reward").value = 0.02;
 			document.getElementById("exp_reward").innerHTML = "【Önce Hesapla】";
 			document.getElementById("daily").innerHTML = "【Önce Hesapla】";
 			document.getElementById("weekly").innerHTML = "【Önce Hesapla】";
