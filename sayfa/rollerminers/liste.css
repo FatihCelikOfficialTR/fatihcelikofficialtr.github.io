@@ -62,12 +62,12 @@ a { text-decoration:none!important; }
 .musour-icon { background-color:var(--background);padding:10px;border-radius:15px;width:100px;margin:0px 25px 25px 0px;box-shadow: 5px 5px 10px -3px;height:160px;transform:scale(1);transition:.3s all; }
 .musour-icon img { height:100px;width:100px;border-radius:5px 5px 0px 0px;margin-bottom:0px!important;display:block;filter:grayscale(75%) contrast(100%);opacity:1;transition:.3s all; }
 .musour-icon div { border-radius:0px 0px 5px 5px;background-color:var(--backgroundTwo);padding:5px;font:12px var(--body);color:var(--text);line-height:13px;height:50px;display:flex;flex-direction:column;justify-content:center; }
-.musour-icon div b { display:block;font-style:normal!important;color:var(--accentOne);text-transform:uppercase; }
+.musour-icon div b { display:block;font-style:normal!important;color:var(--accentOne);font-size:13px; }
 .musour-icon:hover { transform:scale(1); }
 .musour-icon:hover img { opacity:1;filter:grayscale(0%) contrast(100%)!important; }
 
 .musour-blurb2 { text-align:center;line-height:20px;font:13px var(--title); }
-.musour-icon b2 {font-style:normal!important;color:var(--accentOne2);text-transform:uppercase;font-size:12px; }
+.musour-icon b2 {font-style:normal!important;color:var(--accentOne2);font-size:13px; }
 
 /* SEVİYELİ MİNER AYARLARI */
 .güç {
