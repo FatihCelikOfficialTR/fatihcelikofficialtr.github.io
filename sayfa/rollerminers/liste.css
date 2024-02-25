@@ -60,14 +60,14 @@ a { text-decoration:none!important; }
 .musour-right .grid::-webkit-scrollbar-thumb { background-color:var(--background);border-radius:5px; }
 .musour-right .grid::-webkit-scrollbar { width:10px; }
 .musour-icon { background-color:var(--background);padding:10px;border-radius:15px;width:100px;margin:0px 25px 25px 0px;box-shadow: 5px 5px 10px -3px;height:160px;transform:scale(1);transition:.3s all; }
-.musour-icon img { height:100px;width:100px;border-radius:5px 5px 0px 0px;margin-bottom:0px!important;display:block;filter:grayscale(75%) contrast(100%);opacity:1;transition:.3s all; }
-.musour-icon div { border-radius:0px 0px 5px 5px;background-color:var(--backgroundTwo);padding:5px;font:12px var(--body);color:var(--text);line-height:13px;height:50px;display:flex;flex-direction:column;justify-content:center; }
-.musour-icon div b { display:block;font-style:normal!important;color:var(--accentOne);font-size:13px; }
+.musour-icon img { height:auto;width:100px;border-radius:5px 5px 0px 0px;margin-bottom:0px!important;display:block;filter:grayscale(75%) contrast(100%);opacity:1;transition:.3s all; }
+.musour-icon div { border-radius:0px 0px 10px 10px;background-color:var(--backgroundTwo);padding:5px;font:12px var(--body);color:var(--text);line-height:13px;height:65px;display:flex;flex-direction:column;justify-content:center;border: 3px dotted #ff6550; }
+.musour-icon div b { display:block;font-style:normal!important;color:var(--accentOne);font-size:11px; }
 .musour-icon:hover { transform:scale(1); }
 .musour-icon:hover img { opacity:1;filter:grayscale(0%) contrast(100%)!important; }
 
 .musour-blurb2 { text-align:center;line-height:20px;font:13px var(--title); }
-.musour-icon b2 {font-style:normal!important;color:var(--accentOne2);font-size:13px; }
+.musour-icon b2 {font-style:bold!important;color:var(--accentOne2);font-size:11px; }
 
 /* SEVİYELİ MİNER AYARLARI */
 .güç {
