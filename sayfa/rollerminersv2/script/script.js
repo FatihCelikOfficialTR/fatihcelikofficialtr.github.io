@@ -400,7 +400,7 @@ function filterOnColumns(key) {
 
     // Getting order of miners
     let order = document.getElementById('txtBxMrLss').value;
-    order = order == "" ? "Power: More - Less" : order;
+    order = order == "" ? "Güç: Yüksek - Düşük" : order;
 
     // Applying filters
     switch (key) {
@@ -467,16 +467,16 @@ function filterOnColumns(key) {
 
     // Applying ordering on miners after filtering
     switch (order) {
-        case 'Power: More - Less':
+        case 'Güç: Yüksek - Düşük':
             sortMiners(globalFilteredMinerArr, 'desc', 2);
             break;
-        case 'Power: Less - More':
+        case 'Güç: Düşük - Yüksek':
             sortMiners(globalFilteredMinerArr, 'asc', 2);
             break;
-        case 'Bonus: More - Less':
+        case 'Bonus: Yüksek - Düşük':
             sortMiners(globalFilteredMinerArr, 'desc', 3);
             break;
-        case 'Bonus: Less - More':
+        case 'Bonus: Düşük - Yüksek':
             sortMiners(globalFilteredMinerArr, 'asc', 3);
             break;
         default:
