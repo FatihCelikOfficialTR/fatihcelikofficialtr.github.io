@@ -12,6 +12,7 @@ var globalQueryFilter = {
 
 const globalMiners = `I;RollerGirl Dream;220000;0.25;2;rollergirl_dream
 I;Cup Of Glory Fairy;1550000;1;2;cup_of_glory
+I;Oscamster;255500;0;1;oscamster
 I;New Milano 2;1050000;0.5;2;new_milano_2
 II;Heretic Opera Miner;1522500;1.08;2;heretic_opera_miner
 I;Eclipse Energion;11800000;5.5;2;eclipse_energion
