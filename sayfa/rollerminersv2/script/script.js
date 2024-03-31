@@ -244,10 +244,10 @@ function main() {
     buildTable(pgm);
 
     // Adding onclick events
-    let dropdownminer = document.getElementsByClassName('dropdownminer');
-    for (let i = 0; i < dropdownminer.length; i++) {
-        dropdownminer[i].onclick = function() {
-            dropdownminer[i].classList.toggle('active');
+    let dropdown = document.getElementsByClassName('dropdown');
+    for (let i = 0; i < dropdown.length; i++) {
+        dropdown[i].onclick = function() {
+            dropdown[i].classList.toggle('active');
         }
     }
 
@@ -256,7 +256,7 @@ function main() {
 
     // Setting number of miners listed 
     document.getElementById('miner-count-amount').textContent = globalMinerArr.length
-	document.getElementById('miner-count-amount2').textContent = globalMinerArr.length
+
 }
 
 // Loading the paginated table content according to 
@@ -401,7 +401,7 @@ function filterOnColumns(key) {
 
     // Getting number of items per page. 
     let itmPrPg = document.getElementById('txtBxPgntn').value;
-    itmPrPg = itmPrPg == "" ? 6 : parseInt(itmPrPg);
+    itmPrPg = itmPrPg == "" ? 12 : parseInt(itmPrPg);
 
     // Getting order of miners
     let order = document.getElementById('txtBxMrLss').value;
