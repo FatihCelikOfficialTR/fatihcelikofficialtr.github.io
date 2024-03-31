@@ -10,79 +10,79 @@ var globalQueryFilter = {
     levels: new Set(),
 }
 
-const globalMiners = `I;RollerGirl Dream;220000;0.25;2;rollergirl_dream
-I;The Nirvana;1080000;0;2;the_nirvana
-I;Cup Of Glory Fairy;1550000;1;2;cup_of_glory
-I;Oscamster;255500;0;1;oscamster
-II;Oscamster;670740;0.5;1;oscamster
-I;New Milano 2;1050000;0.5;2;new_milano_2
-II;Heretic Opera Miner;1522500;1.08;2;heretic_opera_miner
-I;Eclipse Energion;11800000;5.5;2;eclipse_energion
-I;Rainbow Fairy;89600;0;2;631f7b818238ed283a235398
-II;Rainbow Fairy;235200;0.55;2;631f7b818238ed283a235398
-III;Rainbow Fairy;617400;1.66;2;631f7b818238ed283a235398
-VI;Rainbow Fairy;11167590;3.9;2;631f7b818238ed283a235398
-I;Giftbox Pile;230000;0;2;6474a38830cd78b9cb76478c
-II;Giftbox Pile;603750;0.82;2;6474a38830cd78b9cb76478c
-III;Giftbox Pile;1584870;2.47;2;6474a38830cd78b9cb76478c
-V;Giftbox Pile;10920840;3.87;2;6474a38830cd78b9cb76478c
-I;Gandhi's Splittie;213600;0;2;6399c3541c483a58f70e9ae4
-II;Gandhi's Splittie;560700;0.74;2;6399c3541c483a58f70e9ae4
-III;Gandhi's Splittie;1471890;2.22;2;6399c3541c483a58f70e9ae4
-V;Gandhi's Splittie;10142475;3.47;2;6399c3541c483a58f70e9ae4
-I;Magma;210000;0;2;63d90be608311b97a96a9c2e
-II;Magma;551250;0.73;2;63d90be608311b97a96a9c2e
-V;Magma;9971640;3.4;2;63d90be608311b97a96a9c2e
-I;Dragon Wing;815500;0;2;631b561ba775e04d9a285494
-III;Dragon Wing;5619495;4.91;2;631b561ba775e04d9a285494
-I;Sun-kissed Shores;825000;0;2;64a80c393fd5253fb80fa01a
-III;Sun-kissed Shores;5684805;4.91;2;64a80c393fd5253fb80fa01a
-I;Vinylla 78-RPM;152550;0;2;6399c3501c483a58f70e9a9e
-II;Vinylla 78-RPM;400470;0.55;2;6399c3501c483a58f70e9a9e
-III;Vinylla 78-RPM;1051260;1.66;2;6399c3501c483a58f70e9a9e
-V;Vinylla 78-RPM;7244055;3.4;2;6399c3501c483a58f70e9a9e
-I;Pencil-ReRoller;1136000;0;2;pencil_reroller
-II;Pencil-ReRoller;2982000;1.64;2;pencil_reroller
-III;Pencil-ReRoller;7827750;4.91;2;pencil_reroller
-I;Earthbind;210000;0;2;63d90106547cfab9a2a43623
-II;Earthbind;551250;0.73;2;63d90106547cfab9a2a43623
-III;Earthbind;1447110;2.18;2;63d90106547cfab9a2a43623
-V;Earthbind;9971640;3.4;2;63d90106547cfab9a2a43623
-V;YMCA Game;5413590;2.6;2;6399c34b1c483a58f70e9a58
-IV;YMCA Game;2062305;2.08;2;6399c34b1c483a58f70e9a58
-III;YMCA Game;785610;1.66;2;6399c34b1c483a58f70e9a58
-II;YMCA Game;299250;0.55;2;6399c34b1c483a58f70e9a58
-I;YMCA Game;114000;0;2;6399c34b1c483a58f70e9a58
-I;SkullMiner;7900000;1;2;skullminer
-I;Pumpkin King;1915000;1;2;pumpkin_king
-I;CP-106;11106;0.5;1;cp_106
-II;CP-106;29190;0.53;1;cp_106
-III;CP-106;76650;0.55;1;cp_106
-IV;CP-106;201285;0.58;1;cp_106
-I;The Turret;389000;0;1;the_turret
-I;Aurora Citadel;9750000;5;2;aurora_citadel
-I;The Big Boss;9200000;3.5;2;the_big_boss
-I;Riding Free Relic;5000000;2.5;2;644bb671648294b4642f3690
-III;JingleGrooveGram;4944240;3.27;2;jinglegroovegram
-II;BTW-2024;4685625;7.3;2;btw_2024
-III;The Big Top;4410000;4.91;2;the_big_top
-III;Snake;4410000;3.27;2;snake
-I;HoloIA Companion;2920000;1;2;holoia_companion
-I;Muerte Miner;3000000;1;2;muerte_miner
-II;Guess-the-Card;2835000;1.64;2;631f7b2c8238ed283a234f95
-I;Guess-the-Card;1080000;0;2;631f7b2c8238ed283a234f95
-III;Pacminer;2776935;1.96;2;pacminer
-II;Pacminer;1057875;1.08;2;pacminer
-I;Pacminer;403000;0.45;2;pacminer
-VI;Entminer;2743020;3.9;2;entminer
-IV;Entminer;398055;2.08;2;entminer
-III;Entminer;151620;1.66;2;entminer
-II;Entminer;57750;0.55;2;entminer
-I;Entminer;22000;0;2;entminer
-I;Brush'n'Palette;700000;0;2;brushnpalette
-I;Sweet Memory Miner;560000;1.5;2;sweet_memory_miner
-I;RollerMiner R4;6000;0.5;1;rollerminer_r4
-III;Fallout Finder 55;4184040;4.21;2;fallout_finder_55`
+const globalMiners = `1;RollerGirl Dream;220000;0.25;2;rollergirl_dream
+1;The Nirvana;1080000;0;2;the_nirvana
+1;Cup Of Glory Fairy;1550000;1;2;cup_of_glory
+1;Oscamster;255500;0;1;oscamster
+2;Oscamster;670740;0.5;1;oscamster
+1;New Milano 2;1050000;0.5;2;new_milano_2
+2;Heretic Opera Miner;1522500;1.08;2;heretic_opera_miner
+1;Eclipse Energion;11800000;5.5;2;eclipse_energion
+1;Rainbow Fairy;89600;0;2;631f7b818238ed283a235398
+2;Rainbow Fairy;235200;0.55;2;631f7b818238ed283a235398
+3;Rainbow Fairy;617400;1.66;2;631f7b818238ed283a235398
+6;Rainbow Fairy;11167590;3.9;2;631f7b818238ed283a235398
+1;Giftbox Pile;230000;0;2;6474a38830cd78b9cb76478c
+2;Giftbox Pile;603750;0.82;2;6474a38830cd78b9cb76478c
+3;Giftbox Pile;1584870;2.47;2;6474a38830cd78b9cb76478c
+5;Giftbox Pile;10920840;3.87;2;6474a38830cd78b9cb76478c
+1;Gandhi's Splittie;213600;0;2;6399c3541c483a58f70e9ae4
+2;Gandhi's Splittie;560700;0.74;2;6399c3541c483a58f70e9ae4
+3;Gandhi's Splittie;1471890;2.22;2;6399c3541c483a58f70e9ae4
+5;Gandhi's Splittie;10142475;3.47;2;6399c3541c483a58f70e9ae4
+1;Magma;210000;0;2;63d90be608311b97a96a9c2e
+2;Magma;551250;0.73;2;63d90be608311b97a96a9c2e
+5;Magma;9971640;3.4;2;63d90be608311b97a96a9c2e
+1;Dragon Wing;815500;0;2;631b561ba775e04d9a285494
+3;Dragon Wing;5619495;4.91;2;631b561ba775e04d9a285494
+1;Sun-kissed Shores;825000;0;2;64a80c393fd5253fb80fa01a
+3;Sun-kissed Shores;5684805;4.91;2;64a80c393fd5253fb80fa01a
+1;Vinylla 78-RPM;152550;0;2;6399c3501c483a58f70e9a9e
+2;Vinylla 78-RPM;400470;0.55;2;6399c3501c483a58f70e9a9e
+3;Vinylla 78-RPM;1051260;1.66;2;6399c3501c483a58f70e9a9e
+5;Vinylla 78-RPM;7244055;3.4;2;6399c3501c483a58f70e9a9e
+1;Pencil-ReRoller;1136000;0;2;pencil_reroller
+2;Pencil-ReRoller;2982000;1.64;2;pencil_reroller
+3;Pencil-ReRoller;7827750;4.91;2;pencil_reroller
+1;Earthbind;210000;0;2;63d90106547cfab9a2a43623
+2;Earthbind;551250;0.73;2;63d90106547cfab9a2a43623
+3;Earthbind;1447110;2.18;2;63d90106547cfab9a2a43623
+5;Earthbind;9971640;3.4;2;63d90106547cfab9a2a43623
+5;YMCA Game;5413590;2.6;2;6399c34b1c483a58f70e9a58
+4;YMCA Game;2062305;2.08;2;6399c34b1c483a58f70e9a58
+3;YMCA Game;785610;1.66;2;6399c34b1c483a58f70e9a58
+2;YMCA Game;299250;0.55;2;6399c34b1c483a58f70e9a58
+1;YMCA Game;114000;0;2;6399c34b1c483a58f70e9a58
+1;SkullMiner;7900000;1;2;skullminer
+1;Pumpkin King;1915000;1;2;pumpkin_king
+1;CP-106;11106;0.5;1;cp_106
+2;CP-106;29190;0.53;1;cp_106
+3;CP-106;76650;0.55;1;cp_106
+4;CP-106;201285;0.58;1;cp_106
+1;The Turret;389000;0;1;the_turret
+1;Aurora Citadel;9750000;5;2;aurora_citadel
+1;The Big Boss;9200000;3.5;2;the_big_boss
+1;Riding Free Relic;5000000;2.5;2;644bb671648294b4642f3690
+3;JingleGrooveGram;4944240;3.27;2;jinglegroovegram
+2;BTW-2024;4685625;7.3;2;btw_2024
+3;The Big Top;4410000;4.91;2;the_big_top
+3;Snake;4410000;3.27;2;snake
+1;HoloIA Companion;2920000;1;2;holoia_companion
+1;Muerte Miner;3000000;1;2;muerte_miner
+2;Guess-the-Card;2835000;1.64;2;631f7b2c8238ed283a234f95
+1;Guess-the-Card;1080000;0;2;631f7b2c8238ed283a234f95
+3;Pacminer;2776935;1.96;2;pacminer
+2;Pacminer;1057875;1.08;2;pacminer
+1;Pacminer;403000;0.45;2;pacminer
+6;Entminer;2743020;3.9;2;entminer
+4;Entminer;398055;2.08;2;entminer
+3;Entminer;151620;1.66;2;entminer
+2;Entminer;57750;0.55;2;entminer
+1;Entminer;22000;0;2;entminer
+1;Brush'n'Palette;700000;0;2;brushnpalette
+1;Sweet Memory Miner;560000;1.5;2;sweet_memory_miner
+1;RollerMiner R4;6000;0.5;1;rollerminer_r4
+3;Fallout Finder 55;4184040;4.21;2;fallout_finder_55`
 
 class Pagination {
     constructor(currentPageNumber, itemPerPage, numberOfPages) {
