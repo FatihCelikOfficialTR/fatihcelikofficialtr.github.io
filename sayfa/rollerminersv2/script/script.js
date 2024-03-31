@@ -401,7 +401,7 @@ function filterOnColumns(key) {
 
     // Getting number of items per page. 
     let itmPrPg = document.getElementById('txtBxPgntn').value;
-    itmPrPg = itmPrPg == "" ? 12 : parseInt(itmPrPg);
+    itmPrPg = itmPrPg == "" ? 6 : parseInt(itmPrPg);
 
     // Getting order of miners
     let order = document.getElementById('txtBxMrLss').value;

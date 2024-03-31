@@ -142,15 +142,14 @@ input[type="number"]::-webkit-outer-spin-button {
 .form-select:focus,
 .form-control:focus {
 
-
 }
 
 .form-select,
 .form-control,
 .input-group-text {
-color: #c3b0d0 !important;
- background-color: #181928 !important;
- margin: center;
+	color: #c3b0d0 !important;
+	background-color: #181928 !important;
+	margin: center;
 }
 
 /* Botones mostrar modal */

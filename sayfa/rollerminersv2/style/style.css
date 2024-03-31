@@ -164,7 +164,7 @@ h2 {
 	text-align:center;
 }
 .combobox-container {
- 		
+ 	width:200px;	
 }
 .dropdownminer-less-more{
 	width:200px;
@@ -174,25 +174,20 @@ h2 {
 }
 .dropdownminer {
 	position:relative;			
- 
+	padding-left: 10px;
 	border-radius:4px;
-	background-color:#1f1f2d;
-	padding-left:10px;
-	margin-left:10px;
 	font-family: 'Red Rose', serif;
 }
 .dropdownminer input{
 	position:absolute;
-	top:0;
-	left:0;						
+ 					
 	cursor:pointer;	
-	border:none;
-	outline:none;		
+ 		
 }
 .dropdownminer .option {
 	position:absolute;
 	top:40px;
-	left:10px;			
+
 	overflow:hidden;
 	display:none;
 	font-size: 15px;
@@ -222,7 +217,7 @@ h2 {
 	pointer-events:none;
 }
 .dropdownminer.active::before {
-	top: 22px;
+ 
 	transform:rotate(-225deg);
 }
 .dropdownminer.active .option {
@@ -244,7 +239,7 @@ h2 {
 	font-family: 'Red Rose', serif;
 }
 .reset {
-	width:50%;
+	width:20%;
 }
 .header {
 	background-color: var(--bg-color-footer-bottom);
@@ -315,6 +310,20 @@ h2 {
 
 .fatihfont{
  
+}
+
+/* Form control , form select */
+.form-select:focus,
+.form-control:focus {
+
+}
+
+.form-select,
+.form-control,
+.input-group-text {
+	color: #c3b0d0 !important;
+	background-color: #181928 !important;
+	margin: center;
 }
 
 .tableMiners{
