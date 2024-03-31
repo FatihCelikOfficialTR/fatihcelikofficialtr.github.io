@@ -11,6 +11,7 @@ var globalQueryFilter = {
 }
 
 const globalMiners = `I;RollerGirl Dream;220000;0.25;2;rollergirl_dream
+I;The Nirvana;1080000;0;2;the_nirvana
 I;Cup Of Glory Fairy;1550000;1;2;cup_of_glory
 I;Oscamster;255500;0;1;oscamster
 II;Oscamster;670740;0.5;1;oscamster
