@@ -256,6 +256,7 @@ function main() {
 
     // Setting number of miners listed 
     document.getElementById('miner-count-amount').textContent = globalMinerArr.length
+	document.getElementById('miner-count-amount2').textContent = globalMinerArr.length
 }
 
 // Loading the paginated table content according to 

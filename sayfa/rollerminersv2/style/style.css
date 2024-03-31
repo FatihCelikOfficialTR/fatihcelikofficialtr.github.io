@@ -164,12 +164,9 @@ h2 {
 }
 .pagination {
 	text-align:center;
-	padding-top:20px;
-	margin-bottom:30px;
 }
 .combobox-container {
-	border-radius:4px;
-	border: 1px solid;			
+ 		
 }
 .dropdown-less-more{
 	width:200px;
@@ -179,8 +176,7 @@ h2 {
 }
 .dropdown {
 	position:relative;			
-	height:50px;
-	border:solid 1px var(--border-color);
+ 
 	border-radius:4px;
 	background-color:#1f1f2d;
 	padding-left:10px;
@@ -321,11 +317,11 @@ h2 {
 @import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
 
 .fatihfont{
-	border-radius:10px;
+ 
 }
 
 .tableMiners{
-	border-radius:10px;
+ 
 }
 
 
@@ -341,7 +337,7 @@ h2 {
 	margin-bottom:30px;
 	display:flex;
 }
-#miner-count-amount {
+#miner-count-amount, #miner-count-amount2 {
 	font-size:20px;
 	margin:auto;
 	padding: 0 0 0 15px;
@@ -350,7 +346,7 @@ h2 {
 .search-filter-wrapper {
 	display:flex;
 	margin-left:30px;
-	margin-top:15px;
+ 
 	margin-bottom:15px;
 }
 .reset-button {
