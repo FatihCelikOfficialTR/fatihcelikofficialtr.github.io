@@ -56,7 +56,6 @@ tr {
 font-family: 'Red Rose', serif;
 }
 table {
-	margin-left:20px;
 	border-spacing:5px;
 	font-family: 'Red Rose', serif;
 }
@@ -64,7 +63,6 @@ input, textarea {
 	background-color: var(--input-bg-color);
 	color:#fff;
 	padding:12px;
-	font-family:pxl;
 	border:solid 1px var(--border-color);
 	border-radius:5px;
 	font-size:14px;
@@ -168,13 +166,13 @@ h2 {
 .combobox-container {
  		
 }
-.dropdown-less-more{
+.dropdownminer-less-more{
 	width:200px;
 }
-.dropdown-pagination{
+.dropdownminer-pagination{
 	width:70px;
 }
-.dropdown {
+.dropdownminer {
 	position:relative;			
  
 	border-radius:4px;
@@ -183,7 +181,7 @@ h2 {
 	margin-left:10px;
 	font-family: 'Red Rose', serif;
 }
-.dropdown input{
+.dropdownminer input{
 	position:absolute;
 	top:0;
 	left:0;						
@@ -191,7 +189,7 @@ h2 {
 	border:none;
 	outline:none;		
 }
-.dropdown .option {
+.dropdownminer .option {
 	position:absolute;
 	top:40px;
 	left:10px;			
@@ -200,16 +198,16 @@ h2 {
 	font-size: 15px;
 	font-family: 'Red Rose', serif;
 }
-.dropdown .option div {
+.dropdownminer .option div {
 	cursor:pointer;
 	background-color:var(--input-bg-color);
 	font-family: 'Red Rose', serif;
 }
-.dropdown .option div:hover {
+.dropdownminer .option div:hover {
 	border:solid 1px var(--cyan-button);
 	background-color:var(--border-color);
 }
-.dropdown::before{
+.dropdownminer::before{
 	content: '';
 	position: absolute;
 	width:8px;
@@ -223,11 +221,11 @@ h2 {
 	transform:rotate(-45deg);
 	pointer-events:none;
 }
-.dropdown.active::before {
+.dropdownminer.active::before {
 	top: 22px;
 	transform:rotate(-225deg);
 }
-.dropdown.active .option {
+.dropdownminer.active .option {
 	display:block;
 	font-family: 'Red Rose', serif;
 }
@@ -255,7 +253,7 @@ h2 {
 	font-size: 45px;
 	font-family: 'Tourney', sans-serif;
 }
-.main-area {
+.main-areaminer {
 	background-color:var(--main-bg-color);
 	display:flex;
 	padding:10px;
@@ -310,8 +308,7 @@ h2 {
 .filterDiv {
 	background-color:var(--bg-color-footer-bottom);
 	padding-top:30px;
-	padding-right:30px;
-	margin-left:15px;
+	padding-right:5px;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
@@ -343,7 +340,7 @@ h2 {
 	padding: 0 0 0 15px;
 	font-family: 'Red Rose', serif;
 }
-.search-filter-wrapper {
+.search-filter-wrapper2 {
 	display:flex;
 	margin-left:30px;
  

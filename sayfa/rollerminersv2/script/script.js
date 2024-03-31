@@ -244,10 +244,10 @@ function main() {
     buildTable(pgm);
 
     // Adding onclick events
-    let dropdown = document.getElementsByClassName('dropdown');
-    for (let i = 0; i < dropdown.length; i++) {
-        dropdown[i].onclick = function() {
-            dropdown[i].classList.toggle('active');
+    let dropdownminer = document.getElementsByClassName('dropdownminer');
+    for (let i = 0; i < dropdownminer.length; i++) {
+        dropdownminer[i].onclick = function() {
+            dropdownminer[i].classList.toggle('active');
         }
     }
 
